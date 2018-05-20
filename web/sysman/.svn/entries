@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/sysman"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="organQualification.html"
+   text-time="2016-11-30T01:35:39.398241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1a6a1073a22575d2c08f7615f3f0c32e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.055041Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserList.js"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d6b2516c913f92b632f89d67ab90985e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderListManage.html"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4465c9e4dda230ae4312ca8e50e5868a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="fieldChangeList.html"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="dccc7faf64276a2c706c17490e48f3fa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.910640Z"/>
+<entry
+   committed-rev="1719"
+   name="help.html"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="018fd1a955711311ad6939f6a734fed0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.926240Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserEdit.js"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="540b98ea097a2d5d22775000ab132672"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderEditManage.html"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9568ac5585a70cfb9f8f60e1b851716d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="help.js"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d5e6f54b784bcc1d4baa034808ea4c57"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.941840Z"/>
+<entry
+   committed-rev="1719"
+   name="attachList.html"
+   text-time="2016-11-30T01:35:39.211041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5b457ca17313eca3640e1b991dcbd711"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="decodeOfferLogList.html"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ecc776e821a44e965096e1285f3ff444"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.801440Z"/>
+<entry
+   committed-rev="1719"
+   name="department.html"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b78064e0a6d020179825e7b88d3c305c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.848240Z"/>
+<entry
+   committed-rev="1719"
+   name="organ.html"
+   text-time="2016-11-30T01:35:39.382641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5c033548fe70de306e639e7a54d9aab2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.008241Z"/>
+<entry
+   committed-rev="1719"
+   name="attachList.js"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f283386235cebb4ff89284d9499eb0ac"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="attachUpload.html"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b8a94e290fabacfe680b530dd2e044e4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="attachEdit.html"
+   text-time="2016-11-30T01:35:39.211041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="641eb9606665cb844adc6be6a482712d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   committed-rev="1719"
+   name="userList.html"
+   text-time="2016-11-30T01:35:39.449042Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b363d980dd2e21a2ac89a307f95847d0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.195441Z"/>
+<entry
+   committed-rev="1719"
+   name="empList.html"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c578ac21236278645c4ac3e337e892f6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.895040Z"/>
+<entry
+   committed-rev="1719"
+   name="organ.js"
+   text-time="2016-11-30T01:35:39.398241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6786e9becbd3bc9862324e288be26bcc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.039441Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsdataUpload.js"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1c200157220a34cd40108ec78f64fbb2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.910640Z"/>
+<entry
+   committed-rev="1719"
+   name="attachEdit.js"
+   text-time="2016-11-30T01:35:39.211041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="81f03c0f2ad4743129f91562dcbc2f46"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   committed-rev="1719"
+   name="userList.js"
+   text-time="2016-11-30T01:35:39.464642Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f135d586e202e34ffd68c2600aa3be97"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.211041Z"/>
+<entry
+   committed-rev="1719"
+   name="params.html"
+   text-time="2016-11-30T01:35:39.415842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ca5c8b928b9204533282e08ec0e8f131"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.055041Z"/>
+<entry
+   committed-rev="1719"
+   name="businessTypeConfig.html"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d44e000ef07c604bc2af6f1d306d5ba8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="register.html"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7bf6f01d405a12ddc737ee86dc9921f2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.117441Z"/>
+<entry
+   committed-rev="1719"
+   name="upload.html"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5a944df9225d5ec296f12f6b48d5d58a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.148641Z"/>
+<entry
+   committed-rev="1719"
+   name="userEdit.html"
+   text-time="2016-11-30T01:35:39.449042Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fed4ee259c817ad539ccafa3a27d5a6e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.148641Z"/>
+<entry
+   committed-rev="1719"
+   name="module.html"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ca70de33e1cc9f0802d077853d1ad87f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.957440Z"/>
+<entry
+   committed-rev="1719"
+   name="empEdit.html"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e3424214add3568b9254a3cd07e7c5d7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.848240Z"/>
+<entry
+   committed-rev="1719"
+   name="log.js"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f54ef41cd6180721eb53601f00081ccb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.941840Z"/>
+<entry
+   committed-rev="1719"
+   name="register.js"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f34c117a98b97ccf72f71b1c2e480e55"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.117441Z"/>
+<entry
+   committed-rev="1719"
+   name="upload.js"
+   text-time="2016-11-30T01:35:39.449042Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1dffaa63ce867c9ee8d7e9323337a5e4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.148641Z"/>
+<entry
+   committed-rev="1719"
+   name="userEdit.js"
+   text-time="2016-11-30T01:35:39.449042Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="84c2d730979cc70bd392b7263abccf9e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.195441Z"/>
+<entry
+   committed-rev="1719"
+   name="attachTemplet.html"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0c3862986c7a84db3a4593c920bed6b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="menu.html"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="600ad5d60806f73416d786d60d242270"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.941840Z"/>
+<entry
+   committed-rev="1719"
+   name="mySelf.js"
+   text-time="2016-11-30T01:35:39.382641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5f34237169bbfd0b9da9705de62589e2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.008241Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserList.html"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="637c1c82e35751d82570e4f218eeb2db"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="role.js"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1247ae8d28176d33d0ad627de012781b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.148641Z"/>
+<entry
+   committed-rev="1719"
+   name="menu.js"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="26d4e6a64a9965904f0dd4ab8186bed4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.941840Z"/>
+<entry
+   committed-rev="1719"
+   name="config.js"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="112b42d839c010a1e03a0a5ffca3deb4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.801440Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserEdit.html"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="adc67c94b59ab1194d55d0312a8430b9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="organInfo.html"
+   text-time="2016-11-30T01:35:39.398241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="84c4872cf3bfa71a18c9f970f67e6ddb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.055041Z"/>
+<entry
+   committed-rev="1719"
+   name="organQualification.js"
+   text-time="2016-11-30T01:35:39.398241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a014ed284334af0db1cb3079579cfb75"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.055041Z"/>
+<entry
+   committed-rev="1719"
+   name="organInfo.js"
+   text-time="2016-11-30T01:35:39.398241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8c5b389b8cc06b470838522405e278d0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.055041Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderListManage.js"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="26f5bea0a49966d50aadb4a3e02d0fca"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="fieldChangeList.js"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b000da9701757678e94b08f2ddaca62d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.910640Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderEditManage.js"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e6018421df5c35873501140fae5b5ee3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="decodeOfferLogList.js"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bec3170db692844808a3568042c785a3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.801440Z"/>
+<entry
+   committed-rev="1719"
+   name="department.js"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ad8cfc41df63d33f2e4bc3ea57d12be6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.848240Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderList.html"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="210eae6c013d9a9e007ac0b497e492b5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="log.html"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e43143056d60022bdfa62fc36487e456"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.941840Z"/>
+<entry
+   committed-rev="1719"
+   name="attachUpload.js"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5bf7fd9a3d599631c330de2147d8a7c3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="canton.html"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bdbbe05f222aaad0068d60db3a7c1e1c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.739040Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderList.js"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b6eca339d3fbadb70b76cd34f84e05db"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="empList.js"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="da77897370b69d17b1fbc25c98748692"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.895040Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderEdit.html"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c6af44452eb32eed5fc741d6b0483f86"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.086241Z"/>
+<entry
+   committed-rev="1719"
+   name="debug.html"
+   text-time="2016-11-30T01:35:39.257841Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2c8fc51ee819d3e0272553904eaff7a8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.801440Z"/>
+<entry
+   committed-rev="1719"
+   name="canton.js"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc0b759e53287834d25632211d51a2d1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.754640Z"/>
+<entry
+   committed-rev="1719"
+   name="params.js"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4c7ee0124a34b879100fb1f7aa6c8a9b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.070641Z"/>
+<entry
+   committed-rev="1719"
+   name="businessTypeConfig.js"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4001c63ac8cb2c6e1401656f34226695"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.739040Z"/>
+<entry
+   committed-rev="1719"
+   name="module.js"
+   text-time="2016-11-30T01:35:39.289041Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ce8197e3c3ee08079cfd47ec5dceb20"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.992641Z"/>
+<entry
+   committed-rev="1719"
+   name="projectBidderEdit.js"
+   text-time="2016-11-30T01:35:39.417842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bea41ce026d24ef62d40e41f19e6afe5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.101841Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserDelete.html"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="efea89b561cbbb9bec6984f421d9b0a6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="mySelf.html"
+   text-time="2016-11-30T01:35:39.382641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a5e708799210f40d46c18022cd7b95c1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.992641Z"/>
+<entry
+   committed-rev="1719"
+   name="empEdit.js"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="32a6ed2b560d845328994354e7247316"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.895040Z"/>
+<entry
+   committed-rev="1719"
+   name="role.html"
+   text-time="2016-11-30T01:35:39.433442Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="29e2d2dc4914e5a5e778b2b0dda24af6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.117441Z"/>
+<entry
+   committed-rev="1719"
+   name="config.html"
+   text-time="2016-11-30T01:35:39.242241Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7e4dcdff4fd5f8d1ba3ffbc41c12eb8f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.754640Z"/>
+<entry
+   committed-rev="1719"
+   name="blackUserDelete.js"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="593fef44b60dc2ce19a4774719cb435f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.707840Z"/>
+<entry
+   committed-rev="1719"
+   name="attachTemplet.js"
+   text-time="2016-11-30T01:35:39.226641Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7df780be8e5910228ce4d68fc01f5764"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.692240Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsDataUpload.html"
+   text-time="2016-11-30T01:35:39.273441Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0b06c6e3560e9a429b4f6df5f47b9082"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.910640Z"/>
+</wc-entries>

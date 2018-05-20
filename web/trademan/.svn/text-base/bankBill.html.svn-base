@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>入账单查询</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="bankBill.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div id="tab1" class="trade_tab mt5">
+      	<table border="0" class="search_grid">
+            <tr>
+                <td class="title">类型：</td>
+                <td>
+                	<select id="billtype" class="i-input_w160 i-select_bg">
+                       <option value="">--请选择--</option>
+                       <option value="1">收保证金</option>			
+                       <option value="6">错转款</option>		
+                    </select>
+                </td>
+               <!-- <td class="title">状态：</td>
+                <td>
+                	<select id="status" class="i-input_w160 i-select_bg">
+                       <option value="">--请选择--</option>
+                       <option value="1">审核通过</option>			
+                       <option value="2">子账号已转入主账号</option>			
+                       <option value="3">退回</option>
+                    </select>
+                </td>-->
+                <td class="title">到账时间：</td>
+                <td><input type="text" id="startTime" class="i-input_w120 i-input_bg"/></td>
+                <td class="tc" width="30">至</td>
+                <td><input type="text" id="endTime" class="i-input_w120 i-input_bg"/></td>
+                <td class="btn tc">
+                    <span class="wr_btn"><input id="btnQuery" type="button" value="查询" class="o_btn" /></span>
+                </td>
+                <td class="btn tc">
+                    <span class="wr_btn"><input id="btnReset" type="button" value="重置" class="o_btn" /></span>
+                </td>
+            </tr>
+        </table>
+  </div>
+  <div id="tabGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

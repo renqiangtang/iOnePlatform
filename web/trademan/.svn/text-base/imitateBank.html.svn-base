@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网上交易系统_模拟发送银行1002报文</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="imitateBank.js"></script>
+</head>
+<body>
+<div style="overflow:hidden">
+<table width="100%" class="i-grid-default mt5" >
+	<tr>
+	  <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>创建子账号(10001)</a></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">中心账户：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="centerNo10001" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">中心户名：</td>
+	  <td width="34%" class="s_b"><input type="text" id="accountName10001" class="i-input_off"> </td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">银行编号：</td>
+	  <td width="34%" class="s_rb" ><input type="text" id="bankid10001" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">币种：</td>
+	  <td width="34%" class="s_b"><input type="text" id="currency10001" class="i-input_off"> </td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr"></td>
+	  <td width="34%" class="s_rb" ></td>
+	  <td width="16%" class="h_bk s_rb tr">操作：</td>
+	  <td width="34%" class="s_b">&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<input id="btnSend10001" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	  </td>
+	</tr>
+	
+</table>
+<br>
+<table width="100%" class="i-grid-default mt5" >
+	<tr>
+	  <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>子转总(10004)</a></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">中心账户：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="centerNo10004" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">中心户名：</td>
+	  <td width="34%" class="s_b"><input type="text" id="name10004" class="i-input_off" ></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">子账户：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="no10004" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">金额：</td>
+	  <td width="34%" class="s_b"><input type="text" id="amoutStr10004" class="i-input_off" >(整数到分)</td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">银行编号：</td>
+	  <td width="34%" class="s_rb" ><input type="text" id="bankId10004" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">操作：</td>
+	  <td width="34%" class="s_b">&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<input id="btnSend10004" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	  </td>
+	</tr>
+</table>
+<br>
+<table width="100%" class="i-grid-default mt5" >
+	<tr>
+	  <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>计息(10003)</a></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">本金：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="benjin10003" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">账户：</td>
+	  <td width="34%" class="s_b"><input type="text" id="no10003" class="i-input_off" ></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">开始时间：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="beginDate10003" class="i-input_off"/>(yyyyMMdd)</td>
+	  <td width="16%" class="h_bk s_rb tr">结束时间：</td>
+	  <td width="34%" class="s_b"><input type="text" id="endDate10003" class="i-input_off" >(yyyyMMdd)</td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">银行编号：</td>
+	  <td width="34%" class="s_rb" ><input type="text" id="bankid10003" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">操作：</td>
+	  <td width="34%" class="s_b">&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<input id="btnSend10003" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	  </td>
+	</tr>
+</table>
+<br>
+<table width="100%" class="i-grid-default mt5" >
+	<tr>
+	  <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>销户(10005)</a></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">子账号：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="accountNo10005" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">银行编号：</td>
+	  <td width="34%" class="s_b"><input type="text" id="bankid10005" class="i-input_off" ></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr"></td>
+	  <td width="34%" class="s_rb" ></td>
+	  <td width="16%" class="h_bk s_rb tr">操作：</td>
+	  <td width="34%" class="s_b">&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<input id="btnSend10005" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	  </td>
+	</tr>
+</table>
+<br>
+<table width="100%" class="i-grid-default mt5" >
+	<tr>
+	  <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>来帐通知(10002)模拟银行发送</a></td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">子账号：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="childNo10002" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">金额：</td>
+	  <td width="34%" class="s_b"><input type="text" id="amount10002" class="i-input_off" >（整数到分）</td>
+	</tr>
+	<tr>
+	  <td width="16%" height="28" class="h_bk s_rb tr">币种：</td>
+	  <td width="34%" class="s_rb"><input type="text" id="currency10002" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">报文时间：</td>
+	  <td width="34%" class="s_b"><input type="text" id="transTime10002" class="i-input_off" ></td>
+	</tr>
+	<tr>
+	  <td width="16%" class="h_bk s_rb tr">银行编号：</td>	
+	  <td width="34%" class="s_rb" ><input type="text" id="bankid10002" class="i-input_off"/></td>
+	  <td width="16%" class="h_bk s_rb tr">汇率</td>
+	  <td width="34%" class="s_b"><input type="text" id="rate10002" class="i-input_off" value = "1" /></td>
+	</tr>
+	<tr>
+	  <td width="16%" class="h_bk s_rb tr"></td>	
+	  <td width="34%" class="s_rb" ></td>
+	  <td width="16%" class="h_bk s_rb tr">操作：</td>
+	  <td width="34%" class="s_b">&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<input id="btnSend10002" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	  </td>
+	</tr>
+</table>
+
+</div>
+</body>
+	
+</html>

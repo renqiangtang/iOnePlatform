@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>竞买申请列表</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="licenseList.js"></script>
+</head>
+<body class="mine">
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5">
+  	<table border="0" class="search_grid">
+      <tr>
+        <td class="title">标的：</td>
+        <td><input type="text"  id="txtTarget" class="i-input_w160 i-input_bg" style="width:124px"/></td>
+        <td class="title">交易类型：</td>
+        <td><input type="text" id="txtBusinessType" /><input type="hidden"  id="txtBusinessTypeValue" /></td>
+        <td class="title">交易方式：</td>
+        <td><input type="text"  id="txtTransType" /><input type="hidden"  id="txtTransTypeValue" /></td>
+        <td class="title">竞买方式：</td>
+        <td>
+        	<select id="cboIsUnion" style="width:132px;" class="i-select_bg">
+              <option value="0"></option>
+              <option value="1">单独竞买</option>
+              <option value="2">联合竞买</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="title">拍卖时间：</td>
+        <td><input type="text" id="txtBeginLimitTime"></td>
+        <td class="title">状态：</td>
+        <td><input type="text" id="txtStatus"/><input type="hidden"  id="txtStatusValue"/></td>
+        <td class="title">挂牌时间：</td>
+        <td><input type="text" id="txtBeginListTime" /></td>
+        <td class="tc">至</td>
+        <td><input type="text" id="txtEndListTime" /></td>
+      </tr>
+      <tr>
+      	<td colspan="7"></td>
+      	<td class="btn tc"><span class="wr_btn">
+          <input id="btnQuery" type="button" value="查询" class="o_btn" />
+          </span> <span class="wr_btn">
+          <input id="btnReset" type="button" value="重置" class="o_btn" />
+          </span> </td>
+      </tr>
+    </table>
+  </div>
+  <div id="licenseGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

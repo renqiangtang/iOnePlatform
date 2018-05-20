@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/menu"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="menu-line-x.gif"
+   text-time="2016-11-30T01:35:37.940438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="af2ed3f25db05f6182bac4c033478e14"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-line-y.gif"
+   text-time="2016-11-30T01:35:37.940438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cac571da0bd99a83f466ca913bb1604c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-item-over-l.gif"
+   text-time="2016-11-30T01:35:37.940438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b437f5bff2febba11d785be850419346"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-item-over-m.gif"
+   text-time="2016-11-30T01:35:37.940438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6eb838c8ed7c28793282770bee075941"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-item-down.gif"
+   text-time="2016-11-30T01:35:37.921838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9b12e4cbd984f9de53e0f7fca3e1f72"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-item-arrow.gif"
+   text-time="2016-11-30T01:35:37.921838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cf9b3dfd62d7ea116a39a3a3a3ae42d6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+<entry
+   committed-rev="1719"
+   name="menu-item-over-r.gif"
+   text-time="2016-11-30T01:35:37.940438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="485e384a1e03329b6af8424a6e6dad25"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.921838Z"/>
+</wc-entries>

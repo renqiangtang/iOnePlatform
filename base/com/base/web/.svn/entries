@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3975"
+   name=""
+   committed-date="2014-12-26T06:11:38.601353Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/web"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="ContentTypes.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="627e8ebec317bc1cdce6125d60640c01"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="LogUtils.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8a22fd8463b0a5a10e027b5230c85097"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="uploadTemplate.html"
+   text-time="2016-11-30T01:35:40.860247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="da557428c698acc81e95123ca0b22edb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="2292"
+   name="RouteFilter.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-07-08T01:01:29.941462Z"
+   checksum="0971b870cfcb0577612837d7116b9215"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.813447Z"/>
+<entry
+   committed-rev="1719"
+   name="CreateVirtualDataTaskSchedule.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b11484fc711bfe756106fa8baee0617d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="3975"
+   name="AppConfig.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-12-26T06:11:38.601353Z"
+   checksum="1bb80b0e638548465a6016665e127889"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.813447Z"/>
+<entry
+   committed-rev="1719"
+   name="AppLoader.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="45b06411404e2175f04562489af19c6c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="CreateVirtualDataTask.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2cd29fa59f33b4b3d981a7229d097de8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="ResourceUtils.java"
+   text-time="2016-11-30T01:35:40.844647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b4bfd02300ced34a93fa5e306f32e422"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="TargetFeedbackTaskSchedule.java"
+   text-time="2016-11-30T01:35:40.860247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a63c0dece9081cb0f9a0b71ce48c491d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="TargetFeedbackTask.java"
+   text-time="2016-11-30T01:35:40.860247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e12fae402c78257bb7ea8cf766d8e46c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+<entry
+   committed-rev="1719"
+   name="TokenCheck.java"
+   text-time="2016-11-30T01:35:40.860247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="90887c5622c065a656d7c7295af94cd9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.829047Z"/>
+</wc-entries>

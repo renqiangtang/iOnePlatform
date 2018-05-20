@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>报价方式</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="applyTrust.js"></script>
+</head>
+<body>
+<ul class="list_info">
+  <li><span class="tit">委托报价方式：</span>
+  	<span id="radioSpan">
+    	<input type="radio" name="style" value="0" checked> 无</input>
+    	<input type="radio" name="style" value="1">委托系统自动报价</input>
+    </span>
+  </li>
+  <li id="accountDiv" style="display:none"><span class="tit">最高委托金额：</span>
+    <input id="account" type="text" value="" class="i-input_bg i-input_w100"/> 元
+  </li>
+</ul>
+</body>
+</html>

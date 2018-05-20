@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="reg.css"
+   text-time="2016-11-30T01:35:38.614240Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="87ff41d88d5905b0521e64d9dd20aa38"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.598640Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="css"
+   kind="dir"/>
+</wc-entries>

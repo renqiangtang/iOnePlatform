@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>竞买资格审核</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+  <table width="100%" class="i-grid-default">
+    <tr>
+      <td width="15%" height="28" class="h_bk s_rb tr">竞买人:</td>
+      <td class="s_b"><input type="text" id="txtBidderName" class="i-input_off " readonly/></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">标的:</td>
+      <td class="s_b"><input type="text" id="txtTarget" class="i-input_off " readonly/></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">条件设置部门:</td>
+      <td class="s_b"><input type="text" id="txtTransConditionOrgan" class="i-input_off " readonly/></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">竞买资格条件:</td>
+      <td class="s_b"><textarea name="textarea" cols="78" rows="6" wrap="off" id="txtTransCondition" readonly></textarea></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>复核:</td>
+      <td class="s_b">
+        <input type="radio" value="5" id="rbtnConfirm5" name="confirmStatus" />
+        <label for="rbtnConfirm5">复核通过</label>
+        <input type="radio" value="6" id="rbtnConfirm6" name="confirmStatus" />
+        <label for="rbtnConfirm6">复核不通过</label>
+      </td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">意见:</td>
+      <td class="s_b"><textarea name="textarea" cols="78"  rows="6" wrap="off" id="txtConfirmOpinion"></textarea></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">日期:</td>
+      <td class="s_b"><input type="text" id="txtConfirmDate" class="i-input_off " readonly/></td>
+    </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr">&nbsp;</td>
+      <td class="s_b"><div id="action" ><span class="wr_btn" id="btnSave"><input type="button" value="保存" class="o_btn" /></span></div></td>
+    </tr>
+  </table>
+</form>
+</body>
+<script type="text/javascript" src="confirmLicenseAfterFh.js"></script>
+</html>

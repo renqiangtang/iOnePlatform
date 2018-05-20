@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9073"
+   name=""
+   committed-date="2016-08-08T01:47:35.785948Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trademan/com/trademan/service"
+   last-author="longzy"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BankManageService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e7c251a54d0ded0378aa3b2b41f24d95"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.174649Z"/>
+<entry
+   committed-rev="1719"
+   name="LicenseManageMineService.java"
+   text-time="2016-11-30T01:35:41.221449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f2296309b3abdcab80f486b24d8d5b17"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.190249Z"/>
+<entry
+   committed-rev="1719"
+   name="ProcessManageService.java"
+   text-time="2016-11-30T01:35:41.221449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="50e2e46d572f2e54f516d3ebb044ef28"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.205849Z"/>
+<entry
+   committed-rev="1719"
+   name="PriceChangeService.java"
+   text-time="2016-11-30T01:35:41.221449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7511718fec5496edf53cf25457e3039b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.190249Z"/>
+<entry
+   committed-rev="1719"
+   name="BidderService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="37e0a4da9dca972a651e69133650ac2a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.174649Z"/>
+<entry
+   committed-rev="1719"
+   name="CardService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="905739655a6e298c82ea4bb6e8457fdf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.174649Z"/>
+<entry
+   committed-rev="9073"
+   name="DocConfigService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2016-08-08T01:47:35.785948Z"
+   checksum="32d2a7abd08655a30be4ea5cf1133568"
+   last-author="longzy"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.174649Z"/>
+<entry
+   committed-rev="1719"
+   name="BankService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="13a9987429221e325443e1c3983a2f7a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.174649Z"/>
+<entry
+   committed-rev="1719"
+   name="LicenseManageService.java"
+   text-time="2016-11-30T01:35:41.221449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="46e85656885d88a676dc2ffca4cbdc37"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.190249Z"/>
+<entry
+   committed-rev="1719"
+   name="DoneTargetService.java"
+   text-time="2016-11-30T01:35:41.205849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="18e84d2869f4983ca34ad847746dbfbb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.190249Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowReportService.java"
+   text-time="2016-11-30T01:35:41.221449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6e72590020e28a71c9042b4c08304569"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.190249Z"/>
+</wc-entries>

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易公告编辑</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="noticeConfirmEdit.js"></script>
+</head>
+<body class="mine">
+<!--底部按钮条 start -->
+<div class="footer_bar tc">
+<input id="noticeSave" type="button" value="保存" class="btn_save" style="dispaly:none;"/> <input id="relAttach" type="button" disabled="true" value="附件" class="btn_save"/> <input id="noticePublish" type="button" value="审核" disabled="true" class="btn_release ml5"/>
+</div>
+<!--底部按钮条 end -->
+<!--trade 公告信息 start -->
+<div id="tabNoticeGoods" class="trade_baseInfo">
+	<div title="公告" id="transNoticeDiv" tabid="home"  lselected="true">
+    <table width="100%" class="i-grid-default mt5">
+      <tr>
+        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a1">·公告基本信息</a></td>
+      </tr>
+      <tr>
+        <td width="16%" height="28" class="h_bk s_rb tr"><span class="c6">*</span>公告名称:</td>
+        <td width="34%" class="s_rb"><input type="text" id="name" class="i-input_off" requireValue="公告名称不能为空!"/></td>
+        <td width="16%" class="h_bk s_rb tr"><span class="c6">*</span>公告号:</td>
+        <td width="34%" class="s_b"><input type="text" id="no" class="i-input_off" requireValue="公告号不能为空!"/></td>
+      </tr>
+      <tr>
+        <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>公告类型:</td>
+        <td class="s_rb"><select id="notice_type" class="i-select_bg ml5" style="width:246px">
+          </select>
+        </td>
+        <td class="h_bk s_rb tr"><span class="c6">*</span>公告日期:</td>
+        <td class="s_b"><input type="text" id="notice_date" class="i-input_off" readonly requireValue="公告日期不能为空!"/></td>
+      </tr>
+      <tr>
+      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>交易类型:</td>
+        <td class="s_rb"><select id="business_type" class="i-select_bg ml5" style="width:246px">
+          </select>
+        </td>
+        <td height="28" class="h_bk s_rb tr">备注:</td>
+        <td class="s_b p5" colspan="1"><textarea id="remark" class="i-textarea_bg" style="width:91%; height:50px" ></textarea></td>
+      </tr>
+      <tr>
+        <td id="n_add" height="28" colspan="4" class="s_b fb pl10"></td>
+      </tr>
+    </table>
+    <table width="100%" class="i-grid-default mt5" id="boundNoticeTab" style="display:none">
+      <tr>
+        <td width="60%" height="28" class="h_bk s_rb tc fb" id="n_no"></td>
+        <td width="40%" class="h_bk s_b tc fb">操作</td>
+      </tr>
+    </table>
+    </div>
+    <div title="标的信息">
+  	<table width="100%" class="i-grid-default mt5" id="targetTable">
+      <tr>
+        <td height="28" class="s_b fb h_bk_url pl10"><a name="a2">·标的信息</a></td>
+      </tr>
+      <tr>
+      	<td>	
+        	<div id="boundedTargetGrid" class="trade_panel" style="border:none"></div>
+        </td>
+      </tr>
+    </table>
+	</div>
+	<div title="银行信息">
+	 <table width="100%" class="i-grid-default mt5" id="bankTable">
+      <tr>
+        <td height="28" class="s_b fb h_bk_url pl10"><a name="a3">·银行信息</a></td>
+      </tr>
+      <tr>
+      	<td>	
+        	<div id="boundedBankGrid" class="trade_panel" style="border:none"></div>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div class="" style="height:80px;"></div>   
+   
+   </div>
+</div>
+<div id="bankDiv" style="display:none">
+	<div id="bankGrid"></div>
+</div>
+<div id="targetDiv" style="display:none">
+	<div id="targetGrid"></div>
+	<td	colspan="4"	class="trade_panel" id="attachPanel">
+</div>
+</body>
+</html>

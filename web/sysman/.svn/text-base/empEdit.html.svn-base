@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>内部人员编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.md5.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/ca.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <form>
+    <table width="100%" class="i-grid-default">
+      <tr>
+        <td width="20%" height="30" class="h_bk s_rb tr"><span class="c6">*</span>姓名:</td>
+        <td width="30%" class="s_rb pl5"><input type="text" id="txtName" style="width:90%"/></td>
+        <td width="20%" class="h_bk s_rb tr">编号:</td>
+        <td width="30%" class="s_b pl5"><input type="text" id="txtNo" style="width:90%"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">性别:</td>
+        <td class="s_rb pl5"><select id="cboGender" style="width:90%">
+            <option value="男">男</option>
+            <option value="女">女</option>
+          </select></td>
+        <td class="h_bk s_rb tr">电话:</td>
+        <td class="s_b pl5"><input type="text" id="txtTel"  style="width:90%"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">移动电话:</td>
+        <td class="s_rb pl5"><input type="text" id="txtMobile" style="width:90%"/></td>
+        <td class="h_bk s_rb tr">电子邮箱:</td>
+        <td class="s_b pl5"><input type="text" id="txtEmail" style="width:90%"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">是否有效:</td>
+        <td class="s_rb pl5"><input type="checkbox" id="chkIsValid"/></td>
+        <td class="h_bk s_rb tr">用户名:</td>
+        <td class="s_b pl5"><input type="text" id="txtUserName" style="width:90%"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">密码:</td>
+        <td class="s_rb pl5"><input type="password" id="txtPassword" style="width:90%"/></td>
+        <td class="h_bk s_rb tr">确认密码:</td>
+        <td class="s_b pl5"><input type="password" id="txtConfirmPassword" style="width:90%"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">激活日期:</td>
+        <td class="s_rb pl5"><input type="text" id="txtActiveDate" readonly style="width:90%"/></td>
+        <td class="h_bk s_rb tr">有效期:</td>
+        <td class="s_b pl5"><input type="text" id="txtValidity" style="width:90%"/>天</td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">界面样式:</td>
+        <td class="s_rb pl5"><input type="text" id="txtStyleName" style="width:90%"/></td>
+        <td class="h_bk s_rb tr">CAKEY:</td>
+        <td class="s_b pl5"><input type="text" id="txtCakey" readonly="readonly"  style="width:60%"/>
+          <input type="button" value="设置" class="i-btn2" id="btnSetCakey" />
+          <input type="checkbox" id="chkAllowModifyCakey" title="选中允许手工输入" style="display:none"/>
+        </td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">状态:</td>
+        <td class="s_rb pl5"><input type="text" id="txtStatus" readonly  style="width:90%"/></td>
+        <td class="h_bk s_rb tr">用户有效:</td>
+        <td class="s_b pl5"><input type="checkbox" id="chkUserIsValid" class="ml5"/></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">备注:</td>
+        <td class="s_rb pl5"><input type="text" id="txtRemark" style="width:90%"/></td>
+        <td>&nbsp;</td>
+        <td class="s_b pl5">&nbsp;</td>
+      </tr>
+    </table>
+    <div id="tabEmpRel" class="trade_tab mt5 mb5">
+      <div title="部门">
+        <div id="departmentGrid" class="trade_panel"></div>
+      </div>
+      <div title="岗位">
+        <div id="jobGrid" class="trade_panel"></div>
+      </div>
+      <div title="角色">
+        <div id="roleGrid" class="trade_panel"></div>
+      </div>
+    </div>
+  </form>
+  <div id="action" class="tc">
+  	<span class="wr_btn" id="btnSave"><input type="button" value="保存" class="o_btn" /></span>
+    <span class="wr_btn" id="btnActive"><input type="button" value="登录用户激活" class="o_btn" /></span>
+    <span class="wr_btn" id="btnInvalid"><input type="button" value="登录用户过期" class="o_btn" /></span>
+  </div>
+</body>
+<script type="text/javascript" src="empEdit.js"></script>
+</html>

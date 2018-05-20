@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1797"
+   name=""
+   committed-date="2014-05-16T10:14:50.387008Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/mine/bidder"
+   last-author="tangyw"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="applyShould.js"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="64a4be07cd5c0bb52f2bd78f02bd9251"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.949754Z"/>
+<entry
+   committed-rev="1719"
+   name="productList.html"
+   text-time="2016-11-30T01:35:12.054355Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="18ee960cde8aa878de6cbc9c8ae724cc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="applyView.html"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="09fdfe84e32125513b2ccc8c06849206"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.959754Z"/>
+<entry
+   committed-rev="1719"
+   name="myCar.js"
+   text-time="2016-11-30T01:35:12.054355Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ee04fb9d4946e33c38f0d9b1a635d62f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="productList.js"
+   text-time="2016-11-30T01:35:12.054355Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5bb5cc49f40a9297885410e7a3b4c99e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="applyCorpInfo.html"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ce904887e0eabf5177df9c6633f9aa5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1719"
+   name="applyView.js"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b3318f7e68d8bcd3d153e49f076cc6ca"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyMain.html"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e88e41629c5a0a669962ba093b38eee5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.945754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyCorpInfo.js"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="aa22a558822dd5eef3b68c5ee910db15"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.941753Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestBillList.html"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="15125c4978f4364283b4f4dcc9f54587"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyMain.js"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4ff421d3a57af25be775d2d43eb4e1a4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.947754Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestErrorList.html"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5b3dc68ba8dab8939a245d8dd611011b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestBillList.js"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4dd155308add5d4c6094016891198e39"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="licenseList.html"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2454ee426f3e0373cf1000ed372dae54"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestErrorList.js"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="886525e4122bad168c72d911654dec22"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyBank.html"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1e5af01c511bd1373f9c412e55e304bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1719"
+   name="apply.html"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b7e7fecb687d3921269c4fd641619ed7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1797"
+   name="licenseList.js"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-16T10:14:50.387008Z"
+   checksum="6b7f0fc3bff59a6bb7f14832aba08aeb"
+   last-author="tangyw"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1719"
+   name="applyTrust.html"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4e71058e84312a4950aa0fc63b9f3f20"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.951754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyBank.js"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f78b66ac901d01ca914d69145dc8947f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1719"
+   name="applyInAccount.html"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8843cef7ed1ee1c8bda6e5d241a90d88"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.942753Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestList.html"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8337a85893a0057e1f9b2588f7a19bf0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="apply.js"
+   text-time="2016-11-30T01:35:11.991954Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="92b5df46a9f9cba811c7f8901060b46b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.926153Z"/>
+<entry
+   committed-rev="1719"
+   name="favoritesList.html"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5362f5a23161aeb5196c5ccc9518dfcb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderMain.html"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c8680909f1a40079b74ba13599024fb9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyUnion.html"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2d83a7ec10288acf4f210c0c6f04ce72"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.954754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyTrust.js"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2153666455019772e30bab5cfcffbc9a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.952754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyInAccount.js"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="efaaceca7f7684418b48d37a51e42538"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.944754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyShould.html"
+   text-time="2016-11-30T01:35:12.007555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e4e2987bca1bd0a798c407d167f6d523"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.948754Z"/>
+<entry
+   committed-rev="1719"
+   name="earnestList.js"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="47f261f9c2890da2f221321720211028"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="favoritesList.js"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0e045bbb0b0b6dc3f72fd2e7fc2c9105"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderMain.js"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4ab380283adec06f285f9ddd10866a91"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.960754Z"/>
+<entry
+   committed-rev="1719"
+   name="applyUnion.js"
+   text-time="2016-11-30T01:35:12.023155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="dd7459d30df832d0cb8dfd35c66ba10f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.957754Z"/>
+<entry
+   committed-rev="1719"
+   name="myCar.html"
+   text-time="2016-11-30T01:35:12.038755Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0ea988d8bb52ba3231d54b4f4c577c38"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.976354Z"/>
+</wc-entries>

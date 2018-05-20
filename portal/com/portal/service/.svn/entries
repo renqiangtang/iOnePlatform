@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/portal/com/portal/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="QueryMineService.java"
+   text-time="2016-11-30T01:36:32.876521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="382f91a99d3e3fb19d462d68541ba704"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.860921Z"/>
+<entry
+   committed-rev="1719"
+   name="QueryLandService.java"
+   text-time="2016-11-30T01:36:32.876521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8f5e7ccd9ce2d98ba0ac6fb5ed3b0a5b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.860921Z"/>
+<entry
+   committed-rev="1719"
+   name="QueryService.java"
+   text-time="2016-11-30T01:36:32.876521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ed79b61eda2e31b558d51457d9067a9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.860921Z"/>
+<entry
+   committed-rev="1719"
+   name="QueryPlowService.java"
+   text-time="2016-11-30T01:36:32.876521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="092c210bfe1514113c14bd0d880a4d5e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.860921Z"/>
+</wc-entries>

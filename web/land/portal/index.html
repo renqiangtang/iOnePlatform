@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河源市县级土地网上交易系统</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<style type="text/css">
+body {
+	background: url("images/mh/land_body_b.jpg") repeat-x #ffffff;
+
+}
+</style>
+</head>
+<body class="land" onkeydown="pageObj.BindEnter(event)">
+<!-- 弹出窗口开始-->
+<div id="win" style="display:none;">
+  <div class="filter"> </div>
+  <div  class="windows">
+    <div class="w_top"></div>
+    <div class="w_mid"> 
+      <!-- 城市开始-->
+      <div id="cityDiv" >
+        <dl id="winCantonDiv">
+          <dt>区域</dt>
+          <dd>
+            <ul id="winCanton">
+                 <li>
+                <input type="radio" name="canton"  value="441623" checked />
+                连平县</li>
+                 <li>
+                <input type="radio" name="canton"  value="441625" />
+                东源县</li>
+                <li>
+                <input type="radio" name="canton"  value="441621" />
+                紫金县</li>
+                 <li>
+                <input type="radio" name="canton"  value="441622" />
+                龙川县</li>
+                <li>
+               <input type="radio" name="canton"  value="441624" />
+                和平县</li> 
+            </ul>
+          </dd>
+        </dl>
+        <div class="w_buttom tc"> <span class="submit" title="确定" id="winCitySure"></span>&nbsp;&nbsp; <span class="cancel" title="取消" id="winCityCancel"></span> </div>
+      </div>
+      <!-- 城市结束 --> 
+    </div>
+    <div class="w_bottom"></div>
+  </div>
+</div>
+<!-- 弹出窗口结束--> 
+
+<!--回到顶部 start-->
+<div id="floatBtn1" class="floatBtn">
+<span id="scroll_Top" style="display:block;"></span>
+</div>
+<div id="floatBtn2" class="floatBtn">
+	<span id="scroll_Top" style="display:block;"></span>
+</div>
+<!--回到顶部 end-->
+
+<!--trade请稍后 start-->
+<div class="waitting" id="divwait" >
+  <div class="tc waitting-fla">
+    <img src="images/common/loading.gif">
+  </div>
+</div>
+<!--trade请稍后 end-->
+<div class="i-wrap"> 
+  <!--head start-->
+  <div class="" style="height:180px;"> <img src="images/mh/land_banner.jpg" usemap="#Map">
+    <map name="Map" id="Map">
+      <area shape="rect" id="btnMonitor" coords="732,81,850,119" title="交易大厅" class="chand"  />
+      <!--<area shape="rect" id="ysb" coords="714,81,843,119" title="演示版入口"  class="chand"  />-->
+      <area shape="rect" id="userlogin" coords="856,80,984,119" title="用户登陆"  class="chand"  />
+    </map>
+  </div>
+  <!--head end--> 
+  <!--tag标签与搜索 start-->
+  <div class="divh">
+    <ul class="tab_hd">
+      <li id="cbgg" class="sel">全部公告</li>
+      <li id="zzgg">正在公告</li>
+      <li id="zzjj">正在竞价</li>
+      <li id="jggs">结果公示</li>
+      <li id="bcgg">补充公告</li>
+      <li id="hmd">黑名单</li>
+      <li id="wjxz">文件下载</li>
+      <li id="xtbz">系统帮助</li>
+    </ul>
+    <div class="portal_search" id="divSearch">
+      <div class="fl">宗地编号:<input type="text" id="no" />
+        <span id="fslab"></span>
+        <span id="ztlab"> 交易状态:</span>
+        <select name="select" id="trans_status">
+          <option value="">--请选择--</option>
+        </select>
+        &nbsp<td>
+			发布时间:
+      </div>
+      <div class="fl">
+      <input type="text" name="begin_notice_time" id="begin_notice_time" /><div class="fl ml5 mr5" style="padding-top:3px;">-</div><input type="text" name="end_notice_time" id="end_notice_time" />
+        <input class="search_btn vm ml5 chand" name="btnsearch" id="btnsearch"  type="button" />
+        <input class="reset_btn vm chand" type="button" id="reset" name="reset" />
+        <span class="moresearch_b chand" id="adsearch"  />高级搜索</span>
+       <!-- <input value="交易大厅" type="button" id="btnMonitor" name="btnMonitor" />-->
+      </div>
+    </div>
+
+  
+  <div class="portal_search" id="divBlackSearch">
+     名称：<input class="mr5" type="text" id="name" /><input class="search_btn vm" id="btnblacksearch"  type="button" />
+      </div>
+    <!--tag标签与搜索 end--> 
+  
+   
+  <!--全部公告div start-->
+  <div class="portal_con" id="divallnotice" style="display:block;">
+    <div class="mh_info_list">
+      <h1>河源市国土资网交地[2012]LF002</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="28">序号</th>
+          <th width="249">宗地编号</th>
+          <th width="138">土地用途</th>
+          <th width="121">交易方式</th>
+          <th width="69">交易状态</th>
+          <th width="132">保证金截止时间</th>
+          <th width="132">竞买申请截止时间</th>
+          <th width="88">操作</th>
+        </tr>
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+     
+    </div>
+    <div>
+      <table width="990" border="0" cellspacing="0" cellpadding="0" class="info_list">
+        <tr>
+          <th width="28">序号</th>
+          <th width="249">宗地编号</th>
+          <th width="138">土地用途</th>
+          <th width="121">交易方式</th>
+          <th width="69">交易状态</th>
+          <th width="132">保证金截止时间</th>
+          <th width="132">竞买申请截止时间</th>
+          <th width="88">操作</th>
+        </tr>
+        <tbody >
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--全部公告div end--> 
+  
+  <!--正在公告div start-->
+  <div class=" mt5 portal_con" id="divnownotice" style="display:none;">
+    <div class="mh_info_list">
+      <h1>河源市国土资网交地[2012]LF002</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="24">序号</th>
+          <th width="174">宗地编号</th>
+          <th width="81">挂牌起始价</th>
+          <th width="97">竞买保证金</th>
+          <th width="80">土地用途</th>
+          <th width="95">交易类型</th>
+          <th width="114">竞价开始时间</th>
+          <th width="114">竞买申请开始时间</th>
+          <th width="114">竞买申请截止时间</th>
+          <th width="56">操作</th>
+        </tr>
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--正在公告div end--> 
+  
+  <!--正在竟价div start-->
+  <div class=" mt5 portal_con" id="divlimittarget" style="display:none;">
+    <div class="mh_info_list">
+      <h1>河源市国土资网交地[2012]LF002</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="25">序号</th>
+          <th width="203">宗地编号</th>
+          <th width="130">挂牌起始价</th>
+          <th width="136">土地用途</th>
+          <th width="122">交易类型</th>
+          <th width="120">竞价开始时间</th>
+          <th width="120">挂牌截止时间</th>
+          <th width="90">操作</th>
+        </tr>
+        <tbody id="limittarget">
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="portal_con">
+      <table width="990" border="0" cellspacing="0" cellpadding="0" class="info_list">
+        <tr>
+          <th width="25">序号</th>
+          <th width="203">宗地编号</th>
+          <th width="130">挂牌起始价</th>
+          <th width="136">土地用途</th>
+          <th width="122">交易类型</th>
+          <th width="120">竞价开始时间</th>
+          <th width="120">挂牌截止时间</th>
+          <th width="90">操作</th>
+        </tr>
+        <tbody id="limittarget">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--正在竟价div end--> 
+  
+  <!--结果公示div start-->
+  
+  <div class=" mt5 portal_con" style="display:none;" id="divresultnotice">
+  <div class="mh_info_list">
+    <h1>河源市国土资网交地[2012]LF002</h1>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <th width="24">序号</th>
+        <th width="183">宗地编号</th>
+        <th width="103">起始价</th>
+        <th width="96">交易类型</th>
+        <th width="65">交易状态</th>
+        <th width="113">成交时间</th>
+        <th width="211">竞得人</th>
+        <th width="111">成交价</th>
+        <th width="47">操作</th>
+      </tr>
+      <tbody id="resultnotice">
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+  <!--结果公示div end--> 
+  
+  <!--补充公告div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divsuppnotice">
+    <div class="mh_info_list">
+      <h1>河源市国土资网交地[2012]LF002</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th width="28">序号</th>
+            <th width="249">宗地编号</th>
+            <th width="138">土地用途</th>
+            <th width="121">交易方式</th>
+            <th width="69">交易状态</th>
+            <th width="132">保证金截止时间</th>
+            <th width="132">竞买申请截止时间</th>
+            <th width="88">操作</th>
+          </tr>
+        </thead>
+        <tbody >
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--补充公告div end--> 
+  
+   <!--黑名单div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divblack">
+    <div class="mh_info_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead id="blackth"> 
+          <tr>
+            <th width="10%%">序号</th>
+            <th width="55%">名称</th>
+            <th width="10%">竞买人类型</th>
+            <th width="15%">加入日期</th>
+          </tr>
+        </thead>
+        <tbody id="blacktr">
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--黑名单div end--> 
+  
+   <!--文件下载div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divwj">
+    <div class="mh_info_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead id="blackth"> 
+          <tr>
+            <th width="3%">序号</th>
+            <th width="67%">标题</th>
+            <th width="20%">时间</th>
+            <th width="10%">操作</th>
+          </tr>
+        </thead>
+        <tbody id="wjktr">
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--文件下载div end--> 
+  
+  </div>
+</div>
+
+ 
+<div id="pagediv" class="tc page_list mt20 pb20"><a class="home_p chand" id="homePage" title="回到首页"></a><a class="up_p chand" title="上一页" id="upPage"></a>
+  <span id="pagebtn">
+    <i class="cur">1</i>
+    <i>2</i>
+    <i>3</i>
+  </span>
+  <a class="next_p chand" title="下一页" id="nextPage"></a><a class="end_p chand" id="endPage" title="最后一页"></a></div>
+<!--trade标准页脚 start-->
+<div class="land_footer">
+  <p>Copyright <span style="font-family:'Arial';">©</span> 河源市、县国土资源局 版权所有    最佳浏览效果:IE8.0版本以上 1024*768分辨率</p>
+</div>
+<!--trade标准页脚 end-->
+
+</body>
+</html>

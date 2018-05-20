@@ -1,0 +1,22 @@
+keytool -delete -v -alias tomcat1 -keystore tomcat2.keystore -storepass 123456
+keytool -delete -v -alias client1 -storetype PKCS12 -keystore client.p12 -storepass 123456
+keytool -genkey -v -alias tomcat1 -keyalg RSA -validity 3650 -keystore tomcat1.keystore -dname "CN=localhost,OU=cn,O=cn,L=cn,ST=cn,c=cn"
+keytool -genkey -v -alias client1 -keyalg RSA -validity 3650 -storetype PKCS12   -keystore tomcat1.p12 -dname "CN=MyKey,OU=cn,O=cn,L=cn,ST=cn,c=cn"
+keytool -import -v -file client.cer -keystore tomcat1.keystore -storepass 123456
+keytool -list -keystore tomcat1.keystore -storepass 123456
+
+<!-- Authorization setting for SSL -->
+	<login-config>
+		<auth-method>CLIENT-CERT</auth-method>
+		<realm-name>Client Cert Users-only Area</realm-name>
+	</login-config>
+	<security-constraint>
+		<!-- Authorization setting for SSL -->
+		<web-resource-collection >
+			<web-resource-name >SSL</web-resource-name>
+			<url-pattern>/*</url-pattern>
+		</web-resource-collection>
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint> 

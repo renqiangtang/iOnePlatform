@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/base/nav"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="bg20120814_mine.png"
+   text-time="2016-11-30T01:35:33.649823Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d692b4118e69625c7ab78f511a15e0f6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:33.618623Z"/>
+<entry
+   committed-rev="1719"
+   name="bg20120814_land.png"
+   text-time="2016-11-30T01:35:33.649823Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a8a592a0658d3d15e3248e348d61c518"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:33.571823Z"/>
+<entry
+   committed-rev="1719"
+   name="bg20120814.png"
+   text-time="2016-11-30T01:35:33.649823Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d692b4118e69625c7ab78f511a15e0f6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:33.571823Z"/>
+<entry
+   committed-rev="1719"
+   name="bg20120814.gif"
+   text-time="2016-11-30T01:35:33.634223Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3e8c7170a7976fd66299f20c76411fac"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:33.540623Z"/>
+<entry
+   committed-rev="1719"
+   name="bg20120814_plow.png"
+   text-time="2016-11-30T01:35:33.649823Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6a15071bf3466e33159ac13de40ae2f3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:33.634223Z"/>
+</wc-entries>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/bank"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="bankBillEdit.js"
+   text-time="2016-11-30T01:35:22.373990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="175d04388bebd0dda15497b8c339d29a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.358390Z"/>
+<entry
+   committed-rev="1719"
+   name="contactBank.js"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="299ab0047906453fa013711cf1d65117"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBillList.js"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="15b2a56b22903671354550adf95f6ed8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBusinessDetail.js"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e5c0373edaa1251ea2181171ba21b41f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBusinessList.html"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="acc1c7c7b80f7f94f43f86ba3592b104"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBillEdit.html"
+   text-time="2016-11-30T01:35:22.373990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="335781eaa64f234aa671f0f32a3c08a1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.358390Z"/>
+<entry
+   committed-rev="1719"
+   name="contactBank.html"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b31f8f060ad81fc150ca494a2b0365a3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBillList.html"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6bdac0d58c574f3de061839389496080"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.358390Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBusinessDetail.html"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ed8e849a4ba17046c5191dd6eaf68681"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBusinessList.js"
+   text-time="2016-11-30T01:35:22.389590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fbc299e93b1d0ca29c4823c496fc2545"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.373990Z"/>
+</wc-entries>

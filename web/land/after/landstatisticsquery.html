@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>统计报表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="landstatisticsquery.js"></script>
+</head>
+<body class="land">
+	<div class="i-wrap">
+	  <div class="trade_search">
+          <table width="100%" class="search_grid">
+            <tr>
+                <td class="title" width="30%">标的编号：</td>
+                <td width="25%">
+                	<input type="text" id="targetName" class="i-input_w160 i-input_bg"/>
+                </td>
+                <td class="title" width="10%">标的状态：</td>
+                <td width="38%">
+                	<select id="status" class="i-select_bg">
+                		<option value="-1">-请选择-</option>
+                		<option value="1">终止</option>
+                		<option value="2">中止</option>
+                		<option value="5">成交</option>
+                		<option value="6">流拍</option>
+                	</select>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">成交时间：</td>
+                <td colspan="3">
+                	<input type="text" id="end_trans_time_1" class="i-input_w160 i-input_bg"/> 至 <input type="text" id="end_trans_time_2" class="i-input_w160 i-input_bg"/>
+                </td>
+            </tr>
+            <tr>
+            	<td colspan="6" class="tr pr5 pb5">
+                	<span class="wr_btn" id="btnQuery"><input type="button" value="查询" class="o_btn" /></span>
+                    <span class="wr_btn" id="btnReset"><input type="button" value="重置" class="o_btn" /></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                </td>
+            </tr>
+        </table>
+	    </div>
+	  <div id="target_list" class="trade_panel"></div>
+	</div>
+</body>
+</html>

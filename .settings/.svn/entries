@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/.settings"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="org.eclipse.jdt.core.prefs"
+   text-time="2016-11-30T01:36:24.907105Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b175d7ff9ebee52f6e8844698bce4e80"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.891505Z"/>
+<entry
+   committed-rev="1719"
+   name="org.eclipse.core.resources.prefs"
+   text-time="2016-11-30T01:36:24.891505Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2535408b4a7735b566af7366e91739e9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.891505Z"/>
+</wc-entries>

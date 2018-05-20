@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/after/com/after/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="LandStatisticsQueryService.java"
+   text-time="2016-11-30T01:36:25.016305Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="150d7eea7300fb80b649cec00825df5a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.938305Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowConfirmService.java"
+   text-time="2016-11-30T01:36:25.016305Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="923005047096d07e65b4ea15822a79e3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.938305Z"/>
+<entry
+   committed-rev="1719"
+   name="HtmltoPDF.java"
+   text-time="2016-11-30T01:36:25.000705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="85bc0cf467f00ac0470bcbdebfdbd013"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.938305Z"/>
+<entry
+   committed-rev="1719"
+   name="Change.java"
+   text-time="2016-11-30T01:36:25.000705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9ce39fa6cba3c3be4e85cc163cf3fa61"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.938305Z"/>
+<entry
+   committed-rev="1719"
+   name="TransAccountService.java"
+   text-time="2016-11-30T01:36:25.125506Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5d48b679613ee87923a47f9ab9aa5b61"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.000705Z"/>
+<entry
+   committed-rev="1719"
+   name="StatisticsService.java"
+   text-time="2016-11-30T01:36:25.125506Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f0a939993018fef63b657241db600387"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.953905Z"/>
+<entry
+   committed-rev="1719"
+   name="ConfirmService.java"
+   text-time="2016-11-30T01:36:25.000705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="01f30c217d70115109ef0da1d9fe9a2c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.938305Z"/>
+</wc-entries>

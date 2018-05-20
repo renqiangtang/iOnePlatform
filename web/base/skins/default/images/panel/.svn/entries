@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/panel"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="header2-bg.jpg"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="dd564cb5059642bf03d28027d92fc963"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="nav-l.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ccfb81c5f3da1629b6ac9b012869cea9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="header-bg.gif"
+   text-time="2016-11-30T01:35:38.330439Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ce0e3b62437a02c182a0c0d5a779dc88"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-btn-r.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0f9e98c59eaf92cfdc0580365ad96403"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-btn.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1844d83a5d2cf3d051f888e75f84323f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="nav-r.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9a06a248fd2f50e49b389f7c5ce8ed06"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="nav.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1fc3bd743c2ed5960f06c9bcaca7c077"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-header.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a61ce4b8c5f64d22810bcd0c1d314b83"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="header-bg.jpg"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="059eb2c14d15682e3490050ca55b5a49"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="bar-bg.gif"
+   text-time="2016-11-30T01:35:38.330439Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="82afd332f1d85993814f094a98dd273f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="nav_bg.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9f834993a1fcc721dd46ba55f520e49"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.314839Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-tools.gif"
+   text-time="2016-11-30T01:35:38.361639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e8c6fc394bb4dae6aafd6d87c47399bb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-toolbar.gif"
+   text-time="2016-11-30T01:35:38.361639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a35897c6be3a7861cd54c3fba30b8b43"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-menu.gif"
+   text-time="2016-11-30T01:35:38.361639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="770a0da3b3e013b67b1e782bf4473470"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-menu-item-down.gif"
+   text-time="2016-11-30T01:35:38.361639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9b12e4cbd984f9de53e0f7fca3e1f72"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+<entry
+   committed-rev="1719"
+   name="panel-btn-l.gif"
+   text-time="2016-11-30T01:35:38.346039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f037a08590f5d516d9baf4ca4b7b5b65"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.330439Z"/>
+</wc-entries>

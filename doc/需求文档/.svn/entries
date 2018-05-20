@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/doc/%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name=".标准版-需求清单.txt.swp"
+   text-time="2016-11-30T01:36:24.860305Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="766669c65c75f200ec54d1cd98c9637f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.421102Z"/>
+<entry
+   committed-rev="1719"
+   name="交易系统.pdm"
+   text-time="2016-11-30T01:36:24.860305Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c6743b587645cbe8ba73501e7ef3c1b3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.813505Z"/>
+<entry
+   committed-rev="1719"
+   name="新系统模块清单.xls"
+   text-time="2016-11-30T01:36:24.875905Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0c7a8dfffa6d1cea3af51dcc8b49abe4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.844705Z"/>
+<entry
+   committed-rev="1719"
+   name="标准版-需求清单.txt"
+   text-time="2016-11-30T01:36:24.875905Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="efb34a03e4e62c7b5d314dee300ecb62"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.844705Z"/>
+</wc-entries>

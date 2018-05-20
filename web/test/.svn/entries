@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/test"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="testJQuery.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f0093185a82896fdef1af38f109d95f7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="test.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b92e21123db6282442544f112c756e2d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="testSelect.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d3ea4225b2005bb67a1fab2f437774de"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.731842Z"/>
+<entry
+   committed-rev="1719"
+   name="testMouseOut.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3b5c6656094795465bf2b8228fc6d82c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="testCrossDomain.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d96e9b0da95de10183475cb4a7863cd8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   name="zTree"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="testJQuery.js"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="31297d5156253b2b1af41ce95f5b65be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="testCrossDomain.js"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="dd88c25a71e9c213524b3dd41801798e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="testNetCa.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d1d717b02435fb9009e7de5cd0f238a8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   name="swf"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="testPath.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d592a00b42cc35cb3073c8db17cb7ec4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.731842Z"/>
+<entry
+   committed-rev="1719"
+   name="testflash.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="be689563b2225ef88594126167d938d0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.731842Z"/>
+<entry
+   committed-rev="1719"
+   name="testGdCa.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="390fd6151fa4e84df53f2f925c2ddbfb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="testDialog.html"
+   text-time="2016-11-30T01:35:39.809842Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0f7bbd94eb67c3a42e07823bed7d6a5e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="iframeTest.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="047b7eeaf1aaf5b9c79f99afb97d82bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.480242Z"/>
+<entry
+   committed-rev="1719"
+   name="pdfView.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="44b4efaacc589d2f15648ba1d35b7d69"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.480242Z"/>
+<entry
+   committed-rev="1719"
+   name="gdcakey.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc96ee043e22b4f7373a428cefa2934e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.480242Z"/>
+<entry
+   committed-rev="1719"
+   name="testBank.html"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="125f68615bfb4e9ff58282808926ed19"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.716242Z"/>
+<entry
+   committed-rev="1719"
+   name="iframeTest.js"
+   text-time="2016-11-30T01:35:39.794242Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e62d6af215d6ac66050678032c32f62a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.480242Z"/>
+</wc-entries>

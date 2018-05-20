@@ -1,0 +1,28 @@
+@charset "utf-8";
+.f2{font-family:"arial";}
+.f3{font-family:"Microsoft YaHei","SimHei";}
+.ts{text-shadow: 1px 1px #ffffff;}
+.c3{color:#444444;}
+.f35{font-size:35px;}
+.fixclear{clear:both;}
+.home_wrap{width:796px;height:420px;position:absolute;left:50%;top:45%;margin-left:-385px;margin-top:-210px;}
+.home_wrap_con{background:url('../images/base/home_wrap_bg.jpg');position: absolute;width:100%; height:590px;left:50%;margin-left:-50%; margin-top: -280px;top: 50%;}
+.top_name{height:95px;line-height:125px;}
+
+/*--------------------------------------------------------------
+		设置底价/封顶价界面
+-------------------------------------------------------------- */
+.land .lowestprice_btn{border: 1px solid #25497b;color: #ffffff;background:url('../images/base/horizontal_land.png') 0 -692px;padding: 0 2px;}
+
+
+/*--------------------------------------------------------------
+		grid(ie6bug)
+-------------------------------------------------------------- */
+.land .l-panel-bbar-inner,.mine .l-panel-bbar-inner,.plow .l-panel-bbar-inner{
+_width:100%;
+zoom:1;
+}
+.l-panel-bbar-inner{
+_width:100%;
+zoom:1;
+}

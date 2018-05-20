@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/mine/after"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountList.html"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f55a37ef7b5a6475c98f52b42c979844"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="immediate.html"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fd55f24f29f56a9d9c0ce8c1d58fe062"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsScaleSet.html"
+   text-time="2016-11-30T01:35:12.085555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8879bb4846a0d4e65d89c55ac32ce552"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="statistics.js"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4afcab5383e214b2d5e12d9e0dec3db8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.085555Z"/>
+<entry
+   committed-rev="1719"
+   name="allStatistics.html"
+   text-time="2016-11-30T01:35:12.085555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f3617f0716c9d52e01b340df1b1a767e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountView.js"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e3e05ad07c5cef0c12805823552980cd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.085555Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountList.js"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="49ea2051c568cd60c928e9004e7d3601"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="immediate.js"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bfd077b12dd5d6c37bbdf7bfa8bdaae7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsScaleSet.js"
+   text-time="2016-11-30T01:35:12.085555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c172ef7b95c35b475715d9410228a6d7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="statistics.html"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="897dfc3916fadbe7b524e50968654400"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.085555Z"/>
+<entry
+   committed-rev="1719"
+   name="allStatistics.js"
+   text-time="2016-11-30T01:35:12.085555Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7d3c7e6fae94a5f0280d9e4ea8c66408"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.069955Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountView.html"
+   text-time="2016-11-30T01:35:12.101155Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="35adc706728b1919207671f5876f66e4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.085555Z"/>
+</wc-entries>

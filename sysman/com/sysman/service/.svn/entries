@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/sysman/com/sysman/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="UploadDataService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="009019af8d0a92c42b7d84cc7c0a1ed0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.361122Z"/>
+<entry
+   committed-rev="1719"
+   name="UserService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7c0c7c60804e52eee3cad20a443f0465"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.407922Z"/>
+<entry
+   committed-rev="1719"
+   name="LogService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c5a665fcc187b9271f025a589fd83149"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="EmpService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e1ab635499dd7875094dd7532be1e1e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="OrganInfoService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2a72309457dcf1067df3df0b3fdf231d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.345522Z"/>
+<entry
+   committed-rev="1719"
+   name="OrganConstants.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f7e6e0a32ab7288d577f6c38c956c9f7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="CantonService.java"
+   text-time="2016-11-30T01:36:33.423522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c1034e91064224a9cc4aff88d4833182"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.314322Z"/>
+<entry
+   committed-rev="1719"
+   name="ParamsService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bebf2b402fc613e5b794de5054c46981"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.345522Z"/>
+<entry
+   committed-rev="1719"
+   name="ModuleService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ca7b471129247523dbb1b014370dbd19"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="DataSetService.java"
+   text-time="2016-11-30T01:36:33.423522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="65cf80ea9a57f6afcab8e53d633a0c51"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.314322Z"/>
+<entry
+   committed-rev="1719"
+   name="FieldChangeService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8fbe50ea1fd10b16e994c981981084e0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="SysInfoService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2b35bb12737be6a14a547f47ed746c05"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.361122Z"/>
+<entry
+   committed-rev="1719"
+   name="ExpNotcieService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a3bcb37ac436089b2ec22d2fd737ac1a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="OperateLogService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="35dc6996fa456faa972eab255ca08df7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="RoleService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5c3dd967ed157e7c796c694eef7fdcf0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.361122Z"/>
+<entry
+   committed-rev="1719"
+   name="DepartmentService.java"
+   text-time="2016-11-30T01:36:33.423522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bbbb281876c2840e2eac1cb9cd13daae"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="MenuService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5268915450840687b0644ef9d0e3b568"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+<entry
+   committed-rev="1719"
+   name="AttachService.java"
+   text-time="2016-11-30T01:36:33.407922Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8986aa3be8aa4ae52324a53cae9aff89"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.314322Z"/>
+<entry
+   committed-rev="1719"
+   name="ConfigService.java"
+   text-time="2016-11-30T01:36:33.423522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d61fa5bec46a3b1c28157d2709e1a0e0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.314322Z"/>
+<entry
+   committed-rev="1719"
+   name="OrganService.java"
+   text-time="2016-11-30T01:36:33.454722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a835d639938037960980bc488691c103"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.345522Z"/>
+<entry
+   committed-rev="1719"
+   name="ExchangeDataService.java"
+   text-time="2016-11-30T01:36:33.439122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c5d7eae514ae8cd70089fff9af3cd3fb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.329922Z"/>
+</wc-entries>

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>入账申请单</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="applyInAccount.js"></script>
+</head>
+<body>
+<div class="bc">
+  <h2 class="tc fb f16" id="inAccountTitle">履约保证金入账申请单</h2>
+  <table width="100%" class="i-grid-default f14" id="inAccountHead">
+    <tr>
+      <td class="p5">欢迎您申请竞买 <span id="targetNo" class="c4 fb"></span>,您选择了 <span id="unitStyleName" class="c4 fb"></span>,
+        请按公告要求按时、足额向以下账户交纳本次竞买申请的履约保证金。 </td>
+    </tr>
+  </table>
+  <table width="100%" class="i-grid-default mt5 f14" id="inAccountBody">
+    <tr>
+      <td width="5%" rowspan="6" class="c4 tc vm s_rb" id="infTitle" bgcolor="#f5f5f5">收款人</td>
+      <td width="15%" height="30" class="s_rb pl5">户名:</td>
+      <td width="80%" id="accountName" class="s_b pl5">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="s_rb pl5" height="30">账号:</td>
+      <td class="s_b pl5" id="accountNo">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="s_rb pl5" height="30">开户银行:</td>
+      <td class="s_b pl5" id="accountBank">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="s_rb pl5" height="30">币种:</td>
+      <td class="s_b pl5" id="accountCurrency">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="s_rb pl5" height="30">金额:</td>
+      <td class="s_b pl5" id="accountSum">&nbsp;</td>
+    </tr>
+    <tr id="licenseNoTr">
+      <td class="s_rb pl5" height="30">竞买流水号:</td>
+      <td class="s_b pl5"><div id="licenseNo" class="fl"></div>
+            <span class="fl">（<span class="c6">请将该号码填入转账单备注栏</span>）</span></td>
+    </tr>
+  </table>
+  <div>
+    <table width="100%" class="i-grid-default mt5" id="inAccountFoot">
+      <tr>
+        <td height="28" class="h_bk s_b t2 fb c4">重要提示</td>
+      </tr>
+      <tr>
+        <td class="lh24 p5"><p>1、竞买流水号是网上交易系统识别竞买人的重要信息，您只有在交易系统中提交并生成入账申请单，系统才能随机生成流水号。一个标的物对应一个竞买流水号，需要同时竞买多个标的的，应在系统中分别申请。</p>
+          <p>2、生成入账申请单后，您务必打印、仔细保存该申请单及其相关信息。</p>
+          <p>3、在银行柜台办理转账手续时，请您务必携带此单，仔细核对银行账号，将竞买流水号填写在银行转账单备注栏，同时务必要求出款银行录入该流水号。</p>
+          <p>4、银行柜台转账手续办理完毕后，您务必登录网上交易系统查看履约保证金到账情况。跨行转账的，因人民银行数据交换可能造成备注信息未传送导致网上交易系统无法识别入账情况，若发现履约保证金未到账的，您务必及时根据申请单上相关信息，联系并告知收款银行“竞买流水号”，由银行补录。<em id="bankName"></em>银行专员联系电话：<em id="bankTel"></em>，地址：<em id="bankAddress"></em></p>
+          <p>5、网上交易系统不支持代交保证金的行为，交款人必须为竞买人。</p>
+          <p>6、标的物交易结束后，如有需要，您可凭银行转账单据和本申请单到交易中心开具收据。</p>
+          <p class="c4 fb">7、竞买交易份额为:<span id="msg"></span></p>
+          <p>8、按公告规定，如您申请竞买的标的物设置了准入条件并要求竞买资格审查，请前往资格审查部门申请主体资格审查，主体资格审查与交纳保证金可同时进行。</p></td>
+      </tr>
+      <tr>
+      	<td align="center">
+      		<input type="button" id="btnClose" value="关闭" class="btn_orange"/>
+      	</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

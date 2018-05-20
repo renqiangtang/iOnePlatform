@@ -1,0 +1,58 @@
+﻿附件列表页面为：sysman/attachList.html
+
+
+一、附件的所有者及缺省所有者说明
+1、附件的所有者指通用附件页面上的附件属于哪个表的哪条记录；
+2、调用时通过传入附件所有者参数（owners）时大概如以下格式传入一个或者多个的附件所有者：O1;O2;O3;O4;...。其中O1、O2、O3、O4等指附件所有者，格式见后面说明
+3、缺省所有者指的是当前模块缺省记录作为所有者，一般这类所有者下的所有附件都是能名做所有的操作的。相对于缺省所有者之外的所有者可以称为引用所有者或者其它所有者，一般情况下引用所有者的附件不能修改但可以下载的。举例：标的录件页面的附件列表中，缺省所有者一般为标的及宗地，引用所有者可能有委托、公告等相关信息；
+4、参数defaultOwnerId指定缺省所有者，也可以使用半角分号指定多个所有者：defaultOwnerId=00230000000000000000000000000031;...
+5、如果未指定缺省所有者则将第一个所有者默认为缺省所有者
+
+二、所有者格式，以下为单一所有者格式。多个所有者以半角分号分隔即可：
+格式1：所有者ID=名称,标题,表名,模板No
+示例1：0230000000000000000000000000031:标的,测试标的123,trans_target,businessType0TargetAttach
+
+格式2（JSON）：[{id: "所有者ID", name: "名称", title: "标题", tableName: "表名", templetNo: "模板No"}]
+示例2：[{id: "0001", name: "标的", title: "标题", tableName: "trans_target", templetNo: "businessType0TargetAttach"}]
+
+***************************************************************
+**************以下是权限相关***********************************
+
+一、附件权限参数为grant，值如下：
+格式1：
+ad:2;ed:2;dd:2;udd:2;dldd:2;edd:2;ddd:2;aa:1;ea:1;da:1;uad:1;dlad:2;ead:1;dad:1
+格式2：
+addDefault:2;editDefault:2;deleteDefault:2;uploadDefaultDtl:2;downloadDefaultDtl:2;editDefaultDtl:2;deleteDefaultDtl:2;addAll:1;editAll:1;deleteAll:1;uploadAllDtl:1;downloadAllDtl:2;editAllDtl:1;deleteAllDtl:1
+格式3：
+上两种方式的混合
+
+二、参数传入时重复参数以第一个为准
+如传入：ad:1;ed:2;addDefault:2;editDefault:2;ad:1
+结果：系统认为ad、addDefault为一类权限参数。故上例出现三次同一参数取第一个值为1
+
+三、权限参数名及值说明
+值：0不显示，1不可用，2可用。实现时可能0、1不一定按实际的设置，但至少都是不可用的
+名称（下面是实际实现时的说明及缺省值，如果未传某参数按默认值）：
+pageAttachObj.addDefault = 2;        //添加缺省所有者的附件分类
+pageAttachObj.editDefault = 2;       //编辑缺省所有者的附件分类
+pageAttachObj.deleteDefault = 2;     //删除缺省所有者的附件分类
+pageAttachObj.uploadDefaultDtl = 2;  //上传缺省所有者的附件
+pageAttachObj.downloadDefaultDtl = 2;//下载缺省所有者的附件
+pageAttachObj.editDefaultDtl = 2;    //编辑缺省所有者的附件
+pageAttachObj.deleteDefaultDtl = 2;  //删除缺省所有者的附件
+
+pageAttachObj.addAll = 1;            //添加所有所有者的附件分类
+pageAttachObj.editAll = 1;           //编辑所有所有者的附件分类
+pageAttachObj.deleteAll = 1;         //删除所有所有者的附件分类
+pageAttachObj.uploadAllDtl = 1;      //上传所有所有者的附件
+pageAttachObj.downloadAllDtl = 2;    //下载所有所有者的附件
+pageAttachObj.editAllDtl = 1;        //编辑所有所有者的附件
+pageAttachObj.deleteAllDtl = 1;      //删除所有所有者的附件
+
+四、实现通用权限系统稍作变更；
+
+***************************************************************
+**************总结*********************************************
+
+一、综上。调用附件时所有的参数有：owners、defaultOwnerId、grant。owners为必传参数。
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com/tradeland/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="TradeService.java"
+   text-time="2016-11-30T01:35:42.118651Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b4cee07470c7bb6bd4644ce9733d6cf6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.103051Z"/>
+<entry
+   committed-rev="1719"
+   name="ViewTargetService.java"
+   text-time="2016-11-30T01:35:42.118651Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="530873136c6b2d16dd7c53d98d2e6c84"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.118651Z"/>
+<entry
+   committed-rev="1719"
+   name="OfferLogService.java"
+   text-time="2016-11-30T01:35:42.118651Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d8288ee9a2c516e660909d9145dafa60"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.103051Z"/>
+</wc-entries>

@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易物(土地)</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="101.js"></script>
+</head>
+<body class="land">
+<div class="footer_bar tc">
+<input id="btnSave" type="button" value="保存地块" class="btn_save c5 f14 fb vm"/>
+<input id="relAttach" type="button" value="附件" class="btn_save c5 f14 fb vm"/>
+<input id="btnDel" type="button" value="删除地块" class="btn_save c5 f14 fb vm"/>
+<input id="errorBtn" type="button" value="标识错误"  class="btn_release ml5"/>
+<input id="rightBtn" type="button" value="去除错误标识"  class="btn_release ml5"/>
+</div>
+    <div id="tabPanel" class="trade_tab pt5">
+		    <table width="100%" class="i-grid-default">
+		      <tbody id="tbody1">
+		        <tr>
+		          <td height="28" class="fb h_bk_url pl10 s_b" colspan="4">
+		     		<span id="goodsName">基本情况<span> 
+		          </td>
+		        </tr>
+		        <tr>
+		          <td width="12%" height="28" class="h_bk s_rb tr" id="noTitleTd"><span class="c6">*</span>宗地编号:</td>
+		          <td width="38%" class="s_rb"><input type="text" id="no" class="i-input_off" requireValue="宗地编号不能为空!"/></td>
+		          <td width="12%" class="h_bk s_rb tr"><span class="c6">*</span>土地坐落:</td>
+		          <td width="38%" class="s_b">
+		          	<input type="text" id="address" class="i-input_off"  requireValue="土地坐落不能为空!" />
+		          </td>
+		        </tr>
+		        <tr>
+		          <td height="26" class="h_bk s_rb tr"><span class="c6">*</span>使用权面积(㎡):</td>
+		          <td class="s_rb"><input type="text" id="build_area" class="i-input_off" requireNumber="使用权面积必须为数字！" requireValue="使用权面积不能为空!"/> </td>
+		          
+		           <td width="12%" class="h_bk s_rb tr">开发程度:</td>
+		          <td width="38%" class="s_b"><select class="i-select_bg ml5" style="width:230px" id="projectTerm" >
+		          	<option value="" selected>--请选择--</option>
+		          	<option value="一通一平">一通一平</option>
+		          	<option value="二通一平">二通一平</option>
+		          	<option value="三通一平">三通一平</option>
+		          	<option value="四通一平">四通一平</option>
+		          	<option value="五通一平">五通一平</option>
+		          	<option value="六通一平">六通一平</option>
+		          	<option value="七通一平">七通一平</option>
+		          </select></td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>土地用途:</td>
+		          <td class="s_rb"> <DIV style="POSITION: absolute;top: 96px; left: 117px;">
+<table cellSpacing=0 cellPadding=0 border=0>
+<tbody>
+    <tr>
+        <td><SELECT class="i-select_bg" id="goods_use_select"  style="padding:1px;border:1px solid ##ccc;LEFT: 0px; TOP: 0px; WIDTH: 230px;height:22px; CLIP: rect(0px auto auto 0px); POSITION: absolute" onchange="document.getElementById('goods_use').value=this.options[this.selectedIndex].value">
+            </SELECT>
+            <input id="goods_use" name="goods_use" type="text" style="LEFT: 2px; TOP: 2px; WIDTH: 209px;height:19px;line-height:20px; POSITION: absolute;border:none;" requireValue="土地用途不能为空!">
+        </td>
+    </tr>
+</tbody>
+</table>
+</DIV></td>
+		           <td class="h_bk s_rb tr" ><span class="c6">*</span>出让年限(年):</td>
+		          <td class="s_b"><input type="text" requireValue="出让年限不能为空!" id="use_years" class="i-input_off" /></td>
+		        </tr>
+		      </tbody>
+		      <tbody id="tbody2">
+		        <tr>
+		          <td height="28" class="s_b fb h_bk_url pl10" colspan="4">规划指标要求</td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">容积率:</td>
+		          <td class="s_rb">
+		          	<input type="text" id="plot1_down" class="i-input_off" style="width:50px" /> 
+                  <select class="i-select_bg" id="plot1_flag">
+                        <option value="<="> <= </option>
+                        <option value="<"> < </option>
+                    </select> 
+                    容积率&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                    <select class="i-select_bg" id="plot2_flag">
+                        <option value="<="> <= </option>
+                        <option value="<"> < </option>
+                    </select>
+                    <input type="text" id="plot1_up" class="i-input_off" style="width:50px"/> </td>
+		          <td height="28" class="h_bk s_rb tr">建筑密度(%):</td>
+		          <td class="s_rb">
+                  	     <input type="text" id="build_density_down" class="i-input_off" style="width:50px" />
+                  	     <select class="i-select_bg" id="build_density1_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select>
+                  	       建筑密度(%) 
+                          <select class="i-select_bg" id="build_density2_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select>
+                         <input type="text" id="build_density_up" class="i-input_off" style="width:50px" /> 
+                  </td>
+		        </tr>
+		         <tr>
+		          <td height="28" class="h_bk s_rb tr">建筑高度(米):</td>
+		          <td class="s_rb">
+		          		<input type="text" id="build_height" class="i-input_off" style="width:50px" />
+                  	      <select class="i-select_bg" id="build_height1_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select>
+                         建筑高度(米)
+                           <select class="i-select_bg" id="build_height2_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select>
+                         <input type="text" id="build_height2" class="i-input_off" style="width:50px" />
+		          </td>
+		          <td height="28" class="h_bk s_rb tr">绿地率(%):</td>
+		          <td class="s_rb">
+                  	    <input type="text" id="green_ratio_down" class="i-input_off" style="width:50px" />
+                          <select class="i-select_bg" id="green_ratio1_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select> 
+                   		  绿地率(%)&nbsp;&nbsp; 
+                   		   <select class="i-select_bg" id="green_ratio2_flag">
+	                        <option value="<="> <= </option>
+	                        <option value="<"> < </option>
+                   		 </select> 
+                        <input type="text" id="green_ratio_up" class="i-input_off" style="width:50px" /> 
+                  </td>
+		        </tr>
+		         <tr>
+		          <td width="14%" height="28" class="h_bk s_rb tr"><span class="c6">*</span>投资强度:</td>
+		          <td width="38%" class="s_rb"><input type="text" id="aggregateInvestment" class="i-input_off" /></td>
+		          <td width="12%" class="h_bk s_rb tr">&nbsp;</td>
+		          <td width="38%" class="s_b">&nbsp;
+		          </td>
+		        </tr>
+		      </tbody>
+		       <tbody id="tbody3">
+		        <tr>
+		          <td height="28" class="s_b fb h_bk_url pl10" colspan="4">其它要求</td>
+		        </tr>
+		         <!-- <tr>
+		          <td width="12%" height="28" class="h_bk s_rb tr" >行政辖区:</td>
+		          <td width="38%" class="s_rb"><input type="text" id="canton_id" class="i-input_off" /></td>
+		         <td class="h_bk s_rb tr" >产业类别:</td>
+		          <td class="s_b"><input id="industry_type" class="i-input_off" type="text" ></td>
+		        </tr>-->
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">产业类别:</td>
+		          <td class="s_rb" colspan="3"><input type="text" id="industry_type" class="i-input_off" /></td>
+		        </tr>
+		        <tr>
+		          <td width="12%" height="28" class="h_bk s_rb tr" >限高(米):</td>
+		          <td width="38%" class="s_rb"><input type="text" id="limitup" class="i-input_off" /></td>
+		          <td width="12%" class="h_bk s_rb tr">限低(米):</td>
+		          <td width="38%" class="s_b"><input type="text" id="limitdown" class="i-input_off" /></td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">建设用地类型:</td>
+		          <td class="s_rb" colspan="3">&nbsp;<input type="checkBox" name="transLandType" id="transLandType0" value="0"/>地上&nbsp;&nbsp;&nbsp;<input type="checkBox" name="transLandType"  id="transLandType1"  value="1"/>地下&nbsp;&nbsp;&nbsp;<input type="checkBox" name="transLandType" id="transLandType2"  value="2"/>地表</td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">坐标:</td>
+		          <td class="s_rb" colspan="3"><input type="text" id="positionxy" class="i-input_off" /></td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">备注:</td>
+		          <td class="s_rb pt5 pb5 pl5" colspan="3"><textarea id="remark" rows="4"  style="width:91%;height:69px" class="i-textarea_bg"></textarea></td>
+		        </tr>
+		      </tbody>
+		      
+	    </table>
+	</div>
+</body>
+</html>

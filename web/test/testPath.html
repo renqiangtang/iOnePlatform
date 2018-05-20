@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网上交易系统</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+</head>
+<body>
+	<div id="maingrid4" class="l-loading">测试JavaScript和CSS路径</div>
+	<select id="se">
+		<option>aaa</option>
+	</select>	
+	<input id="in" type="text" />
+	<img src="images/base/ico01.gif"/>
+	<img src="images/base/bidEnd_bk.jpg"/>
+	<input id="btn1" type="button" value="大文本"/>
+	<input id="btn2" type="button" value="编码"/>
+</body>
+	<script>
+	$(document).ready(function(event){
+		$('#se').attr('disabled',false);
+		$('#in').attr('disabled',true);
+		var t1='测试字符串';
+		var t='';
+		for(var i=0;i<=1000;i++)
+			t+=t1+i;
+		$('#btn1').click(function(event){
+			var cmd = new Command();
+			cmd.module = "test";
+			cmd.service = "BigText";
+			cmd.method = "testBigText";
+			cmd.u='0001';
+			cmd.ttt=t;
+			cmd.success = function(data) {
+				alert(data.msg);
+			}
+			cmd.execute();
+		});
+		
+		
+		$('#btn2').click(function(event){
+			var obj={};
+			obj.name='济南万科地产公司';
+			obj.price='123123.43元';
+			obj.time=(new Date()).toString();
+			var str=JSON2.stringify(obj);
+			alert(str);
+		});	
+	});
+	
+	var arr=[1,2,3,4,9,8,7,6,5];
+	var index=$.inArray(4,arr,5);
+	alert(index);
+	</script>
+</html>

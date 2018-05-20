@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/css"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="mine.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="878205cb6b3dffb27515867d0e76319f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.323395Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-dialog.css"
+   text-time="2016-11-30T01:35:24.450195Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a3509229e16d89a03e91b171423b68e9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.258994Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-tree.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e10e128dd6fff993d6ad2d01dd87736c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.323395Z"/>
+<entry
+   committed-rev="1719"
+   name="flexselect.css"
+   text-time="2016-11-30T01:35:24.434595Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="296bcea222d4a2df469843d5152ef663"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.227794Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-form.css"
+   text-time="2016-11-30T01:35:24.450195Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cd7cf4f7f9548ea4944b06840e9a4094"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.274595Z"/>
+<entry
+   committed-rev="1719"
+   name="portal.css"
+   text-time="2016-11-30T01:35:24.481395Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="55af19e59dac21281452b4f40b8f62a1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.323395Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-menu.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="765d94e28adf58d290bad713213a9f59"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.274595Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-tab.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bb1d0687b1dfc4a08fdf9d4e5e3ee8df"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.307795Z"/>
+<entry
+   committed-rev="1719"
+   name="all.css"
+   text-time="2016-11-30T01:35:24.418995Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="809b59ea69af53df3198b22bce0b5ec5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.227794Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-icons.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cd19aa787413021b1edf65266c393a32"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.274595Z"/>
+<entry
+   committed-rev="1719"
+   name="base.css"
+   text-time="2016-11-30T01:35:24.434595Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9706ceb7ecfebd7fc0b093fdf93a985e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.227794Z"/>
+<entry
+   committed-rev="1719"
+   name="zTreeStyle.css"
+   text-time="2016-11-30T01:35:24.481395Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ab50fbe6d4e1a03d9cdd3786cfa583f0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.418995Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-layout.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2d8ef944dc6c5107506409a7fdd304fc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.274595Z"/>
+<entry
+   committed-rev="1719"
+   name="datepicker.css"
+   text-time="2016-11-30T01:35:24.434595Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e868a0b493b061d3b2d352e9f38c9b2e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.227794Z"/>
+<entry
+   committed-rev="1719"
+   name="layout.css"
+   text-time="2016-11-30T01:35:24.450195Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cf1e05517d7c14fb55072791bc29aeda"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.243394Z"/>
+<entry
+   committed-rev="1719"
+   name="jqueryui.css"
+   text-time="2016-11-30T01:35:24.434595Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c016eddca1292bd9b077448a7f572a49"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.243394Z"/>
+<entry
+   committed-rev="1719"
+   name="reg.css"
+   text-time="2016-11-30T01:35:24.481395Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4ae4f32f806b677919c4e75c3f5d38e3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.338995Z"/>
+<entry
+   committed-rev="1719"
+   name="land.css"
+   text-time="2016-11-30T01:35:24.450195Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9ca2b7c8d66a01cc8ec1c6df6a449b6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.243394Z"/>
+<entry
+   committed-rev="1719"
+   name="plow.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="018483b68dc14800c33239f38e90fa35"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.323395Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-grid.css"
+   text-time="2016-11-30T01:35:24.465795Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="53a79604a3fde07d6e21a57153f55582"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.274595Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeui-common.css"
+   text-time="2016-11-30T01:35:24.481395Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="40fe975e3bc5040d5f7b52dade66c249"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.418995Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui-common.css"
+   text-time="2016-11-30T01:35:24.450195Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5675d79aa662fef933a303414212fadc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.243394Z"/>
+</wc-entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3309"
+   name=""
+   committed-date="2014-10-28T02:28:23.755447Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com/tradeplow"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   name="engine"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>即时报表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="immediate.js"></script>
+</head>
+<body class="land">
+	<div class="i-wrap">
+	  <div class="trade_search">
+<table width="100%" class="search_grid">
+            <tr>
+                <td class="title" width="79">竞得人：</td>
+                <td width="192">
+                	<input type="text" id="bidderName" class="i-input_w160 i-input_bg"/>
+                </td>
+                <td class="title" width="84">宗地编号：</td>
+                <td width="186">
+                	<input type="text" id="targetNo" class="i-input_w160 i-input_bg"/>
+                </td>
+                 <td class="title" width="10%">交易类型：</td>
+                <td width="15%">
+                	<select id="businessType" class="i-select_bg">
+                	</select>
+                </td>
+            </tr>      
+            <tr>
+            	 <td width="125"><span class="title">交易完成时间：</span></td>
+                 <td width="530" colspan="5"><input type="text" id="beginTime" class="i-input_w160 i-input_bg"/> 至 <input type="text" id="endTime" class="i-input_w160 i-input_bg"/></td>
+            </tr>
+            <tr>
+            	<td colspan="6" class="tr pr5 pb5">
+                	<span class="wr_btn" id="btnQuery"><input type="button" value="查询" class="o_btn" /></span>
+                    <span class="wr_btn" id="btnReset"><input type="button" value="重置" class="o_btn" /></span>
+                </td>
+            </tr>
+        </table>
+	    </div>
+	  <div id="grid" class="trade_panel"></div>
+	</div>
+</body>
+</html>

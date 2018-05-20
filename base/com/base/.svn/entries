@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9075"
+   name=""
+   committed-date="2016-08-08T01:48:08.646159Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base"
+   last-author="longzy"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="http"
+   kind="dir"/>
+<entry
+   name="utils"
+   kind="dir"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   name="xml"
+   kind="dir"/>
+<entry
+   name="log"
+   kind="dir"/>
+<entry
+   name="task"
+   kind="dir"/>
+<entry
+   name="ant"
+   kind="dir"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   name="bean"
+   kind="dir"/>
+<entry
+   name="ds"
+   kind="dir"/>
+<entry
+   name="gzip"
+   kind="dir"/>
+<entry
+   name="web"
+   kind="dir"/>
+</wc-entries>

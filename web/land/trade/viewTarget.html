@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>标的详情</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/swfobject.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="viewTarget.js"></script>
+</head>
+<body class="land">
+<div class="i-wrap" id="targetBody" style="overflow:hidden;width:1023px;">
+  <div class="i-bidDetailsInfoTitle tc"><span id="targetName">T107-0015</span></div>
+  <div class="fb i-bidPrice i-pay-price pb5 mb10"> 起始价：<span id="beginPrice" class="c1">100,000,000.00</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增价幅度：<span id="priceStep" class="c1">5,000,000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;保证金：<span id="earnestMoney" class="c1">500,000</span> </div>
+  <div class="i-bidInfoArea">
+    <dl>
+      <dd class="fl">
+        <table>
+          <tr>
+            <td width="145" align="right">交易方式：</td>
+            <td width="220"><span id="transType">挂牌</span></td>
+            <td width="120" align="right">交易类型：</td>
+            <td width="220"><span id="businessType">政府土地出让</span></td>
+          </tr>
+          <tr>
+            <td align="right">竞买申请开始时间：</td>
+            <td><span id="beginApplyTime">2012-05-11 09:00:00</span></td>
+            <td align="right">竞买申请截止时间：</td>
+            <td><span id="endApplyTime">2012-05-11 09:00:00</span></td>
+          </tr>
+          <tr id="focusTime">
+            <td align="right">报价期开始时间：</td>
+            <td><span id="beginFocusTime">2012-05-11 09:00:00</span></td>
+            <td align="right" >报价期截止时间：</td>
+            <td><span id="endFocusTime">2012-05-11 09:00:00</span></td>
+          </tr>
+        </table>
+      </dd>
+      <dd class="fl">
+        <div id="goodsPanel">
+          <iframe id="goodsFrame" frameborder="0" height="25" width="290" src=""></iframe>
+        </div>
+        <table width=100%>
+          <tr>
+            <td width="118" align="right">限时竞拍开始时间：</td>
+            <td width="195"><span id="beginLimitTime">2012-05-11 09:00:00</span></td>
+          </tr>
+          <tr>
+            <td width="118" align="right">允许联合竞买：</td>
+            <td width="195"><span id="allowUnion">否</span></td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </div>
+  
+   
+  <div class="i-bidInfoMain mt10 mb10">
+    <ul class="i-head_ul l-tab-links">
+      <li class="l-selected" onclick="pageObj.changedTab('i-bidInfoMain',this,'subA')" id="tabNotice"><a>公告</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+      <li onclick="pageObj.changedTab('i-bidInfoMain',this,'subB')" id="tabImg"><a>图片</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+     <li onclick="pageObj.changedTab('i-bidInfoMain',this,'subC')" id="tabDown"><a>&nbsp</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+      <li onclick="pageObj.changedTab('i-bidInfoMain',this,'subD')" id="tabOfferLog"><a>竞价记录</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+      <li onclick="pageObj.changedTab('i-bidInfoMain',this,'subE')" id="tabTransNotice"><a>成交公示</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+      
+      <li onclick="pageObj.changedTab('i-bidInfoMain',this,'subF')" id="tabOtherNotice"><a>其它公告</a>
+        <div class="l-tab-links-item-left"></div>
+        <div class="l-tab-links-item-right"></div>
+      </li>
+    </ul>
+    <dl class="i-main_dl">
+      <dd id="subA">
+        <div class="i-noticeBox" id="multiNoticePanal">
+          <ul id="noticeList">
+            <li>[公告]<span id="targetNotice" class="c2 chand">&nbsp;</span></li></ul>
+          <div id="multiNotices"></div>
+          <div class="o-c-tab chand" onclick="pageObj.controlNoticeTab()"></div>
+        </div>
+        <div id="notice"></div>
+      </dd>
+      <dd id="subB"> <img id="123" src="" width="772" height="434"> </dd>
+      <dd id="subC"></dd>
+      <dd id="subD"></dd>
+      <dd id="subF">
+        <div class="i-noticeBox" id="multiOtherNoticePanal">
+          <ul id="otherNoticeList">
+            <div id="multiOtherNotices">
+              <li>[补充公告]<a href="#">&nbsp;</a></li>
+              <li><a href="#">&nbsp;</a></li>
+              <li><a href="#">&nbsp;</a></li>
+            </div>
+          </ul>
+          <div class="o-c-tab chand" onclick="pageObj.controlNoticeTab()"></div>
+        </div>
+        <div id="othernotice"></div>
+      </dd>
+      <dd id="subE">
+        <table width='98%' class="i-grid-default mt10 bc">
+          <tbody>
+            <tr>
+              <td height="30" class="f15 h_bk s_rb tr pr5">交易结果:</td>
+              <td colspan="3" class="f15 s_b pl5"><span id="status">已成交</span></td>
+            </tr>
+            <tr>
+              <td height="30" class="f15 h_bk s_rb tr pr5">成交价:</td>
+              <td colspan="3" class="f18 c3 fb s_b pl5"><span id="transPrice"></span></td>
+            </tr>
+            <tr style="display:none">
+              <td width="15%" height="30" class="f15 h_bk s_rb tr pr5">地面地价:</td>
+              <td width="35%" class="f15 s_rb pl5"><span id="landPrice">15000</span>&nbsp;元/平方米</td>
+              <td width="15%" class="f15 h_bk s_rb tr pr5">楼面地价:</td>
+              <td width="35%" class="f15 s_b pl5"><span id="bulidPrice">8000</span>&nbsp;元/平方米</td>
+            </tr>
+            <tr>
+              <td height="30" class="f15 h_bk s_rb tr pr5">竞得人:</td>
+              <td colspan="3" class="f15 s_b pl5"><span id="transBidder">济南地产</span></td>
+            </tr>
+            <tr>
+              <td height="30" class="f15 h_bk s_rb tr pr5"><span id="lblEndTtransTime">成交时间:</span></td>
+              <td colspan="3" class="f15 s_b pl5"><span id="endTtransTime">2012-05-11 09:00:00</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </dd>
+      
+      <!--<table width='98%' class="i-grid-default mt10 bc">
+                <tbody>
+                  <tr>
+                    <td height="30" class="f15 h_bk s_rb tr pr5">交易结果:</td>
+                    <td colspan="3" class="f15 s_b pl5"><span id="status">已成交</span></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="f15 h_bk s_rb tr pr5">成交价:</td>
+                    <td colspan="3" class="f18 c3 fb s_b pl5"><span id="transPrice"></span></td>
+                  </tr>
+                  <tr style="display:none">
+                    <td width="15%" height="30" class="f15 h_bk s_rb tr pr5">地面地价:</td>
+                    <td width="35%" class="f15 s_rb pl5"><span id="landPrice">15000</span>&nbsp;元/平方米</td>
+                    <td width="15%" class="f15 h_bk s_rb tr pr5">楼面地价:</td>
+                    <td width="35%" class="f15 s_b pl5"><span id="bulidPrice">8000</span>&nbsp;元/平方米</td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="f15 h_bk s_rb tr pr5">竞得人:</td>
+                    <td colspan="3" class="f15 s_b pl5"><span id="transBidder">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="f15 h_bk s_rb tr pr5"><span id="lblEndTtransTime">&nbsp;</span></td>
+                    <td colspan="3" class="f15 s_b pl5"><span id="endTtransTime">&nbsp;</span></td>
+                  </tr>
+                </tbody>
+	        </table>-->
+    </dl>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+(function() {
+	$backToTopEle = $('<div class="i-backToTop "></div>').appendTo($("body")).css('right',$('.i-wrap').offset().left+'px').click(function() {
+			$("html, body").animate({ scrollTop: 0 }, 120);
+	}), $backToTopFun = function() {
+		var st = $(document).scrollTop(), winh = $(window).height();
+		(st > 0)? $backToTopEle.show(): $backToTopEle.hide();	
+		//IE6下的定位
+		if (!window.XMLHttpRequest) {
+			$backToTopEle.css("top", st + winh - 166);	
+		}
+	};
+	$(window).bind("scroll", $backToTopFun);
+	$(function() { $backToTopFun(); });
+})();
+</script>
+</html>

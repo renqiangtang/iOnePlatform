@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>竞价监控</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5">
+  	<table width="100%" class="search_grid">
+      <tr>
+        <td class="tc" height="100">
+         	<input id="btnMonitor" type="button" value="竞价监控" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+          </td>
+      </tr>
+    </table>
+  </div>
+  
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#btnMonitor').click(function() {
+			var obj={};
+			obj.url=approot+'/mine/trade/tradeMain.html';
+			obj.feature="dialogWidth=1000px;dialogHeight=625px";
+			obj.param = {};
+			obj.param.goodsType = Utils.getPageValue('goodsType');
+			obj.param.menuId = Utils.getPageValue('menuId');
+			obj.param.method='getTargetsForMonitor';
+		   	DialogModal(obj);
+		});
+	
+	});
+</script>

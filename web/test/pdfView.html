@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>pdf查看</title>
+  <link href="css/all.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/swfobject.js"></script>
+</head>
+<body style="overflow:hidden;">
+  <div id="div1">
+  </div>
+  
+  <script type="text/javascript">
+  window.onload = function()
+  {
+    var params = {
+      SwfFile : encodeURI(approot+"/swf/notice/{Paper[*,0].swf,4}"),
+      EncodeURI:true,
+	  Scale : 1.0
+    }
+    swfobject.embedSWF("flash/paperView.swf","div1","800","600","9.0.0",approot+"/base/flash/PaperView.swf/expressInstall.swf", params);
+  }
+  </script>
+</body>
+</html>

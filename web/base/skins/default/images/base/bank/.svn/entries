@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/base/bank"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BOCM_01.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b34328464304328c71447785b9e8491b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="BOCM.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="64ca1f29590f60e7705e8b885ab781f9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="HXB.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6704a10048dadf28a464549d44eda7e3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="HXB_01.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9c3706495e2c8be76154ebb273078c07"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="CCB_01.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="72046671aff1e5b8b9bbd18d2610cf69"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="CCB.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ed52675933812a23e5b8cb5e872e48dc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="SPDB.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fb7c8ad5eec3f3a6a475225cb8d05577"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="CEB_01.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ce6847dde3d9be834b1503842a2b2737"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="CEB.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0848e200963579788ac2527c2b6815a9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="GDB.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e69cfff9f3df2b72bbc56d7369e1911d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="GDB_01.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1068bd34a7318729788c969f9487fad9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="CIB_01.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fb93377ee23bc0ff1028272d2510bf5c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="CIB.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="420e9d017d58bb91264441733f6c43cd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="ICBC.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c9bd681d76db9b306984aedfae5208b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="ICBC_01.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fa74cef7148e0f6392b3f21cca61ea85"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="CMB.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cf05f1058fb8816b0f4b5f420670d549"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="CMB_01.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1a0185b1c8e02a5ba391df385167b018"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="BOB_01.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a3030a541e76d6e60337916df428b1b5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.027198Z"/>
+<entry
+   committed-rev="1719"
+   name="BOB.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="184b831a2229fe81494f5d630c55fa2c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.027198Z"/>
+<entry
+   committed-rev="1719"
+   name="PAB.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4ba80720f4ad7594bdc7a718051ccf7a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="BOC_01.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4ea664b35417e05d32af38bda3e3c591"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="BOC.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f8164c6f904b5b0ff9bf3eaf6bef1ef5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.042798Z"/>
+<entry
+   committed-rev="1719"
+   name="ABOC_01.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8df30be541fe5af6fe99d21893e87934"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.027198Z"/>
+<entry
+   committed-rev="1719"
+   name="ABOC.gif"
+   text-time="2016-11-30T01:35:25.089598Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4e6d9dc3ce0c2a668e323878a68d8edd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.027198Z"/>
+<entry
+   committed-rev="1719"
+   name="CMBC.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ef241f290c82c483f76c4012fd1df2a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="CMBC_01.gif"
+   text-time="2016-11-30T01:35:25.105198Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f95665c35d87734e769bac4c323a22a8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.058398Z"/>
+<entry
+   committed-rev="1719"
+   name="YZB.gif"
+   text-time="2016-11-30T01:35:25.120798Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="aa9f58bba499ccc17c834b0c56cd6586"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="YZB_01.gif"
+   text-time="2016-11-30T01:35:25.136398Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c33bedec383e4522973f6fc97283618e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+<entry
+   committed-rev="1719"
+   name="ZZB.gif"
+   text-time="2016-11-30T01:35:25.136398Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7342fa145c4f7af5d52825730815d5e3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:25.073998Z"/>
+</wc-entries>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<mapping>
+	<class name="com.test.xml.Notice" path="/root" auto="true">
+		<field name="targetList" bindName="bd" type="com.test.xml.Target" />
+	</class>	
+	
+	<class name="com.test.xml.Target" path="/root/bd/bdxx" auto="true">
+		<field name="goodsList" bindName="zongdi" type="com.test.xml.Goods" />
+	</class>
+	
+	<class name="com.test.xml.Goods" path="/root/bd/bdxx/zongdi/zd" auto="true">
+	</class>
+</mapping>

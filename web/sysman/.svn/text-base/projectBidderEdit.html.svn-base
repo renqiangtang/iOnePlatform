@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>股东编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../base/js/jquery.js"></script>
+<script type="text/javascript" src="../base/js/base.js"></script>
+<script type="text/javascript" src="../base/js/ligerui.all.js"></script>
+<script type="text/javascript" src="projectBidderEdit.js"></script>
+</head>
+<body>
+<div position="center" title="股东">
+    <form>
+      <table width="100%" id="bankDiv" class="i-grid-default">
+	      <tr>
+	      	<td colspan="4"> <input type="radio" name = 'bidder_type' checked="true" id="bidder_type1" value="0" />
+		       <span id="bidderTypeText"> 个人</span>
+		       <input type="radio"  name = 'bidder_type' id="bidder_type2" value="1" />
+		        企业
+	       </td>
+	       </tr>
+       <tr>
+          <td width="130" height="30" class="h_bk s_rb tr"><font color="red">*</font>股东名称：</td>
+          <td class="s_b"><input  type="text" class="i-input_off" id="name" requireValue="股东名称不能为空!" /></td>
+        </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr"><font color="red">*</font><span id="notext">身份证号码</span>:</td>
+	      <td align="left"><input type="text" id="idno" class="i-input_off"/></td>
+	    </tr>
+	     <tr>
+	      <td height="30" class="h_bk s_rb tr"><font color="red">*</font>股份比率:</td>
+	      <td align="left"><input type="text"  id="percent" class="i-input_off" requireValue="股份比率不能为空!" requireNumber="股份比率必须是数字!"/>%</td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">地址:</td>
+	      <td align="left"><input type="text" id="address" class="i-input_off"/></td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">电话:</td>
+	      <td align="left"><input type="text" id="tel" class="i-input_off" /></td>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">电子邮箱:</td>
+	      <td align="left"><input type="text" id="email" class="i-input_off"/></td>
+	    </tr>
+	    
+	     <tr>
+	      <td height="30" class="h_bk s_rb tr">备注:</td>
+	      <td align="left"><textarea type="text" id="reamrk" class="i-textarea_bg" style="width:91%; height:50px" /></textarea></td>
+	    </tr>
+	    <tr>
+          <td colspan="4" class="s_b tc">
+          	<input type="button" id="btnSave" value="保存" class="o_btn" />
+          	<input type="button" id="btnTj" value="提交" class="o_btn" />
+          </td>
+        </tr>
+	  </table>
+	  <br/>
+    </form>
+  </div>
+</body>
+</html>

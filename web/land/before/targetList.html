@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>土地管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="targetList.js"></script>
+</head>
+<body class="land">
+  <div class="trade_search mb5">
+  	<table border="0" class="search_grid" width="100%">
+    	<tr>
+        	<!--<td class="title">行政辖区：</td>
+            <td><input type="text"  id="canton_id" class="i-input_w135 i-input_bg"/></td>-->
+            <td class="title" id="noTitleDiv">宗地编号：</td>
+            <td id="noDiv"><input type="text"  id="no" class="i-input_w135 i-input_bg"/></td>
+            <td class="title">交易方式：</td>
+            <td>
+            	<select id="trans_type" class="i-input_w135 i-select_bg">
+                </select>
+            </td>
+            <td class="title">状态：</td>
+            <td id="statusDiv">
+            	<select id="status" class="i-input_w135 i-select_bg">
+                </select>
+            </td>
+        </tr>
+        <tr>
+        	
+           <!-- <td class="title">经办人：</td>
+            <td><select id="create_user_id" class="i-select_bg" style="width:143px"></select></td>-->
+            <td class="title" id="goodsUserTitleDiv">用途：</td>
+            <td id="goodsUserDiv" colspan="3">
+            	<input type="text" id="goods_use" class="i-input_w135 i-input_bg"/>
+            	<!--select id="goods_use" class="i-input_w135 i-select_bg">
+                </select-->
+            </td>
+            <td class="title">&nbsp;</td>
+            <td style="width:143px">&nbsp;</td>
+           </tr>
+            <tr>
+            	<td colspan="6" class="tr pr5"><input id="btnQuery" type="button" value="查询" class="o_btn"/>
+            	<input id="btnReset" type="button" value="重置"  class="o_btn"/>
+            	<input id="btnNew" type="button" value="新建"  class="o_btn"/>
+            	<input id="btnDelete" type="button" value="删除"  class="o_btn"/>
+            	<input id="btnCheck" type="button" value="审核"  class="o_btn"/></td>
+            </tr>
+            
+            
+    </table> 
+  </div>
+  <div id="grid" class="trade_panel"></div>
+</body>
+</html>

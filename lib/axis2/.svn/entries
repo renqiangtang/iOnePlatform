@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/lib/axis2"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="axis2-adb-1.2.jar"
+   text-time="2016-11-30T01:36:28.538312Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9863fc80fd876fed65127a5324eeb7b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:26.081108Z"/>
+<entry
+   committed-rev="1719"
+   name="wsdl4j-1.6.2.jar"
+   text-time="2016-11-30T01:36:28.569512Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2608a8ea3f07b0c08de8a7d3d0d3fc09"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:28.003911Z"/>
+<entry
+   committed-rev="1719"
+   name="axis2-adb-codegen-1.2.jar"
+   text-time="2016-11-30T01:36:28.538312Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="70897ea8fa3795569e43831930d3d9ae"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:26.237108Z"/>
+<entry
+   committed-rev="1719"
+   name="axiom-impl-1.2.4.jar"
+   text-time="2016-11-30T01:36:28.538312Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f496ba65403fea6a647c9ad57b35cc3b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.939707Z"/>
+<entry
+   committed-rev="1719"
+   name="axis2-java2wsdl-1.2.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="32b9d923c763adc089d6c62c22fb70d7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:26.486708Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlSchema-1.2.jar"
+   text-time="2016-11-30T01:36:28.522712Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f8be2fd59a77304b65aec3caeb06927c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.627707Z"/>
+<entry
+   committed-rev="1719"
+   name="stax-api-1.0.1.jar"
+   text-time="2016-11-30T01:36:28.569512Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7d436a53c64490bee564c576babb36b4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:27.847911Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-httpclient-3.0.1.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="456245a3b1b49eb51c57d037acebfefc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:27.769911Z"/>
+<entry
+   committed-rev="1719"
+   name="axiom-api-1.2.4.jar"
+   text-time="2016-11-30T01:36:28.522712Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="089d58b104cb199e19915f1779b8f9aa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.830507Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-codec-1.3.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e149c1053741c03736a52df83974dcc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:27.442310Z"/>
+<entry
+   committed-rev="1719"
+   name="wstx-asl-3.2.6.jar"
+   text-time="2016-11-30T01:36:28.569512Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f3794a87dfe108a4cb4e1599f4937842"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:28.507112Z"/>
+<entry
+   committed-rev="1719"
+   name="axis2-codegen-1.2.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9e465ea0421e65f072ed5a76fcfc2968"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:26.393108Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-logging-1.1.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6b62417e77b000a87de66ee3935edbf5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:27.816711Z"/>
+<entry
+   committed-rev="1719"
+   name="activation-1.1.jar"
+   text-time="2016-11-30T01:36:28.522712Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8ae38e87cd4f86059c0294a8fe3e0b18"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.690107Z"/>
+<entry
+   committed-rev="1719"
+   name="axis2-kernel-1.2.jar"
+   text-time="2016-11-30T01:36:28.553912Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d4dc7860bd0a7314aa0d531a853a0ee7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:27.379910Z"/>
+</wc-entries>

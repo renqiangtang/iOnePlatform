@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3727"
+   name=""
+   committed-date="2014-12-01T01:55:00.076240Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BaseUploadService.java"
+   text-time="2016-11-30T01:35:40.891447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6fb14e98906586d7171910eeee8e3c38"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.875847Z"/>
+<entry
+   committed-rev="1719"
+   name="BaseDownloadService.java"
+   text-time="2016-11-30T01:35:40.875847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5c9c66a7991ba67b3d745f5e5b36043a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.875847Z"/>
+<entry
+   committed-rev="1719"
+   name="SecurityCodeService.java"
+   text-time="2016-11-30T01:35:40.891447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="164a5cc4e75df938c1198d8d11e8a4cf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.875847Z"/>
+<entry
+   committed-rev="1719"
+   name="AppConfigService.java"
+   text-time="2016-11-30T01:35:40.875847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c4183e0097c21b39252bd69f41cf4ba8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.875847Z"/>
+<entry
+   committed-rev="3727"
+   name="BaseService.java"
+   text-time="2016-11-30T01:35:40.875847Z"
+   committed-date="2014-12-01T01:55:00.076240Z"
+   checksum="291f91e30e1516d79776ff09c0e380be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.860247Z"/>
+</wc-entries>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>内部人员管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/ca.js" type="text/javascript"></script>
+<script type="text/javascript" src="empList.js"></script>
+</head>
+<body>
+<div class="trade_search mb5 mt5">
+  <table width="100%" class="search_grid">
+    <tr>
+      <td class="title" style="width:10%">姓名：</td>
+      <td width="15%"><input type="text" id="txtName" class="i-input_bg" style="width:80%"/></td>
+      <td class="title" style="width:10%">性别：</td>
+      <td width="15%"><select id="cboGender" class="i-select_bg" style="width:80%">
+                      <option value=""></option>
+                      <option value="男">男</option>
+                      <option value="女">女</option>
+                    </select></td>
+      <td class="title" style="width:10%">移动电话：</td>
+      <td width="15%"><input type="text" id="txtMobile" class="i-input_bg" style="width:80%"/></td>
+      <td class="title" style="width:10%">邮箱：</td>
+      <td><input type="text" id="txtEmail" class="i-input_bg" style="width:80%"/></td>
+    </tr>
+    <tr>
+      <td class="title" style="width:10%">状态：</td>
+      <td><select id="cboIsValid" class="i-select_bg" style="width:85%">
+          <option value=""></option>
+          <option value="1">有效</option>
+          <option value="0">无效</option>
+        </select>
+      </td>
+      <td class="title" style="width:10%"><span id="selectModeSection"></span>是否申请CAKEY：</td>
+      <td><select id="cboHasCakey" class="i-select_bg" style="width:80%">
+          <option value=""></option>
+          <option value="1">已申请CA KEY</option>
+          <option value="0">未申请CA KEY</option>
+        </select>
+      </td>
+      <td class="title" style="width:10%">CAKEY：</td>
+      <td><input type="text" id="txtCakey" class="i-input_bg" /></td>
+      <td><input class="i-btn2" type="button" id="btnReadCakey" value="读取"/></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td colspan="8" class="tr"><span class="wr_btn" id="btnQuery">
+        <input type="button" value="查询" class="o_btn" />
+        </span>
+         <span class="wr_btn" id="btnOldAdd">
+        <input type="button" value="新增已有用户" class="o_btn" />
+        </span>
+         <span class="wr_btn" id="btnAdd">
+        <input type="button" value="新增" class="o_btn" />
+        </span> <span class="wr_btn" id="btnDelete">
+        <input type="button" value="删除" class="o_btn" />
+        </span> &nbsp;</td>
+    </tr>
+  </table>
+  </div>
+  <div id="empGrid" class="trade_panel i-bk-white"></div>
+</body>
+</html>

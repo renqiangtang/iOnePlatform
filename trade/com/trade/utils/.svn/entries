@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com/trade/utils"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="EngineManageDao.java"
+   text-time="2016-11-30T01:35:42.498052Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="21c4113b21f0cc0dced4716181d130c0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.498052Z"/>
+<entry
+   committed-rev="1719"
+   name="Engine.java"
+   text-time="2016-11-30T01:35:42.498052Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4fe5040ecef2c77ba067902df08a21db"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.482452Z"/>
+<entry
+   committed-rev="1719"
+   name="Constants.java"
+   text-time="2016-11-30T01:35:42.498052Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="df6b8b2d1425641e25068eceba3b3a6c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.482452Z"/>
+</wc-entries>

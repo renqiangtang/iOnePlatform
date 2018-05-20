@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/sysman/com/sysman/bean"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="Trans_goods.java"
+   text-time="2016-11-30T01:36:33.032521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9938199e2d0b3216b48c7690e751612a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.016921Z"/>
+<entry
+   committed-rev="1719"
+   name="Sys_Extend.java"
+   text-time="2016-11-30T01:36:33.016921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b8ceaf29f71facd2c3d1a0c9957316d4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.016921Z"/>
+<entry
+   committed-rev="1719"
+   name="Trans_Notice.java"
+   text-time="2016-11-30T01:36:33.016921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="95b61078aec92237ec093233b8def921"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.016921Z"/>
+<entry
+   committed-rev="1719"
+   name="Trans_Target.java"
+   text-time="2016-11-30T01:36:33.016921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="eee57d4abe4933c139222628b77fdda0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.016921Z"/>
+</wc-entries>

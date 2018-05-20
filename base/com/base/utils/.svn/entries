@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9075"
+   name=""
+   committed-date="2016-08-08T01:48:08.646159Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/utils"
+   last-author="longzy"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="MakeJSONData.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5f94b9ae6e381d778f461afa9c3af24c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.734447Z"/>
+<entry
+   committed-rev="1719"
+   name="Lottery.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1251ffc12a78caa80bb56f85d8c60306"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.734447Z"/>
+<entry
+   committed-rev="1719"
+   name="ImageUtils.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ed61928fd4ad814015e3ed4c437ced07"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.734447Z"/>
+<entry
+   committed-rev="1719"
+   name="IDGenerator.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9410539f7731925d8ea210a84ed88e7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.703247Z"/>
+<entry
+   committed-rev="1719"
+   name="CommonUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="06bcd4d01b2899e1757066450bbaaf68"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="1719"
+   name="CharsetUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="28fdfa92dc9d557f132a4d2c4a0c5d49"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="1719"
+   name="StreamUtils.java"
+   text-time="2016-11-30T01:35:40.797847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="13d0da19c571f455af4ad455fa1d659a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.750047Z"/>
+<entry
+   committed-rev="1719"
+   name="MakeJSONDataCallBack.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4c68224f9a142508d0a2a2497cfa3e4f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.734447Z"/>
+<entry
+   committed-rev="1719"
+   name="ReportChartUtils.java"
+   text-time="2016-11-30T01:35:40.797847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8a8b5ad9e8fea32f2335c2fdda91c1d4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.750047Z"/>
+<entry
+   committed-rev="1719"
+   name="ParaMap.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="abf1e50d32340f8a744820c2a318b836"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.750047Z"/>
+<entry
+   committed-rev="1719"
+   name="XMLUtils.java"
+   text-time="2016-11-30T01:35:40.797847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="34651d50699d2f907cd371c42c3c7cd1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.750047Z"/>
+<entry
+   committed-rev="9075"
+   name="FileAccessUtils.java"
+   text-time="2016-11-30T01:35:40.750047Z"
+   committed-date="2016-08-08T01:48:08.646159Z"
+   checksum="979fa1600137a07701181abfd5e3e5b2"
+   last-author="longzy"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="3727"
+   name="CallerUtils.java"
+   text-time="2016-11-30T01:35:40.750047Z"
+   committed-date="2014-12-01T01:55:00.076240Z"
+   checksum="f9f2e0886a9f98f82fac88af2c94d5a8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="1719"
+   name="FsUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ad91e12115ec79061ab7a533d04f6f8d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.703247Z"/>
+<entry
+   committed-rev="1719"
+   name="CantonEmu.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5f2bcaada6dabc0253e578def5bcfb9a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="2292"
+   name="StrUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-07-08T01:01:29.941462Z"
+   checksum="0fd7225afed7a23a1d75e6d6e4b7d0af"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.687647Z"/>
+<entry
+   committed-rev="1719"
+   name="JsonUtils.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d977357deedef0d435828feab226b357"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.734447Z"/>
+<entry
+   committed-rev="1719"
+   name="FlagUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7289f27885bd0463d1ffac2bfed24696"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.703247Z"/>
+<entry
+   committed-rev="1719"
+   name="Pdf2SwfUtils.java"
+   text-time="2016-11-30T01:35:40.782247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3fc2b782448112ef05030efe3cbb7f4f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.750047Z"/>
+<entry
+   committed-rev="1719"
+   name="DateUtils.java"
+   text-time="2016-11-30T01:35:40.766647Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="131243254533c14cd81f10635d282bc0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.703247Z"/>
+</wc-entries>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/ca.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script>
+	var jsonData='';
+	function getChartData() {
+	    var cmd = new Command('trademan', 'PlowReport', 'getReportMap');
+		cmd.u = "001";
+		cmd.success = function(data,datastr) {
+			jsonData = datastr;
+		};
+		cmd.execute();
+		return jsonData;
+		
+	}
+	
+	function show() {
+		swfobject.embedSWF("base/flash/open-flash-chart.swf",
+				"OpenFlashChartContainer", "500", "400", "9.0.0",
+				"expressInstall.swf", {
+					"get-data" : "getChartData",
+					"id" : "chart",
+					"save_image_message" : "把图形保存为图片",
+					"loading" : "正在加载中..."
+				});
+
+	}
+</script>
+</head>
+<body onload="show();">
+	<div id="OpenFlashChartContainer"></div>
+</body>
+</html>

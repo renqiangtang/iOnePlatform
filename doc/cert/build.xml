@@ -1,0 +1,172 @@
+<project default="server">
+	<property file="build.properties" />
+	<property name="dist" value="./" />
+	<property name="dname" value="CN=${dname.CN},OU=${dname.OU},O=${dname.O},L=${dname.L},ST=${dname.ST},C=${dname.C}" />
+	<target name="server">
+		<echo message="开始keytool...${dname.OU}" />
+		<echo message="dname = { ${dname} }" />
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-delete" />
+			<arg line="-keystore tomcat.keystore" />
+			<arg line="-alias tomcat" />
+			<arg line="-storepass 123456" />
+			<arg line="-keypass 123456" />
+		</exec>
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-genkey -v " />
+			<arg line="-alias tomcat" />
+			<arg line="-keyalg RSA" />
+			<arg line="-validity 3650" />
+			<arg line="-dname ${dname}" />
+			<arg line="-keystore tomcat.keystore" />
+			<arg line="-storepass 123456" />
+			<arg line="-keypass 123456" />
+		</exec>
+		<echo message="end...." />
+	</target>
+	<target name="client">
+		<echo message="keytool..." />
+		<echo message="dname = { ${dname} }" />
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-delete" />
+			<arg line="-keystore client.p12" />
+			<arg line="-alias client" />
+			<arg line="-storepass 123456" />
+			<arg line="-keypass 123456" />
+		</exec>
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-genkey -v " />
+			<arg line="-alias client" />
+			<arg line="-keyalg RSA" />
+			<arg line="-storetype PKCS12" />
+			<arg line="-validity 3650" />
+			<arg line="-dname ${dname}" />
+			<arg line="-keystore client.p12" />
+			<arg line="-storepass 123456" />
+			<arg line="-keypass 123456" />
+		</exec>
+		<echo message="end...." />
+	</target>
+	<target name="clientTocert">
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-export" />
+			<arg line="-alias client" />
+			<arg line="-keystore client.p12" />
+			<arg line="-storetype PKCS12" />
+			<arg line="-storepass 123456" />
+			<arg line="-rfc -file client.cer" />
+		</exec>
+		<echo message="end...." />
+	</target>
+	<target name="importToServer">
+		<exec dir="${dist}" executable="${keytool}">
+			<arg line="-import" />
+			<arg line="-v " />
+			<arg line="-file client.cer" />
+			<arg line="-keystore tomcat.keystore" />
+			<arg line="-storepass 123456" />
+		</exec>
+		<echo message="end...." />
+	</target>
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

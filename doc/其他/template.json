@@ -1,0 +1,77 @@
+{
+    "dictionaries": {
+        "steps": {
+            "须知": {
+                "name": "须知",
+                "moduleId": "0001",
+                "moduleParams": "",
+                "url": ""
+            },
+            "竞买申请书": {
+                "name": "竞买申请书",
+                "moduleId": "0001",
+                "moduleParams": "",
+                "url": ""
+            },
+            "选择银行": {
+                "name": "选择银行",
+                "moduleId": "0001",
+                "moduleParams": "",
+                "url": ""
+            },
+            "竞价": {
+                "name": "竞价",
+                "moduleId": "0001",
+                "moduleParams": "",
+                "url": ""
+            }
+        },
+        "quotas": {
+            "价格": {
+                "name": "价格",
+                "type": "指标类型",
+                "unit": "单位",
+                "numberOfApply": "条件:竞买人数",
+                "numberOfOffer": "条件:出价人数",
+                "numberOfBidder": "条件:0都可以进入,1出过价者才能进入",
+                "firstWait": "进入该指标的等待时间",
+                "limitWait": "每次出价后延迟的时间",
+                "lastWait": "结束该指标的等待时间"
+            }
+        },
+        "transTypes": {
+            "挂牌01": {
+            	"id":"对应的ID",
+                "name": "挂牌01",
+                "trans_type":"交易类型，0挂牌，1拍卖，2招标",
+                "is_net_trans":"0现场交易，1网上交易，2现场和网上同步交易",
+                "is_limit_trans": "是否需要限时竞价",
+                "allow_live": "是否允许网上直播",
+                "allow_union": "是否允许联合竞买",
+                "allow_trust": "是否允许委托报价",
+                "end_notice_time": "公告时长",
+                "end_list_time": "挂牌时长",
+                "end_focus_time": "挂牌报价时长",
+                "is_quotas": "0没有多指标，1有多指标"
+            }
+        }
+    },
+    "businessTypes": {
+        "土地出让": {
+        	"businessType":0,
+            "挂牌": {
+                "transType": "挂牌01",
+                "steps": [
+                    "须知",
+                    "选择银行",
+                    "竞买申请书"
+                ],
+                "quotas": [
+                    "价格",
+                    "容积率",
+                    "绿化率"
+                ]
+            }
+        }
+    }
+}

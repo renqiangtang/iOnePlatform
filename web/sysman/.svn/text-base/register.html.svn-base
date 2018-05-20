@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户注册</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="register.js"></script>
+<script type="text/javascript" src="js/ca.js"></script>
+</head>
+
+<body>
+<div class="login_wrap">
+  <div class="login_header"></div>
+  <div class="login_style">
+  <h2 class="lh_title c3">注册新用户<span style="font-size:12px; margin-left:10px; color:#999">您提供的所有信息,不会被公开或另作它用，请放心填写</span></h2>
+    <div class="user_reg">
+      <ul class="reg_style">
+         <li tag="01">
+          <label style="margin-left: 40px"><span class="red f12 mr5">*</span>CAKEY：</label>
+          <input class="text" type="text"  id="cakey"  value="" />
+          <input type="button" value="读取CAKEY" id="getCaBtn" class="btn_orange c5 f14 fb"/>&nbsp;&nbsp;<input type="button" class="btn_orange c5 f14 fb" id="update" value="证书更新"/>
+           <span class="write_tips" id="cakeyTip"></span>
+        </li>
+        <dir style="align:left" id='display_content'>
+        <li tag="01">
+          <label>类型：</label>
+          <select id="cboIsCompany">
+            <option value="1">企业</option>
+          	<option value="0">个人</option>
+          </select>
+          <span id="listedcompany">
+          <input id="is_listedcompany" type="checkbox" class="vm"/> 是否为上市公司
+          </span>
+        </li>
+        <li tag="01">
+          <label><span class="red f12 mr5">*</span>名称：</label>
+          <input class="text" type="text" id="name" value="" />
+           <span class="write_tips" id="nameTip"></span>
+        </li>
+        <li tag="01">
+          <label><span class="red f12 mr5">*</span>移动电话：</label>
+          <input class="text" type="text" id="mobile"  value="" />
+          <span class="write_tips" id="mobileTip"></span>
+        </li>
+        <li tag="01">
+          <label>电话：</label>
+          <input class="text" type="text" id="tel" value="" />
+          <span class="write_tips" id="telTip"></span>
+        </li>
+        <li tag="01">
+          <label>传真：</label>
+          <input class="text" type="text" id="fax"  value="" />
+        </li>
+        <li tag="01">
+          <label>电子邮箱：</label>
+          <input class="text" type="text" id="email"  value="" />
+        </li>
+        <li tag="01">
+          <label>地址：</label>
+          <input class="text" type="text" id="address"  value="" />
+        </li>
+        <li tag="01">
+          <label>邮编：</label>
+          <input class="text" type="text" id="post_code"  value="" />
+        </li>
+        <li tag="1">
+          <label><span class="red f12 mr5">*</span>联系人：</label>
+          <input class="text" type="text" id="contact"  value="" />
+           <span class="write_tips" id="contactTip"></span>
+        </li>
+        <li tag="01">
+          <label><span class="red f12 mr5">*</span>境外：</label>
+          <select id="is_oversea">
+          <option value="1">境内</option>
+          <option value="2">境外</option>
+        </select>
+        </li>
+        <li tag="1">
+          <label>营业执照：</label>
+          <input class="text" type="text" id="reg_no"  value="" />
+        </li>
+        <li tag="1">
+          <label>注册地址：</label>
+          <input class="text" type="text" id="reg_address"  value="" />
+        </li>
+        <li tag="1">
+          <label>注册资本：</label>
+          <input class="text" type="text" id="reg_capital"  value="" />
+        </li>
+        <li tag="1">
+          <label>企业类别：</label>
+          <input class="text" type="text" id="reg_type"  value="" />
+        </li>
+        <li tag="1">
+          <label>经营范围：</label>
+          <input class="text" type="text" id="reg_area"  value="" />
+        </li>
+        <li tag="1">
+          <label><span class="red f12 mr5">*</span>法人：</label>
+          <input class="text" type="text" id="reg_corporation"  value="" />
+           <span class="write_tips" id="reg_corporationTip"></span>
+        </li>
+        <li tag="01">
+          <label><span class="red f12 mr5">*</span>身份证号：</label>
+          <input class="text" type="text" id="reg_corporation_idno"  value="" />
+           <span class="write_tips" id="reg_corporation_idnoTip"></span>
+        </li>
+
+        <li tag="01">
+          <label style="vertical-align:top">备注：</label>
+          <textarea  id="remark" name="" rows="10" cols="60"></textarea>
+        </li>
+        </dir>
+      </ul>
+      <p id='display_btn' class="tc"><input type="button" class="btn_orange c5 f14 fb" id="save" value="提交"/></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

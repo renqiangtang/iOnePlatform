@@ -1,0 +1,48 @@
+--11g导出dmp时空表需要执行
+alter system set deferred_segment_creation=false;
+
+--创建系统表表空间
+CREATE TABLESPACE "EPF_SYSTEM" 
+    LOGGING 
+    DATAFILE '/app/oracle/oradata/slreec/EPF_SYSTEM.ora' SIZE 50M
+    AUTOEXTEND 
+    ON NEXT  50M MAXSIZE UNLIMITED EXTENT MANAGEMENT LOCAL 
+    SEGMENT SPACE MANAGEMENT  AUTO;
+
+--创建表索引表空间
+CREATE TABLESPACE "EPF_INDEX" 
+    LOGGING 
+    DATAFILE '/app/oracle/oradata/slreec/EPF_INDEX.ora' SIZE 50M
+    AUTOEXTEND 
+    ON NEXT  50M MAXSIZE UNLIMITED EXTENT MANAGEMENT LOCAL 
+    SEGMENT SPACE MANAGEMENT  AUTO;
+
+--创建大字段表空间
+CREATE TABLESPACE "EPF_LOB" 
+    LOGGING 
+    DATAFILE '/app/oracle/oradata/slreec/EPF_LOB.ora' SIZE 50M
+    AUTOEXTEND 
+    ON NEXT  50M MAXSIZE UNLIMITED EXTENT MANAGEMENT LOCAL 
+    SEGMENT SPACE MANAGEMENT  AUTO;
+
+--创建交易表空间
+CREATE TABLESPACE "EPF_TRANSACTION" 
+    LOGGING 
+    DATAFILE '/app/oracle/oradata/slreec/EPF_TRANSACTION.ora' SIZE 50M
+    AUTOEXTEND 
+    ON NEXT  50M MAXSIZE UNLIMITED EXTENT MANAGEMENT LOCAL 
+    SEGMENT SPACE MANAGEMENT  AUTO;
+
+--删除用户
+drop user transaction cascade;
+
+--创建用户
+CREATE USER "TRANSACTION"  PROFILE "DEFAULT" 
+    IDENTIFIED BY "transaction" DEFAULT TABLESPACE "EPF_TRANSACTION" 
+    ACCOUNT UNLOCK;
+GRANT UNLIMITED TABLESPACE TO "TRANSACTION" WITH ADMIN OPTION;
+GRANT "CONNECT" TO "TRANSACTION" WITH ADMIN OPTION;
+GRANT "DBA" TO "TRANSACTION" WITH ADMIN OPTION;
+
+exp transaction/transaction@192.168.5.230:1521/egovsid file=$(date +%Y%m%d)$(date +%H%M%S).dmp
+imp transaction/transaction@192.168.5.250:1521/slreec fromuser=transaction touser=transaction ignore=y file=xxxxxx

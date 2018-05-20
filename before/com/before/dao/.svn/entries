@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/before/com/before/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="TransGoodsMineDao.java"
+   text-time="2016-11-30T01:36:25.265906Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc1fb9e7118e57b3bb639445a097b745"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.172306Z"/>
+<entry
+   committed-rev="1719"
+   name="TransGoodsLandDao.java"
+   text-time="2016-11-30T01:36:25.265906Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2bf4dbb81de9dca24860283a75e02552"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.172306Z"/>
+<entry
+   committed-rev="1719"
+   name="TransNoticeMineDao.java"
+   text-time="2016-11-30T01:36:25.281506Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9df9be69442acbd18a496c8e4f6302d8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.250306Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowNoticeDao.java"
+   text-time="2016-11-30T01:36:25.250306Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c280c6cef84e3ecb596a809354cdf341"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.156706Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowTrustDao.java"
+   text-time="2016-11-30T01:36:25.250306Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="02f9799fa86da4f06e0510b9907d01ec"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.172306Z"/>
+<entry
+   committed-rev="1719"
+   name="TransGoodsDao_back.java"
+   text-time="2016-11-30T01:36:25.265906Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="836326291e841acd7e1757f553069523"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.172306Z"/>
+<entry
+   committed-rev="1719"
+   name="TransNoticeDao.java"
+   text-time="2016-11-30T01:36:25.265906Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5270ebde1e23d80bb54690170c3052e9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.187906Z"/>
+</wc-entries>

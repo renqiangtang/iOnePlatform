@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>银行报文列表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="bankBusinessList.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div id="tab1" class="trade_tab mt5">
+    <div title="银行报文">
+      <div id="bankBillAll" class="trade_search tr pt5 pb5 pr5 mb5">
+      	<table border="0" class="search_grid">
+            <tr>
+                <td class="title">报文类型：</td>
+                <td><input type="text" id="trxCode" class="i-input_w120 i-input_bg"/></td>
+                <td class="title">银行编号：</td>
+                <td><input type="text" id="bankId" class="i-input_w120 i-input_bg"/></td>
+                <td class="title">报文日期：</td>
+                <td><input type="text" id="startTime" class="i-input_w120 i-input_bg"/></td>
+                <td class="tc" width="30">至</td>
+                <td><input type="text" id="endTime" class="i-input_w120 i-input_bg"/></td>
+                <td class="btn tc">
+                    <span class="wr_btn"><input id="btnQuery" type="button" value="查询" class="o_btn" /></span>
+                </td>
+            </tr>
+        </table>
+      </div>
+      <div id="bankBusinessData" class="trade_panel"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

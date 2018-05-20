@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/common"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="invalid-line.gif"
+   text-time="2016-11-30T01:35:35.411630Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="04a88e97b56e8a8ece4a66d49cc78828"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.285830Z"/>
+<entry
+   committed-rev="1719"
+   name="drop-icons.gif"
+   text-time="2016-11-30T01:35:35.285830Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="20878961ba34c3193f52177696e59f51"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.189230Z"/>
+<entry
+   committed-rev="1719"
+   name="loading.gif"
+   text-time="2016-11-30T01:35:35.411630Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e189d43a4cec2442bb131ebba64637d4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.285830Z"/>
+<entry
+   committed-rev="1719"
+   name="bigloading.gif"
+   text-time="2016-11-30T01:35:35.285830Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b1400fb7f115b58dd9dcdec66eb4510d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.189230Z"/>
+<entry
+   committed-rev="1719"
+   name="exclamation.gif"
+   text-time="2016-11-30T01:35:35.396030Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9697ec57975d99f1ad81e4cfca9359ed"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.236030Z"/>
+<entry
+   committed-rev="1719"
+   name="table.png"
+   text-time="2016-11-30T01:35:35.411630Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fee040a77b0766093b56268370e24aff"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:35.285830Z"/>
+</wc-entries>

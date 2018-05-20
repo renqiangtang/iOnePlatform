@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Node id="N01" name="开始节点"  />
+	<Node id="N02" name="结束节点" clazz="com.trademine.engine.HandleN02"/>
+	<Phase id="L01" name="公告期"  clazz="com.trademine.engine.HandleL01"/>
+	<Phase id="L02" name="集中报价期" clazz="com.trademine.engine.HandleL02" finalTip="最高限制地价"/>
+	<Phase id="L03" name="限时竞价期"/>
+	<Quota id="Q01" name="价格" firstWait='300' limitWait='300'
+		lastWait="10"  clazz="com.trademine.engine.HandleL03" finalTip="最高限制价格"/>
+	<Quota id="Q02" name="容积率指标" firstWait='300' limitWait='300'
+		lastWait="10" clazz="com.trademine.engine.HandleL03" finalTip="封顶价"/>	
+	<Quota id="Q03" name="绿化率指标" firstWait='300' limitWait='300'
+		lastWait="10" clazz="com.trademine.engine.HandleL03" finalTip="封顶价"/>		
+</root>

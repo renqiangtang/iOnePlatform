@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/test/zTree"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="test.html"
+   text-time="2016-11-30T01:35:39.778642Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="daba90f5b55cec5cb83fd09a15c614d2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.778642Z"/>
+<entry
+   name="diy"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="test.js"
+   text-time="2016-11-30T01:35:39.778642Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="239cca0e1f31282987c49531d8d1101a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.778642Z"/>
+<entry
+   committed-rev="1719"
+   name="demo.css"
+   text-time="2016-11-30T01:35:39.778642Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9f796f538e456332b59a3aa9e6d3f197"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.731842Z"/>
+</wc-entries>

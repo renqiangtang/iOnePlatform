@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>
+			竞买人注册
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link href="css/all.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.md5.js"></script>
+		<script type="text/javascript" src="js/json2.js"></script>
+		<script type="text/javascript" src="js/ligerui.all.js"></script>
+		<script type="text/javascript" src="js/datepicker.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="registBidder.js">
+		</script>
+	</head>
+	<body>
+		<div id="bidderEditor" class="regis_wrap">
+			<div class="regis_con p10 pt5 pr10 pb10">
+				<div class="regis_top fb fb f20 pt5 pb5">
+					<b class="fl">
+					</b>
+					<span id="registTitle" class="c3">竞买人注册</span>
+					<input type="button" value="测试" id="test" style="display:none"/>
+				</div>
+				<div class="step">
+					<ul id="registNavi">
+						<li id="naviNotice" class="sel">
+							<a>
+							<b>1</b>
+							<span class="f14 fb f2 ml5 fl">须知</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviUser">
+							<a>
+							<b>2</b>
+							<span class="f14 fb f2 ml5 fl">登录信息</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviBidderType">
+							<a>
+							<b>3</b>
+							<span class="f14 fb f2 ml5 fl">类型</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviBidder">
+							<a>
+							<b>4</b>
+							<span class="f14 fb f2 ml5 fl">基本资料</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviCondition">
+							<a>
+							<b>5</b>
+							<span class="f14 fb f2 ml5 fl">资格条件</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviAttach">
+							<a>
+							<b>6</b>
+							<span class="f14 fb f2 ml5 fl">上传材料</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviSubmit">
+							<a>
+							<b>7</b>
+							<span class="f14 fb f2 ml5 fl">提交审核</span>
+							</a>
+							<i></i>
+						</li>
+						<li id="naviConfirm">
+							<a>
+							<b>8</b>
+							<span class="f14 fb f2 ml5 fl">审核状态</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="bg_b">
+					<div class="regis_container f1 pb10">
+						<div class="regis_box">
+							<!-- 用户须知begin -->
+							<div id="stepNotice" class="pl15 pr15 pt15 remind">
+								<p>
+									一、总则
+								</p>
+								<br>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;1．1&#12288;用户应当同意本协议的条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击"同意"按钮即表示用户与本网站达成协议，完全接受本协议项下的全部条款。
+									<br>
+									&nbsp;&nbsp;&nbsp;&nbsp;1．2&#12288;用户注册成功并审核后，将给予每个用户一个用户帐号及相应的密码，该用户帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。
+								</p>
+								<br>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;您在使用本网站提供的各项服务之前，应仔细阅读本服务协议。如您不同意本服务协议及/或随时对其的修改，您可以主动取消我们提供的服务；您一旦使用我们网站的服务，即视为您已了解并完全同意本服务协议各项内容。
+								</p>
+								<br>
+								<p>
+									二、使用规则
+								</p>
+								<br>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;2．1&#12288;用户在使用服务时，必须遵守中华人民共和国相关法律法规的规定，用户应同意将不会利用本服务进行任何违法或不正当的活动，包括但不限于下列行为∶
+								</p>
+								<p>
+									&nbsp;&nbsp;1) 反对宪法所确定的基本原则的；
+								</p>
+								<p>
+									&nbsp;&nbsp;2) 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；
+								</p>
+								<p>
+									&nbsp;&nbsp;3) 损害国家荣誉和利益的；
+								</p>
+								<p>
+									&nbsp;&nbsp;4) 煽动民族仇恨、民族歧视、破坏民族团结的；
+								</p>
+								<p>
+									&nbsp;&nbsp;5) 破坏国家宗教政策，宣扬邪教和封建迷信的；
+								</p>
+								<p>
+									&nbsp;&nbsp;6) 散布谣言，扰乱社会秩序，破坏社会稳定的；
+								</p>
+								<p>
+									&nbsp;&nbsp;7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+								</p>
+								<p>
+									&nbsp;&nbsp;8) 侮辱或者诽谤他人，侵害他人合法权利的；
+								</p>
+								<p>
+									&nbsp;&nbsp;9) 含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；
+								</p>
+								<p>
+									&nbsp;10) 含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的；
+									<br>
+								</p>
+								<div></div>
+								<div class="group tc pt10 pr">
+									<div class="abs-left"><input class="vm mr5" type="checkbox" id="chkAlreadyRead"/><label class="vm" id="lblAlreadyRead" for="chkAlreadyRead">我已认真阅读以上须知内容</label></div>
+									<a id="nextStep1" class="next_btn mr10 f14" >
+										同意
+									</a>
+									<a id="closeDialog1" class="cancel_btn f14" href="">
+										取消
+									</a>
+								</div>
+							</div>
+							<!-- 用户须知end -->
+							<!-- 登录用户begin -->
+							<div id="stepUser" class=" reg_info  reg_container" style="display:none;">
+								<table width=100%>
+									<tr><td colspan="3"><div class="pt10"></div></td>
+									
+									</tr>
+									<tr>
+										<td width=15% class="tr">
+											<span class="c6 mr5">*</span>登录名称：
+										</td>
+										<td width=30%>
+											<input type="text" id="txtUserName" value="" size="30" minLen="4" maxLen="50" lenMessage="登录名称长度必须为4到50个字符。" class="reg_input"/>
+										</td>
+										<td width=55% class="lh20 c11 pr10">
+											由字母a～z(区分大小写)、数字0～9、点或下划线组成 只能以字母开头，用户名长度为4～50个字符。注册后不能再修改，请牢记。
+										</td>
+									</tr>
+									<tr>
+										<td class="tr">
+											<span id="lblPasswordRequired" class="c6 mr5">*</span>密码：
+										</td>
+										<td>
+											<input type="password" id="txtPassword" value="" size="30" maxLen="50" lenMessage="密码长度必须为1到50个字符。" class="reg_input"/>
+										</td>
+										<td class="c11">
+											密码长度为不超过50的任意字符
+										</td>
+									</tr>
+									<tr>
+										<td class="tr">
+											<span id="lblConfirmPasswordRequired" class="c6 mr5">*</span>确认密码：
+										</td>
+										<td class="tl">
+											<input type="password" id="txtConfirmPassword" value="" size="30" class="reg_input"/>
+										</td>
+										<td class="c11">
+											<img id="imgUserPasswordOk" src="/base/skins/default/images/icons/ok.gif" style="display:none;"/>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!-- 登录信息end -->
+							<!-- 竞买人类型begin -->
+							<div id="stepBidderType" class="tc reg_container" style="display:none;">
+								<p class="tc pt30 pb30 f18 c7 f2">点击你要注册的用户类型</p>
+								<img id="imgUserType" src="./images/base/user_type.jpg"
+								usemap="#Map" border="0" />
+								<map name="Map" id="Map">
+									<area id="isCompany0" shape="rect" coords="1,2,176,59" href="#" title="个人竞买人" />
+	  						 	    <area id="isCompany1" shape="rect" coords="207,1,383,60" href="#" title="企业竞买人" />
+								</map>
+							</div>
+							<!-- 竞买人类型end -->
+							<!-- 基本资料begin -->
+							<div id="stepBidder" class="reg_container">
+								<div id="unionNavi" class="fl bidder_materia_l">
+									<ul id="unionList">
+										<li>
+											<a id="unionBidder0" href="">
+												联合竞买人1
+											</a>
+											<i id="deleteUnionBidder0" style="display:none">
+											</i>
+										</li>
+										<li class="sel">
+											<a id="unionBidder1" href="">
+												联合竞买人2
+											</a>
+											<i id="deleteUnionBidder1" style="display:none">
+											</i>
+										</li>
+									</ul>
+									<div id="pnlAddUnionBidder" class="tc add_bidder">
+										<a id="addUnionBidder" href="">
+											<i class="pr10">
+											</i>
+											添加更多
+										</a>
+									</div>
+								</div>
+								<div id="bidderEditor" class="bidder_materia_r reg_info">
+									<table width=100% class="">
+										<tbody id="pnlIsCompany">
+										<tr><td colspan="2"><div class="pt10"></div></tr>
+										<tr>
+											<td class="tr" width="35%">
+												<span class="c6 mr5">*</span>
+												是否企业：
+											</td>
+											<td width="65%">
+												<input type="radio" name="isCompany" id="rbtnIsCompany0" value="0" checked/>
+												<label id="lblIsCompany0" for="rbtnIsCompany0">个人</label>&nbsp;&nbsp;
+												<input type="radio" name="isCompany" id="rbtnIsCompany1" value="1" />
+												<label id="lblIsCompany1" for="rbtnIsCompany1">企业</label>
+											</td>
+										</tr>
+										</tbody>
+										<tr>
+											<td class="tr" width="35%">
+												<span class="c6 mr5">*</span>
+												<span id="lblName">名称</span>：
+											</td>
+											<td width="65%">
+												<input type="text" id="txtName" value="" size="30" class="reg_input"/>
+											</td>
+										</tr>
+										<tbody id="pnlCompany0">
+											<tr>
+												<td class="tr">
+													<span class="c6 mr5">*</span>
+													联系人：
+												</td>
+												<td>
+													<input type="text" id="txtContact" value="" size="30" class="reg_input" />
+												</td>
+											</tr>
+										</tbody>
+										<tr id="mobileRow">
+											<td class="tr">
+												<span class="c6 mr5">*</span>
+												移动电话：
+											</td>
+											<td class="tl ">
+												<input type="text" id="txtMobile" value="" size="30" class="reg_input"/>
+											</td>
+										</tr>
+										<tr id="addressRow">
+											<td class="tr">
+												<span id="lblAddressRequired" class="c6 mr5">*</span>
+												通讯地址：
+											</td>
+											<td>
+												<input type="text" id="txtAddress" value="" size="45" class="reg_input"/>
+											</td>
+										</tr>
+										<tr>
+											<td class="tr">
+												<span class="c6 mr5">*</span>
+												行政区：
+											</td>
+											<td>
+												<input type="text" id="txtCantonName" readonly size="30" class="reg_input"/>
+												<input type="button" class="i-btn2" value="选择" id="btnSelectCanton">
+												<input type="hidden" id="txtCantonId"/>
+											</td>
+										</tr>
+										<tbody id="pnlPersonal" style="display:none">
+											<tr>
+												<td class="tr" width="35%">
+													<span class="c6 mr5">*</span>
+													<span id="lblCertificateNo">身份证号</span>：
+												</td>
+												<td width="65%">
+													<input type="text" id="txtCertificateNo" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+										</tbody>
+										<tbody id="pnlCompany1">
+											<tr>
+												<td class="tr">
+													<span class="c6 mr5">*</span>
+													法定代表人名称：
+												</td>
+												<td>
+													<input type="text" id="txtRegCorporation" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													<span class="c6 mr5">*</span>
+													法定代表人证件号码：
+												</td>
+												<td>
+													<input type="text" id="txtRegCorporationIdno" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													<span class="c6 mr5">*</span>
+													营业执照号:
+												</td>
+												<td>
+													<input type="text" id="txtRegNo" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													<span class="c6 mr5">*</span>
+													组织机构代码:
+												</td>
+												<td>
+													<input type="text" id="txtCompanyCode" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													<span id="lblRegAddressRequired" class="c6 mr5">*</span>
+													注册地址：
+												</td>
+												<td>
+													<input type="text" id="txtRegAddress" value="" size="45" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													注册资本：
+												</td>
+												<td>
+													<input type="text" id="txtRegCapital" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													经营范围：
+												</td>
+												<td>
+													<input type="text" id="txtRegArea" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													企业类别：
+												</td>
+												<td>
+													<input type="text" id="txtRegType" value="" size="30" class="reg_input"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													电话：
+												</td>
+												<td>
+													<input type="text" id="txtTel" value="" size="30" class="reg_input" />
+												</td>
+											</tr>
+											<tr>
+												<td class="tr">
+													传真：
+												</td>
+												<td>
+													<input type="text" id="txtFax" value="" size="30" class="reg_input" />
+												</td>
+											</tr>
+										</tbody>
+										<tr id="emailRow">
+											<td class="tr" width="16%">
+												电子邮箱：
+											</td>
+											<td width="42%">
+												<input type="text" id="txtEmail" value="" size="30" class="reg_input"/>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<!-- 基本资料end -->
+							<!-- 资格条件begin -->
+							<div id="stepCondition" class=" reg_info reg_container" style="display:none;">
+								<table width=100%>
+									
+								</table>
+							</div>
+							<!-- 资格条件end -->
+							<!-- 提交申请/数据begin -->
+							<div id="stepSubmit" class=" reg_info reg_container pl10 pr10" style="display:none;">
+								<p id="summaryTitle" class="pb10 pt10">正在汇总需提交的摘要内容...</p>
+								<div  class="apply_info">
+								<table width=100% id="submitSummary" cellspacing="0" cellpadding="0">
+									<tr>
+										<th width="15%">登录用户名：</th>
+										<td width="85%" class="c2">Admin</td>
+									</tr>
+									<tr>
+										<th>联合竞买人 1：</th>
+										<td>
+											<table width="100%" border="0" cellspacing="0" cellpadding="3">
+												<tr>
+													<td width="12%" align="right">姓名：</td>
+													<td width="88%" class="c2">刘在二重</td>
+												</tr>
+												<tr>
+													<td align="right">户籍类型：</td>
+													<td class="c2">深户</td>
+												</tr>
+												<tr>
+													<td align="right">身份证号：</td>
+													<td class="c2">450121185004075859</td>
+												</tr>
+												<tr>
+													<td align="right">移动电话：</td>
+													<td class="c2">13510538986</td>
+												</tr>
+												<tr>
+													<td align="right">电子邮箱：</td>
+													<td class="c2">whuiqun@qq.com</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								</div>
+							</div>
+							<!-- 提交申请/数据end -->
+							<!-- 附件begin -->
+							<div id="stepAttach" style="display:none;" class="reg_container">
+								<div id="attachNavi" class="fl bidder_materia_l">
+									<ul id="ownerList">
+										<li class="sel">
+											<a id="owner0" href="">
+												联合竞买人1
+											</a>
+										</li>
+										<li>
+											<a id="owner1" href="">
+												联合竞买人2
+											</a>
+										</li>
+										<li class="">
+											<a id="owner-1" href="">
+												公用材料
+											</a>
+										</li>
+									</ul>
+									<div class="tc add_bidder">
+										<a id="attchHelp">
+											<i class="pr10">
+											</i>
+											帮助
+										</a>
+									</div>
+								</div>
+								<div id="attachEditor" class="bidder_materia_r">
+									<div id="unsavedAttachPrompt" style='display:none'>
+										当前竞买人数据未保存，请保存数据后再上传材料。
+									</div>
+									<div id="attachPanel"></div>
+								</div>
+							</div>
+							<!-- 附件end -->
+							<!-- 审核begin -->
+							<div id="stepConfirm" class="reg_container reg_info" style="display:none;">
+								<table width=100% class="">
+									<tr><td colspan="2"><div class="pt10"></div></td></tr>
+									<tr>
+										<td width="20%" class="tr">
+											审核状态：
+										</td>
+										<td width=80%>
+											<span id="lblStatus"></span>&nbsp;&nbsp;<span id="lblStatusPrompt" style="display:none">状态提示</span>
+										</td>
+									</tr>
+									<tr>
+										<td width="20%" class="tr">
+											审核日期：
+										</td>
+										<td width=80%>
+											<span id="lblConfirmDate"></span>
+										</td>
+									</tr>
+									<tbody id="confirmFail" style="display:none;">
+										<tr>
+											<td height="90" class="tr">
+												未通过原因：
+											</td>
+											<td>
+												<span id="lblConfirmOpinion"></span>
+											</td>
+										</tr>
+										<tr>
+											<td class="tr">
+											</td>
+											<td>
+												<span id="gotoPrefix"  style="display:none;">现在就去，</span>
+												<span class="wr_btn" id="gotoModifyBidderData" style="display:none;">
+													<input type="button" value="修改资料" class="o_btn" />
+												</span>
+												<span class="wr_btn" id="gotoUploadAttach" style="display:none;">
+													<input type="button" value="上传材料" class="o_btn" />
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- 审核end -->
+						</div>
+						<div id="pnlToolbar" class="group tc pt10">
+							<a id="priorStep" class="up_btn mr10 f14" href="">
+								上一步
+							</a>
+							<a id="nextStep" class="next_btn mr10 f14" href="">
+								下一步
+							</a>
+							<a id="saveData" class="next_btn mr10 f14" href="">
+								保存
+							</a>
+							<a id="submitData" class="next_btn mr10 f14" href="">
+								提交
+							</a>
+							<a id="closeDialog" class="cancel_btn f14" href="">
+								取消
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="pnlSubmitData" class="trade_tab fl mt5" style="width:300px; display:none;">
+			<table width="100%" class="">
+				<tr>
+					<td height="30" class="tl" colspan="2">
+						<span id="confirmPrompt">请输入验证码后提交数据。</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="35%" class="tr">
+						<span class="c6 mr5">*</span>
+						输入验证码：
+					</td>
+					<td class="tl">
+						<input type="text" id="txtSecurityCode" value="" size="10" class="reg_input"/>
+						<img border="0" height="20" width="50" id="codeImage" src="">
+						<a id="refreshSecurityCode">
+							换个图片
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

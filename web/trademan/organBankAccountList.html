@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>单位银行管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="organBankAccountList.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5">
+	  <table border="0" class="search_grid" width="100%">
+		<tr>
+		    <td class="title" style="width:100px; height:32px; text-align:left; padding-left:5px;font-weight:bold">直连银行账号</td>
+		    <td class="btn tr pr5">
+		        <span class="wr_btn" id="createBank"><input type="button" value="创建银行" class="o_btn" /></span>
+	          	<span class="wr_btn" id="myBankCreate"><input type="button" value="创建账号" class="o_btn" /></span>
+	            <span class="wr_btn" id="myBankDelete"><input type="button" value="删除账号" class="o_btn" /></span>
+	        </td>
+	    </tr>
+	 </table>
+  </div>
+  <div id="myBankListGrid" class="trade_panel"></div>
+  <br>
+  <div class="trade_search mb5 mt5">
+	  <table border="0" class="search_grid"  width="100%">
+			<tr>
+			    <td class="title"  style="width:100px; height:32px; text-align:left; padding-left:5px;font-weight:bold">委托银行</td>
+			    <td class="btn tr pr5">
+		        	<span class="wr_btn" id="trustBankSelect"><input type="button" value="选择银行" class="o_btn" /></span>
+		            <span class="wr_btn" id="trustBankDelete"><input type="button" value="删除银行" class="o_btn" /></span>
+		      </td>
+		  </tr>
+	  </table>
+ </div>
+ <div id="trustBankListGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

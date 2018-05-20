@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/before/com/before/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="TransModifyService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="85251e04088e9cc39b950085690ba1d1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.456106Z"/>
+<entry
+   committed-rev="1719"
+   name="TransGoodsLandService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4d6642342d6e5b9fb09f3f824fb51701"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.362506Z"/>
+<entry
+   committed-rev="1719"
+   name="TransNoticeMineService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0a913dce65b87750a2f9761dba79ea4c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.487306Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowNoticeService.java"
+   text-time="2016-11-30T01:36:25.502907Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="54cea187f3c8bdb8cf46280acabda737"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.281506Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowTrustService.java"
+   text-time="2016-11-30T01:36:25.502907Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3d998851f2ec29b57a4a141de505f089"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.281506Z"/>
+<entry
+   committed-rev="1719"
+   name="TransModifyMineService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1fb9343708b434a9914df28ca0e5511a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.456106Z"/>
+<entry
+   committed-rev="1719"
+   name="TransNoticeService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f7a5042b6a06a3c07b9337fe545ba95d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.502907Z"/>
+<entry
+   committed-rev="1719"
+   name="TransGoodsMineService.java"
+   text-time="2016-11-30T01:36:25.518507Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ecd5e13a25960ded4178c15d466da5b4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:25.440506Z"/>
+</wc-entries>

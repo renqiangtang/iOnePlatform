@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>土地管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="productList.js"></script>
+</head>
+<body class="land">
+<div class="trade_container">
+  <div class="trade_select mt5">
+    <div class="ts_head"> <strong>&nbsp;-&nbsp;筛选条件：</strong>
+      <div class="fr"><a id="queryAll" href="#" class="link01">重置筛选条件</a></div>
+    </div>
+    <dl class="fore">
+      <dt>行政辖区: </dt>
+      <dd id="cantonDiv">
+        <div><a id="0" href="#" class="curr">不限</a></div>
+        <div><a id="1" href="#">福田区</a></div>
+        <div><a id="2" href="#">罗湖区</a></div>
+        <div><a id="3" href="#">南山区</a></div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>交易类型: </dt>
+      <dd id="businessTypeDiv">
+        <div><a id="0" href="#" class="curr">不限</a></div>
+        <div><a id="1" href="#">交易类型一</a></div>
+        <div><a id="2" href="#">交易类型二</a></div>
+        <div><a id="3" href="#">交易类型三</a></div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>交易方式: </dt>
+      <dd id="transTypeDiv">
+        <div><a id="0" href="#" class="curr">不限</a></div>
+        <div><a id="1" href="#">交易方式一</a></div>
+        <div><a id="2" href="#">交易方式二</a></div>
+      </dd>
+    </dl>
+    <dl class="none">
+      <dt>查询条件: </dt>
+      <dd>
+        <div><a id="0" href="#" class="curr">不限</a></div>
+        <div><a id="1" href="#">条件一</a></div>
+        <div><a id="2" href="#">条件一</a></div>
+      </dd>
+    </dl>
+  </div>
+  <!--
+  <div id="advanced">
+  	<div>
+    	<a href="#" class="link01">高级搜索</a>
+        <b></b>
+    </div>
+  </div>
+  --> 
+  <!-- filter start -->
+  <div id="filter">
+    <div class="fore1"> 
+      <!--
+    	<dl class="order">
+        	<dt>排序：</dt>
+        	<dd><a href="#" class="curr"><span>公告时间</span><span></span></a></dd>
+            <dd><a href="#"><span>关注度</span><span></span></a></dd>
+        </dl>
+        -->
+      <div class="pagin"> <span class="text" id="pageInfo1">1/1</span> <a href="#" class="prev" id="pagePrev1">上一页<b></b></a> <a href="#" class="next" id="pageNext1">下一页<b></b></a> </div>
+    </div>
+  </div>
+  <!-- filter end --> 
+  <!-- plist start -->
+  <div class="list-h" id="productDiv">
+    <div class="targetItem" >
+      <div class="targetItem_select">
+        <div class="t-head">
+        	<div class="text">土地转让</div>
+             <div class="more" title="多币种"></div>
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <div class="f-gm" title="直接购买"></div>
+          <div class="f-gwc"></div>
+        </div>
+      </div>
+    </div>
+    <div class="targetItem " >
+      <div class="targetItem_unselect">
+        <div class="t-head">
+        <div class="text">土地转让</div>
+             <div class="more" title="多币种"></div>
+        
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <div class="t-footer-sel">本标地已结束</div>
+        </div>
+      </div>
+    </div>
+    <div class="targetItem" >
+      <div class="targetItem_unselect">
+        <div class="t-head">
+        <div class="text">土地转让</div>
+             <div class="more" title="多币种"></div>
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <div class="f-gm"></div>
+          <div class="f-gwc"></div>
+        </div>
+      </div>
+    </div>
+    <div class="targetItem " >
+      <div class="targetItem_unselect">
+        <div class="t-head">
+        	<div class="text">土地转让</div>
+            <div class="more" title="多币种"></div>
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <span class="f-gm" title="直接购买"></span>
+          <span class="f-gwc" title="加入购物车"></span>
+        </div>
+      </div>
+    </div>
+    <div class="targetItem " >
+      <div class="targetItem_unselect">
+        <div class="t-head">
+        <div class="text">土地转让</div>
+             <div class="more" title="多币种"></div>
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <div class="t-footer-sel">本标地已结束</div>
+        </div>
+      </div>
+    </div>
+    <div class="targetItem " >
+      <div class="targetItem_unselect">
+        <div class="t-head">
+        <div class="text">土地转让</div>
+             <div class="more" title="多币种"></div>
+        </div>
+        <div class="t-body">
+          <div class="t-body-name">广东省河源市天河区体育东路220号之六编号58585土地竞标</div>
+          <ul class="t-body-cont">
+            <li class="first-li">
+              <div class="name">起始价</div>
+              <div class="value">5000万</div>
+            </li>
+            <li class="sec-li">
+              <div class="name">增价幅度</div>
+              <div class="value">100万</div>
+            </li>
+            <li class="third-li">
+              <div class="name">保证金</div>
+              <div class="value">300万</div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="t-footer">
+          <div class="t-footer-sel">本标地已结束</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- plist end -->
+  <div class="mb10" style="clear:both;">
+    <div class="pagin"> <span class="text" id="pageInfo2">1/1</span> <a href="#" class="prev" id="pagePrev2">上一页<b></b></a> <a href="#" class="next" id="pageNext2">下一页<b></b></a> </div>
+  </div>
+</div>
+</body>
+</html>

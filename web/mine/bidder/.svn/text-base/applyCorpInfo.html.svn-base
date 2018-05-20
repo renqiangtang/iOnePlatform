@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>拟成立项目公司</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="applyCorpInfo.js"></script>
+</head>
+<body class="mine">
+<div class="part_bidderway">
+  <div class="o_write" id="gs">
+    <h1>拟成立项目公司</h1>
+    <table width="98%" id="corpInfoTable" >
+      <tr>
+        <td width="20%" height="30" class="tr" >公司名称：</td>
+        <td><input type="text" id="name" /> </td>
+        <td width="30%" height="30" class="tr">联系人：</td>
+        <td><input type="text" id="contact" value="" /> </td>
+      </tr>
+      <tr>
+        <td width="20%" height="30" class="tr">传真：</td>
+        <td><input type="text" id="fax" value="" /> </td>
+        <td width="30%" height="30" class="tr">电话：</td>
+        <td><input type="text" id="tel" value="" /> </td>
+      </tr>
+      <tr>
+        <td width="20%" height="30" class="tr">联系人电话：</td>
+        <td><input type="text" id="contact_tel" value="" /> </td>
+        <td width="30%" height="30" class="tr">联系人职务：</td>
+        <td><input type="text" id="contact_office" value="" /> </td>
+      </tr>
+      <tr>
+        <td width="20%" height="30" class="tr">注册资金：</td>
+        <td><input type="text" id="reg_capital" value="" /> </td>
+        <td width="30%" height="30" class="tr">备注：</td>
+        <td><input type="text" id="reamrk" value="" /> </td>
+      </tr>
+    </table>
+    </div>
+    <!-- 
+    <div class="part_bidderway">
+    <div>股东列表</div>
+	    <div id="corpGrid">
+		    <table>
+		     <tr>
+		          <td>股东名称</td>
+		          <td>身份证号码/营业执照编号</td>
+		          <td>投资比例</td>
+		          <td>电话</td>
+		          <td>操作</td>
+		     </tr>
+		    </table>
+	    </div>
+	</div>
+	-->
+    <div class="part_bidderway">
+    <!-- 
+    <div>新增股东</div>
+    <table width="98%" id="corpInfoTable" >
+      <tr>
+          <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>股东名称:</td>
+          <td class="s_rb"><input type="text" id="" class="i-input_off" style="width:90%" requireValue="股东名称不能为空!"/></td>
+          <td class="h_bk s_rb tr"><span class="c6">*</span>身份证号/营业执照编号：</td>
+          <td class="s_b"><input type="text" id="" class="i-input_off" requireValue="身份证号/营业执照编号不能为空!"/>年</td>
+      </tr>
+      <tr>
+          <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>电话:</td>
+          <td class="s_rb"><input type="text" id="" class="i-input_off" style="width:90%" requireValue="电话不能为空!"/></td>
+          <td class="h_bk s_rb tr"><span class="c6">*</span>投资比例：</td>
+          <td class="s_b"><input type="text" id="" class="i-input_off" requireNumber="投资比例必须是数字" requireValue="投资比例不能为空!"/>%</td>
+      </tr>
+      <tr>
+          <td height="28" class="h_bk s_rb tr">地址:</td>
+          <td class="s_rb"><input type="text" id="" class="i-input_off" style="width:90%"/></td>
+          <td class="h_bk s_rb tr">电子邮箱：</td>
+          <td class="s_b"><input type="text" id="" class="i-input_off"/></td>
+      </tr>
+     <tr>
+          <td height="28" class="h_bk s_rb tr">备注:</td>
+          <td class="s_rb"><input type="text" id="" class="i-input_off" style="width:90%"/></td>
+          <td class="h_bk s_rb tr"></td>
+          <td class="s_b"><input id="btnAddCrop" type="button" value="新增股东" class="o_btn"/></td>
+      </tr>
+    </table>
+       -->
+    <table id="dtlTable" width="98%" class="table-union bc mt10">
+      <colgroup>
+          <col width="15%"/>
+          <col width="20%"/>
+          <col width="15%"/>
+          <col width="10%"/>
+          <col width="20%"/>
+          <col width="10%"/>
+          <col width="10%"/>
+      </colgroup>
+      <thead>
+        <tr>
+          <td><span class="c6">*</span>股东名称</td>
+          <td><span class="c6">*</span>身份证号码/营业执照编号/组织编码</td>
+          <td><span class="c6">*</span>电话</td>
+          <td>地址</td>
+          <td>电子邮箱</td>
+          <td>备注</td>
+          <td><span class="c6">*</span>投资比例</td>
+          <td id="opTd"><input type="button" id="btnAddCorp" name="" value="添加" class="nor_btn"/></td>
+        </tr>
+      </thead>
+      <tbody id="projectTableTBody">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><span id="corpTotal"></span></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+</body>
+</html>

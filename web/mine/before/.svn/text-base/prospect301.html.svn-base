@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易物(矿区)</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="prospect301.js"></script>
+</head>
+<body class="mine">
+<div class="footer_bar tc">
+<input id="btnSave" type="button" value="保存" class="btn_save"/>
+<input id="relAttach" type="button" value="附件" class="btn_save"  disabled="true"/>
+</div>
+	<div id="tabPanel" class="trade_tab mt10">
+		    <table width="100%" class="i-grid-default">
+		      <tbody id="tbody1">
+			      <tr>
+			          <td height="28" class="fb h_bk_url pl10 s_b" colspan="4">
+			     		<span id="goodsName">基本情况<span> 
+			          </td>
+		          </tr>
+		      <tr>
+		         <!-- <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>矿区编号:</td>
+		          <td class="s_rb"><input type="text" id="code" class="i-input_off" style="width:89%" requireValue="矿区编号不能为空!"/></td>-->
+		          <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>矿区名称:</td>
+		          <td class="s_rb"><input type="text" id="no" class="i-input_off" style="width:89%" requireValue="矿区名称不能为空!"/></td>
+		          <td class="h_bk s_rb tr"><span class="c6">*</span>年限:</td>
+		          <td class="s_b"><input type="text" id="mineral_use_years" class="i-input_off" requireValue="年限不能为空!"/></td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr" id="address"><span class="c6">*</span>矿区位置:</td>
+		          <td class="s_b" colspan="3"><input type="text" id="address" class="i-input_off" style="width:89%" requireValue="矿区位置不能为空!"/></td>
+		        </tr>
+		   		<tr>
+		          <td width="15%" height="28" class="h_bk s_rb tr"><span class="c6">*</span>矿区面积:</td>
+		          <td width="35%" class="s_rb"><input type="text" id="mineral_area" class="i-input_off" requireNumber="矿区面积必须是数字" requireValue="面积不能为空!" requireDigits="4"  requireDigitsMsg="矿区面积最多保留4位小数" style="width:80px;"/>平方公里&nbsp;&nbsp;&nbsp;  <span id="mineral_areaInfo" style="color:red;display:none;"></span></td>
+		          <td width="15%" class="h_bk s_rb tr"><span class="c6">*</span>矿种:</td>
+		          <td width="35%" class="s_b">
+		          <!--	<select id="goods_use" class="i-select_bg ml5" requireValue="矿种不能为空!" style="width:200px">
+		          		<option value='' checked>--请选择--</option>
+		          		<option value="金">金</option>
+		          		<option value="银">银</option>
+		            </select>-->
+		            <input type="text" id="goods_use" class="i-input_off" requireValue="矿种不能为空!" / >
+		          </td>
+		        </tr>
+		        <tr>
+		          <td class="h_bk s_rb tr" ><span class="c6">*</span>区域:</td>
+		          <td class="s_rb" ><input type="text" id="txtCantonName" class="i-input_off mr5" readonly="true" requireValue="区域不能为空!"/><input class="o_btn" style="padding:0 2px;vertical-align:top;height:22px;line-height:22px;_margin-top:1px;" type="button" id="cantonBtn" value="选择">
+              <input type="hidden" id="txtCantonId" requireValue="区域不能为空!" readonly="true"/> </td>
+		          <td class="h_bk s_rb tr">可采储量:</td>
+		          <td class="s_b"><input type="text" id="storage" class="i-input_off" /></td>
+		           <!--<td height="28" class="h_bk s_rb tr">总存储量:</td>-->
+		          <input type="hidden"  id="mineral_storage" class="i-input_off"/>
+		        </tr>
+		        <tr>
+			        <td height="28" class="h_bk s_rb tr">矿区坐标:</td>
+			        <td class="s_b p5" colspan="3">
+			        <textarea id="mineral_coordinate" style="width:91%;height:75px" class="i-textarea_bg"></textarea>
+			        </td>
+		        </tr>
+		         <tr>
+		          <td height="28" class="h_bk s_rb tr">投资总额:</td>
+		          <td class="s_rb" colspan="3"><input type="text" id="aggregateInvestment" class="i-input_off" /></td>
+		        </tr>
+		        <tr>
+		          <td height="28" class="h_bk s_rb tr">交付条件:</td>
+		          <td class="s_rb" colspan="3"><input type="text" id="abandonTerm" class="i-input_off" /></td>
+		        </tr>
+		         <tr>
+		          <td height="28" class="h_bk s_rb tr">规划设计条件:</td>
+		          <td class="s_rb" colspan="3"><input type="text" id="projectTerm" class="i-input_off" /></td>
+		        </tr>
+		        <tr>
+			        <td height="28" class="h_bk s_rb tr">以往地质工作:</td>
+			        <td class="s_b p5" colspan="3"><textarea id="old_geological_work" style="width:91%;height:75px"  class="i-textarea_bg"></textarea></td>
+		        </tr>
+		        <tr>
+			        <td height="28" class="h_bk s_rb tr">地质概括:</td>
+			        <td class="s_b p5" colspan="3"><textarea id="mineral_situation" style="width:91%;height:75px"  class="i-textarea_bg"></textarea></td>
+		        </tr>
+		      </tbody>
+		    </table>
+    	</div>
+	</div>
+</body>
+</html>

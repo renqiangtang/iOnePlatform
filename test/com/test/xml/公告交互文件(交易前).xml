@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<bh>编号</bh>
+<bt>标题</bt>
+<lx>类型</lx>
+<ggrq>公共日期</ggrq>
+<ywlx>业务类型</ywlx>
+<bz>备注</bz>
+<ggxxxx><![CDATA[公告详细信息]]></ggxxxx>
+<jyfs>交易方式</jyfs>
+<yxlhjm>允许联合竞买</yxlhjm>
+<jydw>交易单位</jydw>
+<ggkssj>公告开始时间</ggkssj>
+<ggjzsj>公告截止时间</ggjzsj>
+<jmsqkssj>竞买申请开始时间</jmsqkssj>
+<jmsqjzsj>竞买申请截止时间</jmsqjzsj>
+<bzjkssj>保证金开始时间</bzjkssj>
+<bzjjzsj>保证金截止时间</bzjjzsj>
+<gpkssj>挂牌开始时间</gpkssj>
+<gpjzsj>挂牌截止时间</gpjzsj>
+<jzbjkssj>集中报价开始时间</jzbjkssj>
+<jzbjjzsj>集中报价截止时间</jzbjjzsj>
+<pmkssj>拍卖开始时间</pmkssj>
+<jmzg>竞买资格</jmzg>
+<jmzgszbm>竞买资格设置部门</jmzgszbm>
+<bd><!--标地信息列表 一个公告对应多个标的信息 -->
+	<bdxx>
+		<bdmc>标的名称</bdmc>
+		<qsj>起始价</qsj>
+		<bdj>保底金</bdj>
+		<zt>状态</zt>
+		<jbr>经办人</jbr>
+		<dw>单位</dw>
+		<jjjt>竞价阶梯</jjjt>
+		<zzj>最终价</zzj>
+		<xsdw>显示单位</xsdw>
+		<bzjje>保证金金额</bzjje>
+		<bzjbz>保证金币种</bzjbz>
+		<zongdi><!-- 宗地信息 宗地与标的信息一对多关系 -->
+			<zd>
+				<synx>使用年限</synx>
+				<tdyt>土地用途</tdyt>
+				<tdmj>土地面积</tdmj>
+			</zd>
+		</zongdi>
+	</bdxx>
+	<bdxx>
+		<bdmc>标的名称</bdmc>
+		<qsj>起始价</qsj>
+		<bdj>保底金</bdj>
+		<zt>状态</zt>
+		<jbr>经办人</jbr>
+		<dw>单位</dw>
+		<jjjt>竞价阶梯</jjjt>
+		<zzj>最终价</zzj>
+		<xsdw>显示单位</xsdw>
+		<bzjje>保证金金额</bzjje>
+		<bzjbz>保证金币种</bzjbz>
+		<zongdi><!-- 宗地信息 宗地与标的信息一对多关系 -->
+			<zd>
+				<synx>使用年限</synx>
+				<tdyt>土地用途</tdyt>
+				<tdmj>土地面积</tdmj>
+			</zd>
+		</zongdi>
+	</bdxx>
+</bd>
+</root>

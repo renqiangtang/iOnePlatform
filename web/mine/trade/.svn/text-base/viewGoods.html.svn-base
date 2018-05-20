@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>交易物详情</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="viewGoods.js"></script>
+</head>
+<body class="mine">
+<div class="" id="goodsBody" style="overflow:hidden;">
+	<div id="goodsPanel101" class="i-bidInfoArea" style='display:none'>
+		<table class="fr">
+			
+			<tr>
+				<td width="100">土地面积</td>
+				<td width="230"><span id="landArea">1252.0</span>平方千米</td>
+			</tr>
+			<tr>
+				<td>容积率</td>
+				<td><span id="cubage">≤ 85</span></td>
+			</tr>
+			<tr>
+				<td>土地用途</td>
+				<td><span id="goodsUse">居住用地</span></td>
+			</tr>
+			<tr>
+				<td>地块位置</td>
+				<td><span id="address">福田区红荔西路8007号</span></td>
+			</tr>
+		</table>
+	</div>
+	<div id="goodsPanel301" class="i-bidInfoArea" style='display:none'>
+		<table class="fr">
+			<tr>
+				<td width="100" align="right">矿区面积：</td>
+				<td width="220"><span id="301mineral_area"></span>平方公里</td>
+			</tr>
+			<tr>
+				<td align="right">区域：</td>
+				<td><span id="301canton_name"></span></td>
+			</tr>
+			<tr>
+				<td align="right">使用年限：</td>
+				<td><span id="301mineral_use_years"></span>年</td>
+			</tr>
+			<tr>
+				<td align="right">矿种：</td>
+				<td><span id="301goods_use"></span></td>
+			</tr>
+			<tr>
+				<td align="right">矿区位置：</td>
+				<td><span id="301address"></span></td>
+			</tr>
+		</table>
+	</div>
+	<div id="goodsPanel401" class="i-bidInfoArea" style='display:none'>
+		<table class="fr">
+			<tr>
+				<td width="100">矿区面积</td>
+				<td width="220"><span id="401mineral_area"></span>平方公里</td>
+			</tr>
+			<tr>
+				<td>区域</td>
+				<td><span id="401canton_name"></span></td>
+			</tr>
+			<tr>
+				<td>使用年限</td>
+				<td><span id="401mineral_use_years"></span>年</td>
+			</tr>
+			<tr>
+				<td>矿种</td>
+				<td><span id="401goods_use"></span></td>
+			</tr>
+			<tr>
+				<td>矿区位置</td>
+				<td><span id="401address"></span></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

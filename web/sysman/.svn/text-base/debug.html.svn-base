@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>调试</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+</head>
+<body>
+	<div id="debugGrid">
+	</div>
+</body>
+<script>
+	var dataObj={};
+	dataObj.Rows=window.dialogArguments;
+	//dataObj.Rows=window.opener.debug.arr;
+	$(document).ready(function() {
+		  var grid = $("#debugGrid").ligerGrid({
+			columns:[   { display: '序号',name:'no',isSort:false,width:'5%',align:'center'},
+		                { display: '时间',name:'time',isSort:false,width:'20%',align:'center'},
+		                { display: '信息',name:'info',isSort:false,width:'70%',align:'left'}
+	                ],
+			isScroll: true, //是否滚动
+			frozen:false,//是否固定列
+			pageSize: 10, 
+			showTitle: false,
+			fixedCellHeight :false,
+			width:'99.8%',
+			height:485,
+			data:dataObj
+		});
+	});
+</script>
+</html>

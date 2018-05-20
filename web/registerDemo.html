@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>
+			体验版竞买人注册
+		</title>
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
+		<link href="css/all.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.md5.js"></script>
+		<script type="text/javascript" src="js/ligerui.all.js">	</script>
+		<script type="text/javascript" src="js/datepicker.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="registerDemo.js">
+		</script>
+	</head>
+	<body class="reg">
+		<!-- 登录用户 -->
+		<div id="stepUser" class=" mb20" >
+			<table width=100% class="reg_info">
+				<tr><td colspan="2" class="tl f14 fb" style="padding-left:10px;height:22px;line-height:22px;background-color:#f7f6f6;border-bottom:1px solid #dcdcdc;">体验版竞买人注册</td></tr>
+				<tr><td colspan="2" style="height:10px;"></td></tr>
+				<tr>
+					<td width=40% class="tr">
+						<span class="c6 mr5">*</span>用户名：
+					</td>
+					<td width=60%>
+						<input type="text" id="txtUserName" value="" size="30" class="reg_input"/>
+					</td>
+					<td width=50% class="lh20 c11" style="display:none">
+						由字母a～z(区分大小写)、数字0～9、点或下划线组成 只能以字母开头，用户名长度为4～16个字符。注册后不能再修改
+					</td>
+				</tr>
+				<tr>
+					<td class="tr">
+						<span id="lblPasswordRequired" class="c6 mr5">*</span>密码：
+					</td>
+					<td>
+						<input type="password" id="txtPassword" value="" size="30" class="reg_input"/>
+					</td>
+					<td class="c11" style="display:none"> 
+						密码长度为4～16个任意字符
+					</td>
+				</tr>
+				<tr>
+					<td class="tr">
+						<span id="lblConfirmPasswordRequired" class="c6 mr5">*</span>确认密码：
+					</td>
+					<td class="tl">
+						<input type="password" id="txtConfirmPassword" value="" size="30" class="reg_input"/>
+					</td>
+					<td class="c11">
+						<img id="imgUserPasswordOk" src="/base/skins/default/images/icons/ok.gif" style="display:none;"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="group tc pt20">
+			<a id="save" class="next_btn mr10 f14" href="">
+				提交
+			</a>
+		</div>
+	</body>
+</html>

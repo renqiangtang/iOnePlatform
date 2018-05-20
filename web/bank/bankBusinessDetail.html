@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>报文详情</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/flexselect.css" type="text/css" media="screen" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/liquidmetal.js"></script>
+<script type="text/javascript" src="js/jquery.flexselect.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="bankBusinessDetail.js"></script>
+</head>
+<body>
+    <form>
+      <table width="100%" class="i-grid-default">
+        <tr>
+          <td width="15%" height="30" class="h_bk s_rb tr"><span class="c6">*</span>ID:&nbsp</td>
+          <td width="35%" class="s_rb" id = 'id'>&nbsp;</td>
+          <td width="15%" class="h_bk s_rb tr">单位:&nbsp</td>
+          <td width="35%" class="s_b" id = 'organName'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">报文编号:&nbsp</td>
+          <td class="s_rb" id = 'trxCode'>&nbsp;</td>
+          <td class="h_bk s_rb tr">报文名称:&nbsp</td>
+          <td class="s_b" id = 'trxCodeName'>&nbsp;</td>
+        </tr>
+        <tr>
+	        <td height="30" class="h_bk s_rb tr">银行编号:&nbsp</td>
+	        <td class="s_rb" id = 'bankId'>&nbsp;</td>
+	        <td class="h_bk s_rb tr">银行名称:&nbsp</td>
+	        <td class="s_b" id = 'bankName'>&nbsp;</td>
+        </tr>
+        <tr>
+	        <td height="30" class="h_bk s_rb tr">流水号:&nbsp</td>
+	        <td class="s_rb" id = 'sequenceNo'>&nbsp;</td>
+	        <td class="h_bk s_rb tr">报文时间:&nbsp</td>
+	        <td class="s_b" id = 'busiDate'>&nbsp;</td>
+        </tr>
+        <tr>
+          	<td height="120" class="h_bk s_rb tr">内容:&nbsp</td>
+          	<td class="s_b" colspan="3" valign="middle">&nbsp;<textarea id="content" class="i-textarea_bg" style="width:90%; height:110px" ></textarea></td>
+        </tr>
+        <tr>
+	        <td height="120" class="h_bk s_rb tr">回执:&nbsp</td>
+	        <td class="s_b" colspan="3" valign="middle">&nbsp;<textarea id="response" class="i-textarea_bg" style="width:90%; height:110px" ></textarea></td>
+	    </tr>
+        
+      <tr>
+	      <td class="h_bk s_rb tr">状态:&nbsp</td>
+	      <td class="s_rb" id = 'status'>&nbsp;</td>
+	      <td class="h_bk s_rb tr">&nbsp;</td>
+          <td class="s_b">&nbsp;</td>
+      </tr>
+      </table>
+    </form>
+  <div class="mt10 tc">
+  	<span class="wr_btn" id="btnClose"><input type="button" value="关闭" class="o_btn" /></span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的资料</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../base/js/jquery.js"></script>
+<script type="text/javascript" src="../base/js/base.js"></script>
+<script type="text/javascript" src="../base/js/ligerui.all.js"></script>
+<script type="text/javascript" src="mySelf.js"></script>
+</head>
+<body>
+  <div position="center" title="我的资料">
+    <form>
+      <table width="100%" id="empDiv" class="i-grid-default">
+        <tr>
+          <td class="h_bk s_rb tr" width="130" height="30">名称：</td>
+          <td class="s_rb"><input  type="text" class="i-input_off" id="emp_name" readonly/></td>
+          <td class="h_bk s_rb tr" width="130">性别：</td>
+          <td class="s_b"><input type="radio" name = 'emp_gender' id = "emp_gender1" value="男">
+            男&nbsp;&nbsp;
+            <input type="radio" name = 'emp_gender' id = "emp_gender2" value="女">
+            女 </td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">电话：</td>
+          <td class="s_rb"><input type="text" id="emp_tel" class="i-input_off"/></td>
+          <td class="h_bk s_rb tr">移动电话：</td>
+          <td class="s_b"><input type="text" id="emp_mobile" class="i-input_off"/></td>
+        </tr>
+        
+        <tr>
+          <td class="h_bk s_rb tr" height="30">邮箱：</td>
+          <td class="s_rb"><input type="text" id="emp_email" class="i-input_off"/></td>
+          <td colspan="2" class="s_b"></td>
+        </tr>
+        <!--<tr>
+          <td colspan="4" class="s_b tc"><span class="wr_btn" id="btnSave"><input type="button" value="提交" class="o_btn" /></span></td>
+        </tr>-->
+      </table>
+      <div id="bidderDiv" class="clearfix pt5 pb5 pl10">
+        <input type="radio" name = 'bidder_is_company' id="bidder_is_company1" value="0" disabled="true"/>
+       <span id="bidderTypeText"> 个人</span>
+        <input type="radio"  name = 'bidder_is_company' id="bidder_is_company2" value="1" disabled="true"/>
+        企业
+        
+        <input type="button" name="projectBidder" id="projectBidder" value="查看股东">
+      </div>
+      <table width="100%" id="bidderPersonDiv" class="i-grid-default">
+        <tr>
+          <td class="h_bk s_rb tr" width="130" height="30"><font color="red">*</font>名称：</td>
+          <td class="s_b"><input  type="text" class="i-input_off" id="person_bidder_name" size="20" readonly/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">地址：</td>
+          <td class="s_b"><input type="text" id="person_bidder_address" class="i-input_off"/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30"><font color="red">*</font>身份证号：</td>
+          <td class="s_b"><input type="text" id="person_bidder_certificate_no" class="i-input_off" readonly/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30"><font color="red">*</font>移动电话：</td>
+          <td class="s_b"><input type="text" id="person_bidder_mobile" class="i-input_off" title="系统将通过此号码发送通知信息"/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">邮编：</td>
+          <td class="s_b"><input type="text" id="person_bidder_post_code" class="i-input_off"/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">电话：</td>
+          <td class="s_b"><input type="text" id="person_bidder_tel" class="i-input_off"/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">传真：</td>
+          <td class="s_b"><input type="text" id="person_bidder_fax" class="i-input_off"/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">邮箱：</td>
+          <td class="s_b"><input type="text" id="person_bidder_email" class="i-input_off"/></td>
+        </tr>
+       <!-- <tr>
+          <td class="s_b tc p5" colspan="2"><span class="wr_btn" id="btnSave1"><input type="button" value="提交" class="o_btn" /></span></td>
+        </tr>-->
+      </table>
+      <table width="100%" id="bidderCompanyDiv" class="i-grid-default">
+        <tr>
+          <td width="130" height="30" class="h_bk s_rb tr"><font color="red">*</font>名称：</td>
+          <td class="s_b" colspan="3"><input type="text" class="i-input_off" id="company_bidder_name"　size="20" readonly/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">地址：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_address" class="i-input_off mr5 "/></td>
+          <td  class="h_bk s_rb tr">邮编：</td>
+          <td class="s_b"><input type="text" id="company_bidder_post_code" class="i-input_off mr5 mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">电话：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_tel" class="i-input_off mr5 "/></td>
+          <td class="h_bk s_rb tr">传真：</td>
+          <td class="s_b"><input type="text" id="company_bidder_fax" class="i-input_off mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30"><font color="red">*</font>移动电话：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_mobile" class="i-input_off mr5 " title="系统将通过此号码发送通知信息"/></td>
+          <td class="h_bk s_rb tr">邮箱：</td>
+          <td class="s_b"><input type="text" id="company_bidder_email" class="i-input_off mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">联系人：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_contact" class="i-input_off mr5 "/></td>
+          <td class="h_bk s_rb tr">营业执照：</td>
+          <td class="s_b"><input type="text" id="company_bidder_reg_no" class="i-input_off mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">证件类型：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_certificate_type" class="i-input_off mr5 " readonly/></td>
+          <td class="h_bk s_rb tr">组织机构代码：</td>
+          <td class="s_b"><input type="text" id="company_bidder_certificate_no" class="i-input_off mr5 " readonly/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">注册地址：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_reg_address" class="i-input_off mr5 "/></td>
+          <td class="h_bk s_rb tr">注册资本：</td>
+          <td class="s_b"><input type="text" id="company_bidder_reg_capital" class="i-input_off mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">企业类别：</td>
+          <td class="s_b"><input type="text" id="company_bidder_reg_type_select" class="i-input_off mr5 "/>
+            <input type="hidden" id="company_bidder_reg_type" /></td>
+          <td class="h_bk s_rb tr">经营范围：</td>
+          <td class="s_b"><input type="text" id="company_bidder_reg_area" class="i-input_off mr5 "/></td>
+        </tr>
+        <tr>
+          <td class="h_bk s_rb tr" height="30">法人：</td>
+          <td class="s_rb"><input type="text" id="company_bidder_reg_corporation" class="i-input_off mr5 " readonly/></td>
+          <td class="h_bk s_rb tr">法人身份证：</td>
+          <td class="s_b"><input type="text" id="company_bidder_reg_corporation_idno" class="i-input_off mr5 " readonly/></td>
+        </tr>
+        <!--<tr>
+          <td colspan="4" class="s_b tc">
+          	<span class="wr_btn" id="btnSave2"><input type="button" value="提交" class="o_btn" /></span>
+          </td>
+        </tr>-->
+      </table>
+      <table width="100%" id="bankDiv" class="i-grid-default">
+	    <tr>
+          <td width="130" height="30" class="h_bk s_rb tr"><font color="red">*</font>名称：</td>
+          <td class="s_b"><input  type="text" class="i-input_off" id="txtBankName" size="20" readonly/></td>
+        </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">电话:</td>
+	      <td align="left"><input type="text" id="txtBankTel" class="i-input_off"/></td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">联系人:</td>
+	      <td align="left"><input type="text" id="txtBankContact" class="i-input_off"/></td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">行政区:</td>
+	      <td align="left"><input type="text" id="txtBankCanton" class="i-input_off" readonly/></td>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td height="30" class="h_bk s_rb tr">地址:</td>
+	      <td align="left"><input type="text" id="txtBankAddress" class="i-input_off"/></td>
+	    </tr>
+	   <!-- <tr>
+          <td colspan="4" class="s_b tc">
+          	<span class="wr_btn" id="btnSave3">
+          	<input type="button" value="提交" class="o_btn" />
+          	</span>
+          </td>
+        </tr>-->
+	  </table>
+	  <br/>
+    </form>
+  </div>
+ 
+</body>
+</html>

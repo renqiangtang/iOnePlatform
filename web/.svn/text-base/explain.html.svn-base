@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注意事项</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="explain.js?r=true" type="text/javascript"></script>
+</head>
+<body style="font-family:宋体">
+<div id="cert_wrap">
+  <div class="i-cert_wrap_top">
+  	<div class="i-cwt_lf"></div>
+    <div class="i-cwt_rg"></div>
+  </div>
+  <div class="i-cert_wrap_main">
+  	<div class="i-cwm_banner">
+    	<div class="i-bimg"></div>
+    </div>
+    <div class="i-cwm_title2">
+    	网上交易系统注意事项
+    </div>
+    <p class="f14">&nbsp;</p>
+    <p class="f14">1、申请购买之前请至少提前30日到河源市、县国土资源局交易中心办理U盾证书。</p>
+    <p class="f14">2、申请购买之前请详细阅读《河源市、县网上挂牌出让交易管理办法》文件。</p>
+     <p class="f14">3、报名之前请认真阅读公告文件。</p>
+    <p class="f14">4、购买之前必须认真阅读挂牌文件。</p>
+     <p class="f14">5、申请人进入网站操作之前，请认真阅读《申请人操作手册》。</p>
+    <p class="f14">6、未尽事宜请详细询问河源市、县国土资源局交易中心工作人员。</p>
+    <div class="i-cwm_title3 tr" ></div>
+  </div>
+  <div class="i-cert_wrap_bottom ">
+  	<div class="i-cwb_lf "></div>
+    <div class="i-cwb_rg "></div>
+  </div>
+</div>
+<div class="i-functionArea ">
+<span class="wr_btn"><input id="btnOK" type="button" value="同意" class="o_btn" /></span>
+<span class="wr_btn"><input id="btnClose" type="button" value="不同意" class="o_btn" /></span>
+</div>
+</body>
+</html>

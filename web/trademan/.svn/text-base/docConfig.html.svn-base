@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>文档管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="docConfig.js"></script>
+<style type="text/css">
+	.ztree li span.button.home_ico_open{margin-right:2px; background: url(images/tree/home-open.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.home_ico_close{margin-right:2px; background: url(images/tree/home-close.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.home_ico_docu{margin-right:2px; background: url(images/tree/home-close.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.dir_ico_open{margin-right:2px; background: url(images/tree/folder-open.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.dir_ico_close{margin-right:2px; background: url(images/tree/folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.dir_ico_docu{margin-right:2px; background: url(images/tree/folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+	.ztree li span.button.file_ico_docu{margin-right:2px; background: url(images/tree/tree-leaf.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+</style>
+</head>
+<body>
+<div class="i-wrap i-bk-blue">
+	<div class="i-left_bar">
+		<div class="i-menuTitle"><span>目录树</span></div>
+		<div class="i-tree_box mt5 mb5">
+			<div id="dir"></div>
+    	</div>
+	</div>
+	<div class="i-right_bar">
+    <div class="i-menuTitle"><span>文件列表</span></div>
+    <div id="dirDiv">
+		<table width="100%" class="i-grid-default">
+			<thead>
+				<tr>
+                	<th width="50%" height="30" class="pl5 fb" style="border:1px solid #ccc; background:#f1f1f1">名称</th>
+					<th width="20%" class="tc fb" style="border:1px solid #ccc; background:#f1f1f1">修改日期</th>
+					<th width="20%" class="tc fb" style="border:1px solid #ccc; background:#f1f1f1">大小</th>
+					<th width="10%" class="tc fb" style="border:1px solid #ccc; background:#f1f1f1">下载</th>
+				</tr>
+			<thead>
+		</table>
+        <div style="height:405px; overflow-x:hidden; overflow-y:auto;">
+        <table width="100%" class="i-grid-default" >
+            <tbody id="file">
+            </tbody>
+        </table>
+        </div>
+		<div id="op" class="mt5 tc">
+			<input id="newDirBtn" type="button" value="新建子目录" class="o_btn"/>
+			<input id="newFileBtn" type="button" value="新建文件" class="o_btn"/>
+			<input id="upLoadBtn" type="button" value="上传文件" class="o_btn"/>
+			<input id="renameBtn" type="button" value="重命名" class="o_btn"/>
+			<input id="removeBtn" type="button" value="删除" class="o_btn"/>
+		</div>
+	</div>
+    </div>
+</div>
+<div id="fileDiv" style="display:none">
+    <textarea rows="23" cols="134" id="content">
+    </textarea>
+    <div class="tc mt5">
+    <input id="updateBtn" type="button" value="更新" class="o_btn"/>
+    </div>
+</div>
+<div id="fileUploadDiv" style="display:none">
+	<form id="fileForm" encType="multipart/form-data" method="post" target="hidden_frame">
+		<input type="file" id="txtFile" name="txtFile" size="44">
+		<input type="button" id="upLoadingBtn" value="上传" class="o_btn" />
+	</form>
+	<iframe name='hidden_frame' id="hidden_frame" style='display:none'></iframe>
+</div>
+</body>
+</html>

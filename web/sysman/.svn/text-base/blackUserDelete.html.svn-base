@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>用户编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/jquery.md5.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+  <table width="100%" class="i-grid-default">
+    <tr id="qymc">
+      <td width="35%" height="30" class="h_bk s_rb tr"><span class="c6">*</span>名称:</td>
+      <td width="65%" class="s_b"><input type="text" id="name" readonly class="i-input_off "/></td>
+    </tr>
+     <tr>
+      <td height="30" class="h_bk s_rb tr" id="grzjh"><span class="c6">*</span>证件号码:</td>
+      <td class="s_b"><input type="text" id="no" readonly class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr" id="remarktext"><span class="c6">*</span>删除黑名单原因:</td>
+      <td class="s_rb pt5 pb5 pl5"><textarea id="remark" rows="4"  style="width:91%;height:69px" class="i-textarea_bg"></textarea></td>
+    </tr>
+  </table>
+  
+  <div id="action" class="tc mt10">
+  	<span class="wr_btn" id="btnSave"><input type="button" value="确定" class="o_btn" /></span>
+  </div>
+  
+</form>
+</body>
+<script type="text/javascript" src="blackUserDelete.js"></script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-color:url(images/base/home_wrap_bg.gif) repeat-x #e7e8f7;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="home.js"></script>
+</head>
+<body>
+<div class="home_wrap_con">
+<div class="home_wrap">
+<h1 class="tc"><img src="./images/base/h1.gif" class="mb50 pb20"></h1>
+<table width="100%">
+<tr><td align="center" valign="middle">
+<a id="td"  title="点击进入国有建设用地使用权交易系统"><img src="./images/base/td.jpg" class="mb5" style="margin-right:137px;"></a>
+<a id="kc"  title="点击进入采矿权交易系统"><img src="./images/base/ck.jpg"></a>
+<!-- <a id="gd"  title="点击进入耕地指标交易系统"><img src="./images/base/gd.jpg"></a> -->
+</td></tr>
+</table>
+
+<div class="lh24 mt50 pt50 tc fixclear">Copyright <span class="f2">&copy;</span>河源市、县国土资源局 版权所有 浏览器建议使用IE8.0版本 1024*768分辨率<br>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河源市国土资源交易中心土地门户</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="portalSearch.js"></script>
+<style type="text/css"></style>
+</head>
+<body class="land">
+<table width="100%" class="portalsearch mt20">
+  <tr>
+    <td width="30%" align="right">宗地编号：</td>
+    <td width="70%"><input class="inputb" type="text" name="adno" id="adno" /></td>
+  </tr>
+  <tr style="display:none;">
+    <td align="right"> 区　　域：</td>
+    <td><input class="inputb" type="text" name="canton" id="canton"  />
+      <input class="inputb" type="hidden" name="canton_id" id="canton_id"  /></td>
+  </tr>
+  <tr>
+    <td align="right"> 土地用途：</td>
+    <td><select name="select" id="goods_use">
+        <option value=""></option>
+      </select></td>
+  </tr>
+  <tr>
+    <td align="right"> 交易状态：</td>
+    <td><select name="select" id="trans_status">
+        <option value="">--请选择--</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td align="right"> 日期查询：</td>
+    <td><select name="select" id="timetype" class="mr5 fl">
+        <option value="">--请选择--</option>
+        <option value="1">保证金截止时间</option>
+        <option value="2">竞买申请截止时间</option>
+        <option value="3">挂牌截止时间</option>
+      </select>&nbsp;&nbsp;
+      <input type="text" id="timevalue" />&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><span class="submit_b mt10" id="winSure">确 定</span>
+      &nbsp;&nbsp;
+      <span class="cancel_b mt10" id="winCancel">取 消</span></td>
+  </tr>
+</table>
+</body>
+</html>

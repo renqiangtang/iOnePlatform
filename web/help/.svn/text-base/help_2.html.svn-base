@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>帮助手册－网上交易系统</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.i-wrap {
+width:990px;
+}
+</style>
+</head>
+<body>
+
+<!--trade标准头 start-->
+<!--
+<div class="trade_header">
+<div class="trade_header_main">
+  <h1 class="logo fl" style="border:0; margin-top:45px"><a href="/"><img src="images/base/logo.gif" /></a></h1>
+</div>
+</div>
+-->
+<!--trade标准头 end--
+<!--trade wrap start-->
+<div class="i-wrap">
+	<div class="h_aside mt10">
+    	<ul class="one_level">
+        	<li class="tit1">
+            	<h3 class="c2">网上竞买申请</h3>
+                <ul class="two_level" style="display:block">
+                	<li class="tit2">
+                    	<h3 style="background:none"><a href="help_index.html" target="_self">独立竞买申请</a></h3></li>
+                    <li class="tit2">
+                    	<h3 style="background:none">联合竞买申请</h3>
+                    	<ul class="three_level" style="display:block">
+                        	<li><a href="help_1_1.html" target="_self">> 发起联合竞买申请</a></li>
+                            <li><a href="help_1_2.html" target="_self">> 联合竞买人响应申请</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="tit1">
+            	<h3 class="c2">网上竞价</h3>
+                <ul class="two_level" style="display:block">
+                	<li class="tit2">
+                    	<h3 style="background:none"><a href="help_2.html" target="_self" class="f12">网上竞价</a></h3>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="h_main mt10">
+    	<div class="h_main_tit">网上竞价</div>
+        <div class=" p15">
+        <ol><li>1、竞买人登录后，点击【网上竞价】按钮，如下图：
+        	<div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/1-1-2.jpg" />
+            </div>
+        </li></ol>
+        <ol><li>2、进入报价页面。处于公告期的标的，不能进行报价，如下图：
+        	<div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-4.jpg" />
+            </div>
+        </li></ol>
+        <ol><li>3、同时竞买多个标的物的，如图在页面顶部切换各标的的报价页面标签进入各自的报价页面，如下图：
+        	<div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-2.jpg" />
+            </div>
+        </li></ol>
+        <ol><li>4、在价格输入栏内默认值为标的起始价或者当前可出的最低有效价值。输入框右侧第一个按钮设置最低有效出价，【+】按钮为增加一倍竞价阶梯，【-】按钮为减少一倍竞价阶梯（但金额不能小于最低有效出价）。点击【我要出价】按钮出价（随着各竞买人的报价，价格输入框会自动更新最低有效报价值），如下图：
+        	<div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-3.jpg" />
+            </div>
+        </li></ol>
+        <ol><li>5、页面左上方区域：“服务器时间”为交易系统服务器时间，所有竞买操作时间以该时间为准。“剩余时间”为当前标的某时间段剩余时间的倒计时及进度条，如公告期、自由报价期、限时竞价期等。“当前最高报价”为当前该标的目前的最高出价，如下图：
+        <div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/2-5.png" />
+            </div>
+        </li></ol>
+        <ol><li>6、页面下方的“竞价记录”显示当前各竞买人最新的5笔出价记录，点击【更多】按钮查看更完整的出价记录。若有委托系统报价，上一个出价用户出价没有高过当前竞买人的最高委托报价，系统会自动为竞买人出价，如下图：
+        <div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/2-6.png" />
+            </div>
+        </li></ol>
+        <ol><li>7、若竞买人出价达到了当前标的最高限制地价，则会出现提示进入下一轮指标竞价，其他竞买人都会弹出是否同意进入下一轮指标竞价提示，其他竞买人点击【同意】则进入下一轮指标竞价，点击【不同意】则代表放弃竞价，如下图：
+        <div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-7.jpg" />
+            	<img src="std/base/skins/default/images/base/help/4-1-7(2).jpg" />
+            </div>
+        </li></ol>
+        <ol><li>8、交易结束后，弹出恭喜页面，如下图：
+        <div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-6.jpg" />
+            	<p class="tl">9、竞得人点击恭喜页面的【重要提示】按钮弹出重要提示页面，如下图：</p>
+            	<img src="std/base/skins/default/images/base/help/4-1-6(2).jpg" />
+            	<p class="tl">10、点击【查看并打印网上竞得证明】按钮，查看或打印网上竞得证明，如下图：</p>
+            	<img src="std/base/skins/default/images/base/help/4-1-6(3).jpg" />
+            </div>
+        </li></ol>
+        <ol><li>11、竞得人可点击 【下载交易记录证书文件】链接下载通过数字证书加密后的交易记录证书文件，如下图：
+        	<div class="bc tc mt10 mb10">
+            	<img src="std/base/skins/default/images/base/help/4-1-5.jpg" />
+            </div>
+        </li></ol>
+        <ol><li>12、交易结束后，竞得人请按成交后相关指引到交易中心办理后续手续，需按公告进行申请竞买申请人主体资格审查，取得资格批复文件。未竞得人请按履约保证金交纳退转指引办理退保证金手续。</li></ol>
+    </div></div>
+</div>
+<!--trade wrap end-->
+<!--trade标准页脚 start-->
+  <div class="i-footer mt5 pt5 bc tc clearfix"> Copyright <span style="font-family:'arial';">©</span> 河源市、县国土资源局 版权所有    最佳浏览效果:IE8.0版本以上 1024*768分辨率<br />
+ </div>
+<!--trade标准页脚 end-->
+</body>
+</html>

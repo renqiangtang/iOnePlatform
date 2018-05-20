@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style="overflow-x:hidden">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>标的编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="targetEdit.js"></script>
+</head>
+<body class="land">
+<!--底部按钮条 start -->
+<div class="footer_bar tc">
+<input type="button" class="btn_save" value="保存标的" id="saveImg"> <input type="button" class="btn_save" value="绑定地块" id="relGoods"> <input type="button" class="btn_save" value="附件" id="relAttach">
+<input id="errorBtn" type="button" value="标识错误"  class="btn_release ml5"/>
+<input id="rightBtn" type="button" value="去除错误标识"  class="btn_release ml5"/>
+</div>
+<!--底部按钮条 end -->
+<!--trade 交易信息 start -->
+<div id="" class="trade_baseInfo">
+  	<div class="baseInfo_header">
+    <h1 class="trade_title"><a id="targetName" class="line_one"></a></h1>
+   	</div>
+   	
+      	<table width="100%" class="i-grid-default mt5" id="jbxx">
+	      <tr>
+	        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a1"><span class="n_flag"></span>交易基本信息</a></td>
+	      </tr>
+	      <tr>
+	        <td width="16%" class="h_bk s_rb tr"><span class="c6">*</span>交易类型:</td>
+	        <td width="34%" class="s_rb"><select id="business_type" class="i-select_bg ml5" style="width:230px" requireValue="交易类型不能为空!">
+	          </select>
+	        </td>
+	        <td width="16%" height="28" class="h_bk s_rb tr"><span class="c6">*</span>交易方式:</td>
+	        <td width="34%" class="s_rb" id="transTypeTransTd">
+	          <select id="trans_type_id" class="i-select_bg ml5" style="width:230px" requireValue="交易方式不能为空!">
+	          </select>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td height="28" class="h_bk s_rb tr">允许联合竞买:</td>
+	        <td class="s_rb pl5"><input type="radio" id="allow_union_1"  name="allow_union" value="1" checked/>
+	          是
+	          <input type="radio"  id="allow_union_0"  name="allow_union" value="0" />
+	          否 </td>
+	         <td class="h_bk s_rb tr" >资格审核:</td>
+	        <td class="s_rb pl5">
+	        	<input type="radio" id="is_after_check_0"  name="is_after_check" value="0" checked/> 交易前审核
+	        	<input type="radio" id="is_after_check_1"  name="is_after_check" value="1" /> 交易后审核 
+	        </td>
+	      </tr>
+	      <tr>
+	        <td height="28" class="h_bk s_rb tr" width="15%">允许自动托管报价:</td>
+	        <td class="s_rb pl5"><input type="radio" id="allow_trust_1" name="allow_trust" value="1" />
+	          是
+	          <input type="radio" id="allow_trust_0" name="allow_trust" value="0" checked/>
+	          否 </td>
+	        <td class="h_bk s_rb tr" width="15%">&nbsp;</td>
+	        <td class="s_b">&nbsp;</td>
+      	  </tr>
+	      </table>
+	      <table width="100%" class="i-grid-default mt5" id="jkxx">
+	      <tr>
+	        <td height="28" class="s_b fb h_bk_url pl10"><a name="a2"><span class="n_flag"></span>价款信息</a></td>
+	        <td colspan="3" id="UCase" class="c6 fb s_b h_bk_url pl5"></td>
+	      </tr>
+	      <tr>
+	        <td width="16%" height="28" class="h_bk s_rb tr"><span class="c6">*</span>起始价:</td>
+	        <td width="34%" class="s_rb"><input type="text" id="begin_price" class="i-input_off" maxlength="12" requireValue="起始价不能为空!" requireNumber="起始价必须是数字!"/>万元</td>
+	        <td width="16%" class="h_bk s_rb tr"><span class="c6">*</span>增价幅度:</td>
+	        <td width="34%" class="s_b"><input type="text" id="price_step" class="i-input_off" maxlength="12" requireValue="增价幅度不能为空!" requireNumber="增价幅度必须是数字!"/>万元</td>
+	      </tr>
+	      <tr style="display:none">
+	        <td class="h_bk s_rb tr">底价:</td>
+	        <td class="s_b"><input type="text" id="reserve_price" class="i-input_off" maxlength="12" readonly value="0"/>万元</td>
+	        <td class="s_b" colspan="2">&nbsp;</td>
+	      </tr>
+	      <tr>
+	        <td class="h_bk s_rb tr">成交价:</td>
+	        <td class="s_rb"><input type="text" id="trans_price" class="i-input_off" requireNumber="成交价必须是数字!"/>万元</td>
+	         <td class="h_bk s_rb tr">付款方式:</td>
+	        <td class="s_b">
+	        	<input type="text" id="pay_mode" class="i-input_off" maxlength="12" />
+	        </td>
+	        
+	      </tr>
+         </table>
+         <table width="100%" class="i-grid-default mt5" id="jysjxx">
+		      <tr>
+		        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>交易时间信息</a></td>
+		      </tr>
+		      <tr id="isLimitTransTr" style="display:none">
+		        <td height="28" class="h_bk s_rb tr">是否需要限时竞价:</td>
+		        <td class="s_b" colspan="3" ><input type="radio"  name="is_limit_trans" value="1" />
+		          是
+		          <input type="radio"  name="is_limit_trans" value="0" />
+		          否 </td>
+		      </tr>
+		      <tr>
+		        <td width="16%" height="28" class="h_bk s_rb tr">公告开始时间:</td>
+		        <td width="34%" class="s_rb"><input type="text" id="begin_notice_time" class="i-input_off" onChange="pageObj.begin_notice_timeChange();" requireValue1="公告开始时间不能为空!"/></td>
+		        <td width="16%" class="h_bk s_rb tr">公告截止时间:</td>
+		        <td width="34%" class="s_b"><input type="text" id="end_notice_time" class="i-input_off" requireValue1="公告截止时间不能为空!"/></td>
+		      </tr>
+		      <tr>
+		        <td height="28" class="h_bk s_rb tr">竞买申请开始时间:</td>
+		        <td class="s_rb"><input type="text" id="begin_apply_time" class="i-input_off" requireValue1="竞买申请开始时间不能为空!"/></td>
+		        <td class="h_bk s_rb tr">竞买申请截止时间:</td>
+		        <td class="s_b"><input type="text" id="end_apply_time" class="i-input_off" requireValue1="竞买申请截止时间不能为空!"/></td>
+		      </tr>
+		      <tr>
+		        <td height="28" class="h_bk s_rb tr">保证金缴纳开始时间:</td>
+		        <td class="s_rb"><input type="text" id="begin_earnest_time" class="i-input_off"/></td>
+		        <td class="h_bk s_rb tr">保证金缴纳截止时间:</td>
+		        <td class="s_b"><input type="text" id="end_earnest_time" class="i-input_off"/></td>
+		      </tr>
+		      <tr>
+		        <td height="28" class="h_bk s_rb tr">挂牌开始时间:</td>
+		        <td class="s_rb"><input type="text" id="begin_list_time" class="i-input_off" /></td>
+		        <td class="h_bk s_rb tr">挂牌截止时间:</td>
+		        <td class="s_b"><input type="text" id="end_list_time" class="i-input_off" /></td>
+		      </tr>
+		      <tr>
+		        <td height="28" class="h_bk s_rb tr">自由报价开始时间:</td>
+		        <td class="s_rb"><input type="text" id="begin_focus_time" class="i-input_off"/></td>
+		        <td class="h_bk s_rb tr">自由报价截止时间:</td>
+		        <td class="s_b"><input type="text" id="end_focus_time" class="i-input_off" /></td>
+		      </tr>
+		      <tr>
+		        <td height="28" class="h_bk s_rb tr" id="beginLimitTimeTd">竞拍(限时竞拍、现场竞拍)开始时间:</td>
+		        <td class="s_b" colspan="3" ><input type="text" id="begin_limit_time" class="i-input_off" style="width:233px"/></td>
+		      </tr>
+	      </table>
+          
+          <table width="100%" class="i-grid-default mt5" id="bzj">
+		      <tr>
+		        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a3"><span class="n_flag"></span>保证金</a></td>
+		      </tr>
+		      <tr>
+		      	<td colspan="4" id="bail" class="trade_panel">
+		      	</td>
+		      </tr>
+	      </table>
+          <table width="100%" class="i-grid-default mt5 win_t trade_panel" >
+		      <tr>
+		        <td height="28" class="s_b fb h_bk_url pl10" colspan="6"><a name="a3"><span class="n_flag"></span>绑定地块信息</a></td>
+		      </tr>
+		      <tr>
+		        <th colspan="2" class="l-grid-hd-cell" class="tc">宗地编号</th>
+		        <th colspan="2" class="l-grid-hd-cell"  class="tc">行政辖区</th>
+		        <th colspan="2" class="tc">操作</th>
+		      </tr>
+		      <tbody id="trzdxx">
+		      <tr>
+		      </tr>
+		      </tbody>
+	      </table>
+          <!--<div id="zdxx">
+            <iframe src="" id="zdifr" frameborder="0" height="768"></iframe>
+          </div>-->
+          
+          
+         <table width="100%" class="i-grid-default mt5" style="display:black" id="dzbxx">
+		      <tr>
+		        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a6"><span class="n_flag"></span>多指标信息</a></td>
+		      </tr>
+		      <tr>
+		        <td	colspan="4"	id="quotas" class="trade_panel" >
+		        </td>
+		      </tr>
+	      </table>
+         
+        <!-- <table width="100%" class="i-grid-default mt5" id="fjxx" height="450">
+		      <tr>
+		        <td height="28" class="s_b fb h_bk_url pl10"><a name="a7"><span class="n_flag"></span>附件信息</a></td>
+		      </tr>
+			  <tbody id="attachContainer">
+		      <tr>
+		        <td	class="trade_panel" id="attachPanel">
+		        </td>
+		      </tr>
+		      </tbody>
+	    </table>-->
+         
+  <div class="" style="height:80px;"></div>   
+   
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+	<div id="msg">
+	</div>
+	
+	<div id="div" style="width:200px;height:300px;position:absolute;left:100px;top:100px;border:1px solid;">
+		<div id="div1">afadsfsaf</div>
+	</div>	
+	
+	<script>
+		var div=document.getElementById('div');
+		var div1=document.getElementById('div1');
+		var msg=document.getElementById('msg');
+		
+		
+		
+		var t;
+		
+		function hide(){
+			var d=new Date();
+			msg.innerHTML+='out'+d.getTime()+'\n';
+		}
+		
+		function stopBubble(e)
+		{
+		    if (e && e.stopPropagation)
+		        e.stopPropagation()
+		    else
+		        window.event.cancelBubble=true
+		}
+		
+		div1.onmouseover=function(){
+			clearTimeout(t);
+			//alert('over');
+		}
+		
+		div1.onmouseout=function(){
+			clearTimeout(t);
+			//msg.innerHTML+='div1 onmouseout\n';
+			stopBubble();
+		}
+		
+		div.onmouseout=function(){
+			t=setTimeout('hide()',100);
+		}
+	</script>
+</body>
+</html>

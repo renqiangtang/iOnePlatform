@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="7215"
+   name=""
+   committed-date="2016-02-22T07:05:10.729685Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/bank/com/bank/dao"
+   last-author="liangj"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BankDao.java"
+   text-time="2016-11-30T01:35:41.536450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="abb1bb4cb3287b79ef80726b8bc61382"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.505249Z"/>
+<entry
+   committed-rev="1719"
+   name="BK03.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2d6f32a45a1a249608e42af2fdc9e669"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK04.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3494764665a5c9d94fe38c87d8c7d143"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK05.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e4c649ea8e5bf080c28f01222332c226"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BankBillDao.java"
+   text-time="2016-11-30T01:35:41.536450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="39006e1be1a2573710cb13b2fc6e7c5d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.489649Z"/>
+<entry
+   committed-rev="1719"
+   name="BK42.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ca3a9db558fd46287860d561dbf2fc5b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.489649Z"/>
+<entry
+   committed-rev="1719"
+   name="BK06.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1f6b4a0570d2e9a8b70ae3663aefeb41"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1868"
+   name="BK15.java"
+   text-time="2016-11-30T01:35:41.505249Z"
+   committed-date="2014-05-29T03:17:39.334761Z"
+   checksum="8f8a46e0007e79a50db44519c5b8a5b1"
+   last-author="tangyw"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK16.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7edffcb9ca2038f29beab7a6c6125db5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.489649Z"/>
+<entry
+   committed-rev="1719"
+   name="BK07.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ad704d00cfb434ef02803ac06f20c141"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK08.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="11e2bf48de01d482b856b5b79d003662"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="7215"
+   name="BankBaseDao.java"
+   text-time="2016-11-30T01:35:41.505249Z"
+   committed-date="2016-02-22T07:05:10.729685Z"
+   checksum="044c29305eb0c2fe97dbbb3a1eea489e"
+   last-author="liangj"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BankIntf.java"
+   text-time="2016-11-30T01:35:41.536450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b14466322a227531b7bc61061008ed4b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.505249Z"/>
+<entry
+   committed-rev="1719"
+   name="BK01.java"
+   text-time="2016-11-30T01:35:41.505249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c595a2218760b28b7b632942c0683e12"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK11.java"
+   text-time="2016-11-30T01:35:41.520849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="780a21e189eb66046b52f5e2edb82bcb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+<entry
+   committed-rev="1719"
+   name="BK02.java"
+   text-time="2016-11-30T01:35:41.505249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="040d858ba466c4528b6f14591d42d7fa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.474049Z"/>
+</wc-entries>

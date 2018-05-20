@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9174"
+   name=""
+   committed-date="2016-08-12T09:36:56.614916Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/land/portal"
+   last-author="xutf"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="9174"
+   name="index.js"
+   text-time="2016-11-30T01:35:11.256150Z"
+   committed-date="2016-08-12T09:36:56.614916Z"
+   checksum="9fbb25b860e7c90f232fd264ff29e8ff"
+   last-author="xutf"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.256150Z"/>
+<entry
+   committed-rev="1719"
+   name="portalSearch.js"
+   text-time="2016-11-30T01:35:11.271750Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1a0fd5b2cc7b9d7986aea8990872ffa9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.256150Z"/>
+<entry
+   committed-rev="1719"
+   name="index.html"
+   text-time="2016-11-30T01:35:11.256150Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c54d65748e0cb46c555fa62ceb838381"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.256150Z"/>
+<entry
+   committed-rev="1719"
+   name="portalSearch.html"
+   text-time="2016-11-30T01:35:11.271750Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7288d6dc9c2352b394b31f6eca38f6a6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.256150Z"/>
+</wc-entries>

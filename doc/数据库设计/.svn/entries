@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/doc/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="120418新交易系统.sql"
+   text-time="2016-11-30T01:36:23.389902Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bf43c25f263247063403e23c3126a350"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.358702Z"/>
+<entry
+   committed-rev="1719"
+   name="表字段定义.xlsx"
+   text-time="2016-11-30T01:36:23.405502Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="adf78869a5902767a96b8c206129d935"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.389902Z"/>
+<entry
+   committed-rev="1719"
+   name="创建库对象.sql"
+   text-time="2016-11-30T01:36:23.405502Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0a04c70951d1aa0ccfa45d0d6c6749f4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.374302Z"/>
+<entry
+   committed-rev="1719"
+   name="WF.sql"
+   text-time="2016-11-30T01:36:23.405502Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5b5efafd140fa4a69d358ff53af86868"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.358702Z"/>
+<entry
+   committed-rev="1719"
+   name="130515数据库变更.sql"
+   text-time="2016-11-30T01:36:23.389902Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4b8606165845dda5b7ac45e1e3cbd0f2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.358702Z"/>
+<entry
+   committed-rev="1719"
+   name="crebas.sql"
+   text-time="2016-11-30T01:36:23.405502Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="da049029e4c3fe178465e2a5e25eb286"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.358702Z"/>
+</wc-entries>

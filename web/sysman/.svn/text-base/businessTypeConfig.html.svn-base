@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>业务类别设置</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="businessTypeConfig.js"></script>
+</head>
+<body>
+	<!--本页面并不能单独运行，必须由（或者类似）config.html页面传入相关参数方可调用-->
+    <table width="100%" class="i-grid-default">
+      <tr>
+        <td width="20%" height="30" class="h_bk s_rb tr">编号:</td>
+        <td width="30%" class="s_rb"><input type="text" id="txtId" class="i-input_off" readonly/></td>
+        <td width="20%" class="h_bk s_rb tr">名称:</td>
+        <td width="30%" class="s_b"><input type="text" id="txtName" class="i-input_off" /></td>
+      </tr>
+      <tr>
+        <td height="30" class="h_bk s_rb tr">选择交易物类别:</td>
+        <td class="s_rb pl5"><select id="cboGoodsTypes" class="i-select_bg" style="width:80%"/>
+	      	<option value="0">土地</option>
+	      	<option value="1">房产</option>
+	      </select></td>
+        <td class="h_bk s_rb tr">选择业务类别:</td>
+        <td class="s_b pl5"><select id="cboBusinessTypes" class="i-select_bg" style="width:80%"/>
+	      	<option value="0">出让</option>
+	      	<option value="1">转让</option>
+	      </select></td>
+      </tr>
+      <tr>
+        <td height="30" class="fb t2" colspan="4">交易方式设置</td>
+      </tr>
+    </table>
+    <div id="transTypeGrid" class="trade_panel fl" style="border-top:0"></div>
+    <div id="tabTransTypeDtl" class="trade_tab fl mt5" style="width:286px; display:none;"> 
+		<div title="竞买申请步骤">
+			<table width="100%" class="i-grid-default">
+			    <tr>
+			      <td width="70" height="30" class="h_bk s_rb tr">选择添加:</td>
+			      <td class="s_b pr5 pl5"><select id="cboSteps" class="i-select_bg" style="width:140px"/>
+			      	<option value="0">须知</option>
+			      	<option value="1">选择银行</option>
+			      </select>
+			      <input class="i-btn2 fr" type="button" id="btnAddStep" value="添加"/>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td height="30" class="h_bk s_rb tr">已添加:</td>
+			      <td class="s_b p5">
+                  	  <div style="width:140px; height:180px;" class="fl">
+                      	<select id="lstTransTypeSteps" multiple="multiple" class="i-select_bg fl" style="width:140px; height:180px; line-height:20px"/>
+				      	<option value="0">须知</option>
+				      	<option value="1">选择银行</option>
+				      </select>
+                      </div>
+				      <div style="width:50px; height:180px;" class="fr tr">
+                      	<input class="i-btn2" type="button" id="btnDeleteStep" value="删除"/>
+			      	  	<input class="i-btn2 mt5" type="button" id="btnClearStep" value="清空"/>
+			      	  	<input class="i-btn2 mt5" type="button" id="btnMoveUpStep" value="上移"/>
+			      	  	<input class="i-btn2 mt5" type="button" id="btnMoveDownStep" value="下移"/>
+                      </div>
+			      </td>
+			    </tr>
+			</table>
+		</div>
+		<div title="多指标模板">
+			<table width="100%" class="i-grid-default">
+			    <tr>
+			      <td width="70" height="30" class="h_bk s_rb tr">选择添加:</td>
+			      <td class="s_b pr5 pl5"><select id="cboQuotas" class="i-select_bg" style="width:140px"/>
+			      	<option value="0">容积率</option>
+			      	<option value="1">绿化率</option>
+			      </select>
+			      <input class="i-btn2 fr" type="button" id="btnAddQuota" value="添加"/>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td height="30" class="h_bk s_rb tr">已添加:</td>
+			      <td class="s_b p5"><select id="lstTransTypeQuotas" multiple="multiple" class="i-select_bg fl" style="width:140px; height:180px; line-height:20px"/>
+			      	<option value="0">容积率</option>
+			      	<option value="1">绿化率</option>
+			      </select>
+			      <input class="i-btn2 fr" type="button" id="btnDeleteQuota" value="删除"/>
+			      <input class="i-btn2 fr mt5" type="button" id="btnClearQuota" value="清空"/>
+			      <input class="i-btn2 fr mt5" type="button" id="btnMoveUpQuota" value="上移"/>
+			      <input class="i-btn2 fr mt5" type="button" id="btnMoveDownQuota" value="下移"/>
+			      </td>
+			    </tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

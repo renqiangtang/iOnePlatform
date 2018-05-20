@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>交易公告列表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="noticeList.js"></script>
+</head>
+<body class="mine">
+<div class="trade_search mb5">
+  <table width="100%" class="search_grid">
+    <tr>
+      <td class="title">公告名称：</td>
+      <td><input type="text" id="name" class="i-input_w135 i-input_bg"/></td>
+      <td class="title">公告号：</td>
+      <td><input type="text" id="no" class="i-input_w135 i-input_bg"/></td>
+      <td class="title">状态：</td>
+      <td><select id="status" class="i-input_w135 i-select_bg">
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="title">公告类型：</td>
+      <td><select id="notice_type" class="i-input_w135 i-select_bg">
+        </select></td>
+      <td class="title">交易类型：</td>
+      <td><select id="business_type" class="i-input_w135 i-select_bg">
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="6" class="tr pr5 pb5"><input id="btnQuery" type="button" value="查询" class="o_btn"/>
+        <input id="btnReset" type="button" value="重置" class="o_btn"/>
+        <input id="btnAddT" type="hidden" value="新增探矿公告" class="o_btn"/>
+        <input id="btnAddC" type="button" value="新增采矿公告" class="o_btn"/>
+        <input id="btnDelete" type="button" value="删除" class="o_btn"/>
+        <!--input id="btnCheck" type="button" value="审核" class="o_btn"/-->
+        <input id="btnPublish" type="button" value="提交" class="o_btn"/>
+        <input id="btnCancel" type="button" value="撤销提交" class="o_btn"/>
+        <input id="btnPublish2" type="button" value="发布" class="o_btn"/>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="grid" class="trade_panel"></div>
+</body>
+</html>

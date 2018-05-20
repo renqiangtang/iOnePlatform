@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/icons"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="photograph.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b75bd835c18f3a305d18be69fb618b99"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="memeber.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="740ade312f286c29650eb4830f98b480"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="right.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="36348152785fa51176e40929c661570c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="process.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6dc8e07dce680d4b4185cb2c3afde827"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="qq.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2635aae02dbb1e980c507cb78b8bddd8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="up.gif"
+   text-time="2016-11-30T01:35:37.640038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1afca61deda474acb021efbed7c6d0e7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="candle.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b48e6f03fb27cc5386d92efd47a04b90"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="resource.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a0740a35ecf31bdfb51288cb09ec77e7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="search2.gif"
+   text-time="2016-11-30T01:35:37.624438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a4a0764af2cea5fe10f77a436b97d2c3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="lock.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cca4df99ce4e2c8877f9e3f3d940e31d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="home.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3bff5942b47bd62de016fb415fde45e6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="greenwarn.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a71f4791fa15641b60e5b02d92032e4d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="graywarn.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="effff12f53c418f0ba5d68f2d2d929b1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="bookpen.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5571da8aa56d811a1bf31ad3db9af848"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="pager.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1a46ebaa5376af5e8879afe8f9de2005"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="save.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="27e739caa6dfc8cf272282f59dbdcd69"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="settings.gif"
+   text-time="2016-11-30T01:35:37.624438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1480ebb467854e68942c8092bcf46c24"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="bluebook.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="83ec083a325e3af7f2daf47e54d76468"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="save-disabled.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="548c5e53f102bfd422e67b87efba197c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="database.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="154bcb96c3c3a565ca23583ebd83f032"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.468437Z"/>
+<entry
+   committed-rev="1719"
+   name="archives.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7c9eee373c5786e9e9da30c9066da186"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.368837Z"/>
+<entry
+   committed-rev="1719"
+   name="search.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="076617d8b0d70990fd163a6a0bee1ed1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="logout.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="10022fa313a5aeafabedc19c5a9d1be2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="prev.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="38640e12a94429a18123bcbc8a02438a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="discuss.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="42b9fc83b888cef0d20086f4837a6f22"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.468437Z"/>
+<entry
+   committed-rev="1719"
+   name="true.gif"
+   text-time="2016-11-30T01:35:37.624438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cf71a3e7149c6be6788717de59e74fb1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="outbox.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c0166ce24d90d46a556ef05a4e97d744"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="busy.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e56fe93086b18b57f7c4525889a10d11"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="plus.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c6b630d8374fa2df35bd3481df5e4897"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="customers.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="99c715a0cb49ef0babba8135dfbc01a4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.401037Z"/>
+<entry
+   committed-rev="1719"
+   name="edit.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e79ccf30b018a0519465b7e2c9d774f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="modify.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e79ccf30b018a0519465b7e2c9d774f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="coffee.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fd85c037d41a936534acfa3fefeb5dff"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="help.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="115d8deb28b43e1fd01fb6276565a7e8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.484037Z"/>
+<entry
+   committed-rev="1719"
+   name="add.gif"
+   text-time="2016-11-30T01:35:37.530837Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d77ed63bcb314c04ba84a1ca94b7497c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.368837Z"/>
+<entry
+   committed-rev="1719"
+   name="mailbox.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8cd21b9934d5c54c37beb30867661167"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="cut.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8cfb0c1a63628a879c2b7017dfd4cc64"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.402037Z"/>
+<entry
+   committed-rev="1719"
+   name="print.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c489d3ac5a804965b6b531bfae1d0a5b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="msn.gif"
+   text-time="2016-11-30T01:35:37.577638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0ef2d3f9d5da75914f47353efc8c9d0d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="refresh.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e53dd414c159e4c0e20546712d6ee37c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.515237Z"/>
+<entry
+   committed-rev="1719"
+   name="back.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="86b5086fff231475a9099efa2f63de22"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="role.gif"
+   text-time="2016-11-30T01:35:37.608838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="812a13122c3c4574728d0d7fb1e493dc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.530837Z"/>
+<entry
+   committed-rev="1719"
+   name="myaccount.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5cea316a39fe47db4544fe3cc62ddd50"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="delete.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b48e6f03fb27cc5386d92efd47a04b90"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.468437Z"/>
+<entry
+   committed-rev="1719"
+   name="comment.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="116eeb5e36cb4a331efa4c046c487fa5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="attibutes.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="efa0b550c93353bc9a8424ecf4dd8841"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="communication.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9b1c04907ff62bd9a22fd4838e45f0c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="config.gif"
+   text-time="2016-11-30T01:35:37.562038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0711069555fabb75f98536eb1bbee229"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+<entry
+   committed-rev="1719"
+   name="ok.gif"
+   text-time="2016-11-30T01:35:37.593238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ea567be4138d8b3e8a1ab3068ff09f2e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.499637Z"/>
+<entry
+   committed-rev="1719"
+   name="calendar.gif"
+   text-time="2016-11-30T01:35:37.546438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b97d02019ad774742e571f0206d518c2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.384437Z"/>
+</wc-entries>

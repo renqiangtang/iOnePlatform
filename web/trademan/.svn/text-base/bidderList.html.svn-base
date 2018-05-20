@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>
+			竞买人列表
+		</title>
+		<link href="css/all.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.js" type="text/javascript">
+		</script>
+		<script src="js/base.js" type="text/javascript">
+		</script>
+		<script src="js/ligerui.all.js" type="text/javascript">
+		</script>
+		<script src="js/ca.js" type="text/javascript">
+		</script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="bidderList.js">
+		</script>
+	</head>
+	<body>
+		<div class="i-wrap">
+			<div class="trade_search mb5 mt5">
+				<table width="100%" class="search_grid">
+					<tr>
+						<td width="8%" class="title">
+							名称：
+						</td>
+						<td width="17%">
+							<input type="text" id="txtName" class="i-input_w120 i-input_bg" />
+						</td>
+						<td width="8%" class="title">
+							类别：
+						</td>
+						<td width="17%">
+							<select id="cboBidderType" class="i-input_w120 i-select_bg" style="width:129px">
+								<option value="">
+								</option>
+								<option value="0">
+									土地
+								</option>
+								<option value="2">
+									矿产
+								</option>
+							</select>
+						</td>
+						<td width="8%" class="title">
+							机构类型：
+						</td>
+						<td width="17%">
+							<select id="cboIsCompany" class="i-input_w120 i-select_bg" style="width:129px">
+								<option value="">
+								</option>
+								<option value="1">
+									企业
+								</option>
+								<option value="0">
+									个人
+								</option>
+							</select>
+						</td>
+						<td width="8%" class="title">
+							行政区：
+						</td>
+						<td width="17%">
+							<input type="text" id="txtCantonName" class="i-input_w120 i-input_bg" />
+							<input type="hidden" id="txtCantonHiddenName" />
+						   
+						</td>
+					</tr>
+					<tr>
+						<td class="title">
+							地址：
+						</td>
+						<td>
+							<input type="text" id="txtAddress" class="i-input_w120 i-input_bg" />
+						</td>
+						<td class="title">
+							申请CAKEY：
+						</td>
+						<td>
+							<select id="cboHasCakey" class="i-input_w120 i-select_bg" style="width:129px">
+								<option value="">
+								</option>
+								<option value="1">
+									已申请CA KEY
+								</option>
+								<option value="0">
+									未申请CA KEY
+								</option>
+							</select>
+						</td>
+						<td class="title">
+							CAKEY：
+						</td>
+						<td>
+							<input type="text" id="txtCakey" class="i-input_bg" style="width:100px"
+							/>
+							<input class="i-btn2" type="button" id="btnReadCakey" value="读取" />
+						</td>
+						<td class="title">
+							状态：
+						</td>
+						<td>
+							<select id="cboStatus" class="i-input_w120 i-select_bg" style="width:129px">
+								<option value="">
+								</option>
+								<option value="0">
+									申请中
+								</option>
+								<option value="5">
+									已提交
+								</option>
+								<option value="6">
+									未通过
+								</option>
+								<option value="1">
+									已通过(正常)
+								</option>
+								<option value="2">
+									冻结
+								</option>
+								<option value="3">
+									年审
+								</option>
+								<option value="4">
+									已注销
+								</option>
+								<option value="100">
+									已过期
+								</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="tr pr15" colspan="8">
+							<span class="wr_btn" id="btnQuery">
+								<input type="button" value="查询" class="o_btn" />
+							</span>
+							<span class="wr_btn" id="btnReset">
+								<input type="button" value="重置" class="o_btn" />
+							</span>
+							<span class="wr_btn" id="btnAdd">
+								<input type="button" value="新增" class="o_btn" />
+							</span>
+							<span class="wr_btn" id="btnDelete">
+								<input type="button" value="删除" class="o_btn" />
+							</span>
+							<span class="wr_btn" id="btnAddBlack">
+								<input type="button" value="加入黑名单" class="o_btn" />
+							</span>
+							<span class="wr_btn" id="showProjectBidder">
+								<input type="button" value="查看股东" class="o_btn" />
+							</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="bidderGrid" class="trade_panel">
+			</div>
+		</div>
+	</body>
+</html>

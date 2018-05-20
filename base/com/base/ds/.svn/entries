@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3975"
+   name=""
+   committed-date="2014-12-26T06:11:38.601353Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/ds"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="3975"
+   name="DataSourceManager.java"
+   text-time="2016-11-30T01:35:40.813447Z"
+   committed-date="2014-12-26T06:11:38.601353Z"
+   checksum="a8b30a7a04b6030b342e9e5b79dcfced"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.797847Z"/>
+<entry
+   committed-rev="3975"
+   name="WrapConnection.java"
+   text-time="2016-11-30T01:35:40.813447Z"
+   committed-date="2014-12-26T06:11:38.601353Z"
+   checksum="783eeed5489980ba0f3b268d9d38faaf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.813447Z"/>
+</wc-entries>

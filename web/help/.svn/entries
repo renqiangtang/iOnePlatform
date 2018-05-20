@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/help"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="help_index.html"
+   text-time="2016-11-30T01:35:38.645440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b33ea5c3be7d3636296ae43c142a6e1e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.629840Z"/>
+<entry
+   committed-rev="1719"
+   name="help_1_1.html"
+   text-time="2016-11-30T01:35:38.629840Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8c44760fd438d25a7bba1f470764956c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.629840Z"/>
+<entry
+   committed-rev="1719"
+   name="help_1_2.html"
+   text-time="2016-11-30T01:35:38.629840Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6364e46315d24db1729c4456487ac55d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.629840Z"/>
+<entry
+   committed-rev="1719"
+   name="help_2.html"
+   text-time="2016-11-30T01:35:38.645440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="42fc56d80bcbcc2cc9200b3e9e978186"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.629840Z"/>
+</wc-entries>

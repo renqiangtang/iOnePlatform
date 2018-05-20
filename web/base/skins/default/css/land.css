@@ -1,0 +1,530 @@
+@charset "utf-8";
+.land a:link {
+	color: #215db7;
+}
+.land a:visited {
+	color: #215db7;
+}
+.land a:hover {
+	color: #215db7;
+}
+.land .footer_bar{
+	width:100%;
+	height:39px;
+	padding-top:10px;
+	border-top:1px solid #5095db;
+	position:fixed;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	_margin-bottom:0px;
+	bottom:0;
+	left:0;
+	background-color:#9ac1e9;
+	z-index:99999;
+}
+.win_t th{
+	background: url("../images/base/horizontal.png") repeat-x scroll 0 -420px transparent;
+	height:23px;
+	line-height:23px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.win_t td{
+	border-top: 1px solid #CCCCCC;
+	height:23px;
+	line-height:23px;
+}
+.land .trade_header {
+	background: url('../images/base/nav/bg20120814_land.png') 0 0 repeat-x;
+}
+.land .nav {
+	background: url('../images/base/nav/bg20120814_land.png') right -225px no-repeat;
+}
+.land .nav ul {
+	background: url('../images/base/nav/bg20120814_land.png') left -180px no-repeat;
+}
+.land .nav .cur {
+	color: #0568fc;
+}
+.land .sub_nav .cur {
+	color: #0568FC;
+}
+.land .trade_nav {
+	background-position: 0 -180px;
+}
+.land .trade_nav .trade_nav_main .current a, .land .trade_nav .trade_nav_main li a:hover > a {
+	color: #0568fc;
+}
+.land .trade_nav .trade_nav_main li ul {
+	border-left: 1px solid #0a6afc;
+	border-right: 1px solid #0a6afc;
+	border-bottom: 1px solid #0a6afc;
+}
+.land .i-main {
+	background: url('../images/base/main_bg_land.gif') 0 0 no-repeat;
+}
+.land .i-guide-btn .i-guide-btn-top, .land .i-guide-btn .i-guide-btn-bottom {
+	background: url(../images/base/trade_bg20120523_land.gif) no-repeat;
+}
+.land .i-guide-btn .i-guide-btn-top {
+	background-position: 0 -520px;
+}
+.land .i-guide-btn .i-guide-btn-bottom {
+	background-position: 0 -540px;
+}
+.land .i-guide-btn .i-guide-btn-mid {
+	background: url(../images/base/vertical_land.png) -1730px 0 repeat-y;
+}
+.land .trade_header .trade_header_main .service_phone {
+	background: url('../images/base/home/bg01_land.png') 0 0 no-repeat;
+}
+.land .i-subbuy_btn {
+	background: url('../images/base/trade_bg20120523_land.gif') no-repeat;
+}
+.land .i-subbuy_btn {
+	background-position: -240px -40px;
+}
+.land .trade_nav .trade_nav_main li:hover > ul li a:hover {
+	color: #0568fc;
+}
+.land .i-subbuy_btn a {
+	color: #58C13C;
+}
+.land .i-online_btn a {
+	color: #2593be;
+}
+.land .trade_select {
+	border-top: 2px solid #5faffa;
+}
+.land .trade_select .ts_head {
+	background: url('../images/base/horizontal_land.gif') 0 -580px;
+}
+.land .trade_select dl {
+	border-top: 1px dashed #BBD2F9;
+}
+.land #filter {
+	border-color: #8CB1E7 #DEDFDE #DEDFDE;
+}
+.land .l-grid-row {
+	background-color: #dde8f7;
+}
+.land .i-container .i-bjMenu .i-bjTitleBox .title {
+	background: none;
+	text-indent: 10px;
+}
+.land .i-info h2 {
+	background: url('../images/base/horizontal_land.gif') 0 -1px repeat-x;
+}
+.land .i-info h2 a {
+	background: url('../images/base/horizontal_land.gif') 0 -40px repeat-x;
+}
+/*--------------------------------------------------------------
+		选标地
+-------------------------------------------------------------- */
+.land .targetItem {
+	width: 300px;
+	height: 234px;
+	background: #ffffff;
+	float: left;
+	margin-left: 17px;
+	margin-top: 20px;
+}
+.land .targetItem_select {
+	height: 228px;
+	border: 2px solid #3599f9;
+}
+.land .targetItem_unselect {
+	height: 230px;
+	border: 1px solid #aaa;
+}
+.land .targetItem .t-head {
+	width: 100%;
+	height: 45px;
+	background: #5faffa;
+}
+.land .targetItem .t-head .text {
+	height: 45px;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 5px;
+}
+.land .targetItem .t-head .more {
+	width: 50px;
+	height: 20px;
+	background: url("../images/trade/target.gif") 0 0 no-repeat;
+	float: right;
+	padding-right: 3px;
+	padding-top: 10px;
+}
+.land .targetItem .t-body {
+	width: 100%;
+	background: #ffffff;
+}
+.land .targetItem .t-body-name {
+	width: 280px;
+	height: 60px;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	overflow: auto;
+}
+.land .targetItem .t-body-cont {
+	width: 100%;
+	height: 60px;
+	font-size: 12px;
+	background: #d8d8d8;
+	font-family: '宋体';
+}
+.land .targetItem .t-body-cont li {
+	float: left;
+	padding: 5px 8px;
+	text-align: left;
+	color: #666666;
+	line-height: 20px;
+}
+.land .targetItem .t-body-cont .first-li {
+	width: 27%;
+}
+.land .targetItem .t-body-cont .sec-li {
+	width: 27%;
+}
+.land .targetItem .t-body-cont .third-li {
+	width: 27%;
+}
+.land .targetItem .t-footer {
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+}
+.land .targetItem .t-footer .f-gm {
+	width: 73px;
+	height: 33px;
+	display: inline-block;
+	background: url("../images/trade/target.gif") 0 -50px no-repeat;
+	cursor: pointer;
+	margin-right:15px;
+}
+.land .targetItem .t-footer .f-gwc {
+	width: 116px;
+	height: 33px;
+	display: inline-block;
+	background: url("../images/trade/target.gif") 0 -130px no-repeat;
+	cursor: pointer;
+}
+.land .targetItem .t-footer .t-footer-sel {
+	width: 100%;
+	height: 35px;
+	line-height: 39px;
+	color: #000;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	cursor: pointer;
+	text-align: center;
+}
+/*--------------------------------------------------------------
+		标地编辑
+-------------------------------------------------------------- */
+
+.land .trade_baseInfo {
+	width: 920px;
+}
+.land .trade_tab .l-tab-links ul li .l-tab-links-item-left {
+	background: url('../images/base/trade_bg20120523_land.gif') -303px 0 no-repeat;
+	width: 4px;
+	line-heihgt: 28px;
+}
+.land .l-tab-links-item-left, .land .trade_tab .l-tab-links ul li .l-tab-links-item-left {
+	background: url('../images/base/trade_bg20120523_land.gif') -303px 0 no-repeat;
+	width: 4px;
+	line-heihgt: 28px;
+}
+.land .l-tab-links-item-right, .land .trade_tab .l-tab-links ul li .l-tab-links-item-right {
+	background: url('../images/base/trade_bg20120523_land.gif') -307px 0 no-repeat;
+	width: 4px;
+	line-heihgt: 28px;
+}
+.land .l-tab-links li, .land .trade_tab .l-tab-links ul li {
+	background: url('../images/base/horizontal_land.gif') 0 -638px repeat-x;
+}
+.land .l-tab-links {
+	border-bottom: 2px solid #006dc5;
+	background: none;
+}
+.land .l-selected .l-tab-links-item-left, .land .trade_tab .l-tab-links ul li.l-selected .l-tab-links-item-left {
+	background: url('../images/base/trade_bg20120523_land.gif') -295px 0 no-repeat;
+	width: 4px;
+	line-heihgt: 28px;
+}
+.land .l-selected .l-tab-links-item-right, .land .trade_tab .l-tab-links ul li.l-selected .l-tab-links-item-right {
+	background: url('../images/base/trade_bg20120523_land.gif') -299px 0 no-repeat;
+	width: 4px;
+	line-heihgt: 28px;
+}
+.land li.l-selected, .land .trade_tab .l-tab-links ul li.l-selected {
+	background: url('../images/base/horizontal_land.gif') 0 -610px repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}
+.land .l-tab-links a {
+	margin: 0 10px;
+}
+.land .l-tab-links .l-selected a:hover {
+	color: #ffffff;
+}
+.land li a:hover {
+	color: #000000;
+}
+.land .l-tab-links li {
+	margin: 0 5px 0 0;
+}
+.land .i-grid-default td.h_bk_url {
+	background: url('../images/base/horizontal_land.gif') 0 -579px repeat-x;
+	height:30px;
+}
+.land input.btn_save, .land input.btn_release {
+	background: url('../images/base/trade_bg20120523_land.gif') -314px -2px repeat-x;
+	height: 30px;
+	border: 1px solid #005acf;
+	line-height: 30px;
+	padding: 0 13px;
+	color: #ffffff;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 14px;
+	cursor: pointer;
+}
+.land .trade_baseInfo .baseInfo_header {
+	border: none;
+}
+.land .i-grid-default td .n_flag {
+	background: none;
+	margin: 0;
+	width: 0;
+}
+.land .l-grid-row-cell-rownumbers {
+	background-color: #DDE8F7;
+}
+/*--------------------------------------------------------------
+		首页biddermain
+-------------------------------------------------------------- */
+.land .i-subbuy_btn {
+	color: #59c43d;
+}
+.land .i-online_btn {
+	color: #2593be;
+}
+/*--------------------------------------------------------------
+		竞买主界面
+-------------------------------------------------------------- */
+.land .link01 {
+	color: #000;
+}
+.land .i-container .i-time-info .i-time dd.i-remainTime span {
+	background: none;
+}
+.land .i-row-center .tags-new .i-selectTag a {
+	color: #C60E0E;
+	font-weight: bold;
+}
+.land .landno {
+	background-color: #daf2fe;
+}
+.land .i-row-center .tags-new .i-unselectTag {
+	background: url('../images/base/horizontal_land.gif') right -711px no-repeat;
+}
+/*--------------------------------------------------------------
+		登录页
+-------------------------------------------------------------- */
+.land_login_bg .top_name {
+	height: 90px;
+	line-height: 60px;
+}
+.land_login_bg {
+	background: url('../images/base/land_login_bg.gif') repeat-x;
+}
+.land_login_bg .i-body-login-441623 {
+	background: url('../images/base/land_login_con_lpx.jpg') no-repeat 0 bottom;
+}
+.land_login_bg .i-body-login-441625 {
+	background: url('../images/base/land_login_con_dyx.jpg') no-repeat 0 bottom;
+}
+.land_login_bg .i-body-login-441624 {
+	background: url('../images/base/land_login_con_hpx.jpg') no-repeat 0 bottom;
+}
+.land_login_bg .i-body-login-441622 {
+	background: url('../images/base/land_login_con_lcx.jpg') no-repeat 0 bottom;
+}
+.land_login_bg .i-body-login-441621 {
+	background: url('../images/base/land_login_con_zjx.jpg') no-repeat 0 bottom;
+}
+.land_login_bg .i-login-box {
+	margin: 0;
+	float: right;
+}
+.i-body-login-441623,.i-body-login-441625,.i-body-login-441624,.i-body-login-441622,.i-body-login-441621 {
+	width: 1005px;
+	height: 490px;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+	left: 50%;
+	top: 45%;
+	margin-left: -503px;
+	margin-top: -245px;
+}
+.land_login_bg .loginTable {
+	margin-top: 88px;
+}
+.land_login_bg .loginTable .i-text {
+	width: 238px;
+	border: 1px solid #747273;
+	height: 29px;
+	line-height: 29px;
+	background: none #ffffff;
+	padding: 0;
+}
+.land_login_bg .loginTable .i-text-focus {
+	width: 238px;
+	border: 1px solid #747273;
+	height: 29px;
+	line-height: 29px;
+	background:none #ffffff;
+	padding: 0;
+}
+.land_login_bg .loginTable td {
+	padding: 0 5px;
+}
+.land_login_bg c4 {
+	color: #fc7a0a;
+}
+.land_login_bg .i-login-btn {
+	width: 102px;
+	height: 35px;
+	display: inline;
+	background: url('../images/base/btn-login_land.png') left top no-repeat;
+	_margin-left: 5px;
+}
+.land_login_bg .i-login-btn:hover {
+	background: url('../images/base/btn-login_land.png') 0 -35px no-repeat;
+	width: 102px;
+	height: 35px;
+}
+/*--------------------------------------------------------------
+		交易公告编辑
+-------------------------------------------------------------- */
+.land .ui-widget-header {
+	background: url("../images/jqueryui/ui-bg_gloss-wave_35_f6a828_500x100_land.png") repeat-x scroll 50% 50% #4b8bf7;
+	border: none;
+}
+.land .ui-state-hover .ui-icon, .land .ui-state-focus .ui-icon {
+	background-image: url(../images/jqueryui/ui-icons_ef8c08_256x240_land.png);
+}
+.land .ui-state-hover, .land .ui-widget-header .ui-state-hover, .land .ui-state-focus, .land .ui-widget-content .ui-state-focus, .land .ui-widget-header .ui-state-focus {
+	border: 1px solid #4c8df7;
+	background: #fdf5ce url(../images/jqueryui/ui-bg_glass_100_fdf5ce_1x400_land.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #007eff;
+}
+/*--------------------------------------------------------------
+		竞买申请书 联合竞买 选择银行 选择竞买方式
+-------------------------------------------------------------- */
+.land .requisition {
+	width: 843px;
+}
+.land .requisition .r_mid {
+	width: 786px;
+}
+.land .requisition .r_mid h1{
+	font-size:28px;
+	padding:0;
+	height:35px;
+	font-weight:bold;
+	_padding-top:2px;
+}
+.land input.btn_orange {
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: 700;
+	border: 0;
+	background: #efefef url('../images/base/btn/btn_land.gif') 0 0 no-repeat;
+	cursor: pointer;
+}
+.land .table-union input[type="button"] {
+	background: #359ee5;
+	color: #ffffff;
+}
+.land .nor_btn {
+	border: 1px solid #1a87d0;
+}
+.land .mod_order .hd {
+	width: 27px;
+	border-right: 1px solid #C4D8EA;
+}
+.land .part_bidderway .o_write {
+	background: none;
+	border: none;
+	padding: 0;
+	margin-top: 0;
+}
+.land .mod_order .inner {
+	padding-left: 28px;
+}
+.land .part_bidderway .o_write h1 {
+	font-size: 12px;
+}
+/*--------------------------------------------------------------
+		标的详情页面样式
+-------------------------------------------------------------- */
+.land .i-wrap {
+	width: 990px;
+}
+.land .i-bidDetailsInfoTitle {
+	border-bottom: none;
+}
+.land .i-bidInfoArea ul {
+	height: 27px;
+	border-left: none;
+	border-right: none;
+}
+.land .i-bidInfoArea table th {
+	background-color: #f4f8fe;
+	border: 1px solid #d2e0fc;
+}
+.land .i-bidInfoMain .i-head_ul li {
+	border: none;
+}
+.land .i-bidInfoMain .i-head_ul li {
+	font-weight: normal;
+}
+.land .i-bidInfoMain .i-head_ul li a {
+	padding-top: 0;
+}
+.land .i-bidInfoMain .i-head_ul .l-selected a {
+	font-weight: bold;
+}
+/*--------------------------------------------------------------
+		设置底价
+-------------------------------------------------------------- */
+.lowestprice_btn {
+	background: url('../images/base/horizontal_land.gif') 0 -692px;
+	height: 19px;
+	line-height: 19px;
+	color: #ffffff;
+	border: 1px solid #2189bd;
+	cursor:pointer;
+}
+.lowestprice_btn a:hover {
+	background: url('../images/base/horizontal_land.gif') 0 -740px;
+}
+/*--------------------------------------------------------------
+		竞买申请主界面---标地详情
+-------------------------------------------------------------- */
+.land .gz-apply-main{
+border:2px solid #CBE3C9;
+}

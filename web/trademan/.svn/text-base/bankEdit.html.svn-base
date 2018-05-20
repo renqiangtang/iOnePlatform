@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>银行编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/ca.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+  <table width="100%" class="i-grid-default">
+    <tr>
+      <td width="20%" height="30" class="h_bk s_rb tr"><span class="c6">*</span>名称:</td>
+      <td class="s_b"><input type="text" id="txtName" class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr"><span class="c6">*</span>编号:</td>
+      <td class="s_b"><input type="text" id="txtNo" class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">电话:</td>
+      <td class="s_b"><input type="text" id="txtTel" class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">联系人:</td>
+      <td class="s_b"><input type="text" id="txtContact" class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">行政区:</td>
+      <td class="s_b pl5"><input type="text" id="txtCanton"/>
+        <input type="hidden" id="txtCantonId"/>
+      </td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">地址:</td>
+      <td class="s_b"><input type="text" id="txtAddress" class="i-input_off "/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr"><span class="c6">*</span>CAKEY:</td>
+      <td class="s_b"><input type="text" id="txtCakey" readonly class="i-input_off ">
+        <input type="button" class="i-btn2" value="设置" id="btnSetCakey">
+        <input type="checkbox" id="chkAllowModifyCakey" title="选中允许手工输入" style="display:none"/>
+      </td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">备注:</td>
+      <td class="s_b"><input type="text" id="txtRemark" class="i-input_off "/></td>
+    </tr>
+  </table>
+  <div id="unmodifyPrompt" class="mt5 c6 tc" style="display=none;">注：部分信息系统设置不允许修改（仅能修改CAKEY），如果需要修改请带齐证件到交易中心相关窗口进行申请变更。 </div>
+  <div class="mt5 tc"> <span class="wr_btn" id="btnSave">
+    <input type="button" value="保存" class="o_btn" />
+    </span> </div>
+</form>
+</div>
+</body>
+<script type="text/javascript" src="bankEdit.js"></script>
+</html>

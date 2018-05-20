@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>菜单管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="menu.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="i-wrap i-bk-blue">
+  <div class="i-left_bar">
+    <div class="i-menuTitle"><span>菜单树</span></div>
+    <div class="i-tree_box mt5 mb5">
+      <ul id="tree1">
+      </ul>
+    </div>
+  </div>
+  <div class="i-right_bar">
+    <div class="i-menuTitle"><span>菜单维护</span></div>
+    <form>
+      <table width="100%" class="i-grid-default">
+        <tr>
+          <td width="120" height="30" class="h_bk s_rb tr">编　号：</td>
+          <td class="s_b"><input class="i-input_off " type="text" id="no" /></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">名　称：</td>
+          <td class="s_b"><input class="i-input_off " type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">模　块：</td>
+          <td class="s_b pl5"><input type="text" id="txtModule"/>
+            <input type="hidden" id="txtModuleId"/>
+          </td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">模块参数：</td>
+          <td class="s_b"><input type="text" class="i-input_off " id="txtModuleParams"/></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">排序码：</td>
+          <td class="s_b"><input class="i-input_off " type="text" id="turn" /></td>
+        </tr>
+      </table>
+    </form>
+    <div class="tc mt10"> <span class="wr_btn" id="btnNew">
+      <input type="button" value="新增" class="o_btn" />
+      </span> <span class="wr_btn" id="btnNewChild">
+      <input type="button" value="新增子菜单" class="o_btn" />
+      </span> <span class="wr_btn" id="btnDel">
+      <input  type="button" value="删除" class="o_btn" />
+      </span> <span class="wr_btn" id="btnSave">
+      <input type="button" value="提交" class="o_btn" />
+      </span> </div>
+  </div>
+</div>
+</body>
+</html>

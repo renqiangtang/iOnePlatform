@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>系统设置</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/json2.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="tabConfig" class="trade_tab mt5"> 
+		<div title="常规" id="generalConfig">
+			<table width="100%" class="i-grid-default mt5">
+				<tr>
+					<td width="150" height="30" class="h_bk s_rb tr">系统名称:</td>
+					<td class="s_b"><input type="text" class="i-input_off" id="txtSystemName"/></td>
+				</tr>
+				<tr>
+					<td class="h_bk s_rb tr" height="30">简短名称:</td>
+					<td class="s_b"><input type="text" class="i-input_off" id="txtSystemShortName"/></td>
+				</tr>
+			</table>
+		</div>
+		<div title="交易规则" id="transConfig" style="overflow:auto">
+			<table width="100%" class="i-grid-default mt5">
+				<tr>
+					<td width="150" height="30" class="h_bk s_rb tr">规则字典:</td>
+					<td class="s_b">
+						<div id="tabTransRuleDict" class="trade_tab mt5">
+							<div title="交易物类别">
+                            	<div id="goodsTypeDictGrid" class="m5 trade_panel"></div>
+                            </div>
+                            <div title="业务类别">
+                            	<div id="businessTypeDictGrid" class="m5 trade_panel"></div>
+                            </div>
+                        	<div title="竞买申请步骤">
+                            	<div id="licenseStepDictGrid" class="m5 trade_panel"></div>
+                            </div>
+                            <div title="交易方式">
+								<div id="transTypeDictGrid" class="m5 trade_panel"></div>
+							</div>
+							<div title="多指标">
+								<div id="multiTradeDictGrid" class="m5 trade_panel"></div>
+							</div>
+                        </div>
+					</td>
+				</tr>
+				<tr>
+					<td width="150" height="30" class="h_bk s_rb tr">业务类别:</td>
+					<td class="s_b"><div id="businessTypeRelGrid" class="trade_panel m5"></div></td>
+				</tr>
+			</table>
+			<div id="inputDictInfoPanel" class="trade_tab fl mt5" style="width:286px; display:none;">
+				<div id="inputDictNoPanel" style="display:none;">
+					编号：<input type="text" class="i-input_off mt5" id="txtDictItemNo"/>
+				</div>
+				名称：<input type="text" class="i-input_off mt5" id="txtDictItemName"/>
+			</div>
+		</div>
+		<div title="CA数字证书" id="transCA">
+			<table width="100%" class="i-grid-default mt5">
+				<tr>
+					<td width="150" height="30" class="h_bk s_rb tr">CA类型:</td>
+					<td class="s_b"><select id="cboCA" class="i-input_w160 ml5" disabled="disabled">
+						<option value="">免CAKEY</option>
+					</select><span class="c6 ml5">注：设置无效，通过配置文件配置。</span>
+					</td>
+					<tr>
+						<td height="30" class="h_bk s_rb tr">用户打开模块前检查CA:</td>
+						<td class="s_b"><input type="checkbox" class="ml5" id="chkCheckCABeforeOpenModule"/></td>
+					</tr>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="tc mt5"> 
+    	<span class="wr_btn" id="btnSave"><input type="button" value="提交" class="o_btn" /></span>
+    </div>
+</body>
+<script type="text/javascript" src="config.js"></script>
+</html>

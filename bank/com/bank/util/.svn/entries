@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/bank/com/bank/util"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="TestXmlTest.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="84eece72a80e8c82082252d3a0cbb605"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.598850Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlInput.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a724bb794db4305852a98ee5e0bd674e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.598850Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlOutput.java"
+   text-time="2016-11-30T01:35:41.630050Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="59f931f4f8c6ea897fe55166b371bba1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.598850Z"/>
+<entry
+   committed-rev="1719"
+   name="MD5.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="02f7b2ce420868f95f72aafd09de1bf9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.583250Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlFeedBack.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="19e63da0916d35d1ebc2f2920cf5d0ff"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.598850Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlVo.java"
+   text-time="2016-11-30T01:35:41.710050Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="41cf419c0c920bdace1b044aade2c8a9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.614450Z"/>
+<entry
+   committed-rev="1719"
+   name="SocketUtil.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3c205b256caa8d0b7662be9239b11133"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.583250Z"/>
+<entry
+   committed-rev="1719"
+   name="BankUtil.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="96426007d23e1452025bfda1bd70dbe5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.583250Z"/>
+<entry
+   committed-rev="1719"
+   name="ParameterUtil.java"
+   text-time="2016-11-30T01:35:41.614450Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="10bac4f01ac77afb36e8ebcc2cd0a293"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.583250Z"/>
+<entry
+   committed-rev="1719"
+   name="XmlUtil.java"
+   text-time="2016-11-30T01:35:41.710050Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="35474a303a592bb955be677e6a925d53"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.598850Z"/>
+</wc-entries>

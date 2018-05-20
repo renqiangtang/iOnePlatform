@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/land/after"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountList.html"
+   text-time="2016-11-30T01:35:11.380950Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c8e69d1e0d46b17f35a3c17583c9c496"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="immediate.html"
+   text-time="2016-11-30T01:35:11.380950Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d4a8a6a7921000c30d01791b49dc33a4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsScaleSet.html"
+   text-time="2016-11-30T01:35:11.365350Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="31c81d37ea45571aa6ca3f72208bd651"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="landstatisticsquery.html"
+   text-time="2016-11-30T01:35:11.380950Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6f84aa6c87cf052db49d6e568a954520"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="statistics.js"
+   text-time="2016-11-30T01:35:11.404550Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="08b4eb5c815b002e68e83865e4f722e8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.349750Z"/>
+<entry
+   committed-rev="1719"
+   name="allStatistics.html"
+   text-time="2016-11-30T01:35:11.365350Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1d93b180af02b4428767eaa8a12b91c3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.271750Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountView.js"
+   text-time="2016-11-30T01:35:11.400550Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4bab0f718c3252e511573adda55f2d1f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.349750Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountList.js"
+   text-time="2016-11-30T01:35:11.397550Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e176478b007bf6b11291a5c81a5030ba"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="immediate.js"
+   text-time="2016-11-30T01:35:11.380950Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f217ef626cee4c036bc2de8412a11be1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="goodsScaleSet.js"
+   text-time="2016-11-30T01:35:11.365350Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c172ef7b95c35b475715d9410228a6d7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="landstatisticsquery.js"
+   text-time="2016-11-30T01:35:11.380950Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9cb4ac2f7e77d88b35e314b414cff48d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+<entry
+   committed-rev="1719"
+   name="statistics.html"
+   text-time="2016-11-30T01:35:11.402550Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="eba917ae8a64d522e3acb21bac4ec17e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.349750Z"/>
+<entry
+   committed-rev="1719"
+   name="allStatistics.js"
+   text-time="2016-11-30T01:35:11.365350Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0d2faca5da896a6f818cdcaa2e5a6e18"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.271750Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountView.html"
+   text-time="2016-11-30T01:35:11.399550Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc7d7754a876eaf6cb6a03c611f68e12"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.287350Z"/>
+</wc-entries>

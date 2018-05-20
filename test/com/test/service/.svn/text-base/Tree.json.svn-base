@@ -1,0 +1,37 @@
+[
+    {
+        "data":{
+            "title":"A node",
+            "attr":{
+                "id":"0001"
+            }
+        },
+        "children":[
+            {
+                "data":"Only child",
+                "state":"closed"
+            }
+        ],
+        "state":"open"
+    },
+    {
+        "data":{
+            "title":"B node",
+            "attr":{
+                "id":"0002"
+            }
+        },
+        "state":"closed"
+    },
+    {
+        "data":{
+            "title":"C node",
+            "attr":{
+                "id":"0003"
+            },
+          "children":[]  
+            
+        },
+        "state":"open"
+    }
+]

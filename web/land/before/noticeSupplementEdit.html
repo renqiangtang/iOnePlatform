@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易公告编辑</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="noticeSupplementEdit.js"></script>
+</head>
+<body class="land">
+<!--底部按钮条 start -->
+<div class="footer_bar tc">
+<input id="noticeSave" type="button" value="保存" class="btn_save"/>
+<input id="relAttach" type="button" disabled="true" value="附件" class="btn_save"/>
+<input id="noticePublish" type="button" value="发布" class="btn_release ml5" disabled="true"/>
+<input id="noticeCancel" type="button" value="撤销" class="btn_release ml5"/>
+</div>
+<!--底部按钮条 end -->
+<!--trade 公告信息 start -->
+<div id="tabNoticeGoods" class="trade_baseInfo">
+    <table width="100%" class="i-grid-default mt5">
+      <tr>
+        <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a1">·公告基本信息</a></td>
+      </tr>
+      <tr>
+        <td width="16%" class="h_bk s_rb tr"><span class="c6">*</span>编号:</td>
+        <td width="34%" class="s_b"><input type="text" id="name" class="i-input_off" requireValue="编号不能为空!"/></td>
+        <td width="16%" class="h_bk s_rb tr"><span class="c6">*</span>类型:</td>
+        <td width="34%" class="s_b">
+        	<input type="hidden" id="notice_type" class="i-select_bg ml5" style="width:246px">
+        	<input type="text" id="notice_type_name" class="i-input_off"  readonly/>
+        </td>
+      </tr>
+      <tr>
+        <td class="h_bk s_rb tr"><span class="c6">*</span>公告日期:</td>
+        <td class="s_b"><input type="text" id="notice_date" class="i-input_off" readonly requireValue="公告日期不能为空!"/></td>
+        <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>交易类型:</td>
+        <td class="s_rb">
+        	<input type="hidden" id="business_type" class="i-select_bg ml5" style="width:246px">
+        	<input type="text" id="business_type_name" class="i-input_off"  readonly/>
+        </td>
+      </tr>
+      <tr>
+       <tr>
+        <td height="28" class="h_bk s_rb tr">备注:</td>
+        <td class="s_b p5" colspan="3"><textarea id="remark" class="i-textarea_bg" style="width:91%; height:50px" ></textarea></td>
+      </tr>
+      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>父公告:</td>
+        <td class="s_rb" colspan = "3" id = "parent_notice"></td>
+      </tr>
+      <tr>
+        <td id="n_add" height="28" colspan="4" class="s_b fb pl10"></td>
+      </tr>
+    </table>
+    <table width="100%" class="i-grid-default mt5" id="boundNoticeTab" style="display:none">
+      <tr>
+        <td width="60%" height="28" class="h_bk s_rb tc fb" id="n_no"></td>
+        <td width="40%" class="h_bk s_b tc fb">操作</td>
+      </tr>
+    </table>
+  <!--trade 公告信息 start -->
+  <table width="100%" class="i-grid-default mt5">
+      <tr>
+        <td height="28" class="s_b fb h_bk_url pl10"><a name="a2">·标的信息</a></td>
+      </tr>
+      <tr>
+      	<td>	
+        	<div id="targetGrid" class="trade_panel" style="border:none"></div>
+        </td>
+      </tr>
+  </table>
+</div>
+</body>
+</html>

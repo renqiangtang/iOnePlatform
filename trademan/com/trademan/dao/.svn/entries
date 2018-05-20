@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trademan/com/trademan/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BankDao.java"
+   text-time="2016-11-30T01:35:41.411649Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0fba28efd16a8510cabbee781e444b3b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.237049Z"/>
+<entry
+   committed-rev="1719"
+   name="LicenseManageDao.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="001307c17108230baf461776be231f8c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.285849Z"/>
+<entry
+   committed-rev="1719"
+   name="DoneTargetDao.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="67ead9ec1fd9f83d6fd8313568614fd9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.237049Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowReportDao.java"
+   text-time="2016-11-30T01:35:41.442849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b60ca5f92e34f29b763a90ca86a0da80"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.411649Z"/>
+<entry
+   committed-rev="1719"
+   name="BankManageDao.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9c12ee80b258a4e95d064230eb0adde0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.237049Z"/>
+<entry
+   committed-rev="1719"
+   name="LicenseManageMineDao.java"
+   text-time="2016-11-30T01:35:41.442849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a41d0a61b06ec6c8ad0e365545c93e20"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.395049Z"/>
+<entry
+   committed-rev="1719"
+   name="ProcessManageDao.java"
+   text-time="2016-11-30T01:35:41.442849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ee37dad7b78b17a2ca03b199ebf56338"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.411649Z"/>
+<entry
+   committed-rev="1719"
+   name="PriceChangeDao.java"
+   text-time="2016-11-30T01:35:41.442849Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="572f28169560eb0540758499ae9d3ad5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.411649Z"/>
+<entry
+   committed-rev="1719"
+   name="BidderDao.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9da333e1a79923d494ef1043c0623fd8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.237049Z"/>
+<entry
+   committed-rev="1719"
+   name="CardDao.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1bff89e6328489f51a484c8bdcae8b2f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.237049Z"/>
+<entry
+   committed-rev="1719"
+   name="LicenseManageLandDao_back.java"
+   text-time="2016-11-30T01:35:41.427249Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="56dc47fec84e4da1fd3d9c8a0de5195e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.301449Z"/>
+</wc-entries>

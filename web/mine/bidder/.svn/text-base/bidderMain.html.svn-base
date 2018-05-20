@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>无标题文档</title>
+<link href="../base/skins/default/css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="bidderMain.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body class="mine">
+<div class="i-main pt20">
+	<!--<img src="../base/skins/default/images/base/lc.gif" />
+    <p>提交竞买申请后（联合竞买需所有联合竞买人确认竞买申请），您可根据系统提示，选择竞买保证金的收款银行，打印《保证金入账申请单》，按要求交纳保证金。<span></span><em></em></p>-->
+    <!-- <div class="pt15 pl15 ml20 pb30">
+    	流程图flash Start
+         <img src="../base/skins/default/images/process/p301.gif" />
+    --流程图flash End
+    </div> -->
+    <div class="i-guide-btn mt10">
+      <div class="i-guide-btn-top"></div>
+      <div class="i-guide-btn-mid">
+        <ul>
+            <li class="i-subbuy_btn fl chand" id="noticeTargets">申请竞买<span>点击进入>></span></li>
+            <li class="i-online_btn fr chand" id="tradeTargets">网上竞价<span>点击进入>></span></li>
+        </ul>
+        </div>
+      <div class="i-guide-btn-bottom"></div>
+    </div>
+    <!-- 当前竞买人 相关标的-->
+    <div id="licensePromptPanel" class="i-guide-grid-panel i-bk-white" style="display:none">
+    	<h2 class="pl5 fb f12">您目前有以下竞买申请</h2>
+    	<div class="i-guide-grid-close-btn pa chand"></div> 
+        <div class="pa" style="top:6px; right:35px">
+        	<a href="#" onclick="pageMainObj.queryLicenseData()" style="color:#fff">刷新</a>  
+            <a href="#" onclick="pageMainObj.viewLicenseList()" style="color:#fff">更多...</a> 
+        </div>
+        <table width="753" class="i-grid-default">
+        	<tr>
+            	<td width="100" height="25" class="tc h_bk s_rb">竞买号</td>
+                <td width="200" class="tc h_bk s_rb">矿区名称</td>
+                <td width="130" class="tc h_bk s_rb">申请时间</td>
+                <td width="304" class="tc h_bk s_rb">状态</td>
+                <td width="16" class="h_bk">&nbsp;</td>
+            </tr>
+        </table>
+        <div class="i-guide-grid-data">
+        <table id="licenses" class="i-grid-default" style="margin-top:-1px;">
+            <tr>
+            	<td width="100" height="22" class="tc s_rb">23961520</td>
+                <td width="200" class="tc s_rb"><a href="#">1111111</a></td>
+                <td width="130" class="tc s_rb">2012-07-27 </td>
+                <td width="302" class="tc s_b">申请中,联合(无确认)</td>
+            </tr>
+            <tr>
+            	<td height="22" class="tc s_rb">23961520</td>
+                <td class="tc s_rb"><a href="#">1111111</a></td>
+                <td class="tc s_rb">2012-07-27 </td>
+                <td class="tc s_b">申请中,联合(无确认)</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+/*flow 流程切换*/
+function flowchart(param1,param2,param3){
+/*Node 1*/
+	if(param1.src.indexOf("flowchart1_n1")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart1_p1.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+	
+/*Node 2 3 5*/
+	if(param1.src.indexOf("flowchart1_n2")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart1_p2.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+	
+/*Node 4*/
+	if(param1.src.indexOf("flowchart3_n1")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart3_p1.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+
+/*Node 6*/
+	if(param1.src.indexOf("flowchart1_n3")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart1_p3.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+
+/*Node 7*/
+	if(param1.src.indexOf("flowchart2_n1")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart2_p1.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+	
+/*Node 8*/
+	if(param1.src.indexOf("flowchart2_n2")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart2_p2.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}
+		
+/*Node 9*/
+	if(param1.src.indexOf("flowchart2_n3")!='-1'){
+	var StyleClassName = document.getElementById(param2);
+	StyleClassName.className = 'c0 f13 fb';
+	param1.src = '../base/skins/default/images/base/flowchart2_p3.gif';
+	for( i=1; i<7; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+		document.getElementById(param3).style.display='';
+	}
+	}		
+	
+	
+	
+}
+
+
+/*鼠标移开*****************/
+function flowchart_out(param1,param2,param3){
+	if(param1.src.indexOf("flowchart1_p1")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart1_n1.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart1_p2")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart1_n2.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart3_p1")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart3_n1.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart1_p3")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart1_n3.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart2_p1")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart2_n1.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart2_p2")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart2_n2.gif';
+	}
+	
+	if(param1.src.indexOf("flowchart2_p3")!='-1'){
+		var StyleClassName = document.getElementById(param2);
+		StyleClassName.className = 'c7';
+		param1.src = '../base/skins/default/images/base/flowchart2_n3.gif';
+	}
+
+	for( i=1; i<10; i++ ){
+		document.getElementById("flow_info"+[i]).style.display ='none';
+	}
+}
+</script>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="dateeditor"
+   kind="dir"/>
+<entry
+   name="grid"
+   kind="dir"/>
+<entry
+   name="icon"
+   kind="dir"/>
+<entry
+   name="help"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="zTree"
+   kind="dir"/>
+<entry
+   name="jsTree"
+   kind="dir"/>
+<entry
+   name="win"
+   kind="dir"/>
+<entry
+   name="panel"
+   kind="dir"/>
+<entry
+   name="trade"
+   kind="dir"/>
+<entry
+   name="tree"
+   kind="dir"/>
+<entry
+   name="form"
+   kind="dir"/>
+<entry
+   name="controls"
+   kind="dir"/>
+<entry
+   name="mh"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   name="icons"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+<entry
+   name="jqueryui"
+   kind="dir"/>
+<entry
+   name="process"
+   kind="dir"/>
+</wc-entries>

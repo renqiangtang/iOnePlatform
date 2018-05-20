@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="overflow:hidden">
+<head>
+<title>模块管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="i-wrap i-bk-blue">
+  <div class="i-left_bar">
+    <div class="i-menuTitle" id="treeTitle"><span>模块树</span><input type="text" value="" id="searchID"></div>
+    <div class="i-tree_box mt5 mb5">
+      <ul id="moduleTree">
+      </ul>
+    </div>
+  </div>
+  <div class="i-right_bar" id="dataPanel">
+    <div class="i-menuTitle"><span id="editTitle">模块维护</span><span class="wr_btn fr" style="background:none; width:10px" id="btnChangeDataOperate">
+      <input type="button" id="btnChangeDataOperate1" value="同步" class="o_btn" />
+      </span></div>
+    <div id="dataEditor">
+    <form id="dataEditorForm">
+      <div id="editModule">
+        <table width="100%" class="i-grid-default">
+          <tr>
+            <td width="120" height="30" class="h_bk s_rb tr">名称:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtName"/></td>
+          </tr>
+          <tr>
+            <td width="120" height="30" class="h_bk s_rb tr">编号:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtNo"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">目标:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtUrl"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">菜单:</td>
+            <td class="s_b pl5"><input type="text" id="txtMenu"/>
+              <input type="hidden" id="txtMenuId"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建人:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtCreateUserName" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建日期:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtCreateDate" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">备注:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtRemark"/></td>
+          </tr>
+        </table>
+      </div>
+      <div id="editDataSet">
+        <table width="100%" class="i-grid-default">
+          <tr>
+            <td width="120" height="30" class="h_bk s_rb tr">编号:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtDataSetNo"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">名称:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtDataSetName"/></td>
+          </tr>
+          <tr>
+            <td height="30" valign="top" class="h_bk s_rb tr">SQL:</td>
+            <td class="s_b pl5 pt5 pb5"><textarea name="textarea" wrap="off" id="txtDataSetSql" class="i-textarea_bg" style="width:540px; height:240px"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建人:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtDataSetCreateUserName" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建日期:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtDataSetCreateDate" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">备注:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtDataSetRemark"/></td>
+          </tr>
+        </table>
+      </div>
+      <div id="editResource">
+        <table width="100%" class="i-grid-default">
+          <tr>
+            <td width="120" height="30" class="h_bk s_rb tr">编号:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtResourceNo"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">名称:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtResourceName"/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">内容:</td>
+            <td class="s_b pl5"><textarea name="textarea" wrap="off" id="txtResourceContent" class="i-textarea_bg" style="width:540px; height:240px"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建人:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtResourceCreateUserName" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">创建日期:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtResourceCreateDate" readonly/></td>
+          </tr>
+          <tr>
+            <td height="30" class="h_bk s_rb tr">备注:</td>
+            <td class="s_b"><input type="text" class="i-input_off" id="txtResourceRemark"/></td>
+          </tr>
+        </table>
+      </div>
+    </form>
+    <div class="tc mt10"> <span class="wr_btn" id="btnAdd">
+      <input type="button" value="新增模块" class="o_btn" />
+      </span> <span class="wr_btn" id="btnAddDataSet">
+      <input  type="button" value="新增数据集" class="o_btn" />
+      </span> <span class="wr_btn" id="btnAddResource">
+      <input type="button" value="新增字符串" class="o_btn" />
+      </span> <span class="wr_btn" id="btnDelete">
+      <input type="button" value="删除" class="o_btn" />
+      </span> <span class="wr_btn" id="btnSave">
+      <input type="button" value="提交" class="o_btn" />
+      </span> <span class="wr_btn" id="btnTest">
+      <input type="button" value="测试" class="o_btn" />
+      </span>
+    </div>
+    </div>
+    <div id="dataSync" style="display:none">
+    	<form id="fileForm" encType="multipart/form-data">
+    	<table width="100%" class="i-grid-default">
+    		<tr>
+				<td width="150" height="26" class="s_b fb pl10" colspan="2">同步当前系统数据到远程目标系统</td>
+			</tr>
+			<tr>
+				<td width="150" height="26" class="h_bk s_rb tr"><span class="c6 mr5">*</span>目标地址:</td>
+				<td class="s_b"><input type="text" class="i-input_off " id="txtSyncRemoteUrl"/></td>
+			</tr>
+			<tr>
+				<td height="26" class="h_bk s_rb tr">同步范围:</td>
+				<td class="s_b">
+					<input type="checkbox" id="chkSyncArea0"/><label for="chkSyncArea0">模块</label>
+	                <input type="checkbox" id="chkSyncArea1"/><label for="chkSyncArea1">数据集</label>
+	                <input type="checkbox" id="chkSyncArea2"/><label for="chkSyncArea2">字符串</label>
+	            </td>
+			</tr>
+			<tr>
+				<td height="26" class="h_bk s_rb tr">数据范围:</td>
+				<td class="s_b">
+					<input type="radio" value="0" id="rbtnSyncDataArea0" name="syncDataArea" /><label for="rbtnSyncDataArea0">所有数据</label>
+	                <input type="radio" value="1" id="rbtnSyncDataArea1" name="syncDataArea" /><label for="rbtnSyncDataArea1">选择的节点</label>
+				</td>
+			</tr>
+			<tr>
+				<td width="150" height="26" class="s_b fb pl10" colspan="2">
+					<div id="action" class="tc mt10">
+						<span class="wr_btn" id="btnSyncRemote"><input type="button" value="同步" class="o_btn" /></span>
+						<span class="wr_btn" id="btnDownload"><input type="button" value="下载同步数据文件" class="o_btn" /></span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="150" height="26" class="s_b fb pl10" colspan="2">上传数据文件并同步到当前系统</td>
+			</tr>
+			<tr>
+				<td width="150" height="26" class="h_bk s_rb tr"><span class="c6 mr5">*</span>数据文件:</td>
+				<td class="s_b"><input type="file" class="i-input_off " id="txtUploadFile" name="txtUploadFile" /></td>
+			</tr>
+			<tr>
+				<td width="150" height="26" class="s_b fb pl10" colspan="2">
+					<div id="action" class="tc mt10">
+						<span class="wr_btn" id="btnUploadSyncData"><input type="button" value="上传同步数据文件并导入" class="o_btn" /></span>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<iframe name='hidden_frame' id="hidden_frame" style='display:none'></iframe>
+		</form>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="module.js"></script>
+</html>

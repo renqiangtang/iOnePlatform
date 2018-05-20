@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>入账单管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/flexselect.css" type="text/css" media="screen" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/liquidmetal.js"></script>
+<script type="text/javascript" src="js/jquery.flexselect.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="bankBillEdit.js"></script>
+</head>
+<body>
+    <form>
+      <table width="100%" class="i-grid-default">
+        <tr>
+          <td width="20%" height="30" class="h_bk s_rb tr"><span class="c6">*</span>交款账号:</td>
+          <td width="30%" class="s_rb"><input type="text" id="bidderAccountNo" class="i-input_off" style="width:90%"/></td>
+          <td width="20%" class="h_bk s_rb tr"><span class="c6">*</span>重新输入交款账号:</td>
+          <td width="30%" class="s_b"><input type="text" id="bidderAccountNoDouble" class="i-input_off" style="width:90%"/></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr"><span class="c6">*</span>交款户名:</td>
+          <td class="s_rb"><input type="text" id="bidderAccountName" class="i-input_off" style="width:90%"/></td>
+          <td class="h_bk s_rb tr"><span class="c6">*</span>交款账户开户行:</td>
+          <td class="s_b"><input type="text" id="bidderAccountBank" class="i-input_off" style="width:90%"/></td>
+        </tr>
+        <tr>
+        <td height="30" class="h_bk s_rb tr" id="ai">流水号:</td>
+        <td class="s_rb"><select class="i-select_bg ml5" id="applyId" style="width:92%"></select></td>
+        <td class="s_b"></td>
+        <td class="s_b"></td>
+        </tr>
+        <tr>
+        <td height="30" class="h_bk s_rb tr"><span class="c6">*</span>金额:</td>
+        <td class="s_rb"><input type="text" id="amount" class="i-input_off" style="width:90%"/></td>
+        <td class="s_b"></td>
+        <td class="s_b"></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">大写(RMB):</td>
+          <td class="s_b" colspan="3"><div id="rmb" class="ml5"></div></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">收款银行:</td>
+          <td class="s_rb"><input type="text" id="nameTa" class="i-input_off" style="width:90%" readonly/></td>
+          <td class="h_bk s_rb tr">收款账户名:</td>
+          <td class="s_b"><input type="text" id="noTa" class="i-input_off" style="width:90%" readonly/></td>
+        </tr>
+       
+        <tr>
+          <td height="30" class="h_bk s_rb tr">操作人:</td>
+          <td class="s_rb"><input type="text" id="bankNameTa" class="i-input_off" style="width:90%" readonly/></td>
+          <td class="s_b"></td>
+          <td class="s_b"></td>
+        </tr>
+        <tr>
+          <td height="30" class="h_bk s_rb tr">交易银行编号:</td>
+          <td class="s_rb"><input type="text" id="bankBusinessNo" class="i-input_off" style="width:90%"/></td>
+          <td class="s_b"></td>
+          <td class="s_b"></td>
+        </tr>
+        <tr>
+        <td height="30" class="h_bk s_rb tr">到账时间:</td>
+        <td class="s_rb"><input type="text" id="bankBusinessDate" class="i-input_off" style="width:90%"/></td>
+        <td class="h_bk s_rb tr">状态:</td>
+        <td class="s_b"><div class="ml5" id="idStatus"></div></td>
+        <input type="hidden" id="status" class=""/>
+      </tr>
+      <tr>
+      <td class="h_bk s_rb tr">备注:</td>
+      <td class="s_b p5" colspan="3"><textarea id="remark" class="i-textarea_bg" style="width:97%; height:50px" ></textarea></td>
+      </tr>
+      </table>
+    </form>
+  <div class="mt10 tc">
+  	<span class="wr_btn" id="btnSave"><input type="button" value="保存" class="o_btn" /></span>
+    <span class="wr_btn" id="btnClose"><input type="button" value="关闭" class="o_btn" /></span>
+  </div>
+</body>
+</html>

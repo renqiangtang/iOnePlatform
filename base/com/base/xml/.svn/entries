@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/xml"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="MappingField.java"
+   text-time="2016-11-30T01:35:41.143449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9ab547bd14dee70259037f82de4dd488"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.127849Z"/>
+<entry
+   committed-rev="1719"
+   name="MappingClass.java"
+   text-time="2016-11-30T01:35:41.143449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="719a7539992f4969d5ad99571649014a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.127849Z"/>
+<entry
+   committed-rev="1719"
+   name="ObjectUtils.java"
+   text-time="2016-11-30T01:35:41.143449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="869354757c3774c43647521176f2914d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.143449Z"/>
+<entry
+   committed-rev="1719"
+   name="MappingUtils.java"
+   text-time="2016-11-30T01:35:41.143449Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="29c53fc13f6069259323f0cbe8c2a321"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.143449Z"/>
+</wc-entries>

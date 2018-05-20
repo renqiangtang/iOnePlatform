@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com/tradeland/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="TradeDao.java"
+   text-time="2016-11-30T01:35:42.087451Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0b5bfd8b1fe463e7fcf370e34910641f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.056251Z"/>
+<entry
+   committed-rev="1719"
+   name="ViewTargetDao.java"
+   text-time="2016-11-30T01:35:42.103051Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e5ae083a28cceb017f3e317a16347542"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.056251Z"/>
+<entry
+   committed-rev="1719"
+   name="OfferLogDao.java"
+   text-time="2016-11-30T01:35:42.087451Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="646ed90d9f0ca45f7137f5bbb5b6e819"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.025051Z"/>
+</wc-entries>

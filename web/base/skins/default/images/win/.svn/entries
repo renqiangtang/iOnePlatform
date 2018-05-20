@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/win"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="taskicon.gif"
+   text-time="2016-11-30T01:35:38.583040Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8c17bd8676f61fe2dc3e3fe68e8912bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.551840Z"/>
+<entry
+   committed-rev="1719"
+   name="dialog.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a70af342c397aa7e034c16bf40322616"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.551840Z"/>
+<entry
+   committed-rev="1719"
+   name="box-icons.gif"
+   text-time="2016-11-30T01:35:38.551840Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d620db289447871ef078648bf57c9b54"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.457239Z"/>
+<entry
+   committed-rev="1719"
+   name="dialog-bc.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a2e87eec9491ef4be43cb66395971953"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.536240Z"/>
+<entry
+   committed-rev="1719"
+   name="dialog-winbtns.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f33705474963aa691d7f5772d14ebb7d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.536240Z"/>
+<entry
+   committed-rev="1719"
+   name="dialog-tc.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7de9f066b0d0ce5e96293c408aee994a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.536240Z"/>
+<entry
+   committed-rev="1719"
+   name="taskbar.png"
+   text-time="2016-11-30T01:35:38.583040Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="54e22093d3a1937a17ee5740a90454c6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.551840Z"/>
+<entry
+   committed-rev="1719"
+   name="taskbar-task.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7274043d92eb3af0e986cc9948095f76"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.551840Z"/>
+<entry
+   committed-rev="1719"
+   name="taskbar.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="91d866b4e009cf0e57accaa3372d6f8c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.551840Z"/>
+<entry
+   committed-rev="1719"
+   name="box.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b24f046b6457b57ae35c20e712441bb6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.458240Z"/>
+<entry
+   committed-rev="1719"
+   name="dialog-icons.gif"
+   text-time="2016-11-30T01:35:38.567440Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="79e9eb7f4c39b071a5da3306dedf596d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.536240Z"/>
+</wc-entries>

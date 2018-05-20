@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/portal/com/portal/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="QueryMineDao.java"
+   text-time="2016-11-30T01:36:32.845321Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8a251997fe64ef9ea4c8a799f6f7129c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.845321Z"/>
+<entry
+   committed-rev="1719"
+   name="QueryLandDao.java"
+   text-time="2016-11-30T01:36:32.845321Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4063b87a5bafb76d8ed4addf2993c057"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.845321Z"/>
+<entry
+   committed-rev="1719"
+   name="QueryDao.java"
+   text-time="2016-11-30T01:36:32.845321Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6577bde80521f8313598a2b87937b10c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.845321Z"/>
+</wc-entries>

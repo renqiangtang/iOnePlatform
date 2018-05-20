@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/after/com/after/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="LandStatisticsQueryDao.java"
+   text-time="2016-11-30T01:36:24.922705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7f2f4d4326371389876052e3d2fc2960"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.922705Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowConfirmDao.java"
+   text-time="2016-11-30T01:36:24.922705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d68ad2bb3ecbe347721e304942b81e4e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.922705Z"/>
+<entry
+   committed-rev="1719"
+   name="TransAccountDao.java"
+   text-time="2016-11-30T01:36:24.922705Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2bdcfadd5a3ebfb5796607a6b44a7484"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:24.922705Z"/>
+</wc-entries>

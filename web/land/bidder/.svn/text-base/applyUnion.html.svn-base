@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>竞买方式</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="applyUnion.js"></script>
+</head>
+<body class="land">
+<div class="part_bidderway">
+  <div class="o_write">
+    <h1>选择竞买方式</h1>
+    <table width="100%" class="table_nobor bc">
+      <tr class="status_on" id="style0">
+        <td width="3%" class="tc"><input type="radio" name="style" value="0" checked></td>
+        <td>独立竞买</td>
+      </tr>
+      <tr id="style1">
+        <td class="tc"><input type="radio" name="style" value="1"></td>
+        <td>联合竞买 <span id="style11">主竞买人的交易份额为：<u id="proportions0" class="fb c6">100</u> %</span></td>
+      </tr>
+      <!-- 
+      <tr id="style2">
+        <td class="tc"><input type="radio" name="style" value="2"></td>
+        <td>虚拟项目公司</td>
+      </tr> 
+      -->
+    </table>
+    <table width="100%" id="corpInfoTable" class="bidderwar_info bc" style="display:none">
+      <tr>
+        <td width="85" height="30" class="tr">公司名称：</td>
+        <td><input type="text" id="name" value="" class="i-input_bg i-input_w300" /> <span id="corpInfoMsg1">请输入完整的公司名称</span></td>
+      </tr>
+      <tr>
+        <td height="30" class="tr">注册资金：</td>
+        <td><input type="text" id="reg_capital" value="" class="i-input_bg i-input_w100" /> 单位：（元）</td>
+      </tr>
+      <tr>
+        <td height="30" class="tr">联系人：</td>
+        <td><input type="text" id="contact" value="" class="i-input_bg i-input_w100" /> 用于确认您的真实身份</td>
+      </tr>
+      <tr>
+        <td height="30" class="tr">联系电话：</td>
+        <td><input type="text" id="contact_tel" class="i-input_bg i-input_w100" /> 用于联系您</td>
+      </tr>
+      <tr>
+        <td height="30" class="tr">备注：</td>
+        <td><input type="text" id="remark" class="i-input_bg i-input_w300" /></td>
+      </tr>
+    </table>
+    <table id="dtlTable" width="100%" class="table-union bc mt10" style="display:none">
+      <colgroup>
+          <col width="20%"/>
+          <col width="40%"/>
+          <col width="30%"/>
+          <col width="10%"/>
+      </colgroup>
+      <thead>
+        <tr>
+          <td>股东名称</td>
+          <td>身份证号码/营业执照编号</td>
+          <td>股份比例</td>
+          <td id="opTd"><input type="button" id="btnAddCorp" name="" value="添加" class="nor_btn"/></td>
+        </tr>
+      </thead>
+      <tbody id="projectTableTBody">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><span id="corpTotal"></span></td>
+        </tr>
+      </tfoot>
+    </table>
+    <table width="100%" class="table-union bc mt10" id="unionTable" style="display:none">
+      <colgroup>
+      <col width="5%"/>
+      <col width="60%"/>
+      <col width="25%"/>
+      <col width="10%"/>
+      </colgroup>
+      <thead>
+        <tr>
+          <td>序号</td>
+          <td>联合竞买人</td>
+          <td>交易份额(百分比)</td>
+          <td><input type="button" id="btnUnionAdd" name="" value="新增" class="nor_btn"/></td>
+        </tr>
+      </thead>
+      <tbody id="unionTableTBody">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><span id="unionTotal"></span></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+</body>
+</html>

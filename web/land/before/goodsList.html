@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易物选择</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="goodsList.js"></script>
+
+</head>
+<body class="land">
+<div class="trade_search mb5">
+	<table width="100%" class="search_grid">
+    	<tr>
+        	<!--<td class="title">行政辖区：</td>
+            <td>
+            	<input type="text"  id="canton_id" class="i-input_w135 i-input_bg"/>
+            </td>-->
+            <td class="title" id="noTitleDiv">地块号：</td>
+            <td id="noDiv"><input type="text"  id="no" class="i-input_w135 i-input_bg"/></td>
+             <td class="title" id="goodsUserTitleDiv">用途：</td>
+            <td id="goodsUserDiv">
+            	<input type="text" id="goods_use" class="i-input_w135 i-input_bg"/>
+            	<!--select id="goods_use" class="i-input_w135 i-select_bg">
+                </select-->
+            </td>
+        </tr>
+       
+          <tr>
+            	<td colspan="4" class="tr pr5 pb5">
+                	<input id="btnQuery" type="button" value="查询" class="o_btn"/>
+                    <input id="btnReset" type="button" value="重置" class="o_btn"/>
+                    <input id="boundImg" type="button" value="绑定地块" class="o_btn"/>
+                    <input id="btnNewGoods" type="button" value="新建" class="o_btn"/>
+                    <input id="btnDelGoods" type="button" value="删除" class="o_btn"/>
+                     <input id="btnDelRelGoods" type="button" value="解除捆绑" class="o_btn"/>
+                    <input id="btnOk" type="button" value="确定" class="o_btn"/>
+                </td>
+            </tr>
+    </table> 
+    </div>
+	<div id="goodsGrid" class="trade_panel">
+	</div>
+</body>
+</html>

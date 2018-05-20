@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/ca.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="mainframe.js"></script>
+</head>
+<body class="land">
+<!--trade标准头 start-->
+<div class="trade_header">
+  <div class="trade_header_top">
+    <div class="fr mr5"> | <a id="mySelf" href="" target="_self">我的资料</a> | <a id="help"  target="_target">使用帮助</a> </div>
+    <div class="fr mr5">
+      <select style="width:100px; margin-top:3px" id="roleSelect">
+        <option>竞买人</option>
+        <option>银行人员</option>
+      </select>
+    </div>
+    <div class="fr mr10">您好，<span id="loginName">河源市壹平台信息技术有限公司</span> ！ [<a id="logout">退出</a>]</div>
+  </div>
+  <div class="trade_header_main">
+    <div class="logo fl"><img id="logoImg" src="" /></div>
+    <div class="city fl mt30 ml10">
+      <div id="organName" class="current_city f18 fyh c1"></div>
+    </div>
+    <div class="service_phone fr">
+      <div id="bidderDiv">
+        <div class="trade_settleup chand" id="myCar"></div>
+        <div class="carDetailNum c5 tc f14 fb" style="display:none;" id="carDetailNum">1</div>
+        <div class="my_goods chand"  id="myBill"></div>
+      </div>
+    </div>
+  </div>
+  <!--trade标准导航 start-->
+<div class="nav">
+    <ul id="menu1">
+      <li class="cur">首页</li>
+       </ul>
+  </div>
+  <div class="sub_nav">
+    <ul id="menu11">
+      <li>二级栏目</li>
+      <li class="cur">二级栏目</li>
+      <li>二级栏目</li>
+    </ul>
+  </div>  
+  <!--trade标准导航 end--> 
+</div>
+<!--trade标准头 end--> 
+<!--trade内容体 start-->
+<div class="trade_container"> 
+  <!--trade面包屑 start-->
+  <div id="loc" class="trade_bread_crumbs"> </div>
+  <div class="returnTop"> <a href="javascript:pageObj.top();" title="回到顶部"></a> </div>
+  <!--trade面包屑 end-->
+  <iframe id="framePage" src="index.html" width="100%" frameborder="0" scrolling="no"></iframe>
+</div>
+<!--trade内容体 end--> 
+<!--trade标准页脚 start-->
+<div class="trade_footer">
+  <p>Copyright <span style="font-family:'Arial';">©</span> 河源市、县国土资源局 版权所有    最佳浏览效果:IE8.0版本以上 1024*768分辨率</p>
+</div>
+<!--trade标准页脚 end-->
+</body>
+</html>

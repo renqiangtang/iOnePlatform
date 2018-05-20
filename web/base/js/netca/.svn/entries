@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/js/netca"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="netca.js"
+   text-time="2016-11-30T01:35:24.132194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="006826adcacf073668e56e636e775f5f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.116594Z"/>
+<entry
+   committed-rev="1719"
+   name="secuInter.js"
+   text-time="2016-11-30T01:35:24.132194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6cc9c2b5babbaefefee971ed1fed591f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.116594Z"/>
+</wc-entries>

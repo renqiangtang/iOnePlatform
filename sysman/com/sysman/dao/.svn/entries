@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/sysman/com/sysman/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="ExchangeDataDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c52ebfad34c1828f0a744e7f78e0d689"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.063721Z"/>
+<entry
+   committed-rev="1719"
+   name="UserDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6e53ec29f4122e6155a596a93f9e02d2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.251922Z"/>
+<entry
+   committed-rev="1719"
+   name="EmpDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="299c11c3e746e98b09bf6fa1c288a48f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.048121Z"/>
+<entry
+   committed-rev="1719"
+   name="CantonDao.java"
+   text-time="2016-11-30T01:36:33.267522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2c4ac52815dcc0a0cdcc479a55e45fe5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.032521Z"/>
+<entry
+   committed-rev="1719"
+   name="ParamsDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d9e7cd34df8a07c22b6938e8e7eaa131"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.172921Z"/>
+<entry
+   committed-rev="1719"
+   name="ModuleDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d2e51633e0fe3e4a6d12c35992f3554c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.126121Z"/>
+<entry
+   committed-rev="1719"
+   name="ExtendDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="45562c6197836204caa3d3cfa0eae34e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.110521Z"/>
+<entry
+   committed-rev="1719"
+   name="ResourceDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4f476eb4ecb81a70f76782f9d9af9861"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.172921Z"/>
+<entry
+   committed-rev="1719"
+   name="ExportTargetDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5fbc4f5ff9891e1e1bc90fc5e87ceace"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.110521Z"/>
+<entry
+   committed-rev="1719"
+   name="FieldChangeDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="42514a8fe39bafbf55bd9bb469234df1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.110521Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowExtendDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ed57a08550e53923ae0100790031352c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.172921Z"/>
+<entry
+   committed-rev="1719"
+   name="ExpNoticeDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b919c717587b9ee0033cc61ca52286d4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.063721Z"/>
+<entry
+   committed-rev="1719"
+   name="OperateLogDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="03080287c226a1e12fb883f29e926a25"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.157321Z"/>
+<entry
+   committed-rev="1719"
+   name="RoleDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b75697727bfe590306c5441af9142c20"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.204121Z"/>
+<entry
+   committed-rev="1719"
+   name="DepartmentDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b5cfce059b905e8553fd176f2ddc999f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.048121Z"/>
+<entry
+   committed-rev="1719"
+   name="MenuDao.java"
+   text-time="2016-11-30T01:36:33.283122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b4a71317ae315bba1fdb4d7026a80e7a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.110521Z"/>
+<entry
+   committed-rev="1719"
+   name="AttachDao.java"
+   text-time="2016-11-30T01:36:33.267522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="98c257cf43145df68edee95ab2d17002"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.032521Z"/>
+<entry
+   committed-rev="1719"
+   name="ConfigDao.java"
+   text-time="2016-11-30T01:36:33.267522Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9f74989dc4b01637e6e7b2bd178cc902"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.048121Z"/>
+<entry
+   committed-rev="1719"
+   name="OrganDao.java"
+   text-time="2016-11-30T01:36:33.298722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="52d79938c448af2829158dcd5bec8810"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.157321Z"/>
+</wc-entries>

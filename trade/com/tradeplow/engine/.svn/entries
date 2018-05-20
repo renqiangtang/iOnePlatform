@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3309"
+   name=""
+   committed-date="2014-10-28T02:28:23.755447Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com/tradeplow/engine"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="NodeHandle.java"
+   text-time="2016-11-30T01:35:42.229851Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="34613742960ced5a5c7afeda423875c1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.198651Z"/>
+<entry
+   committed-rev="1719"
+   name="TradeRule.xml"
+   text-time="2016-11-30T01:35:42.229851Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="41e6e7ecc646d062df1408a86b8ac7b7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.198651Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEngine.java"
+   text-time="2016-11-30T01:35:42.229851Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="875ba63c4aff2770a6b82620d603bf4a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.198651Z"/>
+<entry
+   committed-rev="1719"
+   name="BeginTimerTask.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="937d25833375f176e4e82e9c7153f729"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.149851Z"/>
+<entry
+   committed-rev="1719"
+   name="HandleL01.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e2ab1975952e55dae2b13e401afbdf3c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+<entry
+   committed-rev="3309"
+   name="EngineDao.java"
+   text-time="2016-11-30T01:35:42.198651Z"
+   committed-date="2014-10-28T02:28:23.755447Z"
+   checksum="44ef9ab02fde9529a763808afb12e649"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.149851Z"/>
+<entry
+   committed-rev="1719"
+   name="EndProcessTimerTask.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1b45a7e5ed233597cab439819a1bc34a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.165451Z"/>
+<entry
+   committed-rev="1719"
+   name="HandleL02.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c72e418b7937f3e3001691bebb911ed7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+<entry
+   committed-rev="1719"
+   name="EndTimerTask.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f2af9fdce480fb0a9836318c2d92d540"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+<entry
+   committed-rev="1719"
+   name="HandleL03.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="83f2602e7165f566ee01537249470482"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+<entry
+   committed-rev="1719"
+   name="HandleL04.java"
+   text-time="2016-11-30T01:35:42.214251Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e1d70f636f17b744c1ce09b7a8b92b2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+<entry
+   committed-rev="1719"
+   name="HandleN02.java"
+   text-time="2016-11-30T01:35:42.229851Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="26cb985ec665cd5fa433317e97c397ab"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.167451Z"/>
+</wc-entries>

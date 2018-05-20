@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/land/trade"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="tradeMain.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="54fc9177df5e903ac6d31c5cc876bb8d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="process.html"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fe8aaa4efbace7e0167842d1769b14be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.816953Z"/>
+<entry
+   committed-rev="1719"
+   name="viewGoods.js"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="eb4f410a66f8c9a3907d6565e76bd1e5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="viewTarget.html"
+   text-time="2016-11-30T01:35:11.910553Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ee66ac34bd467b6e32c0554f9a93bccc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeL01.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7d1aba79e37083025ba9578eef27cf70"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="viewImages.css"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="63fd3f5f467accec8f376e28c2179237"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeL02.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c3350278e3c2e7492269196ad703829f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeL03.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="05b647dee3cdf173c3f4150e613da6a8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="process.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="80fe2121e809725ab175051b13242f69"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.816953Z"/>
+<entry
+   committed-rev="1719"
+   name="help.html"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="018fd1a955711311ad6939f6a734fed0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.801353Z"/>
+<entry
+   committed-rev="1719"
+   name="viewTarget.js"
+   text-time="2016-11-30T01:35:11.910553Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="533ca3f6d99fffec1dacf7bec82f881c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.863753Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeWait.js"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2ef71d25a4de253f9702352b913a26f0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeOk.mid"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="86b63b48502843f38b6d78a2630ee633"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeAbort.js"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bfdec5b6ea8cd539c5a57da7f7053305"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.816953Z"/>
+<entry
+   committed-rev="1719"
+   name="offerLogList.html"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7131474af29bdb00ce8ff614c61f784a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.801353Z"/>
+<entry
+   committed-rev="1719"
+   name="help.js"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d5e6f54b784bcc1d4baa034808ea4c57"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.801353Z"/>
+<entry
+   committed-rev="1719"
+   name="viewImages.html"
+   text-time="2016-11-30T01:35:11.910553Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="659f538e55f92d7689008d5eceff5ff4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeOk.js"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c882d7044ecaf539adb6eede50f0dde2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeMain.html"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d06a98ff253a9b56ea33c7a579920f20"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="tradePause.js"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cbc902ce7eb3cf62bdba4efb8446656e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="viewGoods.html"
+   text-time="2016-11-30T01:35:11.894953Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3ec0a5566e16f44ba2e5b8fc6d2553dd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeMonitor.html"
+   text-time="2016-11-30T01:35:11.879353Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ef382cdad336fc8868908e221030d18"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.832553Z"/>
+<entry
+   committed-rev="1719"
+   name="offerLogList.js"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8aa44c505ba7636c808beef49a33f7d0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.801353Z"/>
+<entry
+   committed-rev="1719"
+   name="gdcakey.html"
+   text-time="2016-11-30T01:35:11.863753Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc96ee043e22b4f7373a428cefa2934e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.785753Z"/>
+<entry
+   committed-rev="1719"
+   name="viewImages.js"
+   text-time="2016-11-30T01:35:11.910553Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ac677c6df9d3a8728b9475f0567528d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:11.848153Z"/>
+</wc-entries>

@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>土地竞买主界面</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/ca.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tradeCommon.js"></script>
+<script type="text/javascript" src="js/debug.js"></script>
+<script type="text/javascript" src="tradeL01.js"></script>
+<script type="text/javascript" src="tradeL02.js"></script>
+<script type="text/javascript" src="tradeL03.js"></script>
+<script type="text/javascript" src="tradeWait.js"></script>
+<script type="text/javascript" src="tradePause.js"></script>
+<script type="text/javascript" src="tradeOk.js"></script>
+<script type="text/javascript" src="tradeAbort.js"></script>
+<script type="text/javascript" src="tradeMain.js"></script>
+</head>
+<body class="land">
+<div class="i-bid-body pt5">
+  <div class="i-bid-tab">
+    <div class="i-row-left chand fl" id="toLeft"> </div>
+    <div class="i-row-right chand fr" id="toRight"> </div>
+    <div id="tagsDiv" class="i-row-center fl">
+      <ul id="tags" class="tags-new" >
+      </ul>
+    </div>
+  </div>
+  <!--暂无可竞价标的 开始-->
+  <div id="L00" class="i-container" style="display:none;">
+    <div id="L00Div" class="nonebidBox">
+      <h1 class="tc mt30 mb20">对不起，暂时您无可竞价标的！</h1>
+      <p class="lh22 fb">可能存在的原因:</p>
+      <p class="lh22">1.您未参与申请竞买任何标的</p>
+      <p class="lh22">2.您申请竞买的标的可能未缴纳、缴足保证金 。请到"保证金"菜单下的"保证金查询"页面查看是否缴纳、缴足保证金</p>
+      <p class="lh22">3.您申请竞买的标的如果有设置竞买资格条件的，可能未通过产业主管部门审核或正在审核中</p>
+      <p class="lh22">4.您申请竞买的标的如果是联合竞买的，可能是其它联合竞买人未全部确认，或有联合竞买人拒绝您的联合请求</p>
+      <p class="lh22">5.请到"我的交易"菜单下的“竞买申请”页面获取更多信息，鼠标在表格“状态”列上移动可获取详细信息</p>
+    </div>
+  </div>
+  <!--暂无可竞价标的 结束--> 
+  <!--公告期 开始-->
+  <div id="L01" class="i-container" style="display:none;">
+    <div class="i-time-info">
+      <dl class="i-time fl">
+        <dt class="i-tPhase fl mt10 ml10 tc pt10 fn"><span id="L01PName"><br />
+          公告期</span></dt>
+        <dd class="i-serverTime ml5 ml15 pl25 mt20">服务器时间：
+          <label id="L01stdTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-remainTime ml15 pl25 mt5" style="height:40px">剩&nbsp;余&nbsp;时&nbsp;间：
+          <label id="L01restTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-maxPrice ml15 mt5 pl25">公告期不允许出价！</dd>
+      </dl>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="L01tNo">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd>交易类型：<span id="L01businessTypeName"></span></dd>
+            <dd>起始价：<span id="L01beginPrice">100000000万元</span></dd>
+            <dd>增价幅度：<span id="L01stepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="L01FocusBeginTimeDiv" >自由报价开始时间：<span id="L01FocusBeginTime"></span></dd>
+            <dd id="L01FocusEndTimeDiv" >自由报价截止时间：<span id="L01FocusEndTime"></span></dd>
+            <dd id="L01LimitBeginTimeDiv" >限时竞拍开始时间：<span id="L01LimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div id="L01bjDiv" class="i-bjMenu">
+      <div class="i-bjTitleBox">
+        <div class="title fl c5 fb f14">竞价出价</div>
+        <div class="nowperson fr tr pr10" >[ 当前竞买人：
+          <label id = "L01biddername">河源市壹平台房地产有限公司</label>
+          ]</div>
+      </div>
+      <div class="i-priceDiv mt25" id="L01priceDiv" style="display:blcok">
+        <dl class="i-pLine1">
+          <dt class="f14 fb tr">竞买出价: 小写(
+            <label id="L01Unit1" class="i-unit"></label>
+            )</dt>
+          <dd>
+            <div class="i-inputBox">
+              <input type="text" id="L01PriceInput" value="" maxlength="18" class="vm" readOnly=true/><img src="images/base/mreset.gif" id="L01resetBtn" title="最低有效出价" onmouseover="this.src='images/base/mreset_on.gif'"onmouseout="this.src='images/base/mreset.gif'" /><img src="images/base/add.gif" id="L01addbtn" title="增加一倍增价幅度" onmouseover="this.src='images/base/add_on.gif'"onmouseout="this.src='images/base/add.gif'" /><img src="images/base/reduce.gif" id="L01reducebtn" title="减少一倍增价幅度" onmouseover="this.src='images/base/reduce_on.gif'"onmouseout="this.src='images/base/reduce.gif'" /> </div>
+          </dd>
+        </dl>
+        <dl class="i-pLine2" id="L01hzDiv">
+          <dt class="f14 fb tr">大写 </dt>
+          <dd id="L01hzPrice">壹贰叁肆伍陆壹贰叁肆伍陆壹贰叁肆伍叁肆伍陆</dd>
+        </dl>
+        <div id="L01bidTip" class="i-bidTip"> 对不起，您现在的出价低于当前最高出价！ </div>
+        <div class="tc pt15"><img src="images/base/price_btn-gray.gif" class="chand" id="L01bidBtn" onmouseover="this.src='images/base/price_btn-gray.gif'"onmouseout="this.src='images/base/price_btn-gray.gif'"/></div>
+      </div>
+      <div id="L01choiceDiv" class="i-choiceDiv fl pt10" style="display:none">
+        <dl>
+          <dt id="L01choiceMsg">您是否同意进入多指标竞价？</dt>
+          <dd>
+            <input type="button" id="L01iAgree" value="同意"/>
+            &nbsp;&nbsp;
+            <input type="button" id="L01iNoAgree" value="不同意"/>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--公告期 结束--> 
+  <!--中止 开始-->
+  <div id="Pause" class="i-container" style="display:none;">
+    <div class="i-time-info">
+      <dl class="i-time fl">
+        <dt class="i-tPhase fl mt10 ml10 tc pt10 fn"><br />
+          中止</dt>
+        <dd class="i-serverTime ml5 ml15 pl25 mt20">服务器时间：
+          <label id="PausestdTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-remainTime ml15 pl25 mt5" style="height:40px">阶&nbsp;段： <span id="PausePName">公告期</span> </dd>
+        <dd class="i-maxPrice ml15 mt5 pl25"><div class="fr" id="PausemaxPrice">52.3214</div>当前最高出价：</dd>
+      </dl>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="PausetNo">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd class="line2">交易类型：<span id="PausebusinessTypeName"></span></dd>
+            <dd class="line2">起始价：<span id="PausebeginPrice">100000000万元</span></dd>
+            <dd class="line2">增价幅度：<span id="PausestepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="PauseFocusBeginTimeDiv">自由报价开始时间：<span id="PauseFocusBeginTime"></span></dd>
+            <dd id="PauseFocusEndTimeDiv" >自由报价截止时间：<span id="PauseFocusEndTime"></span></dd>
+            <dd id="PauseLimitBeginTimeDiv" >限时竞拍开始时间：<span id="PauseLimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div id="PausebjDiv" class="i-bjMenu">
+      <div class="i-bjTitleBox">
+        <div class="title fl c5 fb f14">温馨提示：</div>
+        <div class="nowperson fr tr pr10" >[ 当前竞买人：
+          <label id = "Pausebiddername">河源市壹平台房地产有限公司</label>
+          ]</div>
+      </div>
+      <div class="prompt"><span class="c2 chand" id="info">本标的已中止,请点击查看标的相关公告>></span></div>
+    </div>
+  </div>
+  <!--中止 结束--> 
+   <!--等待 开始-->
+  <div id="Wait" class="i-container" style="display:none;">
+    <div class="i-time-info">
+      <dl class="i-time fl">
+        <dt class="i-tPhase fl mt10 ml10 tc pt10 fn"><br />
+          等待</dt>
+        <dd class="i-serverTime ml5 ml15 pl25 mt20">服务器时间：
+          <label id="WaitstdTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-remainTime ml15 pl25 mt5" style="height:40px">阶&nbsp;段： <span id="WaitPName">下一阶段</span> </dd>
+        <dd class="i-maxPrice ml15 mt5 pl25">等待剩余时间： <label id="WaitRestTime"></label></dd>
+      </dl>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="WaitNo">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd class="line2">交易类型：<span id="WaitTypeName"></span></dd>
+            <dd class="line2">起始价：<span id="WaitbeginPrice">100000000万元</span></dd>
+            <dd class="line2">竞价阶梯：<span id="WaitstepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="WaitFocusBeginTimeDiv">集中报价开始时间：<span id="WaitFocusBeginTime"></span></dd>
+            <dd id="WaitFocusEndTimeDiv" >集中报价截止时间：<span id="WaitFocusEndTime"></span></dd>
+            <dd id="WaitLimitBeginTimeDiv" >限时竞价开始时间：<span id="WaitLimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div id="WaitbjDiv" class="i-bjMenu">
+      <div class="i-bjTitleBox">
+        <div class="title fl c5 fb f14">温馨提示：</div>
+        <div class="nowperson fr tr pr10" >[ 当前竞买人：
+          <label id = "Waitbiddername">广州市壹平台房地产有限公司</label>
+          ]</div>
+      </div>
+      <div class="prompt"><span class="c2 chand" id="WaitInfo">本标的正等待进入</span></div>
+    </div>
+  </div>
+  <!--等待 结束--> 
+  <!--集中出价期 开始-->
+  <div id="L02" class="i-container" style="display:block;">
+    <div class="i-time-info">
+      <dl class="i-time fl">
+        <dt class="i-tPhase fl mt10 ml10 tc pt10 fn"><span id="L02PName">自由报价期</span></dt>
+        <dd class="i-serverTime ml5 ml15 pl25 mt15">服务器时间：
+          <label id="L02stdTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-remainTime ml15 pl25 mt5">剩&nbsp;余&nbsp;时&nbsp;间：
+          <label id="L02restTime">24天 08小时 25分 24秒</label>
+        </dd>
+        <dd class="i-maxPrice ml15 pl25 mt5">
+          <div id="L02maxPrice" class="fr">52.3214</div>
+          当前最高出价：</dd>
+      </dl>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="L02tNo">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd>交易类型：<span id="L02businessTypeName"></span></dd>
+            <dd>起始价：<span id="L02beginPrice">100000000万元</span></dd>
+            <dd>增价幅度：<span id="L02stepPrice">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="L02FocusBeginTimeDiv" >自由报价开始时间：<span id="L02FocusBeginTime"></span></dd>
+            <dd id="L02FocusEndTimeDiv" >自由报价截止时间：<span id="L02FocusEndTime"></span></dd>
+            <dd id="L02LimitBeginTimeDiv" >限时竞拍开始时间：<span id="L02LimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div id="L02bjDiv" class="i-bjMenu">
+      <div class="i-bjTitleBox">
+        <div class="title fl c5 fb f14">竞价出价</div>
+        <div class="nowperson fr tr pr10">[ 当前竞买人：
+          <label id="L02biddername">河源市壹平台房地产有限公司</label>
+          ]</div>
+      </div>
+      <div class="i-priceDiv mt25" id="L02priceDiv" style="display:blcok">
+        <dl class="i-pLine1">
+          <dt class="f14 fb tr">竞买出价: 小写(
+            <label id="L02Unit1" class="i-unit"></label>
+            )</dt>
+          <dd>
+            <div class="i-inputBox">
+              <input type="text" id="L02PriceInput" value="" maxlength="18" class="vm" readOnly=true/><img src="images/base/mreset.gif" id="L02resetBtn" title="最低有效出价" onmouseover="this.src='images/base/mreset_on.gif'"onmouseout="this.src='images/base/mreset.gif'" /><img src="images/base/add.gif" id="L02addbtn" title="增加一倍增价幅度" onmouseover="this.src='images/base/add_on.gif'"onmouseout="this.src='images/base/add.gif'" /><img src="images/base/reduce.gif" id="L02reducebtn" title="减少一倍增价幅度" onmouseover="this.src='images/base/reduce_on.gif'"onmouseout="this.src='images/base/reduce.gif'" /> </div>
+          </dd>
+        </dl>
+        <dl class="i-pLine2" id="L02hzDiv">
+          <dt class="f14 fb tr">大写 </dt>
+          <dd id="L02hzPrice">壹贰叁肆伍陆壹贰叁肆伍陆壹贰叁肆伍叁肆伍陆</dd>
+        </dl>
+        <div class="cuebox pa" id="L02TipDiv">
+          <div class="cuebox_dot pa"></div>
+          <div class="cuebox_t"></div>
+          <div class="cuebox_m">
+	        <span class="f20" id="L02Tip">即将进入限时竞价期</span> 
+          </div>
+         <div class="cuebox_b"></div>
+        </div>
+        <div class="tc pt15"><img src="images/base/price_btn.gif" class="chand" id="L02bidBtn" onmouseover="this.src='images/base/price_on_btn.gif'"onmouseout="this.src='images/base/price_btn.gif'"/></div>
+      </div>
+      <div id="L02choiceDiv" class="i-choiceDiv fl pt10" style="display:none">
+        <dl>
+          <dt id="L02choiceMsg">您是否同意进入多指标竞价？</dt>
+          <dd>
+            <input type="button" id="L02iAgree" value="同意"/>
+            &nbsp;&nbsp;
+            <input type="button" id="L02iNoAgree" value="不同意"/>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div class="i-offerLogList">
+      <div class="i-tab-panel">
+        <ul>
+          <li tabid="L02tabitem1"><span>竞价记录</span></li>
+        </ul>
+        <span class="i-more"><span class="chand" onclick="tradeCommon.showOfferLogList();" id="L02offerLogList">更多...</span></span> </div>
+      <div id="L02bidTableDiv">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td width="5%" height="25" align="center"> 序号 </td>
+              <td width="20%" align="center"> 竞买人 </td>
+              <td width="20%" align="center"> 竞价时间 </td>
+              <td width="55%" align="center"> 竞买出价 </td>
+            </tr>
+          </thead>
+          <tbody id="L02OfferList">
+            <tr>
+              <td align="center"> 1 </td>
+              <td align="center"> 万科地产有限公司</td>
+              <td align="center"> 9,600,045,000.00 </td>
+              <td align="center"> 2012-02-16 9:00:00 </td>
+              <td align="center"> 多指标一 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!--集中出价期 结束--> 
+  <!--限时竞价期 开始-->
+  <div id="L03" class="i-container" style="display:none">
+    <div class="i-time-info">
+      <dl class="i-time fl">
+        <dt class="i-tPhase fl mt10 ml10 tc pt10 fn"><span id="L03PName">限时竞价期</span></dt>
+        <dd class="i-serverTime ml5 ml15 pl25 mt15">服务器时间：
+          <label id="L03stdTime">2012-02-15 12:23:36 </label>
+        </dd>
+        <dd class="i-remainTime ml15 pl25 mt5">剩&nbsp;余&nbsp;时&nbsp;间：
+          <label id="L03restTime">24天 08小时 25分 24秒</label>
+          <div id="L03progressLine" class="i-progressLine">
+            <div class="i-progressInnerLine"></div>
+          </div>
+        </dd>
+        <dd class="i-maxPrice ml15 pl25 mt5">
+          <div id="L03maxPrice" class="fr">52.3214</div>
+          当前最高出价：</dd>
+      </dl>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="L03tNo">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd>交易类型：<span id="L03businessTypeName"></span></dd>
+            <dd>起始价：<span id="L03beginPrice">100000000万元</span></dd>
+            <dd>增价幅度：<span id="L03stepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="L03FocusBeginTimeDiv" >自由报价开始时间：<span id="L03FocusBeginTime"></span></dd>
+            <dd id="L03FocusEndTimeDiv" >自由报价截止时间：<span id="L03FocusEndTime"></span></dd>
+            <dd id="L03LimitBeginTimeDiv" >限时竞拍开始时间：<span id="L03LimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div id="L03bjDiv" class="i-bjMenu">
+      <div class="i-bjTitleBox">
+        <div class="title fl c5 fb f14">竞价出价</div>
+        <div class="nowperson fr tr pr10" id="L03BidderName">[ 当前竞买人：
+          <label id="L03biddername">河源市壹平台房地产有限公司</label>
+          ]</div>
+      </div>
+      <div class="i-dzbBid" id="L03dzbBid" style="visibility:hidden">
+        <dl id="L03dzbList">
+          <dd class="i-dzb_curr c7"> 1.地价 </dd>
+          <dd class="i-dzb_curr c3"> 2.房价 </dd>
+          <dd class="c8"> 3.容积率 </dd>
+          <dd class="c8"> 4.内部潜规则 </dd>
+        </dl>
+      </div>
+      <div class="i-priceDiv mt10" id="L03priceDiv" style="display:block">
+        <dl class="i-pLine1">
+          <dt class="f14 fb tr">竞买出价: 小写(
+            <label id="L03Unit1" class="i-unit"></label>
+            )</dt>
+          <dd>
+            <div class="i-inputBox">
+              <input type="text" id="L03PriceInput" value="" maxlength="18" class="vm" readOnly=true/><img src="images/base/mreset.gif" id="L03resetBtn" title="最低有效出价" onmouseover="this.src='images/base/mreset_on.gif'"onmouseout="this.src='images/base/mreset.gif'"/><img src="images/base/add.gif" id="L03addbtn" title="增加一倍增价幅度" onmouseover="this.src='images/base/add_on.gif'"onmouseout="this.src='images/base/add.gif'"/><img src="images/base/reduce.gif" id="L03reducebtn" title="减少一倍增价幅度" onmouseover="this.src='images/base/reduce_on.gif'"onmouseout="this.src='images/base/reduce.gif'"/> </div>
+          </dd>
+        </dl>
+        <dl class="i-pLine2" id="L03hzDiv">
+          <dt class="f14 fb tr">大写 </dt>
+          <dd id="L03hzPrice">壹贰叁肆伍陆壹贰叁肆伍陆壹贰叁肆伍叁肆伍陆</dd>
+        </dl>
+        <div class="cuebox pa" id="L03TipDiv">
+        <div class="cuebox_dot pa"></div>
+          <div class="cuebox_t"></div>
+          <div class="cuebox_m" id="L03Tip">
+	        当前最高报价:<span class="f16">58500万元</span><br />
+	        离报价截止剩作时间：<span class="f16">30秒</span> 
+          </div>
+         <div class="cuebox_b"></div>
+        </div>
+        <div class="tc pt15"><img src="images/base/price_btn.gif" class="chand" id="L03bidBtn" onmouseover="this.src='images/base/price_on_btn.gif'"onmouseout="this.src='images/base/price_btn.gif'"/></div>
+      </div>
+      <div id="L03choiceDiv" class="i-choiceDiv" style="display:none">
+        <dl>
+          <dt id="L03choiceMsg">您是否同意进入多指标竞价？</dt>
+          <dd>
+            <input type="button" id="L03iAgree" value="同意"/>
+            &nbsp;&nbsp;
+            <input type="button" id="L03iNoAgree" value="不同意"/>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="split5"></div>
+    <div class="i-offerLogList">
+      <div class="i-tab-panel">
+        <ul>
+          <li tabid="L03tabitem1"><span>竞价记录</span></li>
+        </ul>
+        <span class="i-more"><span class="chand" onclick="tradeCommon.showOfferLogList();" id="L03offerLogList">更多...</span></span> </div>
+      <div id="L03bidTableDiv">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr>
+              <td width="5%" height="10" align="center"> 序号 </td>
+              <td width="20%" align="center"> 竞买人 </td>
+              <td width="20%" align="center"> 竞价时间 </td>
+              <td width="55%" align="center"> 竞买出价 </td>
+            </tr>
+          </thead>
+          <tbody id="L03OfferList">
+            <tr>
+              <td align="center"> 1 </td>
+              <td align="center"> 万科地产有限公司</td>
+              <td align="center"> 9,600,045,000.00 </td>
+              <td align="center"> 2012-02-16 9:00:00 </td>
+              <td align="center"> 多指标一 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-----限时竞价期 结束-----> 
+  <!-----交易成功 开始----->
+  <div id="Ok" class="i-container" style="display:none">
+    <div class="i-time-info pt10 pb10" style="height:190px;">
+      <div class="i-bidstatusArea i-bidstatusOk fl ml10">
+        <dl>
+          <dt>本标的已成交</dt>
+          <dd>恭喜
+            <label class="fb f15 c1" id="Oksuccbiddername">河源市万科集团有限公司，河源市万科集团有限公司二</label>
+            ，于
+            <label class="fb f15 c1" id="OksuccTime">2012-12:28 12:00</label>
+            ，以
+            <label class="fb f15 c1" id="OksuccPrice">650,000,000元</label>
+            价格，竞得该宗标的。</dd>
+        </dl>
+        <div class="i-printBook"><span class="c2 chand" onclick="tradeOkObj.viewTransCert();" id="OkBook">查看《<span id="OkBookName">成交确认书</span>》</span> <a class="c2 chand" id="OkList">| 下载交易记录证书文件</a>></div>
+      </div>
+      <div class="gexian fl"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="OktargetName">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd>交易类型：<span id="OkbusinessTypeName"></span></dd>
+            <dd>起始价：<span id="OkinitValueStr">100000000万元</span></dd>
+            <dd>增价幅度：<span id="OkstepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="OkFocusBeginTimeDiv" >自由报价开始时间：<span id="OkFocusBeginTime"></span></dd>
+            <dd id="OkFocusEndTimeDiv" >自由报价截止时间：<span id="OkFocusEndTime"></span></dd>
+            <dd id="OkLimitBeginTimeDiv" >限时竞拍开始时间：<span id="OkLimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="i-offerLogList">
+      <div class="i-tab-panel">
+        <ul>
+          <li tabid="Oktabitem1"><span>竞价记录</span></li>
+        </ul>
+        <span class="i-more"><span class="chand" onclick="tradeCommon.showOfferLogList();" id="OkofferLogList">更多...</span></span> </div>
+      <div id="OkbidTableDiv">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="i-box_b">
+          <thead>
+            <tr>
+              <td width="5%" height="25" align="center"> 序号 </td>
+              <td width="20%" align="center"> 竞买人 </td>
+              <td width="20%" align="center"> 竞价时间 </td>
+              <td width="55%" align="center"> 竞买出价 </td>
+            </tr>
+          </thead>
+          <tbody id="OkbidTable">
+            <tr>
+              <td align="center"> 1 </td>
+              <td align="center"> 万科地产有限公司</td>
+              <td align="right"> 9,600,045,000.00 </td>
+              <td align="center"> 2012-02-16 9:00:00 </td>
+              <td align="center"> 多指标一 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--成交弹出框 start-->
+    <div class="success_warp" id="popupOk">
+      <div class="sw_info" > <span id="popupOkTargetName" class="fb c1 unl"></span>的宗地挂牌活动已经结束，此标的最终以<span id="popupOkPrice" class="fb c1 unl"></span>成交，竞得人为:<span id="popupOkBidderName" class="fb c1 unl"></span>，非常感谢你的参与和支持。 </div>
+      <div align="center" style="width:510px;margin:0 auto;line-height:100px;:"><a id='btnTransCert' style="fontSize:10px;color:red;" href='javascript:tradeOkObj.viewTransCertNotice()'>重要提示</a></div>
+    </div>
+    <!--成交弹出框 end--> 
+  </div>
+  <!-----交易成功 结束-----> 
+  <!-----交易流拍 开始----->
+  <div id="Abort" class="i-container" style="display:none">
+    <div class="i-time-info pt10 pb10" style="height:190px;">
+      <div class="i-bidstatusArea i-bidstatusAbort fl ml10">
+        <dl>
+          <dt>本标的已流拍</dt>
+          <dd class="f18 c1" id="AbortabortMessage">该标的未达到要求的竞买人数，流拍。</dd>
+        </dl>
+      </div>
+      <div class="gexian fl ml20"></div>
+      <div class="fl f14 i-info_con">
+        <h1><span id="AborttargetName">B123－256413B123－256413</span></h1>
+        <div>
+          <dl class="i-info_l fl">
+            <dd>交易类型：<span id="AbortbusinessTypeName"></span></dd>
+            <dd>起始价：<span id="AbortinitValueStr">100000000万元</span></dd>
+            <dd>增价幅度：<span id="AbortstepStr">100000万元</span></dd>
+          </dl>
+          <dl class="i-info_r fl">
+            <dd id="AbortFocusBeginTimeDiv" >自由报价开始时间：<span id="AbortFocusBeginTime"></span></dd>
+            <dd id="AbortFocusEndTimeDiv" >自由报价截止时间：<span id="AbortFocusEndTime"></span></dd>
+            <dd id="AbortLimitBeginTimeDiv" >限时竞拍开始时间：<span id="AbortLimitBeginTime"></span></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="i-offerLogList">
+      <div class="i-tab-panel">
+        <ul>
+          <li tabid="tabitem1"><span>竞价记录</span></li>
+        </ul>
+        <span class="i-more"><span class="chand" onclick="tradeCommon.showOfferLogList();" id="AbortofferLogList">更多...</span></span> </div>
+      <div id="OkbidTableDiv">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="i-box_b">
+          <thead>
+            <tr>
+              <td width="5%" height="25" align="center"> 序号 </td>
+              <td width="20%" align="center"> 竞买人 </td>
+              <td width="20%" align="center"> 竞价时间 </td>
+              <td width="45%" align="center"> 竞买出价 </td>
+            </tr>
+          </thead>
+          <tbody id="AbortbidTable">
+            <tr>
+              <td align="center"> 1 </td>
+              <td align="center"> 万科地产有限公司 </td>
+              <td align="right"> 9,600,045,000.00 </td>
+              <td align="center"> 2012-02-16 9:00:00 </td>
+              <td align="center"> 多指标一 </td>
+            </tr>
+            <tr>
+              <td align="center"> 1 </td>
+              <td align="center"> 万科地产有限公司</td>
+              <td align="right"> 9,600,045,000.00 </td>
+              <td align="center"> 2012-02-16 9:00:00 </td>
+              <td align="center"> 多指标一 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-----交易流拍 结束-----> 
+</div>
+</body>
+</html>

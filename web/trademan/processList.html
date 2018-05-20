@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>流程管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="processList.js" type="text/javascript" ></script>
+</head>
+<body>
+<div class="trade_search mb5">
+	<table border="0" class="search_grid" width="100%">
+	<tr>
+    	<td class="title" id="noTitleDiv">标的名称：</td>
+        <td id="noDiv"><input type="text"  id="no" class="i-input_w135 i-input_bg"/></td>
+        <td class="title">交易类型：</td>
+        <td>
+        	<select id="business_type" class="i-input_w135 i-select_bg">
+            </select>
+        </td>
+        <td class="title">状态：</td>
+        <td id="statusDiv">
+        	<select id="status" class="i-input_w135 i-select_bg">
+            </select>
+        </td>
+    </tr>
+    <tr>
+    	<td colspan="6" class="tr pr5">
+        	<input id="btnQuery" type="button" value="查询" class="o_btn"/>
+            <input id="btnReset" type="button" value="重置"  class="o_btn"/>
+         </td>
+    </tr>
+</table> 
+</div>
+<div id="grid" class="trade_panel" style="height:350px"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>竞价记录列表</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+</head>
+<body class="mine">
+<div class="trade_search mb5 mt5" id="queryCondition">
+  <table width="100%" class="search_grid">
+    <tr>
+      <td class="title" id="targetCondition" style="width:75px">标的:</td>
+      <td id="targetConditionText" style="width:120px"><input type="text"  id="txtTarget" class="i-input_w100 i-input_bg"/></td>
+      <td class="title" style="width:75px">竞价时间：</td>
+      <td style="width:120px"><input type="text" id="txtOfferDate1" class="i-input_w100"/></td>
+      <td style="width:20px" class="tc">至</td>
+      <td style="width:120px"><input type="text" id="txtOfferDate2" class="i-input_w100"/></td>
+      <td class="title" style="width:75px">竞买人：</td>
+      <td style="width:115px"><input type="text"  id="txtLicenseNo" class="i-input_w100 i-input_bg"/></td>
+      <td class="tr pr5" colspan="4"><span class="wr_btn">
+        <input id="btnQuery" type="button" value="查询" class="o_btn" />
+        </span> <span class="wr_btn">
+        <input id="btnReset" type="button" value="重置" class="o_btn" />
+        </span> </td>
+    </tr>
+  </table>
+</div>
+
+<div id="offerLogGrid" class="trade_panel"></div>
+</body>
+<script type="text/javascript" src="offerLogList.js"></script>
+</html>

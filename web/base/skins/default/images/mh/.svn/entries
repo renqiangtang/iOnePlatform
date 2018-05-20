@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/mh"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="mine_footer_bg.gif"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fcdd8c060e82656768b3ff22c15cbcaf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.112039Z"/>
+<entry
+   committed-rev="1719"
+   name="land_banner.jpg"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4491d948acaa882a425632d60191a683"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.971638Z"/>
+<entry
+   committed-rev="1719"
+   name="mine_h1.gif"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e8ddaa14393f60010758dce7a51b282"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.112039Z"/>
+<entry
+   committed-rev="1719"
+   name="yaohao.gif"
+   text-time="2016-11-30T01:35:38.299239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b75d5f1c75bf0132181e6f0f85c7a125"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.252439Z"/>
+<entry
+   committed-rev="1719"
+   name="plow_banner.jpg"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="77748af2b9561cad73ae953d73bf3b23"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.205639Z"/>
+<entry
+   committed-rev="1719"
+   name="mine_body_b.jpg"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9126d35987c025330f6ddc05518c94e3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.112039Z"/>
+<entry
+   committed-rev="1719"
+   name="floatBtn.jpg"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4493f0350497f6ee520d9d5bfcc60ac7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.956038Z"/>
+<entry
+   committed-rev="1719"
+   name="mine_banner.jpg"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a2f302c588fd53b4cb60d5308c34bdc3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.096439Z"/>
+<entry
+   committed-rev="1719"
+   name="big_windows.png"
+   text-time="2016-11-30T01:35:38.252439Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b365d4c981a213ef1c318c9ef298a9ab"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.940438Z"/>
+<entry
+   committed-rev="1719"
+   name="yaohao_bj.gif"
+   text-time="2016-11-30T01:35:38.299239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ba0b87dd311b1f6836996fc39100c15"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.252439Z"/>
+<entry
+   committed-rev="1719"
+   name="l_moresearch.gif"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="81d7d23bd425cb98a1a76307da30268e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.956038Z"/>
+<entry
+   committed-rev="1719"
+   name="land_footer_bg.gif"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4c329b39a49cbecf1dadb268d949bab2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.971638Z"/>
+<entry
+   committed-rev="1719"
+   name="yao_b_bj.gif"
+   text-time="2016-11-30T01:35:38.299239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="636d10f97dc4292cba9180571d49a6f4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.252439Z"/>
+<entry
+   committed-rev="1719"
+   name="land_h1.gif"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="06b70bee736be9e9728a75ecdae6a9ce"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.971638Z"/>
+<entry
+   committed-rev="1719"
+   name="plow_footer_bg.gif"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="db7ec4df09680cf44bbafe4faccb36a7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.221239Z"/>
+<entry
+   committed-rev="1719"
+   name="land_body_b.jpg"
+   text-time="2016-11-30T01:35:38.268039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2145bed945393a85c36602c77e7a5ff3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.971638Z"/>
+<entry
+   committed-rev="1719"
+   name="w_btns.jpg"
+   text-time="2016-11-30T01:35:38.299239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1c46048f9032b33d89e04f84576fcc4a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.252439Z"/>
+<entry
+   committed-rev="1719"
+   name="plow_h1.gif"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="92224f9d17035cc01220d698bfc04987"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.221239Z"/>
+<entry
+   committed-rev="1719"
+   name="windows.png"
+   text-time="2016-11-30T01:35:38.299239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2957deab372651415a071742390ae3a1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.252439Z"/>
+<entry
+   committed-rev="1719"
+   name="plow_body_b.jpg"
+   text-time="2016-11-30T01:35:38.283639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5eba966b212e7f15b82733a97e9f06f2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.205639Z"/>
+</wc-entries>

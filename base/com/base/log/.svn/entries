@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1782"
+   name=""
+   committed-date="2014-05-15T00:55:25.127339Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/log"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1782"
+   name="LogUtils.java"
+   text-time="2016-11-30T01:35:40.891447Z"
+   committed-date="2014-05-15T00:55:25.127339Z"
+   checksum="8fcd74b459321286e3a01a1d42e3446b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.891447Z"/>
+<entry
+   committed-rev="1719"
+   name="ExPatternLayout.java"
+   text-time="2016-11-30T01:35:40.891447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a3d7c05f9a72b124b42cb8a1e24033de"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.891447Z"/>
+</wc-entries>

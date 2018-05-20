@@ -1,0 +1,327 @@
+@charset "utf-8";
+.plow .c4 {
+	color: #15910B;
+}
+.plow a:link {
+	color: #2e8b2e;
+}
+.plow a:visited {
+	color: #2e8b2e;
+}
+.plow a:hover {
+	color: #2e8b2e;
+}
+.plow .nav .cur {
+    color: #2E8B2E;
+}
+.plow .nav {
+    background: url("../images/base/nav/bg20120814_plow.png") no-repeat scroll right -225px transparent;
+}
+.plow .nav ul {
+    background: url("../images/base/nav/bg20120814_plow.png") no-repeat scroll left -180px transparent;
+}
+.plow .sub_nav{
+	border-bottom: 1px solid #57d457;
+    border-left: 1px solid #57d457;
+    border-right: 1px solid #57d457;
+}
+.plow .trade_header {
+	background: url('../images/base/nav/bg20120814_plow.png') 0 0 repeat-x;
+}
+.plow .trade_nav, .plow .trade_nav .trade_nav_main {
+	background: url('../images/base/nav/bg20120814_plow.png') right -225px no-repeat;
+}
+.plow .trade_nav {
+	background-position: 0 -180px;
+}
+.plow .trade_nav .trade_nav_main .current a, .plow .trade_nav .trade_nav_main li:hover > a {
+	color: #2cb62c;
+}
+.plow .trade_nav .trade_nav_main li:hover > ul {
+	border-left: 1px solid #42ce42;
+	border-right: 1px solid #42ce42;
+	border-bottom: 1px solid #42ce42;
+}
+.plow .i-main {
+	background: url('../images/base/main_bg_plow.gif') 0 0 no-repeat;
+}
+.plow .i-guide-btn .i-guide-btn-top, .plow .i-guide-btn .i-guide-btn-bottom {
+	background: url(../images/base/trade_bg20120523_plow.png) no-repeat;
+}
+.plow .i-guide-btn .i-guide-btn-top {
+	background-position: 0 -520px;
+}
+.plow .i-guide-btn .i-guide-btn-bottom {
+	background-position: 0 -540px;
+}
+.plow .i-guide-btn .i-guide-btn-mid {
+	background: url(../images/base/vertical_plow.png) -1730px 0 repeat-y;
+}
+.plow .trade_header .trade_header_main .service_phone {
+	background: url('../images/base/home/bg01_plow.png') 0 0 no-repeat;
+}
+.plow .i-subbuy_btn {
+	background: url('../images/base/trade_bg20120523_plow.png') no-repeat;
+}
+.plow .i-subbuy_btn {
+	background-position: -240px -40px;
+}
+.plow .trade_nav .trade_nav_main li:hover > ul li a:hover {
+	color: #2cb62c;
+}
+.plow .i-subbuy_btn a {
+	color: #2cb62c;
+}
+.plow .i-online_btn a {
+	color: #2593be;
+}
+.plow .trade_select {
+	border-top: 2px solid #9be19b;
+}
+.plow .trade_select .ts_head {
+	background: url('../images/base/horizontal_plow.gif.png') 0 -580px;
+}
+.plow .trade_select dl {
+	border-top: 1px dashed #aad1ac;
+}
+.plow #filter {
+	border-color: #ACD2B1 #DEDFDE #DEDFDE;
+}
+.plow .i-bidInfoMain .i-head_ul li.i-curr {
+	background: url('../images/base/horizontal_plow.gif') 0 -40px repeat-x;
+}
+.plow .i-bidInfoMain .i-head_ul li {
+	background: url('../images/base/horizontal_plow.gif') 0 -114px repeat-x;
+}
+.plow .i-bidInfoMain .i-head_ul {
+	border-bottom: 2px solid #1f7724;
+}
+.plow .l-grid-row {
+	background-color: #f0f9f3;
+}
+.plow .l-grid-row-cell-rownumbers {
+	background-color: #e2f5e7;
+}
+.plow .i-container .i-bjMenu .i-bjTitleBox .title {
+	background: none;
+	text-indent: 10px;
+}
+.plow .i-info h2 {
+	background: url('../images/base/horizontal_plow.gif') 0 -1px repeat-x;
+}
+.plow .i-info h2 a {
+	background: url('../images/base/horizontal_plow.gif') 0 -40px repeat-x;
+}
+/*--------------------------------------------------------------
+		登录页
+-------------------------------------------------------------- */
+.plow_login_bg .top_name {
+	height: 90px;
+	line-height: 60px;
+}
+.plow_login_bg {
+	background: url('../images/base/plow_login_bg.gif') repeat-x #ffffff;
+}
+.plow_login_bg .i-body-login {
+	background: url('../images/base/plow_login_con.jpg') no-repeat 0 bottom;
+}
+.plow_login_bg .i-login-box {
+	margin: 0;
+	float: right;
+}
+.plow_login_bg .loginTable {
+	margin-top: 88px;
+}
+.plow_login_bg .loginTable .i-text {
+	width: 238px;
+	border: 1px solid #747273;
+	height: 29px;
+	line-height: 29px;
+	background: none #ffffff;
+	padding: 0;
+}
+.plow_login_bg .loginTable .i-text-focus {
+	width: 238px;
+	border: 1px solid #747273;
+	height: 29px;
+	line-height: 29px;
+	background:none #ffffff;
+	padding: 0;
+}
+.plow_login_bg .loginTable td {
+	padding: 0 5px;
+}
+.plow_login_bg .c4 {
+	color: #15910b;
+}
+.plow_login_bg .i-login-btn {
+	width: 102px;
+	height: 35px;
+	display: inline;
+	background: url('../images/base/btn-login_plow.png') 0 0 no-repeat;
+	_margin-left: 5px;
+}
+.plow_login_bg .i-login-btn:hover {
+	background: url('../images/base/btn-login_plow.png') 0 -35px no-repeat;
+}
+/*--------------------------------------------------------------
+		首页biddermain
+-------------------------------------------------------------- */
+.plow .i-subbuy_btn {
+	color: #2cb62c;
+}
+.plow .i-online_btn {
+	color: #2593be;
+}
+/*--------------------------------------------------------------
+		竞买主界面
+-------------------------------------------------------------- */
+.plow .link01{
+	color: #000;
+}
+.plow .i-container .i-time-info .i-time dd.i-remainTime span {
+	background: none;
+}
+.plow .i-row-center .tags-new .i-selectTag a {
+	color: #C60E0E;
+	font-weight: bold;
+}
+.plow .landno {
+	background-color: #ebffe4;
+}
+.plow .i-row-center .tags-new .i-unselectTag {
+	background: url('../images/base/horizontal_plow.gif') right -711px no-repeat;
+}
+.plow .i-container .i-bjMenu .i-priceDiv .i-bidTip {
+	background: url("../images/base/bidErrorTip_plow.gif") no-repeat scroll 0 0 transparent;
+}
+.plow .i-container .i-bjMenu .i-priceDiv .i-pLine1 dd .i-inputBox {
+	background: url("../images/base/trade_bg20120523_plow.png") no-repeat scroll 0 -350px transparent;
+}
+.plow .i-container .i-bjMenu {
+	background: none repeat scroll 0 0 #f4ffee;
+}
+.plow .hlprice_input {
+	width: 420px;
+	height: 35px;
+}
+.plow .loy_l_top .t_bidder_title {
+	color: #2ec233;
+}
+.plow .roulette_wrap {
+	background: url("../images/base/Roulette_bk_plow.gif") no-repeat scroll 0 0 transparent;
+}
+.plow .i-number{
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-18px;
+	width:500px;
+	height:32px;
+	line-height:32px;
+	color:#DE2629;
+	font-size:19px;
+}
+.plow .i-number span{
+padding:4px  15px;
+background-color:#3ACC3A;
+color:#ffffff;
+}
+/*--------------------------------------------------------------
+		摇号
+-------------------------------------------------------------- */
+.yaohao{
+border:1px solid #bdbdbd;
+width:708px;
+background-color:#f0ff00;
+height:368px;
+background: url("../images/mh/yaohao.gif") repeat-x;
+}
+
+.y_nun_box1{
+display:inline-block;
+width:213px;
+height:260px;
+line-height:373px;
+color:#000000;
+font-weight:bold;
+text-align:center;
+font-size:180px;
+font-family:"arial";
+padding-left:140px;
+}
+.y_nun_box2{
+display:inline-block;
+width:213px;
+height:260px;
+line-height:373px;
+color:#000000;
+font-weight:bold;
+text-align:center;
+font-size:180px;
+font-family:"arial";
+padding-right:91px;
+}
+/*--------------------------------------------------------------
+		竞买申请书 联合竞买 选择银行 选择竞买方式
+-------------------------------------------------------------- */
+.plow .requisition {
+	width: 843px;
+}
+.plow .requisition .r_mid {
+	width: 786px;
+}
+.plow input.btn_orange {
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: 700;
+	border: 0;
+	background: #efefef url('../images/base/btn/btn_plow.gif') 0 0 no-repeat;
+	cursor: pointer;
+}
+.plow .table-union input[type="button"] {
+	background: #4cc94c;
+	color: #ffffff;
+}
+.plow .nor_btn {
+	border: 1px solid #05a205;
+}
+.plow .mod_order .hd {
+	width: 27px;
+	border-right: 1px solid #05a205;
+}
+.plow .part_bidderway .o_write {
+	background: none;
+	border: none;
+	padding: 0;
+	margin-top: 0;
+}
+.plow .mod_order .inner {
+	padding-left: 28px;
+}
+.plow .part_bidderway .o_write h1 {
+	font-size: 12px;
+}
+.plow .mod_order .hd {
+	background: none repeat scroll 0 0 #f1fdf1;
+}
+.plow .mod_order {
+	border: 1px solid #e5d9cb;
+}
+.plow .table_nobor {
+	border: 1px solid #05a205;
+}
+.plow .table-union td {
+	border: 1px solid #05a205;
+}
+.plow .table_nobor .status_on {
+	background: none repeat scroll 0 0 #f1fdf1;
+}
+/*--------------------------------------------------------------
+		竞买申请主界面---标地详情
+-------------------------------------------------------------- */
+.plow .gz-apply-main{
+border:2px solid #CBE3C9;
+}

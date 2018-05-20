@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2926"
+   name=""
+   committed-date="2014-09-22T02:16:15.691193Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/doc/dmp"
+   last-author="zhoud"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="transaction_heyuan201312161212.dmp"
+   text-time="2016-11-30T01:36:04.397457Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="aa729102e1ee7b358a92fb5697643a6e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.142857Z"/>
+<entry
+   committed-rev="2926"
+   name="transaction_heyuan0922.dmp"
+   text-time="2016-11-30T01:36:04.283257Z"
+   committed-date="2014-09-22T02:16:15.691193Z"
+   checksum="5c52b375b378de8c63212198f07dd2c2"
+   last-author="zhoud"
+   kind="file"
+   prop-time="2016-11-30T01:35:43.597054Z"/>
+</wc-entries>

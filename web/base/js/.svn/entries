@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/js"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="jquery.ztree.js"
+   text-time="2016-11-30T01:35:24.196594Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="076aa1fd1abc98cfd656efc4d033e78c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:23.520793Z"/>
+<entry
+   committed-rev="1719"
+   name="ligerui.all.js"
+   text-time="2016-11-30T01:35:24.212194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="78b44dc892ee9e1bd1d53977671b554e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.069794Z"/>
+<entry
+   committed-rev="1719"
+   name="tradeCommon.js"
+   text-time="2016-11-30T01:35:24.212194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="df3b9b0c5452d1561d4c9ba2066b0cec"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.165394Z"/>
+<entry
+   committed-rev="1719"
+   name="calendar.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ca5255450c12739328685ef2dadefed7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.781591Z"/>
+<entry
+   committed-rev="1719"
+   name="base.js"
+   text-time="2016-11-30T01:35:24.165394Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="57cc7c8a0f35d4c55a77a9842826b7c6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.719191Z"/>
+<entry
+   committed-rev="1719"
+   name="liquidmetal.js"
+   text-time="2016-11-30T01:35:24.212194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8866d13eee7ce34c3fb368bfccd2e702"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.085394Z"/>
+<entry
+   committed-rev="1719"
+   name="datepicker.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7d602e74fd7b82d5d4bf255ea2617745"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.828391Z"/>
+<entry
+   committed-rev="1719"
+   name="jquery.flexselect.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="31cd774e31a11c14cac13a73293aa9e6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.921992Z"/>
+<entry
+   committed-rev="1719"
+   name="jquery.js"
+   text-time="2016-11-30T01:35:24.196594Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8372dd638f115c0e8ebf7c52ab73e713"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:23.159992Z"/>
+<entry
+   name="netca"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="ca.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="707b4fc7529592f2b3d1db6aa8b03d88"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.765991Z"/>
+<entry
+   name="gdca"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="debug.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6cad4d3e681ccfd778def2f85406a622"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.828391Z"/>
+<entry
+   committed-rev="1719"
+   name="swfobject.js"
+   text-time="2016-11-30T01:35:24.212194Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b9697feec5732af790e8ebe7e1203268"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:24.165394Z"/>
+<entry
+   committed-rev="1719"
+   name="common.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c0fccdf21d1f28875daf8754472fc573"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.812791Z"/>
+<entry
+   committed-rev="1719"
+   name="belatedpng_0.0.8a.js"
+   text-time="2016-11-30T01:35:24.180994Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="77d548c0586a6537dcb9d3d518700397"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.719191Z"/>
+<entry
+   committed-rev="1719"
+   name="json2.js"
+   text-time="2016-11-30T01:35:24.196594Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1c1c7f674692a1c7456926202f10dde4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:23.520793Z"/>
+<entry
+   committed-rev="1719"
+   name="jquery.ui.js"
+   text-time="2016-11-30T01:35:24.196594Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="33ab900beb6e44cfa840cf1ceeeef999"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:23.362793Z"/>
+<entry
+   committed-rev="1719"
+   name="jquery.md5.js"
+   text-time="2016-11-30T01:35:24.196594Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c687bd7e4d5863038a16a9e5dbb82b7f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:23.175592Z"/>
+</wc-entries>

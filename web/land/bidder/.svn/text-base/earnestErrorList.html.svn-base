@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>错转款查询</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="earnestErrorList.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5">
+  	<table border="0" class="search_grid">
+      <tr>
+        <td class="title" id="titleSpan">交款户名：</td>
+        <td><input type="text"  id="bidderAccountName" class="i-input_w160 i-input_bg"></td>
+        <td class="title">交款账号：</td>
+        <td>
+        <input type="text"  id="bidderAccountNo" class="i-input_w160 i-input_bg">
+        </td>
+        <td class="title">交款账户开户行：</td>
+        <td><input type="text"  id="bidderAccountBank" class="i-input_w160 i-input_bg"></td>
+        <td class="btn tc"><span class="wr_btn">
+          <input id="btnQuery" type="button" value="查询" class="o_btn" />
+          </span> <span class="wr_btn">
+          <input id="btnReset" type="button" value="重置" class="o_btn" />
+          </span> </td>
+      </tr>
+    </table>
+  </div>
+  <div id="earnestErrorGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

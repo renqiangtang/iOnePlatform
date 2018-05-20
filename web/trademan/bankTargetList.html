@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>子账号管理-标的列表</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="bankTargetList.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5">
+  <table width="100%" class="search_grid">
+	  <tr>
+	      <td class="title">标的名称：</td>
+	      <td><input type="text" id="targetName" class="i-input_w160 i-input_bg"/></td>
+	      <td class="title">标的编号：</td>
+	      <td><input type="text" id="targetNo" class="i-input_w160 i-input_bg"/></td>
+	      <td class="title">状态：</td>
+	      <td>
+	      	<select id="targetStatus" class="i-input_w160 i-select_bg">
+	             <option value="">--请选择--</option>
+	             <option value="0">受理中</option>			
+	             <option value="1">审核中</option>			
+	             <option value="2">已审核</option>
+	             <option value="3">已发布</option>
+	             <option value="4">交易中</option>
+	             <option value="5">已成交</option>
+	             <option value="6">已流拍</option>
+	          </select>
+	      </td>
+	      <td class="tr pr5 pb5">
+	      	<span class="wr_btn" id="btnSearch"><input type="button" value="查询" class="o_btn" /></span>
+	     </td>
+	  </tr>
+	</table>
+  </div>
+  <div id="gridDiv" class="trade_panel" style="height:400px"></div>
+</div>
+</body>
+</html>

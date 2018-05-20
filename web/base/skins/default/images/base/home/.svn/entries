@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/base/home"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="101.jpg"
+   text-time="2016-11-30T01:35:30.288213Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3df90002690f9d72a8586885d046b6cd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.085413Z"/>
+<entry
+   committed-rev="1719"
+   name="101441621_logo.jpg"
+   text-time="2016-11-30T01:35:30.288213Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fa0517471e2bf24eb96134c016ec9977"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.085413Z"/>
+<entry
+   committed-rev="1719"
+   name="301.jpg"
+   text-time="2016-11-30T01:35:30.303813Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cf3a9a97aecc69584aa6a739511d4feb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.116613Z"/>
+<entry
+   committed-rev="1719"
+   name="101441622_logo.jpg"
+   text-time="2016-11-30T01:35:30.288213Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7c6adfb8646c8d1459d39b87acfe1842"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.101013Z"/>
+<entry
+   committed-rev="1719"
+   name="101441623_logo.jpg"
+   text-time="2016-11-30T01:35:30.288213Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9f93c0cb90e2b2b2d34600acb97cf228"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.101013Z"/>
+<entry
+   committed-rev="1719"
+   name="501.jpg"
+   text-time="2016-11-30T01:35:30.303813Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bf713ab0ba5e7196e1e8bedb6378d1ad"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.116613Z"/>
+<entry
+   committed-rev="1719"
+   name="bg01_mine.png"
+   text-time="2016-11-30T01:35:30.319413Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="164fcdccd10d0686c730f5b2f4d6ba6f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.272613Z"/>
+<entry
+   committed-rev="1719"
+   name="101441624_logo.jpg"
+   text-time="2016-11-30T01:35:30.303813Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="31eece167264114a47f11358fb951ab9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.101013Z"/>
+<entry
+   committed-rev="1719"
+   name="101441625_logo.jpg"
+   text-time="2016-11-30T01:35:30.303813Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ea837d665a46a738554ccd6ab37440e0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.101013Z"/>
+<entry
+   committed-rev="1719"
+   name="r001.gif"
+   text-time="2016-11-30T01:35:30.319413Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3573df9aaa56cebf0f77a94a1ca6c2aa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.272613Z"/>
+<entry
+   committed-rev="1719"
+   name="bg01_land.png"
+   text-time="2016-11-30T01:35:30.319413Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f939074c19e09749ae4743d9410b9df0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.179013Z"/>
+<entry
+   committed-rev="1719"
+   name="bg01.png"
+   text-time="2016-11-30T01:35:30.319413Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="164fcdccd10d0686c730f5b2f4d6ba6f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.163413Z"/>
+<entry
+   committed-rev="1719"
+   name="bg01_plow.png"
+   text-time="2016-11-30T01:35:30.319413Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a558b3411578ac42dc4870612b6762f0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.272613Z"/>
+<entry
+   committed-rev="1719"
+   name="000.jpg"
+   text-time="2016-11-30T01:35:30.272613Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1d33bfc23cde4f3070df3efdd37059be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:30.085413Z"/>
+</wc-entries>

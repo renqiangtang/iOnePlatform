@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>流程启动</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="processRestartEdit.js"></script>
+</head>
+<body>
+<form>
+  <table width="100%" class="i-grid-default">
+    <tr>
+      <td width="20%" height="30" class="h_bk s_rb tr">标的名称:</td>
+      <td class="s_b">&nbsp;&nbsp;<span id="targetName" /></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">当前阶段:</td>
+      <td class="s_b">&nbsp;&nbsp;<span id="phase" /></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">当前状态:</td>
+      <td class="s_b">&nbsp;&nbsp;<span id="state" /></td>
+    </tr>
+   <tr>
+    	<td height="30" class="h_bk s_rb tr">停止时间:</td>
+    	<td class="s_b">&nbsp;&nbsp;<span id="stopTime" /></td>
+    </tr>
+    <tr>
+	    <td height="30" class="h_bk s_rb tr">启动时间设置:</td>
+	    <td class="s_b">
+	    	&nbsp;&nbsp;
+	    	<input type="radio"  name="set_type" id = "set_type_1" value="1" checked/> 设置推迟时间
+	    	<input type="radio"  name="set_type" id = "set_type_2" value="2" /> 设置具体时间
+	    </td>
+   </tr>
+  </table>
+  <div id = "setDely">
+	  <table width="100%" class="i-grid-default mt5">
+		  <tr>
+		    <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>设置推迟时间</a></td>
+		  </tr>
+		  <tr>
+		    <td width="25%" height="28" class="h_bk s_rb tr"><span id="phase2" /></td>
+		    <td width="25%" class="s_rb">&nbsp;&nbsp;<span id="phaseEndTime" /></td>
+		    <td width="20%" class="h_bk s_rb tr">所有时间向后推迟:</td>
+		    <td width="30%" class="s_b"><input type="text" id="delayDay" value="0" class="i-input_off"  />天</td>
+		   </tr>
+	  </table>
+  </div>
+  <div id = "setTimes">
+	  <table width="100%" class="i-grid-default mt5" id = "targetTimes">
+		  <tr>
+		    <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>交易时间信息</a></td>
+		  </tr>
+		  <tr>
+		    <td width="16%" height="28" class="h_bk s_rb tr">公告开始时间:</td>
+		    <td width="34%" class="s_rb"><input type="text" id="begin_notice_time" class="i-input_off"  requireValue1="公告开始时间不能为空!"/></td>
+		    <td width="16%" class="h_bk s_rb tr">公告截止时间:</td>
+		    <td width="34%" class="s_b"><input type="text" id="end_notice_time" class="i-input_off" requireValue1="公告截止时间不能为空!"/></td>
+		  </tr>
+		  <tr>
+		    <td height="28" class="h_bk s_rb tr">竞买申请开始时间:</td>
+		    <td class="s_rb"><input type="text" id="begin_apply_time" class="i-input_off" requireValue1="竞买申请开始时间不能为空!"/></td>
+		    <td class="h_bk s_rb tr">竞买申请截止时间:</td>
+		    <td class="s_b"><input type="text" id="end_apply_time" class="i-input_off" requireValue1="竞买申请截止时间不能为空!"/></td>
+		  </tr>
+		  <tr>
+		    <td height="28" class="h_bk s_rb tr">保证金开始时间:</td>
+		    <td class="s_rb"><input type="text" id="begin_earnest_time" class="i-input_off"/></td>
+		    <td class="h_bk s_rb tr">保证金截止时间:</td>
+		    <td class="s_b"><input type="text" id="end_earnest_time" class="i-input_off"/></td>
+		  </tr>
+		  <tr id="listTimeTr">
+		    <td height="28" class="h_bk s_rb tr">挂牌开始时间:</td>
+		    <td class="s_rb"><input type="text" id="begin_list_time" class="i-input_off" /></td>
+		    <td class="h_bk s_rb tr">挂牌截止时间:</td>
+		    <td class="s_b"><input type="text" id="end_list_time" class="i-input_off" /></td>
+		  </tr>
+		  <tr id="focusTimeTr">
+		    <td height="28" class="h_bk s_rb tr">自由报价开始时间:</td>
+		    <td class="s_rb"><input type="text" id="begin_focus_time" class="i-input_off"/></td>
+		    <td class="h_bk s_rb tr">自由报价截止时间:</td>
+		    <td class="s_b"><input type="text" id="end_focus_time" class="i-input_off" /></td>
+		  </tr>
+		  <tr>
+		    <td height="28" class="h_bk s_rb tr" id="beginLimitTimeTd">拍卖(限时竞价、现场拍卖)开始时间:</td>
+		    <td class="s_b" colspan="3" ><input type="text" id="begin_limit_time" class="i-input_off" style="width:241px"/></td>
+		  </tr>
+	  </table>
+	  <table width="100%" class="i-grid-default mt5" id = "phaseTimes">
+		  <thead>
+		  <tr>
+		    <td height="28" class="s_b fb h_bk_url pl10" colspan="4"><a name="a4"><span class="n_flag"></span>交易时间信息</a></td>
+		  </tr>
+		    <tr>
+		      <td height="25" width="30%" align="center" class="h_bk s_rb" > 阶段 </td>
+		      <td width="30%" align="center" class="h_bk s_rb"> 开始时间 </td>
+		      <td width="30%" align="center" class="h_bk s_rb"> 结束时间 </td>
+		     </tr>
+		  </thead>
+		  <tbody id="phaseList">
+		    <tr>
+		      <td align="center"></td>
+		      <td align="center"></td>
+		      <td align="center"></td>
+		     </tr>
+		  </tbody>
+	</table>
+</div>
+<br>
+  <div class="mt5 tc"> <span class="wr_btn" id="btnRestart">
+    <input type="button" value="恢复运行" class="o_btn" />
+    </span> 
+  </div>
+</form>
+
+</body>
+</html>

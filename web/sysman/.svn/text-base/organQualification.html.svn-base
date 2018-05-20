@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>交易资格管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="organQualification.js"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5">
+	  <table border="0" class="search_grid">
+		<tr>
+		    <td class="title">单位交易资格管理</td>
+		</tr>
+	 </table>
+  </div>
+  <div id="organQualificationGrid" class="trade_panel"></div>
+  <br>
+  <div class="tc mt5">
+  	<span class="wr_btn" id="saveBtn"><input type="button" value=" 保  存 " class="o_btn" /></span>
+  	<span class="wr_btn" id="queryBtn"><input type="button" value=" 刷  新 " class="o_btn" /></span>
+  </div>
+</div>
+</body>
+</html>
+

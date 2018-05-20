@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/process"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="p101.gif"
+   text-time="2016-11-30T01:35:38.377239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0043aaf2cefc28d98cb31cdc62a6b6bd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.361639Z"/>
+<entry
+   committed-rev="1719"
+   name="p301.gif"
+   text-time="2016-11-30T01:35:38.377239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="fab9427914e4d189c848272b70dde3c9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.361639Z"/>
+<entry
+   committed-rev="1719"
+   name="p501.gif"
+   text-time="2016-11-30T01:35:38.377239Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="08e472322f3b25cdf78ae578c950b61c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.377239Z"/>
+</wc-entries>

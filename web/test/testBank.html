@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网上交易系统</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+
+</head>
+<body>
+<div class="i-wrap">
+ 	<div class="trade_search mb5 mt5">
+	 	<table width="100%" class="search_grid">
+	       <tr>
+	          <td class="tc" height="32">
+	          	银行10002报文发送 ==>子账号：<input type="text" id="childNO" class="i-input_w160 i-input_bg"/>
+	          	<input id="btnSend1" type="button" value="发送" style="border:1px solid #c1c1c1; width:120px; height:30px; cursor:pointer; background:#f1f1f1" onmouseover="this.style.backgroundColor='#e1e1e1';this.style.border='1px solid #000'" onmouseout="this.style.backgroundColor='#f1f1f1';this.style.border='1px solid #c1c1c1'"/>
+	          </td>
+	      </tr>
+	    </table>
+	</div>
+</div>
+</body>
+	<script>
+	$(document).ready(function(event){
+		$('#btnSend1').click(function(event){
+			var cmd = new Command();
+			cmd.module = "test";
+			cmd.service = "BankTest";
+			cmd.method = "send10002";
+			cmd.childNo=$("#childNO").val();
+			cmd.success = function(data) {
+				alert(data.msg);
+			}
+			cmd.execute();
+		});
+		
+		
+	});
+	</script>
+</html>

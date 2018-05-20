@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>全过程统计报表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="allStatistics.js"></script>
+</head>
+<body class="mine">
+	<div id="navtab1" class="mt10">
+		<div  title="交易前统计" lselected="true">
+			<div id="gridBefore"></div>
+		</div>
+		<div  title="交易中统计">
+			<div id="gridMiddle"></div>
+		</div>
+		<div  title="交易后统计" >
+			<div id="gridAfter"></div>
+		</div>
+	</div>
+</body>
+</html>

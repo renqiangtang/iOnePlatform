@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10296"
+   name=""
+   committed-date="2016-10-12T12:01:41.104395Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web"
+   last-author="wangp"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="menu.js"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d582bdb40be6ae4c75dc4c1fee2fda2b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="registBidder.js"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a5c77ef5fd04959103fc010cc7e0789a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   committed-rev="1719"
+   name="login.js"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b74562ecc998981dc53d56a4b889c455"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="showImage.html"
+   text-time="2016-11-30T01:35:40.310444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a80c85973c67b21097693ac860bb2cda"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="main.html"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d2a5ded23837325be157cfdb0aa210cc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   name="help"
+   kind="dir"/>
+<entry
+   name="mine"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="home.html"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="69fb2494555dcb34a8bf44f7a497d5c4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   name="trademan"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="error.html"
+   text-time="2016-11-30T01:35:40.263644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6544e326e8e350b4c6cf16395102ad79"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.614240Z"/>
+<entry
+   committed-rev="1719"
+   name="registerDemo.html"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2112382aa0d95a499313ce171908a8a6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   committed-rev="1719"
+   name="main.js"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="944c336f73f6a542a56d6ce599d6b842"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="mainframe.html"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9de4287856b83e31e12494de61df7b93"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="explain.html"
+   text-time="2016-11-30T01:35:40.263644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="480c00085d8074647a7aefa022f90f71"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.614240Z"/>
+<entry
+   committed-rev="1719"
+   name="home.js"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b550a6fbac6a94c21b505788b1624284"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   committed-rev="1719"
+   name="registerDemo.js"
+   text-time="2016-11-30T01:35:40.310444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ce07e74fab7095b2e0aa0623af9bc5ef"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.676640Z"/>
+<entry
+   committed-rev="1719"
+   name="hint.html"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9accb13506d1a0aab097bed14e63440c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   name="sysman"
+   kind="dir"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="index.html"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bd1ed5a88ca5ea97b91aba9c6b8db1af"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   committed-rev="1719"
+   name="mainframe.js"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e73582acd3eed02117295c555c882278"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="registBidder.html"
+   text-time="2016-11-30T01:35:40.294844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d1b37a2b9ab12779bc137692e80a8f52"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.661040Z"/>
+<entry
+   committed-rev="1719"
+   name="explain.js"
+   text-time="2016-11-30T01:35:40.263644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d0493ff2eee760b7a966be11c069c445"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.614240Z"/>
+<entry
+   name="bank"
+   kind="dir"/>
+<entry
+   committed-rev="1719"
+   name="login.html"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b41362fb10feb13385fd51656927709d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   committed-rev="1719"
+   name="hint.js"
+   text-time="2016-11-30T01:35:40.279244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d3aecfb37b759d9004255e2517b05a87"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.645440Z"/>
+<entry
+   name="land"
+   kind="dir"/>
+</wc-entries>

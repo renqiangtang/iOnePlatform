@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/jsTree"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="d.png"
+   text-time="2016-11-30T01:35:37.749238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0eb50798dca00f5cc8e153e6da9a87f9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.733638Z"/>
+<entry
+   committed-rev="1719"
+   name="d.gif"
+   text-time="2016-11-30T01:35:37.749238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="25d6637406a2a3d42735b22d0f627639"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.733638Z"/>
+<entry
+   committed-rev="1719"
+   name="throbber.gif"
+   text-time="2016-11-30T01:35:37.749238Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7b9776076d5fceef4993b55c9383dedd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.733638Z"/>
+</wc-entries>

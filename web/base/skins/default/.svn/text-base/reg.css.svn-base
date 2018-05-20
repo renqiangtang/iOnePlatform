@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+		房产竞买人注册
+-------------------------------------------------------------- */
+.add_bidder i,.bidder_materia_l li i,.up_btn,.next_btn,.cancel_btn,.step .sel b,.step b,.step i,.regis_top b{background:url('../images/base/regis.png');}
+.regis_wrap{width:730px;background-color:#0468b3;margin:0 auto;}
+.regis_top{color:#ffffff;}
+.regis_box{height:312px;}
+.remind{height:270px; overflow-y:auto;}
+.regis_top b{background-position:-45px 0;width:50px;height:27px;display:block;}
+.regis_con{background-color:#61a7db;}
+.step{background-color:#ededed;border-bottom:1px solid #dddddd;height:45px;line-height:45px;color:#b8b8b8;}
+.step b{width:22px;height:22px;line-height:22px;text-align:center;background-position:0 0;display:inline-block;float:left;margin-top:12px;}
+.step .sel b{background-position:-23px 0; color:#ffffff;}
+.step li{margin-left:10px;float:left;}
+.step i{background-position:0 -23px;width:18px;height:45px;display:inline-block;float:left;}
+.step li a:link,.step li a:visited,.step li a:hover{color:#b8b8b8;}
+.step .sel a:link,.step .sel a:visited,.step .sel a:hover{color:#008acb;}
+.step .ved a:link,.step .ved a:visited,.step .ved a:hover{color:#363839;}
+.f2{font-family:"微软雅黑";}
+.bg_b{background-color:#ffffff;}
+h1{height:45px;line-height:55px;border-bottom:1px solid #dbdbdb; color:#0367b2;}
+.group{border-top:1px solid #d7dee6;}
+.group a:link,.group a:visited{font-weight:bold;height:33px;line-height:33px;color:#ffffff;text-align:center;display:inline-block;}
+.up_btn,.next_btn{width:73px;background-position:-22px -27px;}
+.cancel_btn{width:59px;background-position:-36px -61px;}
+.bidder_materia_l{width:132px;height:312px;border-right:1px solid #d6dee9;background-color:#eff6fe;}
+.bidder_materia_l ul{margin:10px 0 15px 12px;height:248px;overflow-y:auto;width:130px;float:right;}
+.bidder_materia_l li a{width:86px;display:inline-block;padding-left:7px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;height: 30px;line-height: 30px;}
+.bidder_materia_l li{border-bottom:1px dotted #c7cdd8;height: 30px;line-height: 30px;}
+.bidder_materia_r{height:312px;overflow-y:auto;}
+.bidder_materia_l li i{cursor:pointer;float:right;margin:9px 5px 0 0;background-position:0 -71px; display:inline-block;width:9px;height:9px;}
+.bidder_materia_l .sel{background-color:#ffffff;border-left:2px solid #81afd2;border-top:1px solid #e3e4e5;border-bottom:1px solid #e3e4e5;}
+.add_bidder a{border:1px solid #cfd1d3;height:22px;line-height:22px;padding:0 10px;display:inline-block;}
+.add_bidder i{background-position:-9px -72px;display:inline-block;width:9px;height:12px;}
+/*--------------------------------------------------------------
+		房产竞买人申请书
+-------------------------------------------------------------- */
+.readme{width:960px; margin:0 auto;}
+.readme_con{background:url('../images/base/readme_bg.gif') center 0 no-repeat;border:1px solid #9fcce9;}
+.readme h1{font-family:"微软雅黑",Verdana,Arial,"宋体";color:#1a5ba8;height:68px; line-height:60px;}
+.bidder_n{width:200px;height:25px;line-height:25px;border:1px solid #5192BC;}
+.h_affirm_btn{width:145px; height:35px;background-position:0 -137px;display:inline-block;}
+.h_cancel_btn{width:61px; height:35px;background-position:-158px -137px;display:inline-block;}
+.s_container{height:360px;overflow-y:auto;}

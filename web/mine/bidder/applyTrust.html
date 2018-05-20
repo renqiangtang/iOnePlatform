@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>报价方式</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.md5.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="applyTrust.js"></script>
+</head>
+<body class="mine">
+<div class="part_bidderway">
+  <div class="o_write">
+    <h1>委托报价方式：</h1>
+    <table width="100%" class="table_nobor bc">
+      <tbody id="radioSpan">
+        <tr id="radioW" class="status_on">
+          <td width="3%" class="tc"><input type="radio" name="style" value="0" checked></td>
+          <td>无</td>
+        </tr>
+        <tr id="radioZD">
+          <td width="3%" class="tc"><input type="radio" name="style" value="1"></td>
+          <td>委托系统自动报价</td>
+        </tr>
+      </tbody>
+      <tr id="accountDiv" style="display:none">
+        <td></td>
+        <td><span class="tit">最高委托金额：</span>
+          <input id="account" type="text" value="" class="i-input_bg i-input_w100"/>
+          元</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

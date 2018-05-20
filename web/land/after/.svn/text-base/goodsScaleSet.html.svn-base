@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>宗地比例设置</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="goodsScaleSet.js"></script>
+</head>
+<body class="land">
+	<div class="i-wrap">
+	  <div class="trade_search">
+          <table width="100%" class="search_grid">
+            <tr>
+                <td class="title" width="20%">标的：</td>
+                <td width="80%" >
+                	<span id="targetName" ></span>
+                </td>
+            </tr>
+            <tr>
+            	<td colspan="2" class="tr pr5 pb5">
+                	 <span class="wr_btn" id="btnDownLog"><input type="button" value="下载出价记录" class="o_btn" /></span>
+                 </td>
+            </tr>
+        </table>
+	    </div>
+	  <div id="grid" class="trade_panel"></div>
+	</div>
+</body>
+</html>

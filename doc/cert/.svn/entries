@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/doc/cert"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="build.properties"
+   text-time="2016-11-30T01:36:04.428657Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="50ae00c91c56edee1eccdbe468a514e2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.413057Z"/>
+<entry
+   committed-rev="1719"
+   name="tomcat.keystore"
+   text-time="2016-11-30T01:36:04.428657Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1f5caa19a7f3ccf14e754dd303b3b727"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.413057Z"/>
+<entry
+   committed-rev="1719"
+   name="command.txt"
+   text-time="2016-11-30T01:36:04.428657Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="21b833c25cfbf3f2829f4ff7acc9feec"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.413057Z"/>
+<entry
+   committed-rev="1719"
+   name="web.xml"
+   text-time="2016-11-30T01:36:04.428657Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="37f4ee47a39f2673f48f2d6123e617a6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.413057Z"/>
+<entry
+   committed-rev="1719"
+   name="build.xml"
+   text-time="2016-11-30T01:36:04.428657Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5df52af855b12622c58e48f927425b0c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:04.413057Z"/>
+</wc-entries>

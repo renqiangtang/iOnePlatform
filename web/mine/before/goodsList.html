@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>交易物选择</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="goodsList.js"></script>
+</head>
+<body class="mine">
+<div class="trade_search mb5">
+	<table width="100%" class="search_grid">
+    	<tr>
+            <td class="title" id="noTitleDiv">矿区名称：</td>
+            <td id="noDiv"><input type="text"  id="no" class="i-input_w135 i-input_bg"/></td>
+            <td class="title">矿区位置：</td>
+            <td><input type="text"  id="address" class="i-input_w135 i-input_bg"/></td>
+            <td class="title" id="goodsUserTitleDiv">矿种：</td>
+            <td class="s_b"><input type="text"  id="goods_use" class="i-input_w135 i-input_bg"/>
+		          </td>
+        </tr>
+        <tr>
+            <td class="title" style=""><span id="goods_type1">交易物类型：</span></td>
+            <td style=""><select id="goods_type" class="i-input_w135 i-select_bg" style="width:143px">
+            	<option value="301,401" checked>--请选择--</option>
+            	<!--<option value="301">探矿权</option>-->
+            	<option value="401">采矿权</option>
+            </select></td>
+          </tr>
+          <tr>
+            	<td colspan="6" class="tr pr5 pb5">
+                	<input id="btnQuery" type="button" value="查询" class="o_btn"/>
+                    <input id="btnReset" type="button" value="重置" class="o_btn"/>
+                    <input id="boundImg" type="button" value="捆绑矿区" class="o_btn"/>
+                    <input id="btnNewGoodsT" type="hidden" value="新建探矿" class="o_btn"/>
+                    <input id="btnNewGoodsC" type="button" value="新建采矿" class="o_btn"/>
+                    <input id="btnDelGoods" type="button" value="删除" class="o_btn"/>
+                    <input id="btnDelRelGoods" type="button" value="解除捆绑" class="o_btn"/>
+                    <input id="btnOk" type="button" value="确定" class="o_btn"/>
+                </td>
+            </tr>
+    </table> 
+    </div>
+	<div id="goodsGrid" class="trade_panel">
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<script type="text/javascript" src="../base/js/ca.js"></script>
+</HEAD>
+<script language="javascript">
+
+function installed(){
+  ca.installed();
+}
+
+function getReadId(){
+  var keyId=document.getElementById("keyId");
+  keyId.value=ca.readId();
+}
+
+function check_(){
+  var keyId1=document.getElementById("keyId1");
+  var pwd=document.getElementById("pwd");
+  var readId = ca.check(pwd.value);
+  if(readId!=null){
+        alert('匹配');
+        keyId1.value = readId;
+  }else
+        alert('匹配失败');
+}
+function encode(){
+	var tempStr=ca.encode(form1.en_.value);
+	if(tempStr!=null){
+		alert("加密成功!");
+		form1.en1_.value=tempStr;
+  }else{
+        alert('加密失败');
+  }
+}
+function decode(){
+	var tempStr=ca.decode(form1.en1_.value);
+	if(tempStr!=null){
+		alert("解码成功!");
+		form1.dec_.value=tempStr;
+  }else{
+       // alert('解码失败');
+  }
+}
+
+</script>
+<BODY>
+
+
+<form name=form1>
+<input type=hidden name=subData value="">
+<input type=hidden name=srcData value="">
+<table 	width="897" align="center"  border="1"  cellspacing=1 cellpadding=1>
+
+<tr>
+	<td align="middle" width="102"><INPUT name=pincode2 type=button  style="HEIGHT: 22px; WIDTH: 102px" value="installed"  onclick="installed()"></td>
+	<td width="312" colspan="2">检查是否安装驱动</td>
+</tr>
+
+<tr>
+	<td align="middle" width="102"><INPUT name=pincode2 type=button  style="HEIGHT: 22px; WIDTH: 102px" value="getReadId"  onclick="getReadId()"></td>
+	<td width="312"><INPUT name=keyId id="keyId" type=test  style="HEIGHT: 22px; WIDTH: 100%" ENC=Y SIG=Y value="" onMouseOver=this.focus() onFocus=this.select()>	</td>
+    <td width="465"><span class="STYLE2">获取密钥唯一编码（缩略图）</span></td>
+</tr>
+
+<tr>
+  <td><INPUT name=keyId id="keyId" type=button  style="HEIGHT: 22px; WIDTH: 102px" value="check"  onclick="check_()"></td>
+  <td>id:
+    <INPUT name=keyId1 id="keyId1" type=test  style="HEIGHT: 22px; WIDTH: 90%" ENC=Y SIG=Y value="" ><br>
+    pwd
+    <INPUT name=pwd id="pwd" type=test  style="HEIGHT: 22px; WIDTH: 90%" ENC=Y SIG=Y value="123456"  ></td>
+  <td>获取密码</td>
+</tr>
+
+<tr>
+  <td><input name="encode_" id="encode_" type=button  style="HEIGHT: 22px; WIDTH: 102px" value="en"  onClick="encode();"></td>
+  <td><INPUT name="en_" id="en_" type=test  style="HEIGHT: 22px; WIDTH: 100%" ENC=Y SIG=Y value="TEST"><INPUT name="en1_" id="en1_" type=test  style="HEIGHT: 22px; WIDTH: 100%" ENC=Y SIG=Y value=""></td>
+  <td><span class="STYLE2">加密处理</span></td>
+</tr>
+
+<tr>
+  <td><input name="decode_" id="decode_" type=button  style="HEIGHT: 22px; WIDTH: 102px" value="decode"  onClick="decode();"></td>
+  <td><INPUT name="dec_" id="dec_" type=test  style="HEIGHT: 22px; WIDTH: 100%" ENC=Y SIG=Y value=""></td>
+   <td><span class="STYLE2">解密</span></td>
+</tr>
+
+<tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+	<td colspan="3">
+	  <p align="center">&nbsp;&nbsp;		</p>	</td>
+</tr>
+</table>
+</form>
+</BODY>
+</HTML>

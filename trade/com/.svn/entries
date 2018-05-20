@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="7193"
+   name=""
+   committed-date="2016-01-25T08:48:41.593411Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/trade/com"
+   last-author="liangj"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="trade"
+   kind="dir"/>
+<entry
+   name="tradeplow"
+   kind="dir"/>
+<entry
+   name="trademine"
+   kind="dir"/>
+<entry
+   name="tradeland"
+   kind="dir"/>
+</wc-entries>

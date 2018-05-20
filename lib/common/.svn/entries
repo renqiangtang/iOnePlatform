@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/lib/common"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="annotations-api.jar"
+   text-time="2016-11-30T01:36:32.782921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a61f87e7abecd7cfe06cf977058f74b2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:28.585112Z"/>
+<entry
+   committed-rev="1719"
+   name="jasper.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f7ff430beaa0077173de544f734ef4ca"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:30.414316Z"/>
+<entry
+   committed-rev="1719"
+   name="el-api.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="42176e848ffbb9d8c24f13912d3077a9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:29.899515Z"/>
+<entry
+   committed-rev="1719"
+   name="junit.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e8815ed672d7c47e30496142a50a8d02"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:30.960317Z"/>
+<entry
+   committed-rev="1719"
+   name="yuicompressor-2.4.7.jar"
+   text-time="2016-11-30T01:36:32.829721Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a64311cb39d119805b41d547c8dd039d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:32.767321Z"/>
+<entry
+   committed-rev="1719"
+   name="base.jar"
+   text-time="2016-11-30T01:36:32.782921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="de986cb38474daa76269b9c4363127c6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:29.883915Z"/>
+<entry
+   committed-rev="1719"
+   name="junitperf-1.9.1.jar"
+   text-time="2016-11-30T01:36:32.814121Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="30cc4ff7ca706f3fb70c42ce0b96c81e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:30.975917Z"/>
+<entry
+   committed-rev="1719"
+   name="rhino-1.6R7.jar"
+   text-time="2016-11-30T01:36:32.814121Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4995caee1cf36af248f15df2b8ef4341"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:31.807719Z"/>
+<entry
+   committed-rev="1719"
+   name="servlet-api.jar"
+   text-time="2016-11-30T01:36:32.814121Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="36e9eb18ea294864ffea7260c3b5131f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:31.870119Z"/>
+<entry
+   committed-rev="1719"
+   name="jsch-0.1.48.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="951107a1a1fbf40a107ffd5a501590be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:30.663916Z"/>
+<entry
+   committed-rev="1719"
+   name="ant.jar"
+   text-time="2016-11-30T01:36:32.782921Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2510f07fef2492f7c4f0a3be192f46bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:29.852715Z"/>
+<entry
+   committed-rev="1719"
+   name="jargs-1.0.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6f3f1d7e5551b3a2c4f79a7a84304b7a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:29.915115Z"/>
+<entry
+   committed-rev="1719"
+   name="jsp-api.jar"
+   text-time="2016-11-30T01:36:32.798521Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ba9802c95c94b4633ac4a86c914527d3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:30.726316Z"/>
+</wc-entries>

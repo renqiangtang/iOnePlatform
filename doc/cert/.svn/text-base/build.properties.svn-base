@@ -1,0 +1,8 @@
+keytool = keytool.exe
+keytool.home = ${JAVA_HOME}/bin
+dname.CN = 192.168.5.241
+dname.OU = \u6DF1\u5733\u5E02\u58F9\u5E73\u53F0\u4FE1\u606F\u6280\u672F\u6709\u9650\u516C\u53F8
+dname.O = \u8F6F\u4EF6
+dname.L = \u6DF1\u5733
+dname.ST = \u5E7F\u4E1C
+dname.C=cn

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>成交公示</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="doneTargetList.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5" id="selLandDiv">
+  	<table border="0" class="search_grid">
+      <tr>
+        <td class="title" id="targetNoCol1"><span id="targetNoTitle">宗地编号</span>：</td>
+        <td id="targetNoCol2"><input type="text" id="txtTargetNo" class="i-input_w150 i-input_bg"/></td>
+        <!-- <td id="targetNameCol1" class="title"><span id="targetNameTitle">名称</span>：</td>
+        <td id="targetNameCol2"><input type="text" id="txtTargetName" class="i-input_w150 i-input_bg"/></td> -->
+        <td class="title">交易方式：</td>
+        <td><input type="text"  id="txtTransType" /><input type="hidden"  id="txtTransTypeValue" />
+        </td>
+        <td class="title"><span id="goodsUse">用途</span>：</td>
+        <td><input type="text"  id="txtGoodsUse" class="i-input_w160 i-input_bg"></td>
+        <td class="btn tc"><span class="wr_btn">
+          <input id="btnQuery" type="button" value="查询" class="o_btn" />
+          </span> <span class="wr_btn">
+          <input id="btnReset" type="button" value="重置" class="o_btn" />
+          </span> </td>
+      </tr>
+    </table> 
+  </div>
+  
+  <div id="tabDone" class="trade_tab">
+    <div title="全部">
+    </div>
+  </div>
+  <div id="targetGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

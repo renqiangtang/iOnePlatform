@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/tree"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="folder.gif"
+   text-time="2016-11-30T01:35:38.424039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9eb092801aeafb16829dcb7db0d9354e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="loading.gif"
+   text-time="2016-11-30T01:35:38.424039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e189d43a4cec2442bb131ebba64637d4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-status-open.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e117a205ae85fee3db4c523ed10297bb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.424039Z"/>
+<entry
+   committed-rev="1719"
+   name="tree.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="279b8bba794e1f288a7ce28c4fc6236a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.424039Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-status.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3161b00612aa33e2faa6518b14904551"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.424039Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-noline.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="05febcbe562827b426a2c2aa5ca7d771"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.424039Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-status-close.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e68a518a00a93178598bacc99ab83778"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.424039Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-leaf.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f45bbfbc481ec24c5f61f83636467e24"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="tree-level.gif"
+   text-time="2016-11-30T01:35:38.439639Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f45bbfbc481ec24c5f61f83636467e24"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="home-open.png"
+   text-time="2016-11-30T01:35:38.424039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ea10ab304e5d85719a9b2b69e4bb084f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="folder-open.gif"
+   text-time="2016-11-30T01:35:38.424039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1a1393f934e15d57b74ed6d7b31d8417"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+<entry
+   committed-rev="1719"
+   name="home-close.png"
+   text-time="2016-11-30T01:35:38.424039Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8d21bb2612fedfced85001842ddf8b2d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:38.408439Z"/>
+</wc-entries>

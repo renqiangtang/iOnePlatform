@@ -1,0 +1,10 @@
+{"Rows":[
+{ "id": 1,"bank_id":"BK01", "name": "深圳市土地房产交易中心", "bank_name": "工商银行深圳分行福田支行","bank_no":"4000023319216888881", "business_type": "0010010001" ,"currency":"RMB","area":"深圳市","info_id":"s1","business_show":"土地出让"},
+{ "id": 2,"bank_id":"BK01", "name": "深圳市土地房产交易中心", "bank_name": "工商银行深圳分行福田支行","bank_no":"4000023319216888881", "business_type": "0010020001" ,"currency":"RMB","area":"深圳市","info_id":"s1","business_show":"土地转让"},
+{ "id": 3,"bank_id":"BK01","name": "深圳市土地房产交易中心", "bank_name": "工商银行深圳分行福田支行","bank_no":"4000023319216888881", "business_type": "0030010001" ,"currency":"RMB","area":"深圳市","info_id":"s1","business_show":"探矿权出让"},
+{ "id": 4,"bank_id":"BK02", "name": "深圳市土地房产交易中心", "bank_name": "建设银行深圳分行香蜜湖支行","bank_no":"4000023319216888882", "business_type": "0030010001" ,"currency":"USD","area":"深圳市","info_id":"s2","business_show":"探矿权出让"},
+{ "id": 5,"bank_id":"BK02", "name": "深圳市土地房产交易中心", "bank_name": "建设银行深圳分行香蜜湖支行","bank_no":"4000023319216888883", "business_type": "0010010001" ,"currency":"JPY","area":"深圳市","info_id":"s2","business_show":"土地出让"}
+]
+,"Total":22
+}
+

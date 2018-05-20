@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>黑名单编辑</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/jquery.md5.js" type="text/javascript"></script>
+</head>
+<body>
+<form>
+  <table width="100%" class="i-grid-default">
+    <tr>
+      <td width="130" height="30" class="h_bk s_rb tr"><span class="c6">*</span>竞买人类型:</td>
+      <td class="s_b">&nbsp;<input type="radio" name="biddertype"  value="1" id="btgr" checked/>企业  &nbsp;&nbsp;<input type="radio" name="biddertype" value="0" id="btqy"/>个人</td>
+    </tr>
+    <tr id="qymc">
+      <td height="30" class="h_bk s_rb tr" id="mc"><span class="c6">*</span>名称:</td>
+      <td class="s_b"><input type="text" id="name" class="i-input_off "/ size="150"></td>
+    </tr>
+    <tr id="zjhm">
+      <td height="30" class="h_bk s_rb tr" id="grzjh"><span class="c6">*</span>组织机构代码:</td>
+      <td class="s_b"><input type="text" id="no" class="i-input_off "  size="80"/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">地址:</td>
+      <td class="s_b"><input type="text" id="address" class="i-input_off "  size="180"/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr">电话:</td>
+      <td class="s_b"><input type="text" id="tel" class="i-input_off "  size="80"/></td>
+    </tr>
+    <tr>
+      <td height="30" class="h_bk s_rb tr"><span class="c6">*</span>列入黑名单原因:</td>
+      <td class="s_rb pt5 pb5 pl5"><textarea rows="4"  style="width:91%;height:69px" size="100" class="i-textarea_bg" id="remark" ></textarea></td>
+    </tr>
+  </table>
+  
+  <div id="action" class="tc mt10">
+  	<span class="wr_btn" id="btnSave"><input type="button" value="保存" class="o_btn" /></span>
+  </div>
+  
+</form>
+</body>
+<script type="text/javascript" src="blackUserEdit.js"></script>
+</html>

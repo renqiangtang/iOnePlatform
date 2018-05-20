@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BaseDataSetDao.java"
+   text-time="2016-11-30T01:35:40.985047Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="db10af22fed2e97a0cdbba43c4091e54"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.969447Z"/>
+<entry
+   committed-rev="1719"
+   name="BeanDao.java"
+   text-time="2016-11-30T01:35:40.985047Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3028b66fc0f7af6ce527061c1d63b8f3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.969447Z"/>
+<entry
+   committed-rev="1719"
+   name="DataSetDao.java"
+   text-time="2016-11-30T01:35:40.985047Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="881bf1cb7ad1986165908fc3a5358fff"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.985047Z"/>
+<entry
+   committed-rev="1719"
+   name="BaseDao.java"
+   text-time="2016-11-30T01:35:40.985047Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="646b1323e8a6a6fb6c066f5b601b6f04"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.938247Z"/>
+</wc-entries>

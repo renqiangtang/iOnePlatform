@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/base/skins/default/images/jqueryui"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_glass_100_fdf5ce_1x400_mine.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="16c3d77147d110b035b24350bb1f69f4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_diagonals-thick_18_b81900_40x40.png"
+   text-time="2016-11-30T01:35:37.686838Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="95f9cceeb9d742dd3e917ec16ed754f8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.655638Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_highlight-soft_75_ffe45c_1x100.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b806658954cb4d16ade8977af737f486"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_ffffff_256x240.png"
+   text-time="2016-11-30T01:35:37.733638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="342bc03f6264c75d3f1d7f99e34295b9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_glass_65_ffffff_1x400.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e5a8f32e28fd5c27bf0fed33c8a8b9b5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_highlight-soft_100_eeeeee_1x100.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="384c3f17709ba0f809b023b6e7b10b84"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_gloss-wave_35_f6a828_500x100_land.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="aa770d06623304da8384ecc98898e7bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_222222_256x240.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ebe6b6902a408fbf9cac6379a1477525"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_ef8c08_256x240_land.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2309cf334ebdb0d7c9608c946a559919"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_gloss-wave_35_f6a828_500x100.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="324447a6dc6d13ad8d738066690d2f10"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_ef8c08_256x240.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ef9a6ccfe3b14041928ddc708665b226"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_glass_100_fdf5ce_1x400_land.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2b218a456cdc2965b32872af3dd5d704"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_gloss-wave_35_f6a828_500x100_mine.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="324447a6dc6d13ad8d738066690d2f10"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_glass_100_fdf5ce_1x400.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="975c83294048c65c1c5e18e796866be6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_flat_10_000000_40x100.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c18cd01623c7fed23c80d53e2f5e7c78"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.655638Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_ef8c08_256x240_mine.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ef9a6ccfe3b14041928ddc708665b226"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_228ef1_256x240.png"
+   text-time="2016-11-30T01:35:37.718038Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="79f41c0765e9ec18562b20b0801d748b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_diagonals-thick_20_666666_40x40.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f040b255ca13e693da34ab33c7d6b554"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.655638Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-icons_ffd27a_256x240.png"
+   text-time="2016-11-30T01:35:37.733638Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ab8c30acc0e3608fb79e01fccf832c70"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.686838Z"/>
+<entry
+   committed-rev="1719"
+   name="ui-bg_glass_100_f6f6f6_1x400.png"
+   text-time="2016-11-30T01:35:37.702438Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5f1847175ba18c41322cb9cb0581e0fb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:37.671238Z"/>
+</wc-entries>

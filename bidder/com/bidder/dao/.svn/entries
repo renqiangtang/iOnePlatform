@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/bidder/com/bidder/dao"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="EarnestErrorDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="be703ff566b9e82c128756d455284a0c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.594047Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowTargetFavoritesDao.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a8beaedaffbaef1b3aa7101c753e1ccf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicensePlowDao.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a3eff4a3da105f9745ee01f78a0d5123"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.625247Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestErrorDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="27472a5bb27d36fb6c51ecd2619173b3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="EarnestDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ee8cab18af275ca1bf080231a3618b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.594047Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f8e9fcbadb250e83bcf87a8b67d9286d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicenseMineDao.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1e2e75e607c812db3a73467574441d8a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.625247Z"/>
+<entry
+   committed-rev="1719"
+   name="EarnestBillDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c922fbc78cbaf817d94c03a8d5ec6973"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.594047Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestBillDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f9a03e87845345cad8f5b82d9a9a7c64"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowApplyDao.java"
+   text-time="2016-11-30T01:35:40.640847Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="798f090f764bbc69379b4badac4d42f5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicenseLandDao_old.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b53e9c1ca30f54bda9164cd0acfc768f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.625247Z"/>
+<entry
+   committed-rev="1719"
+   name="TargetFavoritesDao.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ae764f1e98d655fa8e935adf880dde23"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicenseDao.java"
+   text-time="2016-11-30T01:35:40.656447Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="787b153c3c17681e5a0161ab36611bc3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.609647Z"/>
+</wc-entries>

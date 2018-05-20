@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/bank/com/bank/service"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="BankBillService.java"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1ddbf7387fbdb266fb4cd65885a55d75"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+<entry
+   committed-rev="1719"
+   name="trustBankList.json"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c38684b0bc7e3b29c05d6f27b3400d3c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+<entry
+   committed-rev="1719"
+   name="pageSelect.json"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e26b44615fbbe3add023531532427129"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+<entry
+   committed-rev="1719"
+   name="myBankList.json"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3b306360cfbf1c01c1d0901e94915a50"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+<entry
+   committed-rev="1719"
+   name="ImitateBankService.java"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c916c16312a03bfc512101b728f75a16"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+<entry
+   committed-rev="1719"
+   name="BankService.java"
+   text-time="2016-11-30T01:35:41.567650Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6b3c6094dbb3ab248ea2ecc5a57167be"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:41.552050Z"/>
+</wc-entries>

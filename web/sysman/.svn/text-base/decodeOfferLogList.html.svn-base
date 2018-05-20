@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>出价记录解密</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script src="js/json2.js" type="text/javascript"></script>
+<script src="js/ca.js" type="text/javascript"></script>
+<script src="decodeOfferLogList.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="i-wrap">
+  <div class="trade_search mb5">
+    <form id="decodeOfferLogForm" encType="multipart/form-data">
+      <table width="100%" class="search_grid">
+        <tr>
+          <td class="title">出价记录：</td>
+          <td><input type="file" name="file" class="i-input_bg" style="width:90%; background:#fff"></td>
+          <td><span class="wr_btn">
+            <input type="button" class="o_btn" value="解密文件" onclick="pageDecodeOfferLogListObj.uploadFile()"/>
+            </span> <span class="wr_btn">
+            <input type="button" class="o_btn" value="重写" onclick="pageDecodeOfferLogListObj.reset()">
+            </span> </td>
+        </tr>
+      </table>
+      <iframe name='hidden_frame' id="hidden_frame" style='display:none'></iframe>
+    </form>
+  </div>
+  <div id="offerLogGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

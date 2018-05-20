@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河源市国土资源交易中心矿产门户</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<style type="text/css">
+body {
+	background: url("images/mh/mine_body_b.jpg") repeat-x #ffffff;
+}
+</style>
+</head>
+<body class="mine" onkeydown="pageObj.BindEnter(event)">
+<!-- 弹出窗口开始-->
+<div id="win" style="display:none;">
+  <div class="filter"> </div>
+  <div  class="windows">
+    <div class="w_top"></div>
+    <div class="w_mid"> 
+      <!-- 城市开始-->
+      <div id="cityDiv" >
+        <dl id="winCantonDiv">
+          <dt>城市</dt>
+          <dd>
+            <ul id="winCanton">
+              <li>
+                <input type="radio" name="canton"  value="441601" checked/>
+                市辖区</li>
+                 <li>
+                <input type="radio" name="canton"  value="441623" />
+                连平县</li>
+                 <li>
+                <input type="radio" name="canton"  value="441625" />
+                东源县</li>
+            </ul>
+          </dd>
+        </dl>
+        <div class="w_buttom tc"> <span class="submit" title="确定" id="winCitySure"></span>&nbsp;&nbsp; <span class="cancel" title="取消" id="winCityCancel"></span> </div>
+      </div>
+      <!-- 城市结束 --> 
+    </div>
+    <div class="w_bottom"></div>
+  </div>
+</div>
+<!-- 弹出窗口结束--> 
+<!--回到顶部 start-->
+<div id="floatBtn1" class="floatBtn">
+<span id="scroll_Top" style="display:block;"></span>
+</div>
+<div id="floatBtn2" class="floatBtn">
+	<span onclick="$(window).scrollTop(0)" id="scroll_Top" style="display:block;"></span>
+</div>
+<!--回到顶部 end-->
+<!--trade请稍后 start-->
+<div class="waitting" id="divwait" style="display:none;">
+  <div class="tc waitting-fla">
+	<img src="images/common/loading.gif">
+  </div>
+</div>
+<!--trade请稍后 end-->
+<div class="i-wrap"> 
+  <!--head start-->
+  <div class="" style="height:180px;"> <img src="images/mh/mine_banner.jpg" usemap="#Map">
+    <map name="Map" id="Map">
+      <area shape="rect" id="btnMonitor" coords="586,81,704,121" title="交易大厅" class="chand" href="#" />
+      <area shape="rect" id="ysb" coords="714,81,843,119" title="演示版入口"  class="chand"  />
+      <area shape="rect" id="userlogin" coords="856,80,984,119" title="用户登陆"  class="chand"  />
+    </map>
+  </div>
+  <!--head end--> 
+  <!--tag标签与搜索 start-->
+  <div class="divh">
+    <ul class="tab_hd">
+      <li id="cbgg" class="sel">全部公告</li>
+      <li id="zzgg">正在公告</li>
+      <li id="zzjj">正在竞价</li>
+      <li id="jggs">结果公示</li>
+      <li id="bcgg">补充公告</li>
+      <li id="hmd">黑名单</li>
+    </ul>
+    <div class="portal_search"  id="divSearch">矿区名称:<input type="text"  id="no" />&nbsp;矿种:<input type="text"  id="goods_use" />
+      &nbsp;交易物类型：
+      <select name="select" id="goods_type">
+        <option value="">--请选择--</option>
+        <option value="301">探矿权</option>
+        <option value="401">采矿权</option>
+      </select>
+       <span id="ztlab"> 交易状态:</span>
+        <select name="select" id="trans_status">
+          <option value="">--请选择--</option>
+        </select>
+      位置：
+      <input type="text" name="textfield" id="address" />
+      <input class="search_btn vm chand" type="button" id="btnsearch" />
+      <input  class="reset_btn vm chand" name="reset" id="reset" type="button" />
+     <!-- <input value="交易大厅" type="button" id="btnMonitor" name="btnMonitor" />-->
+    </div>
+   <div class="portal_search" id="divBlackSearch">
+     名称：<input class="mr5" type="text" id="name" /><input class="search_btn vm" id="btnblacksearch"  type="button" />
+  </div>
+  </div>
+  <!--tag标签与搜索 end--> 
+  
+  <!--全部公告div start-->
+  <div class="portal_con" id="divallnotice" style="display:block;">
+    <div class="mh_info_list">
+      <h1>河源市国土资网交地[2012]LF002</h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="24">序号</th>
+          <th width="237">矿区名称</th>
+          <th width="74">交易物类型</th>
+          <th width="103">位置</th>
+          <th width="60">矿种</th>
+          <th width="90">交易方式</th>
+          <th width="67">交易状态</th>
+          <th width="112">保证金截止时间</th>
+          <th width="112">竞买申请截止时间</th>
+          <th width="70">操作</th>
+        </tr>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--全部公告div end--> 
+  
+  <!--正在公告div start-->
+  <div class=" mt5 portal_con" id="divnownotice" style="display:none;">
+    <div class="mh_info_list">
+      <h1></h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th width="27">序号</th>
+            <th width="212">矿区名称</th>
+            <th width="71">交易物类型</th>
+            <th width="85">位置</th>
+            <th width="64">起始价</th>
+            <th width="64">保证金</th>
+            <th width="43">矿种</th>
+            <th width="74">交易方式</th>
+            <th width="119">申请开始时间</th>
+            <th width="119">申请截止时间</th>
+            <th width="67">操作</th>
+          </tr>
+        </thead>
+        <tbody id="nownotice">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--正在公告div end--> 
+  
+  <!--正在竟价div start-->
+  <div class=" mt5 portal_con" id="divlimittarget"  style="display:none;">
+    <div class="mh_info_list">
+      <h1></h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="26">序号</th>
+          <th width="248">矿区名称</th>
+          <th width="90">交易物类型</th>
+          <th width="90">起始价</th>
+          <th width="90">增价幅度</th>
+          <th width="91">保证金</th>
+          <th width="47">矿种</th>
+          <th width="76">交易方式</th>
+          <th width="119">申请开始时间</th>
+          <th width="72">操作</th>
+        </tr>
+        <tbody id="limittarget">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--正在竟价div end--> 
+  
+  <!--结果公示div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divresultnotice">
+    <div class="mh_info_list">
+      <h1></h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="26">序号</th>
+          <th width="217">矿区名称</th>
+          <th width="67">起始价</th>
+          <th width="75">交易物类型</th>
+          <th width="53">交易状态</th>
+          <th width="46">矿种</th>
+          <th width="204">竞得人</th>
+          <th width="100">成交价</th>
+          <th width="118">成交时间</th>
+          <th width="43">操作</th>
+        </tr>
+        <tbody id="resultnotice">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--结果公示div end--> 
+  
+  <!--补充公告div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divsuppnotice">
+    <div class="mh_info_list">
+      <h1></h1>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" id="all_notice">
+        <tr>
+          <th width="24">序号</th>
+          <th width="237">矿区名称</th>
+          <th width="74">交易物类型</th>
+          <th width="103">位置</th>
+          <th width="60">矿种</th>
+          <th width="90">交易方式</th>
+          <th width="67">交易状态</th>
+          <th width="112">保证金截止时间</th>
+          <th width="112">竞买申请截止时间</th>
+          <th width="70">操作</th>
+        </tr>
+        <tbody id="suppnotice">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--补充公告div end-->
+   <!--黑名单div start-->
+  <div class=" mt5 portal_con" style="display:none;" id="divblack">
+    <div class="mh_info_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <thead id="blackth">
+          <tr>
+            <th width="28">序号</th>
+            <th width="249">名称</th>
+            <th width="138">竞买人类型</th>
+            <th width="121">加入日期</th>
+          </tr>
+        </thead>
+        <tbody id="blacktr">
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!--黑名单div end--> 
+  
+  <div id="pagediv" class="tc page_list mt20 pb20"> <a class="home_p chand" id="homePage" title="回到首页"></a> <a class="up_p chand" id="upPage" title="上一页"></a>
+    <span id="pagebtn">
+      <i class="cur">1</i>
+      <i>2</i>
+      <i>3</i>
+    </span>
+    <a class="next_p chand" title="下一页" id="nextPage"></a> <a class="end_p chand" id="endPage" title="最后一面"></a> </div>
+</div>
+<!--trade标准页脚 start-->
+<div class="mine_footer">
+  <p>Copyright <span style="font-family:'Arial';">©</span> 河源市、县国土资源局 版权所有    最佳浏览效果:IE8.0版本以上 1024*768分辨率</p>
+</div>
+<!--trade标准页脚 end-->
+</body>
+</html>

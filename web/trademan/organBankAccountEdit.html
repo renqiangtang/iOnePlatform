@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>银行账号管理</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/ligerui.all.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script src="js/json2.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="organBankAccountEdit.js"></script>
+</head>
+<body>
+<div id="bankInfo" class="trade_tab mt5">
+  
+  <div title="银行账号信息" id="bankInfoDiv" style="overflow:auto">
+    <table width="100%" class="i-grid-default">
+      <tr>
+        <td height="28" class="s_b fb pl10" colspan="4">银行账号信息</td>
+      </tr>
+      <tr>
+	      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>户名:</td>
+	      <td class="s_rb"><input type="text" id="name" class="i-input_off" maxlength="50"/></td>
+	      <td class="h_bk s_rb tr"><span class="c6">*</span>账号:</td>
+	      <td class="s_b"><input type="text" id="no" class="i-input_off" maxlength="100"/></td>
+	   </tr>
+	   <tr>
+	      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>银行:</td>
+	      <td class="s_rb">
+		      <select id="bank_id" class="i-select_bg ml5" style="width:230px">
+			      <option value="" >--请选择--</option>
+			      <option value="s1"  >工商银行深圳分行福田支行</option>
+			      <option value="s2"  >建设银行深圳分行福田支行</option>
+			 </select>	
+		  <input type="hidden" id="bank_name" class="i-input_off" maxlength="12" readonly/>
+	      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>银行编号:</td>
+		  <td class="s_rb"><input type="text" id="bank_no" class="i-input_off" maxlength="12" readonly/></td>
+	   </tr>
+    <tr>
+      <td height="28" class="h_bk s_rb tr"><span class="c6">*</span>用途:</td>
+      <td class="s_rb">
+      		<select id="business_type" class="i-select_bg ml5" style="width:230px">
+		     </select>
+      </td>
+      <td class="h_bk s_rb tr"><span class="c6">*</span>币种:</td>
+		<td class="s_b">
+			<select id="currency" class="i-select_bg ml5" style="width:230px">
+				  <option value="RMB">RMB</option>
+				  <option value="USD">USD</option>
+				  <option value="JPY">JPY</option>
+				  <option value="EUR">EUR</option>
+			</select>
+		</td>
+    </tr>
+    <tr>
+		<td class="h_bk s_rb tr"><span class="c6">*</span>类型:</td>
+		<td class="s_rb">
+			<select id="in_account_mode" class="i-select_bg ml5" style="width:230px">
+				  <option value="0">基本账户手工模式</option>
+				  <option value="1">基本账号直连直通模式</option>
+				  <option value="2">虚拟子账号模式</option>
+				  <option value="3" selected>直连直通子账号模式</option>
+			</select>
+		</td>
+		<td class="h_bk s_rb tr"><span class="c6">*</span>类型:</td>
+		<td class="s_b">&nbsp;
+			<input type="radio" value="0" name="isOutside" id="isOutside0" checked>境内 
+			<input type="radio" value="1" name="isOutside" id="isOutside1">境外
+		</td>
+	</tr>
+    
+
+    </table>
+
+  </div>
+  
+</div>
+<br>
+<!-- 提交和关闭按钮 -->
+<div class="tc mt5">
+	<span class="wr_btn" id="btnSave"><input type="button" value="提交" class="o_btn" /></span>
+    <span class="wr_btn" id="btnClose"><input type="button" value="关闭" class="o_btn" /></span>
+</div>
+</body>
+</html>

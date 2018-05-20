@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/base/com/base/bean"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="IDBean.java"
+   text-time="2016-11-30T01:35:40.938247Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e8f381dbddd6c8b4242dc697d23bd9b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.922647Z"/>
+</wc-entries>

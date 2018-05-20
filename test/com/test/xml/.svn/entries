@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/test/com/test/xml"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="Test.java"
+   text-time="2016-11-30T01:36:33.517122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="233939b0bc549ccbc7db6f063066b480"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.517122Z"/>
+<entry
+   committed-rev="1719"
+   name="Notice.java"
+   text-time="2016-11-30T01:36:33.517122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c89597ac214c22312d31d061bf193a2a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.501522Z"/>
+<entry
+   committed-rev="1719"
+   name="Target.java"
+   text-time="2016-11-30T01:36:33.517122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cbdacd5138bf04e758289f9916b10afc"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.517122Z"/>
+<entry
+   committed-rev="1719"
+   name="mapping.xml"
+   text-time="2016-11-30T01:36:33.517122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d17d72f3595e2a5f89cd14051790e6a7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.517122Z"/>
+<entry
+   committed-rev="1719"
+   name="Goods.java"
+   text-time="2016-11-30T01:36:33.517122Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2ead408af34e6a3d93974250a54b9035"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.501522Z"/>
+<entry
+   committed-rev="1719"
+   name="公告交互文件(交易前).xml"
+   text-time="2016-11-30T01:36:33.532722Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="bdab8b971fb0973c5ee2f4d1342c101f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.517122Z"/>
+</wc-entries>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/test/test"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="DevClass.java"
+   text-time="2016-11-30T01:36:33.564323Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7ed1ff72052a522e067d63e82833f971"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.532722Z"/>
+<entry
+   committed-rev="1719"
+   name="json.txt"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="90fa4f8780dbe09daca05f818944b4a6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.562323Z"/>
+<entry
+   committed-rev="1719"
+   name="TestPdf2Swf.java"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3b54dc64882cd1de9928f18c068c32a0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.558323Z"/>
+<entry
+   committed-rev="1719"
+   name="TestJarFile.java"
+   text-time="2016-11-30T01:36:33.660923Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="92739dad88a5988b1f1f1d57c3782699"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.554322Z"/>
+<entry
+   committed-rev="1719"
+   name="TestReg.java"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="eea96f67a0753835a2fa7246e501a0e5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.560323Z"/>
+<entry
+   committed-rev="1719"
+   name="Test.txt"
+   text-time="2016-11-30T01:36:33.660923Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f5bf0ffa638b5d4dd102c9e7c1721710"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.549322Z"/>
+<entry
+   committed-rev="1719"
+   name="Test.java"
+   text-time="2016-11-30T01:36:33.645323Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b8bf856fa801c216e70b9bad275a3ce2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.532722Z"/>
+<entry
+   committed-rev="1719"
+   name="DevMethod.java"
+   text-time="2016-11-30T01:36:33.645323Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f7f6d1160671953c6de7a67cdb877994"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.532722Z"/>
+<entry
+   committed-rev="1719"
+   name="TestTimer.java"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="28db05430db64c2c7bf4d3356010098d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.561323Z"/>
+<entry
+   committed-rev="1719"
+   name="TestLog.java"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c425076763b0db539d69f6e8b5ae4058"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.557323Z"/>
+<entry
+   committed-rev="1719"
+   name="ReadAnnotationInfoTest.java"
+   text-time="2016-11-30T01:36:33.645323Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="60cf0420aefd45cf3c18b9c5cebce9e0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.532722Z"/>
+<entry
+   committed-rev="1719"
+   name="TestConcurrentHashMap.java"
+   text-time="2016-11-30T01:36:33.660923Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5be74671f058195ac0de4d6cc489b068"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.550322Z"/>
+<entry
+   committed-rev="1719"
+   name="TestEngine1.java"
+   text-time="2016-11-30T01:36:33.660923Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="cc4b51c55d317803175e90911a60f248"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.551322Z"/>
+<entry
+   committed-rev="1719"
+   name="TestEnv.java"
+   text-time="2016-11-30T01:36:33.660923Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ca9b9f455afd20ff365baa2131319e5"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.553322Z"/>
+<entry
+   committed-rev="1719"
+   name="TestJunit.java"
+   text-time="2016-11-30T01:36:33.676523Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7c38597580bf6d3ecb0da97041e6f463"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:33.555323Z"/>
+</wc-entries>

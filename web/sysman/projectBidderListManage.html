@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>股东列表</title>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../base/js/jquery.js"></script>
+<script type="text/javascript" src="../base/js/base.js"></script>
+<script type="text/javascript" src="../base/js/ligerui.all.js"></script>
+<script type="text/javascript" src="projectBidderListManage.js"></script>
+</head>
+<body>
+<div class="trade_search mb5">
+  <table width="100%" class="search_grid">
+   <tr>
+      <td class="title">股东名称：</td>
+      <td><input type="text" id="name" class="i-input_w135 i-input_bg"/></td>
+    </tr>
+    <tr>
+      <td colspan="6" class="tr pr5 pb5">
+      <input id="searchProjectBidder" type="button" value="查询" class="o_btn"/>
+         <input id="addProjectBidder"  type="hidden" value="新增股东" class="o_btn"/>
+         <input id="deleteProjectBidder" type="button" value="删除股东" class="o_btn"/>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="grid" class="trade_panel" style="400px"></div> 
+</body>
+</html>

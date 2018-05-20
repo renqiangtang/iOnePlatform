@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10296"
+   name=""
+   committed-date="2016-10-12T12:01:41.104395Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/land"
+   last-author="wangp"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   name="trade"
+   kind="dir"/>
+<entry
+   name="portal"
+   kind="dir"/>
+<entry
+   name="after"
+   kind="dir"/>
+<entry
+   name="before"
+   kind="dir"/>
+<entry
+   name="bidder"
+   kind="dir"/>
+</wc-entries>

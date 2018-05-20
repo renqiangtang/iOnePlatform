@@ -1,0 +1,41 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>请输入key的访问密码</title>
+  <script>
+  	function reVal(){
+  		var nv = document.getElementById("key");
+  		if(nv.value!=""){
+	  		window.returnValue = nv.value;
+	  		window.close();
+  		}else{
+  			alert("请输入key的密码！");
+  		}
+  	}  	
+  	function reCan(){
+  		window.close();
+  	}
+  </script>
+</head>
+<body class="mine">
+<table>
+	<tr height="10px">
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Key访问密码：</td>
+		<td><input id="key" name="key" type="password"></td>
+	</tr>
+	<tr height="10px">
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			&nbsp;&nbsp;<input type="button" value="确定" onclick="reVal()">&nbsp;&nbsp;
+			<input type="button" value="取消" onclick="reCan()">
+		</td>
+	</tr>
+</table>
+</body>
+</html>

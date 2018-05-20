@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/doc/%E5%85%B6%E4%BB%96"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="jQuery ligerUI API.chm"
+   text-time="2016-11-30T01:36:23.265102Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5e538b84e9e2ab06cf2deef26a77a948"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.031102Z"/>
+<entry
+   committed-rev="1719"
+   name="附件列表调用说明.txt"
+   text-time="2016-11-30T01:36:23.280702Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6a78026007810d4a2e1bb19a2ca7658d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.265102Z"/>
+<entry
+   committed-rev="1719"
+   name="template.json"
+   text-time="2016-11-30T01:36:23.265102Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2bb08c774818938996ecef4242adfd53"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.031102Z"/>
+<entry
+   committed-rev="1719"
+   name="交易系统计划.mpp"
+   text-time="2016-11-30T01:36:23.280702Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="07d252f8913ae82bed74e15e96e3ca2f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:36:23.249502Z"/>
+</wc-entries>

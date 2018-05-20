@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/WEB-INF/lib"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="iTextAsian.jar"
+   text-time="2016-11-30T01:35:22.295990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6e47b9679473b103e0a715701e72b3c6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:17.016569Z"/>
+<entry
+   committed-rev="1719"
+   name="dom4j-1.6.1.jar"
+   text-time="2016-11-30T01:35:22.264790Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4d8f51d3fe3900efc6e395be48030d6d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:14.834362Z"/>
+<entry
+   committed-rev="1719"
+   name="ezmorph-1.0.jar"
+   text-time="2016-11-30T01:35:22.295990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="63fb294ea0bf1f9cade9518d56323657"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:14.881162Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-io-1.4.jar"
+   text-time="2016-11-30T01:35:22.249190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b6a50c8a15ece8753e37cbe5700bf84f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:13.326957Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-collections-3.2.jar"
+   text-time="2016-11-30T01:35:22.233590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="7b9216b608d550787bdf43a63d88bf3b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:13.138757Z"/>
+<entry
+   committed-rev="1719"
+   name="HNCAClient1.0.jar"
+   text-time="2016-11-30T01:35:22.217990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6e95d56acf0935ad0363002d662ff68d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.510756Z"/>
+<entry
+   committed-rev="1719"
+   name="json-lib-2.3-jdk15.jar"
+   text-time="2016-11-30T01:35:22.311590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="204653de78e2cb9e7b404c9f60a90cfa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:19.059577Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-lang.jar"
+   text-time="2016-11-30T01:35:22.249190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f449a26eb16e0dc32765aacc0b0db355"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:13.375758Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-fileupload-1.2.1.jar"
+   text-time="2016-11-30T01:35:22.233590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ad1ab0c8a813b45fe9014f54a341a2a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:13.185557Z"/>
+<entry
+   committed-rev="1719"
+   name="core-renderer.jar"
+   text-time="2016-11-30T01:35:22.249190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ea71dc9ee36542604aa1331538cfb368"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:14.475760Z"/>
+<entry
+   committed-rev="1719"
+   name="ojdbc14_g.jar"
+   text-time="2016-11-30T01:35:22.342790Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e1e9f0cc091db3e42da1b7f5e5730b59"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.171190Z"/>
+<entry
+   committed-rev="1719"
+   name="iTextAsianCmaps.jar"
+   text-time="2016-11-30T01:35:22.311590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="dc41ac6280b3a60f2bea1f90eb9bc5c3"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:18.665576Z"/>
+<entry
+   committed-rev="1719"
+   name="jxl.jar"
+   text-time="2016-11-30T01:35:22.327190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="067bceb7196a8c20d2d2053e946d4cca"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:19.770579Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-logging.jar"
+   text-time="2016-11-30T01:35:22.249190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="70f14997b1759b69c567e444a1eb2328"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:13.422558Z"/>
+<entry
+   committed-rev="1719"
+   name="commons-beanutils.jar"
+   text-time="2016-11-30T01:35:22.217990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a4d47940da6af8ce3a0ca4e919cc6ea0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:12.573156Z"/>
+<entry
+   committed-rev="1719"
+   name="iText-2.0.8.jar"
+   text-time="2016-11-30T01:35:22.295990Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="71d8ed78163ad391de479d463679777e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:16.669368Z"/>
+<entry
+   committed-rev="1719"
+   name="jaxen-1.1.1.jar"
+   text-time="2016-11-30T01:35:22.311590Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="261d1aa59865842ecc32b3848b0c6538"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:18.919177Z"/>
+<entry
+   committed-rev="1719"
+   name="log4j-1.2.16.jar"
+   text-time="2016-11-30T01:35:22.327190Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4a11e911b2403bb6c6cf5e746497fe7a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:20.272780Z"/>
+<entry
+   committed-rev="1719"
+   name="zip.jar"
+   text-time="2016-11-30T01:35:22.342790Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3773f9676f8e56b11b97a5ac8ba7d127"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:22.217990Z"/>
+</wc-entries>

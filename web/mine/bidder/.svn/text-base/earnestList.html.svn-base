@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>保证金查询</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ligerui.all.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="earnestList.js"></script>
+</head>
+<body class="mine">
+<div class="i-wrap">
+  <div class="trade_search mb5 mt5">
+    <table border="0" class="search_grid">
+      <tr>
+        <td class="title" id="titleSpan">竞买号：</td>
+        <td><input type="text"  id="licenseNo" class="i-input_w160 i-input_bg"></td>
+        <td class="title">标的：</td>
+        <td>
+        <input type="text"  id="targetName" class="i-input_w160 i-input_bg">
+        </td>
+        <td class="btn tc"><span class="wr_btn">
+          <input id="btnQuery" type="button" value="查询" class="o_btn" />
+          </span> <span class="wr_btn">
+          <input id="btnReset" type="button" value="重置" class="o_btn" />
+          </span> </td>
+      </tr>
+    </table>
+  </div>
+  <div id="earnestGrid" class="trade_panel"></div>
+</div>
+</body>
+</html>

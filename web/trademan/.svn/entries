@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1719"
+   name=""
+   committed-date="2014-05-05T02:12:19.836862Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/web/trademan"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="bankTargetList.html"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e4433df5a9ef3533f5f26477f0942fe"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountSelect.html"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f4517fbd6d90d3b6a2e70c2c5a05b589"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.012643Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseAfter.html"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6e115f603ff856b8824ce77b46e50b16"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.856643Z"/>
+<entry
+   committed-rev="1719"
+   name="bankTargetList.js"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="23d39b46712c5a3efd257a3302d8b374"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="doneTargetList.html"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4cfcf8985dd6d6af49f6476e30bb0d80"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseAfter.js"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ee71b2983b78e2e4f6232800d3ab7d47"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.872243Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseList.html"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2dda1a7f542536a2438b999b81c2ff9b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.872243Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderList.js"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="77a620303908db0b60f6b644770428b4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.856643Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPrice.html"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="df1cecbbaf326d9c4ccca2dc597f7aea"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.981443Z"/>
+<entry
+   committed-rev="1719"
+   name="doneTargetList.js"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ffdee55947c0862be8881426aeaea9ab"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountBill.html"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="03f6cb3c5889d06a893d11dc5c812069"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseList.js"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d525651aca392832d5446a9aac296a6e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.887843Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPriceChangeHistory.html"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="defe65e09aef92a963ba5656bf839feb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountBillList.js"
+   text-time="2016-11-30T01:35:40.232444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="271b63a028a5d625a91cdd5b09c1ec73"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderEdit.js"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="072e34b7aebcf4fc8dec1cc540322e00"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="bankList.html"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3b14a8a6737da855415fa4e2eafa3eb8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankEdit.html"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="457738add086ac8f9dc38689e5fdbc52"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPrice.js"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a5930eb1f1628072940aa844560219ba"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.981443Z"/>
+<entry
+   committed-rev="1719"
+   name="processList.html"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="453aa0097783f90e04f5d2ac3afa9652"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPriceCheck.html"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c335427b0c78a3a105a0a2a1d8b1d17d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPriceChangeHistory.js"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f6d5b2fb03432eb0d67ad234156d1b43"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountTarget.js"
+   text-time="2016-11-30T01:35:40.248044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b1f0633c3def0866f67554164031868b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.107644Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankEdit.js"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0722ccaf31366b314c6d97175dee3a38"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="bankEdit.html"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="aa6284385871c50ffd4500e624dda1bf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.825442Z"/>
+<entry
+   committed-rev="1719"
+   name="processList.js"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="20380af4cf8927b08bc652ccfcfd86f6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPriceCheck.js"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e914dfd147f89dba3e13e3e640b1d883"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountList.js"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="35cf2632e26da7da2e7fa2d37f7add69"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.012643Z"/>
+<entry
+   committed-rev="1719"
+   name="bankAccountBillList.html"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6cf68df35f6196959bad72774282b843"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.825442Z"/>
+<entry
+   committed-rev="1719"
+   name="docConfig.html"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0231d827c648b3029a2e0718ac7f215e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.887843Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountEdit.js"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="768372667a70439185a3ad975909a4da"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.012643Z"/>
+<entry
+   committed-rev="1719"
+   name="processRestartEdit.js"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6261c73a2d5ee4551409dbac0b6256b1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.076444Z"/>
+<entry
+   committed-rev="1719"
+   name="processListChangeHistory.html"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ae674c7ae0cc7bf34cf20ec30bf296e4"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="processListChangeHistory.js"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b7e854e11cd31e63fbacfdad02b36109"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.076444Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPrice.html"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="6ec7626eed460e14c331bcea2a23f9d9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBill.html"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="4c42102ef0bf61430d3e73fe784e4a6e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.825442Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseListAfter.html"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2f39b5882408d68be0616ac2e25a68e1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.887843Z"/>
+<entry
+   committed-rev="1719"
+   name="processStop.html"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d70f50a472e4e754788b9b065c2150a1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="finalPrice.js"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a4453d389dbe52b28b70abed4ac155f8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.934643Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderList.html"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="90a4fa8f3c6c05f66e219bb05d34773e"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="bankBill.js"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5ce4d4b1add9bf64322b568cb1dff65d"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.825442Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseListAfter.js"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="3dec5a153571286b68c272aa5f6ea1c9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.887843Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountSelect.js"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e5b81db230136af7e1d7e6e8d17298cd"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.028243Z"/>
+<entry
+   committed-rev="1719"
+   name="processStop.js"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e8665934c2f02f6b0ebd0fa218af86aa"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountBillList.html"
+   text-time="2016-11-30T01:35:40.232444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a96034bfda70a62226047c09b703d4f0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="bidderEdit.html"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b6e6ccf7b38cc56e0beac99f0e7bb8b0"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicense.html"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e3fa495c7b9b3670b1e0d6ec7277f28a"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.856643Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountTarget.html"
+   text-time="2016-11-30T01:35:40.232444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="a5be2e0b08c15d16af68bae9206b7a90"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicense.js"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="f330028505786ff14e92ba69a8be79c9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.856643Z"/>
+<entry
+   committed-rev="1719"
+   name="refundAccountBill.js"
+   text-time="2016-11-30T01:35:40.232444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ddad344fe842b4d9146ca21d0a055ad2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.092044Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountList.html"
+   text-time="2016-11-30T01:35:40.201244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="38c66ef9e1160c46532d3ae2490b7dc1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.012643Z"/>
+<entry
+   committed-rev="1719"
+   name="bankList.js"
+   text-time="2016-11-30T01:35:40.123244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1f7e8596b1f724b01c2ebeb581acf390"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="organBankAccountEdit.html"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="1c534e1588d6b937e1c7e4156e928c12"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.997043Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPriceChangeHistory.html"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="107832e3a57702651cad5528d4582bcb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.981443Z"/>
+<entry
+   committed-rev="1719"
+   name="imitateBank.html"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d68de3ca69bb0b2c9ec5b3a64d586fd7"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.981443Z"/>
+<entry
+   committed-rev="1719"
+   name="processRestartEdit.html"
+   text-time="2016-11-30T01:35:40.216844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0abc6d4df6fd3e73589bed09b81382d8"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.076444Z"/>
+<entry
+   committed-rev="1719"
+   name="bankEdit.js"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="018e89c9d3e0907454a9c55c9a041d32"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.841042Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPriceCheck.html"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="ff4ebfe790cc347ddb90d80c6e055164"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.997043Z"/>
+<entry
+   committed-rev="1719"
+   name="bankAccountBillList.js"
+   text-time="2016-11-30T01:35:40.107644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="8e9f961eb850a8fea6db470ca5a4461c"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.825442Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPriceChangeHistory.js"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="abc2780700c813c01bb535ba1cbee040"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.997043Z"/>
+<entry
+   committed-rev="1719"
+   name="imitateBank.js"
+   text-time="2016-11-30T01:35:40.170044Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="c39096e3180b5a9d54e3a7a6b6ff7d6b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.981443Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseAfterFh.html"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="9cd3ca42db35acea674f1f636de28cc1"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.872243Z"/>
+<entry
+   committed-rev="1719"
+   name="docConfig.js"
+   text-time="2016-11-30T01:35:40.154444Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="13538cc8d4368184a834ec9b908940c2"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.919043Z"/>
+<entry
+   committed-rev="1719"
+   name="lowestPriceCheck.js"
+   text-time="2016-11-30T01:35:40.185644Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="598bd68f3c428ff29a4bc5a6af0c4cda"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.997043Z"/>
+<entry
+   committed-rev="1719"
+   name="confirmLicenseAfterFh.js"
+   text-time="2016-11-30T01:35:40.138844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2572ad4f3c71c5af5c19ea672d2877de"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:39.872243Z"/>
+</wc-entries>

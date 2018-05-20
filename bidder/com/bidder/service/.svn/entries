@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9153"
+   name=""
+   committed-date="2016-08-11T09:33:36.872200Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/bidder/com/bidder/service"
+   last-author="xutf"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="1719"
+   name="EarnestService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e686760ea81407ada22152959df32d42"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="25d9c8c506c04eadd8e20d244b437029"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicenseMineService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="2cf71f2b18501d6086498e961c91c374"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.357244Z"/>
+<entry
+   committed-rev="1719"
+   name="EarnestBillService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="e75fdb4c7894d23ebd5bd54d28ef9010"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.326044Z"/>
+<entry
+   committed-rev="1719"
+   name="ApplyService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="68590b945ec3dca1e39a40db7b6f3a6b"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.326044Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestBillService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="999f498fe64dafc75111e003a2151f06"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowApplyService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="0571584454d87e2856c408ca52e96b59"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="TargetFavoritesService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="92a70d88b4aee7b2ca4fc0d3ae864cdf"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="9153"
+   name="TransLicenseService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2016-08-11T09:33:36.872200Z"
+   checksum="6075f2dee2a43664ec40a7f0dc0e2c5f"
+   last-author="xutf"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.326044Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowCommonService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="954f650503337020e3061a4f5aabd9ed"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="EarnestErrorService.java"
+   text-time="2016-11-30T01:35:40.357244Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="5f48ca7004a5304d5e3b62a9c779690f"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.326044Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowTargetFavoritesService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="119efb77db685f19acd5177d5b2e9ee6"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+<entry
+   committed-rev="1719"
+   name="TransLicensePlowService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="eb23c8c4fe23e96cdb01e8fe4ffe1b81"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.357244Z"/>
+<entry
+   committed-rev="1719"
+   name="PlowEarnestErrorService.java"
+   text-time="2016-11-30T01:35:40.372844Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="56b3862ad28bedc0de09dfb6e35cb783"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:40.341644Z"/>
+</wc-entries>

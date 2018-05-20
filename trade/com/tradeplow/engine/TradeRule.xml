@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Node id="N01" name="开始节点"  />
+	<Node id="N02" name="结束节点" clazz="com.tradeplow.engine.HandleN02"/>
+	<Phase id="L01" name="公告期"  clazz="com.tradeplow.engine.HandleL01"/>
+	<Phase id="L02" name="集中报价期" clazz="com.tradeplow.engine.HandleL02"/>
+	<Phase id="L03" name="限时竞价期"/>
+	<Phase id="L04" name="摇号期"/>
+	<Quota id="Q01" name="价格指标" firstWait='300' limitWait='300'
+		lastWait="600"  clazz="com.tradeplow.engine.HandleL03"/>
+	<Quota id="Q02" name="容积率指标" firstWait='300' limitWait='300'
+		lastWait="600" clazz="com.tradeplow.engine.HandleL03"/>	
+	<Quota id="Q03" name="绿化率指标" firstWait='300' limitWait='300'
+		lastWait="600" clazz="com.tradeplow.engine.HandleL03"/>	
+	<Quota id="Q04" name="摇号指标" firstWait='600' limitWait='300'
+		lastWait="600" clazz="com.tradeplow.engine.HandleL04"/>		
+</root>

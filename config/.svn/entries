@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3975"
+   name=""
+   committed-date="2014-12-26T06:11:38.601353Z"
+   url="http://115.29.179.148:7000/svn/svnroot/trunk/iOnePlatform_heyuan/config"
+   last-author="zhujl"
+   kind="dir"
+   uuid="0da53ff3-5dec-6140-b31d-11fbdb459ddc"
+   repos="http://115.29.179.148:7000/svn/svnroot"
+   revision="11039"/>
+<entry
+   committed-rev="3975"
+   name="appConfig.properties"
+   text-time="2016-11-30T01:35:42.529252Z"
+   committed-date="2014-12-26T06:11:38.601353Z"
+   checksum="77b1ef5f2d6612079738c7a143e9c1bb"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.529252Z"/>
+<entry
+   committed-rev="1719"
+   name="log4j.properties"
+   text-time="2016-11-30T01:35:42.529252Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="d1129dc9f6b2c0b4d93d24431b37d0a9"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.529252Z"/>
+<entry
+   committed-rev="1719"
+   name="portal.properties"
+   text-time="2016-11-30T01:35:42.529252Z"
+   committed-date="2014-05-05T02:12:19.836862Z"
+   checksum="b916818e0ffd0b5a4edd80675406df54"
+   last-author="zhujl"
+   kind="file"
+   prop-time="2016-11-30T01:35:42.529252Z"/>
+</wc-entries>
